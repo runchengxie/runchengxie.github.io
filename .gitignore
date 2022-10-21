@@ -1,4 +1,7 @@
-_site/
+_site/  - scope:
+      path: ""
+    values:
+      layout: "default"
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
