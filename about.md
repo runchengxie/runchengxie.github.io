@@ -1,6 +1,7 @@
 ---
 title: About
 ---
-# About page
+
+# About
 
 This page tells you a little bit about me.
