@@ -1,8 +1,12 @@
 ---
-title: 翻译：伯克希尔哈撒韦股东手册
+title: 翻译巴菲特：伯克希尔哈撒韦股东手册
 author: 沃伦·巴菲特 Warren Buffett
 tags: 翻译
 ---
+<p class="small">时间：1999年1月</p>
+<p class="small">来源：伯克希尔哈撒韦公司网站 <https://www.berkshirehathaway.com/owners.html> </p>
+<p class="small">原文标题：BERKSHIRE HATHAWAY INC. AN OWNER'S MANUAL</p>
+
 *译者注：在伯克希尔哈撒韦的官方网站上（www.berkshirehathaway.com），有一份叫做股东手册（Owner Manual）的PDF可供任何人免费下载。说明性文件难免充满繁文缛节。不过巴菲特在其中穿插的一些小幽默使得整篇文件不至于枯燥无味。*
 
 <br>
