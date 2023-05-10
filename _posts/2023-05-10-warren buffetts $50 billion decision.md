@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 沃伦巴菲特 500 亿美元的决定 Warren Buffett's $50 Billion Decision
-date: 2023-05-08
+date: 2023-05-10
 categories: 翻译
 ---
 
