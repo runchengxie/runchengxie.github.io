@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 巴菲特：格雷汉姆多德流派的投资者们（不正经的翻译）
+title: 巴菲特：格雷汉姆多德流派的投资者们
 date: 2018-07-01
 categories: 翻译
 ---
@@ -11,49 +11,49 @@ categories: 翻译
 
 <br>
 
-格雷汉姆和多德的“寻找能提供安全边际的低价投资”方法是否已经过气了？撰写当下学生课本的那些砖家说反正他们信了。他们的理由是股市是有效的；也就是说，股价反映了公司发展潜力和当前情况的所有公开信息。这一理论的支持者们认为被低估的股票是不存在的，因为聪明的证券分析师们运用了所有公开信息一致达成了一个合理无误的价格。那些能够一年又一年击败市场平均的人仅仅是运气好。如今的一本教材的作者是这么说的“如果价格完全反映了所有公开信息，那么选股能力是假的是特技”。
+格雷厄姆和多德“寻找相对于价格有显著安全边际的价值”这种证券分析方法是否过时了？今天写教科书的许多教授都说是。他们认为股市是有效的；也就是说，股价反映了关于公司前景和经济状况的所有已知信息。这些理论家认为，没有被低估的股票，因为有聪明的证券分析师利用所有可用的信息来确保始终合理的价格。那些年复一年看似击败市场的投资者只是幸运。一位今天的教科书作者写道：“如果价格充分反映了可用信息，这种投资技巧就被排除了。”
 
 Is the Graham and Dodd “look for values with a significant margin of safety relative to prices” approach to security analysis out of date? Many of the professors who write textbooks today say yes. They argue that the stock market is efficient; that is, that stock prices reflect everything that is known about a company’s prospects and about the state of the economy. There are no undervalued stocks, these theorists argue, because there are smart security analysts who utilize all available information to ensure unfailingly appropriate prices. Investors who seem to beat the market year after year are just lucky. “If prices fully reflect available information, this sort of investment adeptness is ruled out,” writes one of today’s textbook authors.
 
 <br>
 
-好吧，或许如此。但是我想做的事，给大家展示一群投资者们，年复一年，达到超越标准普尔500指数的收益。那么让我们看看他们是不是确实只是运气好。在分析之前需要指出的一个重要信息是，他们都是我的老铁，而且最晚也在15年前就别人被认为是优秀的投资大咖。如果抛开这一点，如果我只是在今天早上从上千个样本中临时找出这么几个人，那么我建议你们别听我忽悠。另外值得指出的一点是这些信息已经被审计过。再加上一点是，我也认识很多他们的客户，他们拿到手上的收益也能证明这些投资记录是真实的。
+好吧，也许可以。但是我想向你介绍一群投资者，他们年复一年地击败了标准普尔500指数。他们是靠纯粹的运气做到这一点的假设至少值得检验。这种检验的关键是这些赢家都是我所熟知的，并且在很久以前就被我认定为优秀的投资者，最近的一次认定是在十五年前。如果没有这个条件——也就是说，如果我今天早上才在成千上万的记录中为你挑选了几个名字——我会建议你现在就停止阅读。我还应该补充说，所有这些记录都经过了审计。我还应该进一步补充说，我认识许多与这些经理人合作过的人，这些参与者多年来收到的支票与所述记录相符。
 
 Well, maybe. But I want to present to you a group of investors who have, year in and year out, beaten the Standard & Poor’s 500 stock index. The hypothesis that they do this by pure chance is at least worth examining. Crucial to this examination is the fact that these winners were all well known to me and pre-identified as superior investors, the most recent identification occurring over fifteen years ago. Absent this condition - that is, if I had just recently searched among thousands of records to select a few names for you this morning — I would advise you to stop reading right here. I should add that all of these records have been audited. And I should further add that I have known many of those who have invested with these managers, and the checks received by those participants over the years have matched the stated records.
 
 <br>
 
-在我们正式开始之前，我想让大家脑洞这么一个全国性的抛硬币大赛。假设我们让2.25亿美国人在明天早上起来的时候往奖池里投入各投入1美元。在太阳升起时，他们出门，并投掷一次硬币。如果他们猜对了结果，那么他们可以从猜错的那群人手中拿走1美元。每一天，猜错的人将会被淘汰，奖金被返还奖池，因此奖金也逐渐翻倍。10天以后，大概220,000位美国人将会保持连胜记录。他们各自的奖金已经累计至1,000美元以上。
+在我们开始这个考察之前，我想让你想象一下一个全国性的硬币翻转比赛。假设我们明天早上让2.25亿美国人起床，我们要求他们都下注一美元。他们在日出时出门，他们都猜测硬币的正反面。如果他们猜对了，他们就从猜错的人那里赢得一美元。每天输的人就退出，第二天的赌注就会增加，因为所有之前赢得的钱都要拿出来。经过十次翻转，十天后，美国就会有大约22万人连续猜对了十次。他们每个人都会赢得一千多美元。
 
 Before we begin this examination, I would like you to imagine a national coin-flipping contest. Let’s assume we get 225 million Americans up tomorrow morning and we ask them all to wager a dollar. They go out in the morning at sunrise, and they all call the flip of a coin. If they call correctly, they win a dollar from those who called wrong. Each day the losers drop out, and on the subsequent day the stakes build as all previous winnings are put on the line. After ten flips on ten mornings, there will be approximately 220,000 people in the United States who have correctly called ten flips in a row. They each will have won a little over $1,000.
 
 <br>
 
-现在这群人将会开始有点小膨胀，这是人性使然。他们可能会尽可能不装逼，但是在鸡尾酒派对里他们将会不时向心仪的异性悄悄秀一秀他们的投掷技巧，以及他们在抛硬币领域的新发现是多么的牛逼。
+现在这群人可能会开始有点得意忘形，人性就是这样。他们可能会试图保持谦虚，但在鸡尾酒会上，他们偶尔会向异性吸引力强的人承认他们的技巧是什么，以及他们对翻转领域带来了多么神奇的洞察力。
 
 Now this group will probably start getting a little puffed up about this, human nature being what it is. They may try to be modest, but at cocktail parties they will occasionally admit to attractive members of the opposite sex what their technique is, and what marvelous insights they bring to the field of flipping.
 
 <br>
 
-假设所有的赢家都能从败者获得奖金，再过10天，我们会发现有215人做到了20连胜并且已经将当初的1美元变成了1百万美元以上。这场游戏所有参与者的共计奖金是2.25亿美金，共计亏损也是2.25亿。
+假设赢家从输家那里得到了适当的奖励，在接下来的十天里，我们将有215个人成功地连续猜对了20次硬币的正反面，而且通过这个练习，他们每个人都把一美元变成了一百多万美元。2.25亿美元将会损失，2.25亿美元将会赢得。
 
 Assuming that the winners are getting the appropriate rewards from the losers, in another ten days we will have 215 people who have successfully called their coin flips 20 times in a row and who, by this exercise, each have turned one dollar into a little over $1 million. $225 million would have been lost, $225 million would have been won.
 
 <br>
 
-在此时，这些赢家已经控几不住我记几。他们可能会上知乎答题“每天工作30秒在20天内将1美元变成1百万是怎样一番体验”。更糟糕的是，他们可能会开始乘坐飞机全国各地参加学术会议讨论如何高效抛硬币并反驳那些质疑的大学教授“这是特技是假的，为什么全国会有215个这样的赢家？”
+到那时，这群人真的会失去理智。他们可能会写一些书，比如《我如何在二十天内用一美元换成一百万美元，每天只工作三十秒》。更糟糕的是，他们可能会飞遍全国，参加有关高效硬币翻转的研讨会，并对怀疑的教授说：“如果这是不可能的，为什么我们有215个人？”
 
 By then, this group will really lose their heads. They will probably write books on “How I turned a Dollar into a Million in Twenty Days Working Thirty Seconds a Morning.” Worse yet, they’ll probably start jetting around the country attending seminars on efficient coin-flipping and tackling skeptical professors with, “If it can’t be done, why are there 215 of us?”
 
 <br>
 
-在这个时候一些商学院的教授可能会果敢地站出来diss，如果让2.25亿个猩猩从事同样的事情，事情的结果基本也是类似，将有215只自傲的猩猩能做到20连胜。
+到那时，可能会有一位商学院教授无礼地提出这样一个事实：如果有2.25亿只猩猩进行了类似的实验，结果会大致相同——215只自负的猩猩连续翻了20次硬币。
 
 By then some business school professor will probably be rude enough to bring up the fact that if 225 million orangutans had engaged in a similar exercise, the results would be much the same — 215 egotistical orangutans with 20 straight winning flips.
 
 <br>
 
-但是，我要指出的是，我接下来的例子将与这个假设情况不同。其中一点是，如果(a)这2.25亿只猩猩像美国人口一样分散；(b)20天后有215位赢家；以及(c)如果其中的30只来自于奥马哈的一个动物园，那么你会感觉到这次情况会有些不同。你可能会出门去问问动物园管理员给他们吃什么长大的，是否进行了某种特别的培训技巧，让它们读过什么书，还有一系列有的没的。也就是说，如果你发现任何集中出现的成功个案，你可能会想看看是否有某些特别的因素导致了这一情况。
+我认为，然而，我将要展示的例子有一些重要的不同之处。首先，如果（a）你把2.25亿只猩猩按照美国人口的分布大致分布；如果（b）20天后剩下215个赢家；如果（c）你发现40个来自奥马哈的某个动物园，你会很确定你发现了什么。所以你可能会出去问问动物园管理员他们吃了什么，他们有没有特别的锻炼，他们读了什么书，还有谁知道呢。也就是说，如果你发现了一些非常不寻常的成功集中，你可能想看看你能否找到一些不寻常的特征的集中，这些特征可能是因果因素。
 
 I would argue, however, that there are some important differences in the examples I am going to present. For one thing, if (a) you had taken 225 million orangutans distributed roughly as the U.S. population is; if (b) 215 winners were left after 20 days; and if (c) you found that 40 came from a particular zoo in Omaha, you would be pretty sure you were on to something. So you would probably go out and ask the zookeeper about what he’s feeding them, whether they had special exercises, what books they read, and who knows what else. That is, if you found any really extraordinary concentrations of success, you might want to see if you could identify concentrations of unusual characteristics that might be causal factors.
 
