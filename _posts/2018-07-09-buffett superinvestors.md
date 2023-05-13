@@ -59,74 +59,74 @@ I would argue, however, that there are some important differences in the example
 
 <br>
 
-科研自然而然地寻找这样的规律。如果你想找到某种特殊的癌症的诱因，某一种一年会在美国有1,500个案例的那种，然后你发现其中400例出现在一个在蒙大拿州的一个小矿镇，你会对当地的水质产生怀疑，或者是那些病人的职业类型，或者是其他变量。你知道400例集中出现在一个小区域的情况不会是随机事件
-。你可能不一定会知道具体因素，但是你知道去哪里寻找线索。
+科学探究自然地遵循这样的模式。如果你试图分析一种罕见的癌症的可能原因——比如说，在美国每年有1500例——而你发现其中400例发生在蒙大拿州的一个小矿镇，你就会对那里的水，或者那些患者的职业，或者其他变量感兴趣。你知道不是随机的巧合，400个来自一个小地区。你不一定知道因果因素，但你会知道在哪里寻找。
+
 
 Scientific inquiry naturally follows such a pattern. If you were trying to analyze possible causes of a rare type of cancer — with, say, 1,500 cases a year in the United States — and you found that 400 of them occurred in some little mining town in Montana, you would get very interested in the water there, or the occupation of those afflicted, or other variables. You know it’s not random chance that 400 come from a small area. You would not necessarily know the causal factors, but you would know where to search.
 
 <br>
 
-我承认寻找诱因的方法除了地域还有别的。除了地理位置上的原因，还有我称为是信息的原因。我认为你会从一个叫做格雷汉姆-多德市的小镇里面找到相当一部分成功的投资界连胜者。这样集中呈现的连胜者无法用简单的概率来解释。
+我认为，除了地理之外，还有其他方式来定义一个起源。除了地理起源，还有我所说的智力起源。我想你会发现，在投资界成功的硬币翻转者中，有不成比例的多数来自一个非常小的智力村庄，可以称之为格雷厄姆-多德斯维尔。这个村庄的获胜者集中度是无法用偶然来解释的，可以追溯到这个特殊的智力村庄。
 
 I submit to you that there are ways of defining an origin other than geography. In addition to geographical origins, there can be what I call an intellectual origin. I think you will find that a disproportionate number of successful coin-flippers in the investment world came from a very small intellectual village that could be called Graham-and-Doddsville. A concentration of winners that simply cannot be explained by chance can be traced to this particular intellectual village.
 
 <br>
 
-某些情况下，这种集中出现的情况可能并不能意味什么。可能这100个人只是因为听从某个有说服力的人的洗脑。当他认为下一次出现的是正面，100个粉丝也跟着说下一个是正面。如果这个领导者恰好是那剩下的215个人之一，那么这100个追随者的成功案例并不代表什么出色的猜硬币能力。你只是将一个特例理解为100个特例而已。相似地，如果美国是一个全都听爸爸的社会，而每一个家庭恰好不多不少10个成员。假如这个父系社会的文化是如此保守，以至于从始至终，家庭里面的每个成员都听从着家长的指引。这么一来，20天以后，你找到的这215位赢家实际上是来自21.5个家庭。一些没有经验的统计学家可能会说听爸爸的话是预测硬币结果的重大影响因素。但是，这并不意味着是215位独立的优胜者，只是21.5个随机分布的赢者家庭而已。
+即使是这样的集中也可能无关紧要。也许有100个人只是在模仿某个非常有说服力的人物的抛硬币的叫法。当他叫正面时，100个追随者就自动地用同样的方式叫那枚硬币。如果这个领导者是最后剩下的215人中的一员，那么100个人来自同一个智力来源的事实就没有什么意义。你只是把一种情况当作了一百种情况。同样，假设你生活在一个强烈的父权社会，美国每个家庭恰好由十个成员组成。进一步假设，父权文化是如此强大，以至于在第一天出去的2.25亿人中，每个家庭的成员都认同父亲的叫法。现在，在20天的时间里，你会有215个赢家，你会发现他们来自只有21.5个家庭。一些天真的人可能会说，这表明存在着巨大的遗传因素作为成功抛硬币的解释。但是，这当然没有任何意义，因为它只是意味着你没有215个独立的赢家，而是有21.5个随机分布的家庭是赢家。
 
 Conditions could exist that would make even that concentration unimportant. Perhaps 100 people were simply imitating the coin-flipping call of some terribly persuasive personality. When he called heads, 100 followers automatically called that coin the same way. If the leader was part of the 215 left at the end, the fact that 100 came from the same intellectual origin would mean nothing. You would simply be identifying one case as a hundred cases. Similarly, let’s assume that you lived in a strongly patriarchal society and every family in the United States conveniently consisted of ten members. Further assume that the patriarchal culture was so strong that, when the 225 million people went out the first day, every member of the family identified with the father’s call. Now, at the end of the 20-day period, you would have 215 winners, and you would find that they came from only 21.5 families. Some naive types might say that this indicates an enormous hereditary factor as an explanation of successful coin-flipping. But, of course, it would have no significance at all because it would simply mean that you didn’t have 215 individual winners, but rather 21.5 randomly distributed families who were winners.
 
 <br>
 
-在这组我将要介绍的成功的投资者里面，有一个共同的领导者，本格雷汉姆。但是这个家庭里面出来的孩子们有他们各自的独特的猜币技巧。他们去了不同的地方，买了各自不同的公司和股票，而他们投资结果无法用简单的概率来解释。我们不能说他们是因为听从了格雷汉姆爸爸的指挥而达到了相同的结果。领导者只是教会了他们投币的理论方法，而他们各自有各自的打开方式。
+在我想要考虑的这群成功的投资者中，有一个共同的智慧之父，本·格雷厄姆。但是这位智慧之父的子女们在决定如何“猜测”时却有着非常不同的方式。他们去了不同的地方，买卖了不同的股票和公司，但他们的综合表现却是随机机会无法解释的。当然也无法用他们都在按照一个领导者发出的信号来做出决定这样的事实来解释。智慧之父只是提出了做出猜测决策的智慧理论，但每个学生都自己决定了如何应用这个理论。
 
 In this group of successful investors that I want to consider, there has been a common intellectual patriarch, Ben Graham. But the children who left the house of this intellectual patriarch have called their "flips" in very different ways. They have gone to different places and bought and sold different stocks and companies, yet they have had a combined record that simply cannot be explained by randon chance. It certainly cannot be explained by the fact that they are all calling flips identically because a leader is signaling the calls for them to make. The patriarch has merely set forth the intellectual theory for making coin-calling decisions, but each student has decided on his own manner of applying the theory.
 
 <br>
 
-来自格雷汉姆-多德市的投资者们有一个共同的主题：他们寻找公司价格和其股票的市场价值的差异。基本上说，他们寻找着这一类机会，而不考虑那些有效市场假说支持者们担心的那些应该在周一还是周四买，或者应该在一月或者七月买等等的时机问题。相似地，当企业家决定买下某个公司，就像是我们这些格雷汉姆多德流派的投资者们选股那样，没有多少人会真的考虑过应该是星期几或者是哪个月去进行。我对学术界投入大量时间去考虑买入时机的行为感到吃鲸。讲道理，我们这些格雷汉姆多德投资流派的人们从不考虑什么beta，资本资产定价模型，或者是证券收益的协方差。他们都对这些不感兴趣。实际上，他们很多人都不知道这些是什么鬼。这些投资者只关注两个变量：价格和价值。
+来自格雷汉姆-格雷厄姆和多德斯维尔的投资者的共同智慧主题是：他们寻找企业价值和市场上该企业小部分的价格之间的差异。本质上，他们利用这些差异，而不关心有效市场理论家所关心的股票是在周一还是周四买入，或者是在一月还是七月等。顺便说一句，当商人购买企业时，这正是我们的格雷厄姆和多德投资者通过可市场化股票这种媒介所做的——我怀疑有多少人会把交易发生的星期几或月份纳入他们的购买决策中。如果购买整个企业是在周一还是周五并没有什么区别，我不明白为什么学者们要花费大量的时间和精力来研究购买这些相同企业的小部分是否有区别。我们的格雷厄姆和多德投资者，不用说，不讨论贝塔、资本资产定价模型或证券回报之间的协方差。这些对他们来说都不是感兴趣的话题。事实上，他们中的大多数都很难定义这些术语。投资者只关注两个变量：价格和价值。
 
 The common intellectual theme of the investors from Graham-and-Doddsville is this: they search for discrepancies between the value of a business and the price of small pieces of that business in the market. Essentially, they exploit those discrepancies without the efficient market theorist’s concern as to whether the stocks are bought on Monday or Thursday, or whether it is January or July, etc. Incidentally, when businessmen buy businesses, which is just what our Graham & Dodd investors are doing through the medium of marketable stocks — I doubt that many are cranking into their purchase decision the day of the week or the month in which the transaction is going to occur. If it doesn’t make any difference whether all of a business is being bought on a Monday or a Friday, I am baffled why academicians invest extensive time and effort to see whether it makes a difference when buying small pieces of those same businesses. Our Graham & Dodd investors, needless to say, do not discuss beta, the capital asset pricing model, or covariance in returns among securities. These are not subjects of any interest to them. In fact, most of them would have difficulty defining those terms. The investors simply focus on two variables: price and value.
 
 <br>
 
-我经常觉得这么多的技术分析类的关于价格和成交量行为的研究非常不可思议。你能想象吗？买入一个公司的原因只是因为这个股票过去两周是爆款。当然了，他们这么做的原因是，在信息时代，有大量的数据能够供他们使用。这并不是因为这么做有什么卯月，只是因为数据管不管都在那里不增不减，而这些学者感觉总想做点什么。尽管可能做了还不如不做。我的一个朋友说，有些人觉得如果能动手尽量别吵吵。
+我总是觉得很奇怪，有这么多关于价格和成交量行为的研究，这些都是图表分析师的东西。你能想象仅仅因为上周和前一周的业务价格被大幅提高，就去买下一整个企业吗？当然，很多关于这些价格和成交量变量的研究之所以存在，是因为现在，在计算机时代，有关它们的数据几乎是无穷无尽的。这并不一定是因为这些研究有什么用处；只是因为数据就在那里，而学者们努力学习了处理它们所需的数学技能。一旦掌握了这些技能，就好像不使用它们是一种罪过，即使使用它们没有什么用处或者有负面的用处。正如一位朋友说的，对于一个拿着锤子的人来说，所有东西都像钉子。
 
 I always find it extraordinary that so many studies are made of price and volume behavior, the stuff of chartists. Can you imagine buying an entire business simply because the price of the business had been marked up substantially last week and the week before? Of course, the reason a lot of studies are made of these price and volume variables is that now, in the age of computers, there are almost endless data available about them. It isn’t necessarily because such studies have any utility; it’s simply that the data are there and academicians have worked hard to learn the mathematical skills needed to manipulate them. Once these skills are acquired, it seems sinful not to use them, even if the usage has no utility or negative utility. As a friend said, to a man with a hammer, everything looks like a nail.
 
 <br>
 
-我认为这么一个投资家族值得我们分析一下。碰巧的是，尽管这么多的学术研究都是关于价格，成交量，季节性，市值等等关于股票的表现，大家似乎对于价值投资者的出色表现没有什么兴趣。
+我认为我们通过一个共同的知识家园来识别的这个群体值得研究。顺便说一句，尽管有很多学术研究关注了价格、成交量、季节性、市值大小等变量对股票表现的影响，但没有人对这个不寻常的以价值为导向的赢家的方法感兴趣。
 
 I think the group that we have identified by a common intellectual home is worthy of study. Incidentally, despite all the academic studies of the influence of such variables as price, volume, seasonality, capitalization size, etc., upon stock performance, no interest has been evidenced in studying the methods of this unusual concentration of value-oriented winners.
 
 <br>
 
-我研究的第一步是扒一扒以前我们四个1954年到1956年在格雷汉姆-纽曼公司工作的四个哥们的投资记录。一共就咱们四个，我不是从几千个人里面特地找的。我当时在我上完本格雷汉姆的课后，说愿意免费给格雷汉姆-纽曼公司打工。但是他拒绝了说我工资要求太高了。他对价值投资这件事看的很认真！我不停地软磨硬泡之后他最后还是让我去上班了。当时有三个合伙人，我们四个只是打工仔。从1955年到1957年之间，在公司准备结业的时候，我们四个最后都离开了，而我找到了他们三个的投资记录。
+我从1954年到1956年在格雷厄姆-纽曼公司工作的四个人中开始研究这些结果。只有四个人——我没有从成千上万的人中挑选出这些名字。我在上了本·格雷厄姆的课后，主动提出无偿为格雷厄姆-纽曼公司工作，但他拒绝了我，认为我估值过高。他对这个价值的东西非常认真！在我不断地纠缠之下，他终于雇佣了我。公司有三个合伙人和我们四个“平民”级别的员工。我们四个人都在1955年到1957年之间离开了公司，当时公司正在清算，而且可以追踪到其中三个人的记录。
 
 I begin this study of results by going back to a group of four of us who worked at Graham-Newman Corporation from 1954 through 1956. There were only four — I have not selected these names from among thousands. I offered to go to work at Graham-Newman for nothing after I took Ben Graham’s class, but he turned me down as overvalued. He took this value stuff very seriously! After much pestering he finally hired me. There were three partners and four of us at the "peasant" level. All four left between 1955 and 1957 when the firm was wound up, and it’s possible to trace the record of three.
 
 <br>
 
-第一个例子（见表1）是华特施络斯。施络斯没读过大学，但是上过本格雷汉姆在纽约金融学院的晚课。华特在1955年离开格雷汉姆-纽曼然后在后来的28年达到表中的业绩。这是亚当斯密在1972年的那本《如何挣大钱》这么描述他的：
+第一个例子（见表1）是沃尔特·施洛斯的。沃尔特没有上过大学，但是在纽约金融学院晚上上了本·格雷厄姆的课。沃尔特于1955年离开了格雷厄姆-纽曼公司，在28年里取得了这里显示的成绩。这是我告诉他关于沃尔特的情况后，“亚当·史密斯”在《超级货币》（1972）中写的：
 
 The first example (see Table 1) is that of Walter Schloss. Walter never went to college, but took a course from Ben Graham at night at the New York Institute of Finance. Walter left Graham-Newman in 1955 and achieved the record shown here over 28 years. Here is what ‘Adam Smith’ — after I told him about Walter — wrote about him in Supermoney (1972):
 
 <br>
 
-他不靠关系也不靠消息。基本上华尔街没人认识他，所以别人也不会影响他。他从手册中获得数据然后读一读年报，没别的。
+他没有任何关系或有用的信息。华尔街几乎没有人认识他，也没有人给他提供任何想法。他在手册里查看数字，索取年报，就这样而已。
 
 He has no connections or access to useful information. Practically no one in Wall Street knows him and he is not fed any ideas. He looks up the numbers in the manuals and sends for the annual reports, and that’s about it.
 
 <br>
 
-沃伦在介绍施洛斯给我认识的时候，和我说到：“他从来没有忘记他是在为别人管理资产，而这更加让他不愿意接受损失”。他非常正直和自觉。资金安全以及选股对他来说是很重要的事，这是他对于“安全边际”的理解。
+在向我介绍（施洛斯）沃伦时，他在我看来也描述了他自己。‘他从不忘记他是在处理别人的钱，这加强了他对损失的正常强烈厌恶。’他有完全的诚信和对自己的现实认识。钱对他来说是真实的，股票也是真实的——由此产生了对‘安全边际’原则的吸引力。
 
 In introducing me to (Schloss) Warren had also, to my mind, described himself. ‘He never forgets that he is handling other people’s money, and this reinforces his normal strong aversion to loss.’ He has total integrity and a realistic picture of himself. Money is real to him and stocks are real — and from this flows an attraction to the ‘margin of safety’ principle.
 
 <br>
 
-华特的投资高度分散化，总是同时持有100只股票以上。他知道怎么找到那些价格远低于真实价格的股票。他净干这种事情。他不管这个月是不是一月份，他不管今天是不是星期一，他不管今年会不会有总统大选。他总是说，如果一个公司的价值有1美元，而我能够用40美分买，那么我可能运气不会太差。他的持股数量比我多了不少，而且并不怎么关心公司本身的基本面；我似乎没办法影响华特的决定。这是他的特长；没人能影响他的思考。
+沃尔特拥有非常多样化的投资组合，目前拥有超过100种股票。他知道如何识别那些远低于其对私人所有者的价值的证券。而这就是他所做的一切。他不担心现在是一月份，他不担心现在是星期一，他不担心现在是选举年。他只是说，如果一家公司的价值是一美元，而我可以以40美分的价格买到它，那么我可能会有好运。他一次又一次地这样做。他拥有的股票比我多得多——并且对公司的本质性质也不太感兴趣；我似乎对沃尔特没有太大的影响力。这是他的一个优点；没有人能对他有太大的影响力。
 
 Walter has diversified enormously, owning well over 100 stocks currently. He knows how to identify securities that sell at considerably less than their value to a private owner. And that’s all he does. He doesn’t worry about whether it it’s January, he doesn’t worry about whether it’s Monday, he doesn’t worry about whether it’s an election year. He simply says, if a business is worth a dollar and I can buy it for 40 cents, something good may happen to me. And he does it over and over and over again. He owns many more stocks than I do — and is far less interested in the underlying nature of the business; I don’t seem to have very much influence on Walter. That’s one of his strengths; no one has much influence on him.
 
