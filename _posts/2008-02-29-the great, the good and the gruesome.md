@@ -5,6 +5,7 @@ date: 2017-12-05
 categories: 翻译
 ---
 
+<p class="small">时间：2008年2月29日</p>
 <p class="small">来源：伯克希尔哈撒韦2007年写给股东的一封信</p>
 <p class="small">原文标题：Business - The Great, the Good and the Gruesome</p>
 
