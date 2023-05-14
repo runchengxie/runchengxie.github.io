@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 巴菲特：格雷汉姆多德流派的投资者们
-date: 2018-07-01
+date: 1984-06-17
 categories: 翻译
 ---
 
@@ -135,13 +135,13 @@ Walter has diversified enormously, owning well over 100 stocks currently. He kno
 
 <br>
 
-第二例子是汤姆那普，也是和我在格雷汉姆-纽曼共事的哥们。汤姆在参军前在普林斯顿学的是化学；当他退役以后，常常去海边晒太阳。结果有一天他听到大卫多德在哥伦比亚大学的晚课里面教投资。汤姆决定以不记学分的形式上了他的课。巧在我35年后再一次找到他提供一些今天的演讲的资料时，我又发现他去海边晒太阳了。只是这一次海滩是被他承包了！
+第二个例子是汤姆·纳普，他和我一起在格雷厄姆-纽曼公司工作过。汤姆在战前是普林斯顿大学的化学专业。战后，他成了一个海滩流浪者。有一天，他读到戴维·多德在哥伦比亚大学开设了一门投资学的夜间课程。汤姆以旁听的身份参加了这门课程，他对这门课程产生了极大的兴趣，于是他来到哥伦比亚商学院，获得了MBA学位。他又上了多德的课程，还上了本·格雷厄姆的课程。顺便说一句，35年后，我打电话给汤姆，想确认一些事实，我发现他又在海滩上了。唯一的区别是，现在他拥有了这片海滩！
 
 The second case is Tom Knapp who also worked at Graham-Newman with me. Tom was a chemistry major at Princeton before the war; when he came back from the war, he was a beach bum. And then one day he read that Dave Dodd was giving a night course in investments at Columbia. Tom took it on a noncredit basis, and he got so interested in the subject from taking that course that he came up and enrolled at Columbia Business School, where he got the MBA degree. He took Dodd’s course again, and took Ben Graham’s course. Incidentally, 35 years later I called Tom to ascertain some of the facts involved here and I found him on the beach again. The only difference is that now he owns the beach!
 
 <br>
 
-1968年，汤姆那普和艾德安德森，另一个格雷汉姆的学生，以及另外一两个学生，成立了崔迪布朗合伙人，然后他们的投资业绩展示在表2。崔迪布朗同样也是分散投资。他们有时候会选择控股，但是参股投资和控股投资的收益是一样的。
+1968年，汤姆·纳普和埃德·安德森，还有另外一两个同样信奉格雷厄姆的人，组成了Tweedy, Browne Partners，他们的投资成果见表2。Tweedy, Browne以非常广泛的多元化建立了这个记录。他们偶尔会买下企业的控制权，但是被动投资的记录和控制投资的记录是一样的。
 
 In 1968, Tom Knapp and Ed Anderson, also a Graham disciple, along with one or two other fellows of similar persuasion, formed Tweedy, Browne Partners, and their investment results appear in Table 2. Tweedy, Browne built that record with very wide diversification. They occasionally bought control of businesses, but the record of the passive investments is equal to the record of the control investments.
 
@@ -149,7 +149,7 @@ In 1968, Tom Knapp and Ed Anderson, also a Graham disciple, along with one or tw
 
 <br>
 
-表3来自我的这个小组里面的第三个人，在1957年组成巴菲特合伙人。他做的最正确的事情是在1969年离开了这个公司。然后从此，伯克希尔哈撒韦在某种程度上是这个合伙人公司的延续。我找不到一个指数能够合理地展示伯克希尔的投资管理情况。但是从哪种方式来理解，你都可以认为这是令人满意的。
+表3描述了1957年组建巴菲特合伙公司的第三位成员。他做得最好的事情就是在1969年退出。从那时起，在某种意义上，伯克希尔·哈撒韦就是合伙公司的延续，至少在某些方面是这样。我不能给你一个单一的指标，我觉得这是对伯克希尔投资管理的一个公平的测试。但是我认为无论你怎么算，它都是令人满意的。
 
 Table 3 describes the third member of the group who formed Buffett Partnership in 1957. The best thing he did was to quit in 1969. Since then, in a sense, Berkshire Hathaway has been a continuation of the partnership in some respects. There is no single index I can give you that I would feel would be a fair test of investment management at Berkshire. But I think that any way you figure it, it has been satisfactory.
 
@@ -157,7 +157,7 @@ Table 3 describes the third member of the group who formed Buffett Partnership i
 
 <br>
 
-表4来自红杉基金，这是一个我在1951年在本格雷汉姆同班的同学，比尔鲁恩。当他从哈佛商学院毕业以后，他去华尔街上班了。然后他发现他需要一点靠谱的商学院教育，于是他去上了本在哥伦比亚的课，也就是我们第一次认识的1951年。比尔的投资记录从1951年持续到1970，本金不大，最后的结果远超过市场平均值。当我关闭巴菲特合伙人的时候我问比尔是否愿意开设一个基金帮我们的合伙人管理资产，他设立了红杉基金。注册的时间，并不是一个好时刻，也正是我觉得不适合投资而选择退出的时刻。他立刻就开始了二级市场的投资，哪怕那时候很难找到能用来参照价值投资业绩的基准。我惊奇地发现，我当时的那些合伙人，不仅仅只是转移了资产，还追加了一部分新的资金。最后的结果展示在此。
+表4显示了由我在1951年本·格雷厄姆的课堂上认识的一个人管理的Sequoia Fund的记录，他叫比尔·鲁安。他从哈佛商学院毕业后，去了华尔街。然后他意识到他需要得到一份真正的商业教育，所以他来到哥伦比亚大学参加本的课程，我们在1951年初在那里相遇。比尔从1951年到1970年，用相对较小的资金，取得了远高于平均水平的业绩。当我结束巴菲特合伙人公司时，我问比尔是否愿意为我们所有的合伙人设立一个基金，于是他设立了Sequoia Fund。他在一个糟糕的时候设立了这个基金，就在我退出的时候。他直接进入了两层市场和所有给价值导向投资者带来相对表现困难的情况。我很高兴地说，我的合伙人们，在惊人的程度上，不仅留在了他身边，而且还增加了资金，结果如此令人高兴。
 
 Table 4 shows the record of the Sequoia Fund, which is managed by a man whom I met in 1951 in Ben Graham’s class, Bill Ruane. After getting out of Harvard Business School, he went to Wall Street. Then he realized that he needed to get a real business education so he came up to take Ben’s course at Columbia, where we met in early 1951. Bill’s record from 1951 to 1970, working with relatively small sums, was far better than average. When I wound up Buffett Partnership I asked Bill if he would set up a fund to handle all of our partners, so he set up the Sequoia Fund. He set it up at a terrible time, just when I was quitting. He went right into the two-tier market and all the difficulties that made for comparative performance for value-oriented investors. I am happy to say that my partners, to an amazing degree, not only stayed with him but added money, with the happy result shown here.
 
@@ -167,17 +167,17 @@ Table 4 shows the record of the Sequoia Fund, which is managed by a man whom I m
 
 并没有什么事后诸葛亮。比尔是我唯一推荐的投资人，我当时的说法是，如果他能年化超过标准普尔4%，就是很好的投资结果了。比尔的收益远超过这个标准，尽管后来的基金净值越来越大，而这也逐渐增大了管理的难度。管理规模会拖收益率的后腿。妥妥的如此。并不是说你没办法在管理大型基金时达到超额收益，只是这样的效果会缩小。试想一下，如果你一旦达到了2万亿美金的规模，而这个数值相当于全美国的经济总价值，你根本没办法超出平均值！
 
-There’s no hindsight involved here. Bill was the only person I recommended to my partners, and I said at the time that if he achieved a four point per annum advantage over the Standard & Poor’s, that would be solid performance. Bill has achieved well over that, working with progressively larger sums of money. That makes things much more difficult. Size is the anchor of performance. There is no question about it. It doesn’t mean you can’t do better than average when you get larger, but the margin shrinks. And if you ever get so you’re managing two trillion dollars, and that happens to be the amount of the total equity valuation in the economy, don’t think that you’ll do better than average!
+我在这里没有用到后见之明。比尔是我唯一向我的合伙人推荐的人，我当时说，如果他能比标准普尔指数每年高出四个百分点，那就是不错的表现。比尔不仅做到了这一点，而且还在管理着越来越多的资金。这使得事情变得更加困难。规模是业绩的拖累。这是毫无疑问的。这并不意味着你在规模变大后就不能比平均水平做得更好，但是优势会缩小。而且如果你最终管理了两万亿美元的资金，而这恰好是整个经济中所有股票的总市值，那么不要指望你能比平均水平做得更好！
 
 <br>
 
-我应该补充的是，在这里展示的记录中，基本上从始至终他们都各不相同。他们都用着相同的原则，基于价值和价格的差异，但是他们做出的选择是大相径庭的。华特的最大持股部分是大蓝筹，比如哈德逊纸浆，杰都高地煤炭，纽约暗色岩以及其他那些即使只是偶尔读读商业新闻的吃瓜群众都会秒懂的公司。崔迪布朗的选择则更加地小众和非主流。另一方面，比尔选择的是大公司。这投资组合的重合部分灰常灰常低。这些投资记录并不是那种一个人决定硬币的正反然后剩下的五十个人赶紧也接着学。
+我应该补充说，在我们迄今为止看过的记录中，在这整个时期里，这些投资组合几乎没有重复。这些都是根据价格和价值之间的差异来选择证券的人，但他们的选择方式非常不同。沃尔特的最大持仓是哈德逊浆纸和杰多高地煤炭和纽约陷阱岩公司等那些即使是对商业版面稍有了解的人也能立刻想起来的名字。Tweedy Browne的选择则沉没到了甚至低于这个水平的名气方面。另一方面，比尔则与大公司合作。这些投资组合之间的重叠非常非常低。这些记录并不反映一个人叫出翻转，然后有五十个人在他后面喊出同样的东西。
 
 I should add that, in the records we’ve looked at so far, throughout this whole period there was practically no duplication in these portfolios. These are men who select securities based on discrepancies between price and value, but they make their selections very differently. Walter’s largest holdings have been such stalwarts as Hudson Pulp & Paper and Jeddo Highland Coal and New York Trap Rock Company and all those other names that come instantly to mind to even a casual reader of the business pages. Tweedy Browne’s selections have sunk even well below that level in terms of name recognition. On the other hand, Bill has worked with big companies. The overlap among these portfolios has been very, very low. These records do not reflect one guy calling the flip and fifty people yelling out the same thing after him.
 
 <br>
 
-表5来自于我在哈佛法学院毕业的一个朋友，他有一家大型法律公司。我在1960年的时候认识他，然后告诉他从事法律开心就好但是他值得更好的生活。他的投资合伙人和华特的很不一样。他的投资组合非常集中，因此他的收益波动很大，但是也依然是折价买入的原则。他愿意承受更大的短期业绩波动，而他也是那一类喜欢集中投资的人。很巧，这个投资记录来自查理芒格，我长期以来伯克希尔哈撒韦经营管理的合伙人。不过当他经营他的合伙人公司的时候，他的投资组合和我的以及前面提到的几个老铁的差别很大。
+表5是我一个朋友的记录，他是哈佛法学院的毕业生，他建立了一个大型的律师事务所。我在1960年左右遇到他，告诉他法律只是一种爱好，但他可以做得更好。他建立了一个与沃尔特完全相反的合伙关系。他的投资组合集中在很少的证券上，因此，他的业绩更加波动，但它是基于同样的价值折扣方法。他愿意接受更大的业绩高低，而且他恰好是一个整个心理都倾向于集中的人，结果如图所示。顺便说一下，这个记录属于查理·芒格，他是我在伯克希尔·哈撒韦公司运营方面的长期合伙人。当他经营自己的合伙关系时，然而，他的投资组合持有几乎完全不同于我和前面提到的其他人。
 
 Table 5 is the record of a friend of mine who is a Harvard Law graduate, who set up a major law firm. I ran into him in about 1960 and told him that law was fine as a hobby but he could do better. He set up a partnership quite the opposite of Walter’s. His portfolio was concentrated in very few securities and therefore, his record was much more volatile but it was based on the same discount-from-value approach. He was willing to accept greater peaks and valleys of performance, and he happens to be a fellow whose whole psyche goes toward concentration, with the results shown. Incidentally, this record belongs to Charlie Munger, my partner for a long time in the operation of Berkshire Hathaway. When he ran his partnership, however, his portfolio holdings were almost completely different from mine and the other fellows mentioned earlier.
 
@@ -186,7 +186,7 @@ Table 5 is the record of a friend of mine who is a Harvard Law graduate, who set
 
 <br>
 
-表6来自查理芒格的一个老友，另一个非商学院毕业的伙计，在南加州大学学的数学。他在毕业以后去IBM上班了，在IBM当了一阵子的推销员。当我认识芒格的时候，芒格认识了他。这是里克盖琳的投资记录。里克，从1965年到1983年，共计超出标普316%，最终收益是22,200%。也许是因为他没在商学院读过书，他管这叫做统计学显著。
+表6是查理·芒格的一个朋友的记录——另一种非商学院类型的人——他是南加州大学的数学专业。他毕业后去了IBM工作，一段时间后成了IBM的销售员。我认识了查理，查理认识了他。这是里克·格林的记录。从1965年到1983年，里克以22,200%的复合增长率，击败了标准普尔指数的316%的复合增长率，这可能是因为他缺乏商学院教育，他认为这在统计上是显著的。
 
 Table 6 is the record of a fellow who was a pal of Charlie Munger’s — another non-business school type — who was a math major at USC. He went to work for IBM after graduation and was an IBM salesman for a while. After I got to Charlie, Charlie got to him. This happens to be the record of Rick Guerin. Rick, from 1965 to 1983, against a compounded gain of 316 percent for the S&P, came off with 22,200 percent, which probably because he lacks a business school education, he regards as statistically significant.
 
@@ -194,13 +194,13 @@ Table 6 is the record of a fellow who was a pal of Charlie Munger’s — anothe
 
 <br>
 
-在这里歪一下楼：我发现一个奇怪的一点就是人们要么瞬间就接受这种用40美分买出1美元的效果的投资策略，要么就永远没办法理解。这件事就像是打疫苗。如果没办法立即生效，那么你用几年时间的口舌和数据也没办法说服他。他们似乎就是没办法理解这样的概念，哪怕看起来不复杂。一个像里克盖琳的哥们，没经历过系统的商学院教育，“里克”就明白了这种价值投资策略，然后就在五分钟以后开始运用了。我从来没见过一个人在十年的过程中慢慢转化成一个价值投资者。似乎和IQ或者上课学了什么没关系。要么秒懂，要么不懂。
+我觉得很奇怪，有些人一听到用4毛钱买一块钱的东西，就立刻明白了这个道理，有些人却怎么也不明白。这就像打了预防针一样。如果一开始就没有抓住他们，我发现你可以跟他们说几年，给他们看记录，也没有用。他们似乎无法理解这个概念，尽管它很简单。像Rick Guerin这样的人，虽然没有受过正规的商业教育，但是他立刻就明白了价值投资的方法，并且在五分钟之内就开始运用了。我从来没有见过有人在十年的时间里逐渐转变为这种方法的信徒。这似乎与智商或学术训练无关。要么是一见如故，要么是毫无感觉。
 
 One sidelight here: it is extraordinary to me that the idea of buying dollar bills for 40 cents takes immediately to people or it doesn’t take at all. It’s like an inoculation. If it doesn’t grab a person right away, I find that you can talk to him for years and show him records, and it doesn’t make any difference. They just don’t seem able to grasp the concept, simple as it is. A fellow like Rick Guerin, who had no formal education in business, understands immediately the value approach to investing and he’s applying it five minutes later. I’ve never seen anyone who became a gradual convert over a ten-year period to this approach. It doesn’t seem to be a matter of IQ or academic training. It’s instant recognition, or it is nothing.
 
 <br>
 
-表7是斯坦珀尔米特的记录。斯坦在密西根大学读的是博雅专业，是博泽尔雅各布斯广告公司的合伙人。我们恰好在同一个大厦里上班。1965年他觉得我的商业模式更加适合他，所以他不搞广告了。同样的，5分钟内斯坦就接受了价值投资。
+表7是斯坦·佩尔米特的记录。斯坦是密歇根大学的文科专业，曾是广告公司Bozell & Jacobs的合伙人。我们碰巧在奥马哈的同一栋楼里。1965年，他发现我比他有更好的生意，于是他离开了广告行业。同样，斯坦只用了五分钟就接受了价值投资的方法。
 
 Table 7 is the record of Stan Perlmeter. Stan was a liberal arts major at the University of Michigan who was a partner in the advertising agency of Bozell & Jacobs. We happened to be in the same building in Omaha. In 1965 he figured out I had a better business than he did, so he left advertising. Again, it took five minutes for Stan to embrace the value approach.
 
@@ -209,13 +209,13 @@ Table 7 is the record of Stan Perlmeter. Stan was a liberal arts major at the Un
 
 <br>
 
-珀尔米特和华特施洛斯的持股不同。他和比尔鲁恩的持股也不同。他们的投资决策是独立的。但是每一次珀尔米特买入一只股票都是因为他获得的比投入的更多。这是他唯一考虑的事情。他不考虑季度利润预测，他不考虑次年的利润预测，他不考虑其他公司的投资研究部门的观点，他不考虑股票趋势，成交量，或者其他的。他满脑子只有一个问题：这个公司值多少？
+Perlmeter不拥有Walter Schloss拥有的东西。他也不拥有Bill Ruane拥有的东西。这些都是他们独立创造的记录。但是每次Perlmeter买一支股票，都是因为他花的钱比他得到的价值少。这是他唯一考虑的事情。他不看季度盈利预测，他不看明年的盈利，他不在乎今天是星期几，他不在乎任何地方的投资研究报告，他对价格动量、成交量或者任何其他东西都不感兴趣。他只问一个问题：这个企业值多少钱？
 
 Perlmeter does not own what Walter Schloss owns. He does not own what Bill Ruane owns. These are records made independently. But every time Perlmeter buys a stock it’s because he’s getting more for his money than he’s paying. That’s the only thing he’s thinking about. He’s not looking at quarterly earnings projections, he’s not looking at next year’s earnings, he’s not thinking about what day of the week it is, he doesn’t care what investment research from any place says, he’s not interested in price momentum, volume, or anything. He’s simply asking: What is the business worth?
 
 <br>
 
-表8和表9是我有参与的两个养老基金。他们并不是我从一群有关联的养老基金里面选出来的；他们是我唯二能够影响其决策的基金。这两个基金我唆使他们进行价值投资。非常非常少的养老基金愿意选择价值投资的思路。表8是华盛顿时报的养老基金。之前是一家大银行帮他们管理，然后我建议他们选择一些价值投资经理来达到更好的效果。
+表8和表9是我参与的两个养老基金的记录。它们不是从我参与的数十个养老基金中挑选出来的；它们是我唯一有影响力的两个。在这两种情况下，我都建议他们选择以价值为导向的管理者。非常非常少的养老基金是从价值的角度来管理的。表8是华盛顿邮报公司的养老基金。它以前是一个大银行，我建议他们最好选择一些有价值取向的管理者。
 
 Table 8 and Table 9 are the records of two pension funds I’ve been involved in. They are not selected from dozens of pension funds with which I have had involvement; they are the only two I have influenced. In both cases I have steered them toward value-oriented managers. Very, very few pension funds are managed from a value standpoint. Table 8 is the Washington Post Company’s Pension Fund. It was with a large bank some years ago, and I suggested that they would do well to select managers who had a value orientation.
 
@@ -223,13 +223,13 @@ Table 8 and Table 9 are the records of two pension funds I’ve been involved in
 
 <br>
 
-你可以看到的是，总体而言在他们转变投资方向以后他们能达到最好的那1%。华盛顿时报让这些经理们至少为债券保留25%的资金，这并不一定会是这些经理想要的情况。因此，我也附加了债券的收益情况，来证明他们并没有厉害的债券投资能力。他们也不会装作好像很懂的样子。带着这25%的资金限制，他们依然是资产管理界的前1%。华盛顿时报的业绩并没有非常长的时间跨度，但是也反映了这三个经理的多个投资决策。这些经理并不是我事后单独挑的。
+你可以看到，自从他们做出改变以来，他们一直处于最高百分位。邮报告诉经理们，至少要把这些基金的25%放在债券上，这可能不是这些经理们的选择。所以，我把债券的表现也包括进来，只是为了说明，这个团队对债券没有什么特别的专长。他们也不会说他们有。即使有这样一个拖累，即他们的基金中有25%的部分在一个不是他们擅长的领域，他们仍然处于基金管理的最高百分位。华盛顿邮报的经验并没有涵盖一个很长的时期，但它确实代表了三位经理做出的许多投资决策，而这些经理并不是事后才被确定的。
 
 As you can see, overall they have been in the top percentile ever since they made the change. The Post told the managers to keep at least 25 percent of these funds in bonds, which would not have been necessarily the choice of these managers. So, I’ve included the bond performance simply to illustrate that this group has no particular expertise about bonds. They wouldn’t have said they did. Even with this drag of 25 percent of their fund in an area that was not their game, they were in the top percentile of fund management. The Washington Post experience does not cover a terribly long period but it does represent many investment decisions by three managers who were not identified retroactively.
 
 <br>
 
-表9是食品制造机械公司的基金。我没有参与任何实际的管理，但是我在1974年和他们说选择一些价值投资者作为经理。在此之前，他们选择基金经理的方式和大部分大公司差不多。自从他们转变到了价值投资方向以后，他们现在在贝克养老基金排行榜上的当前规模组内排名第一。去年他们有8位投资经理任期长达1年以上。其中的7位的累计收益超过标普。全部8位经理去年的收益率都超过了标普。行业收益中位数和食品制造机械公司的基金的差距是2.43亿美金。食品制造机械公司将这归功于选择投资经理的方法。这些经理不一定是我会选的，但是他们的共同特点是价值为基础的选股方法。
+表9是FMC公司基金的记录。我自己没有管理过它的一分钱，但是在1974年，我影响了他们选择价值导向的管理者的决定。在那之前，他们选择管理者的方式和大多数大公司差不多。他们现在在贝克调查中排名第一，这是一个针对他们这个规模的养老金基金在这段时间后转向价值方法的调查。去年他们有八个股权管理者，任期超过一年。其中七个的累计业绩都比标准普尔指数好。所有八个去年的业绩都比标准普尔指数好。现在，中等业绩和FMC基金在这段时间内的实际业绩之间的净差额是2.43亿美元。FMC将这归功于他们在选择管理者时给予他们的思维方式。这些管理者不一定是我会选择的管理者，但是他们有一个共同点，就是根据价值选择证券。
 
 Table 9 is the record of the FMC Corporation fund. I don’t manage a dime of it myself but I did, in 1974, influence their decision to select value-oriented managers. Prior to that time they had selected managers much the same way as most larger companies. They now rank number one in the Becker survey of pension funds for their size over the period of time subsequent to this “conversion” to the value approach. Last year they had eight equity managers of any duration beyond a year. Seven of them had a cumulative record better than the S&P. All eight had a better record last year than the S&P. The net difference now between a median performance and the actual performance of the FMC fund over this period is $243 million. FMC attributes this to the mindset given to them about the selection of managers. Those managers are not the managers I would necessarily select but they have the common denominators of selecting securities based on value.
 
@@ -238,48 +238,48 @@ Table 9 is the record of the FMC Corporation fund. I don’t manage a dime of it
 
 <br>
 
-这就是9位格雷汉姆-多德市的村民的投资记录。我并不是从上千个投资者中甄选出的。并不是说我把那些中了彩票的幸运儿罗列出来，以至于我可能甚至都不认识他们。这些都是我在几年前基于他们的投资决策思路而选择的。我知道他们从哪学到这些知识，而且我也私下了解到他们的智慧，秉性，以及性情。非常重要的一点事，这一组人群承受了比平均值远低的风险；可以注意到他们在市场低迷时期的表现。尽管他们的投资风格不同，这些投资者的心态总是基于买入公司而不是买入股票。他们其中的一部分有时候更多地选择控股而不是参股。他们的态度，无论是买入整个公司还是仅仅一部分，都是相同的。他们之中的一部分持有为数不多的股票；其他的选择分散化。但是他们都选择了利用市场价值和内在价值之间的差异。
+这些是格雷厄姆和多德斯维尔的“掷硬币者”的九条记录。我没有从成千上万的人中回顾性地挑选他们。这不像我在向你背诵一群彩票中奖者的名字——他们是我在他们中奖之前从未听说过的人。我是根据他们的投资决策框架在多年前选择了这些人。我知道他们学到了什么，另外，我对他们的智力、品格和气质也有一些个人了解。要明白，这个群体承担的风险远低于平均水平；注意他们在整体市场疲软的年份的表现。虽然他们在风格上有很大的不同，但这些投资者在心理上总是在买入企业，而不是买入股票。他们中的一些人有时会买下整个企业，但更多时候，他们只是买下企业的一小部分。无论是买下全部还是一小部分企业，他们的态度都是一样的。他们中有些人持有数十只股票的投资组合；另一些人则集中于少数几只。但他们都利用了企业的市场价值和内在价值之间的差异。
 
 So these are nine records of “coin-flippers” from Graham-and-Doddsville. I haven’t selected them with hindsight from among thousands. It’s not like I am reciting to you the names of a bunch of lottery winners — people I had never heard of before they won the lottery. I selected these men years ago based upon their framework for investment decision-making. I knew what they had been taught and additionally I had some personal knowledge of their intellect, character, and temperament. It’s very important to understand that this group has assumed far less risk than average; note their record in years when the general market was weak. While they differ greatly in style, these investors are, mentally, always buying the business, not buying the stock. A few of them sometimes buy whole businesses far more often they simply buy small pieces of businesses. Their attitude, whether buying all or a tiny piece of a business, is the same. Some of them hold portfolios with dozens of stocks; others concentrate on a handful. But all exploit the difference between the market price of a business and its intrinsic value.
 
 <br>
 
-我相信股票市场存在一定程度的失效，所以那些格雷汉姆-多德市的投资者们能够成功利用价格和价值的不对等。当股票的价格可以被华尔街最易激动的人，最贪婪的人，或者最沮丧的人所影响，那么很难说市场的价格总是合理。实际上，市场的价格常常不讲道理。
+我相信市场上存在着很多低效率。这些格雷厄姆和多德维尔的投资者成功地利用了价格和价值之间的差距。当一只股票的价格可以受到华尔街“羊群”的影响，而价格又是由最情绪化的人、最贪婪的人或最沮丧的人在边际上决定的时候，很难说市场总是理性定价的。事实上，市场价格经常是荒谬的。
 
 I’m convinced that there is much inefficiency in the market. These Graham-and-Doddsville investors have successfully exploited gaps between price and value. When the price of a stock can be influenced by a “herd” on Wall Street with prices set at the margin by the most emotional person, or the greediest person, or the most depressed person, it is hard to argue that the market always prices rationally. In fact, market prices are frequently nonsensical.
 
 <br>
 
-关于风险收益，我想要划一个重点。有时候风险收益是呈现正相关的。如果有人和我说，“我有一个六发试左轮手枪，只有一颗子弹。你愿意参与这俄罗斯转盘游戏吗？如果你侥幸活下来，我会给你1百万。”如果我第一次听到这个机会，其实我是拒绝的。然后他将赌注上提到5百万，条件是拨动两次扳机，这样一来明显感觉到风险收益是呈现正比的了！
+我想说一件关于风险和回报的重要事情。有时风险和回报之间存在正相关。如果有人对我说，“我这里有一把六发手枪，我已经把一颗子弹装进去了。你为什么不转一转然后扣一下扳机呢？如果你活下来，我会给你100万美元。”我会拒绝——也许会说100万美元不够多。然后他可能会提议我扣两下扳机，给我500万美元——这就是风险和回报之间的正相关！
 
 I would like to say one important thing about risk and reward. Sometimes risk and reward are correlated in a positive fashion. If someone were to say to me, “I have here a six-shooter and I have slipped one cartridge into it. Why don’t you just spin it and pull it once? If you survive, I will give you $1 million.” I would decline — perhaps stating that $1 million is not enough. Then he might offer me $5 million to pull the trigger twice — now that would be a positive correlation between risk and reward!
 
 <br>
 
-价值投资则是恰恰相反。60美分买入1美元的风险比40美分买入1美元的风险要大，但是期望收益却是后者更高。价值投资组合的潜在的收益越高，风险越低。
+价值投资恰恰相反。如果你用60美分买一美元，风险比你用40美分买一美元要大，但后者的回报期望更高。价值投资组合的回报潜力越大，风险就越小。
 
 The exact opposite is true with value investing. If you buy a dollar bill for 60 cents, it’s riskier than if you buy a dollar bill for 40 cents, but the expectation of reward is greater in the latter case. The greater the potential for reward in the value portfolio, the less risk there is.
 
 <br>
 
-一个简单的例子：华盛顿邮报在1973年的市值是8千万美金。在那时，你可以将公司的资产以4亿美金甚至更多的价格卖给十个买家之中的任何一位。邮报的持股有新闻周刊，还有一系列的大型的新闻电视台。这些资产的价值如今已经是20亿美金，所以如果有人当初愿意支付4亿美金也没毛病。
+一个简单的例子：1973年，华盛顿邮报公司在市场上的售价是8000万美元。那天，你可以把它的资产卖给任何一个买家，不低于4亿美元，甚至可能更多。该公司拥有邮报、新闻周刊，以及几个主要市场的电视台。现在，这些财产的价值是20亿美元，所以那个愿意出4亿美元的人也不算疯了。
 
 One quick example: The Washington Post Company in 1973 was selling for $80 million in the market. At the time, that day, you could have sold the assets to any one of ten buyers for not less than $400 million, probably appreciably more. The company owned the Post, Newsweek, plus several television stations in major markets. Those same properties are worth $2 billion now, so the person who would have paid $400 million would not have been crazy.
 
 <br>
 
-如果当时股票的价格持续下跌至4千万的估值而不是8千万，那么这个公司的beta将会更高。对于那些认为beta相当于风险的人，更低的价格意味着更高的风险。这明显是他们想多了。我从来没搞明白为什么用4千万买入4亿的资产会比8千万的风险更大。同样的，如果你是在买股票，而你对这个公司的价值足够了解，那么对你来说以8千万买入4亿资产基本没有风险，更何况你是分成10份，每8百万对应4千万。因为你对这4千万没有直接控制权，所以你希望你选择的是诚实可靠的管理者，但是这并不是一件困难的事情。
+现在，如果这只股票的价格进一步下跌，使得它的估值从8000万美元降到4000万美元，它的贝塔系数就会更高。而对于那些认为贝塔系数衡量风险的人来说，更低的价格会让它看起来更有风险。这真是令人难以置信。我从来不明白，为什么以4000万美元买入价值4亿美元的资产比以8000万美元买入更有风险。而且，事实上，如果你买入一组这样的证券，并且对商业估值有一定的了解，以4000万美元买入价值4亿美元的资产是几乎没有风险的，特别是如果你是通过买入十个价值4000万美元的、每个包含800万美元现金的资产堆。由于你没有掌握这4亿美元，你要确保你和诚实、能力相当的人合作，但这并不是一件难事。
 
 Now, if the stock had declined even further to a price that made the valuation $40 million instead of $80 million, its beta would have been greater. And to people that think beta measures risk, the cheaper price would have made it look riskier. This is truly Alice in Wonderland. I have never been able to figure out why it’s riskier to buy $400 million worth of properties for $40 million than $80 million. And, as a matter of fact, if you buy a group of such securities and you know anything at all about business valuation, there is essentially no risk in buying $400 million for $80 million, particularly if you do it by buying ten $40 million piles of $8 million each. Since you don’t have your hands on the $400 million, you want to be sure you are in with honest and reasonably competent people, but that’s not a difficult job.
 
 <br>
 
-你需要对公司的价值有一个大致的概念，但是并不需要很精确。这就是本格雷汉姆所说的安全边际。你不会想办法用8千万买入8.3千万的资产。你需要保留一定的余地。当你搭一座桥，你的目标是承重3万磅，但是真正你只允许1万磅的货车通过。投资的原则也是类似。
+你还必须有足够的知识，让你能够对底层企业的价值做出一个大致的估计。但你不要把它做得太精确。这就是本·格雷厄姆所说的保证安全边际。你不要试图用8000万美元买下价值8300万美元的企业。你要给自己留下一个巨大的空间。当你建造一座桥梁时，你要确保它能承受3万磅的重量，但你只开1万磅的卡车过桥。这个原则在投资中也同样适用。
 
 You also have to have the knowledge to enable you to make a very general estimate about the value of the underlying businesses. But you do not cut it close. That is what Ben Graham meant by having a margin of safety. You don’t try and buy businesses worth $83 million for $80 million. You leave yourself an enormous margin. When you build a bridge, you insist it can carry 30,000 pounds, but you only drive 10,000 pound trucks across it. And that same principle works in investing.
 
 <br>
 
-在最后，你们的其中可能会在评论区留言说为什么没人邀请就来回答。说服别人入坑价值投资不可避会减少价值投资的机会。我只能说自从本格雷汉姆和大卫多德在《证券分析》里第一次提到以后，50年过去了价值投资依然也没有成为主流。在我35年来的工作过程中没看到这样的苗头。人们似乎总是喜欢将简单的问题复杂化。学术界，实际上在过去的30年内开倒车。很有可能未来还是会继续。有人会坐船环球旅行也有人会相信地球是平的。价格和价值的偏离还将继续，那些信格雷汉姆和多德的人运气不会太差。
+最后，你们中一些更有商业头脑的人可能会想，我为什么要写这篇文章。让更多的人转向价值投资，必然会缩小价格和价值之间的差距。我只能告诉你们，这个秘密已经公开了50年，自从本·格雷厄姆和戴维·多德写了《证券分析》以来，我在过去的35年里从事价值投资，却没有看到这种趋势。似乎有一种扭曲的人类特性，喜欢把简单的事情搞复杂。如果说有什么变化的话，学术界在过去的30年里，反而从教授价值投资中退缩了。这种情况可能会继续下去。船只会绕着地球航行，但是“地球是平的”协会会兴旺发达。市场上价格和价值之间的差距会继续存在，那些阅读过格雷厄姆和多德的人会继续获利。
 
 In conclusion, some of the more commercially minded among you may wonder why I am writing this article. Adding many converts to the value approach will perforce narrow the spreads between price and value. I can only tell you that the secret has been out for 50 years, ever since Ben Graham and Dave Dodd wrote Security Analysis, yet I have seen no trend toward value investing in the 35 years that I’ve practiced it. There seems to be some perverse human characteristic that likes to make easy things difficult. The academic world, if anything, has actually backed away from the teaching of value investing over the last 30 years. It’s likely to continue that way. Ships will sail around the world but the Flat Earth Society will flourish. There will continue to be wide discrepancies between price and value in the marketplace, and those who read their Graham & Dodd will continue to prosper.
