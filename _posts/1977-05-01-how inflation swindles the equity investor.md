@@ -81,4 +81,48 @@ Stocks, on the other hand, are perpetual. They have a maturity date of infinity.
 
 <br>
 
-## The bondholder gets it in cash
+## 债券持有人可以获得现金 The bondholder gets it in cash
+
+有一种普通债券和我们新的奇异的12%“股权债券”之间的另一个主要区别，这种股权债券穿着股票证书来到华尔街化妆舞会。在通常情况下，债券投资者以现金形式收到他的全部息票，并留给他自己尽力重新投资。相比之下，我们的股票投资者的股权息票部分被公司保留，并以公司正在赚取的任何利率进行再投资。换句话说，回到我们的公司宇宙，每年赚取的12%中的一部分以股息形式支付，余额则重新投入到宇宙中，也赚取12%。
+
+There is another major difference between the garden variety of bond and our new exotic 12% “equity bond” that comes to the Wall Street costume ball dressed in a stock certificate. In the usual case, a bond investor receives his entire coupon in cash and is left to reinvest it as best he can. Our stock investor’s equity coupon, in contrast, is partially retained by the company and is reinvested at whatever rates the company happens to be earning. In other words, going back to our corporate universe, part of the 12% earned annually is paid out in dividends and the balance is put right back into the universe to earn 12% also.
+
+<br>
+
+## 过去的好日子 The good old days
+
+股票的这种特点——部分利息的再投资——可能是好消息，也可能是坏消息，这取决于那12%的相对吸引力。在20世纪50年代和60年代初，这个消息非常好。当债券只有3%或4%的收益时，自动以12%的利率再投资部分股息的权利是非常有价值的。请注意，投资者不能只投资他们自己的钱，得到那12%的回报。在这个时期，股票价格远高于账面价值，投资者被他们必须支付的溢价所阻止，无法直接从底层的公司宇宙中提取出该宇宙所赚取的任何利率。你不能为一张12%的债券支付远高于面值的价格，并为自己赚取12%。
+
+This characteristic of stocks — the reinvestment of part of the coupon — can be good or bad news, depending on the relative attractiveness of that 12%. The news was very good indeed in the 1950s and early 1960s. With bonds yielding only 3 or 4%, the right to reinvest automatically a portion of the equity coupon at 12% was of enormous value. Note that investors could not just invest their own money and get that 12% return. Stock prices in this period ranged far above book value, and investors were prevented by the premium prices they had to pay from directly extracting out of the underlying corporate universe whatever rate that universe was earning. You can’t pay far above par for a 12% bond and earn 12% for yourself.
+
+<br>
+
+但是在他们保留的收益上，投资者可以赚取12%的回报。实际上，留存收益使投资者能够以账面价值购买部分企业，而在当时存在的经济环境中，这部分企业的价值远远超过了账面价值。
+
+But on their retained earnings, investors could earn 12%. In effect, earnings retention allowed investors to buy at book value part of an enterprise that, in the economic environment then existing, was worth a great deal more than book value.
+
+<br>
+
+这是一种让现金股息几乎没有优势，而留存收益却有很大好处的情况。事实上，投资者认为有可能以12%的利率再投资的钱越多，他们就越珍视他们的再投资权利，也就越愿意为此付出高价。在20世纪60年代初，投资者急切地为位于增长地区的电力公用事业公司支付高价，因为他们知道这些公司有能力再投资很大比例的收益。而那些经营环境要求更多现金分红的公用事业公司则获得较低的价格。
+
+It was a situation that left very little to be said for cash dividends and a lot to be said for earnings retention. Indeed, the more money that investors thought likely to be reinvested at the 12% rate, the more valuable they considered their reinvestment privilege, and the more they were willing to pay for it. In the early 19601s, investors eagerly paid top-scale prices for electric utilities situated in growth areas, knowing that these companies had the ability to re-invest very large proportions of their earnings. Utilities whose operating environment dictated a larger cash payout rated lower prices.
+
+<br>
+
+如果在这段时间里，存在一种高级、不可赎回、长期的债券，其票面利率为12%，那么它的价格就会远高于面值。而如果它还有另一种不寻常的特征——即大部分的票息可以自动以面值的价格再投资于类似的债券——那么这种债券就会有更高的溢价。从本质上讲，保留大部分收益的成长股就代表了这样一种证券。当它们对新增股本的再投资率为12%，而一般的利率大约为4%时，投资者就会非常高兴——当然，他们也会付出高昂的价格。
+
+If, during this period, a high-grade, noncallable, long-term bond with a 12% coupon had existed, it would have sold far above par. And if it were a bond with a further unusual characteristic — which was that most of the coupon payments could be automatically reinvested at par in similar bonds — the issue would have commanded an even greater premium. In essence, growth stocks retaining most of their earnings represented just such a security. When their reinvestment rate on the added equity capital was 12% while interest rates generally were around 4%, investors became very happy — and, of course, they paid happy prices.
+
+<br>
+
+## 寻找出口 Heading for the exits
+
+回顾过去，股票投资者可以认为自己在1946-66年期间享受了一份真正丰厚的三重奖励。首先，他们受益于公司内在的股本回报率远高于当前的利率。其次，其中相当一部分回报被以其他方式无法达到的利率为他们再投资。第三，随着前两个好处被广泛认识到，他们得到了对内在股本资本的不断升值的评估。这第三重奖励意味着，除了公司以其股本资本赚取的基本12%左右的回报外，投资者还获得了一个额外的奖励，因为道琼斯工业指数从1946年的账面价值的133%上升到1966年的220%。这样一个标价过程暂时让投资者获得了超过他们所投资的企业内在盈利能力的回报。
+
+Looking back, stock investors can think of themselves in the 1946-66 period as having been ladled a truly bountiful triple dip. First, they were the beneficiaries of an underlying corporate return on equity that was far above prevailing interest rates. Second, a significant portion of that return was reinvested for them at rates that were otherwise unattainable. And third, they were afforded an escalating appraisal of underlying equity capital as the first two benefits became widely recognized. This third dip meant that, on top of the basic 12% or so earned by corporations on their equity capital, investors were receiving a bonus as the Dow Jones industrials increased in price from 133% of book value in 1946 to 220% in 1966. Such a marking-up process temporarily allowed investors to achieve a return that exceeded the inherent earning power of the enterprises in which they had invested.
+
+<br>
+
+这种天堂般的情况终于在20世纪60年代中期被许多主要的投资机构“发现”。但正当这些金融大象开始互相踩踏，争相投资股票时，我们进入了一个加速通货膨胀和利率上升的时代。相当合理地，标价过程开始逆转。上升的利率无情地降低了所有现有固定票息投资的价值。而随着长期公司债券利率开始上升（最终达到10%左右），12%的股权回报和再投资“特权”就开始显得不同了。
+
+This heaven-on-earth situation finally was “discovered” in the mid-1960s by many major investing institutions. But just as these financial elephants began trampling on one another in their rush to equities, we entered an era of accelerating inflation and higher interest rates. Quite logically, the marking-up process began to reverse itself. Rising interest rates ruthlessly reduced the value of all existing fixed-coupon investments. And as long-term corporate bond rates began moving up (eventually reaching the 10% area), both the equity return of 12% and the reinvestment “privilege” began to look different.
