@@ -126,3 +126,116 @@ Looking back, stock investors can think of themselves in the 1946-66 period as h
 这种天堂般的情况终于在20世纪60年代中期被许多主要的投资机构“发现”。但正当这些金融大象开始互相踩踏，争相投资股票时，我们进入了一个加速通货膨胀和利率上升的时代。相当合理地，标价过程开始逆转。上升的利率无情地降低了所有现有固定票息投资的价值。而随着长期公司债券利率开始上升（最终达到10%左右），12%的股权回报和再投资“特权”就开始显得不同了。
 
 This heaven-on-earth situation finally was “discovered” in the mid-1960s by many major investing institutions. But just as these financial elephants began trampling on one another in their rush to equities, we entered an era of accelerating inflation and higher interest rates. Quite logically, the marking-up process began to reverse itself. Rising interest rates ruthlessly reduced the value of all existing fixed-coupon investments. And as long-term corporate bond rates began moving up (eventually reaching the 10% area), both the equity return of 12% and the reinvestment “privilege” began to look different.
+
+<br>
+
+股票被认为比债券风险更高。虽然股票的收益在一定时间内基本固定，但它每年会有些波动。投资者对未来的态度可能会受到这些年度变化的很大影响，尽管这些变化往往是错误的。股票也更有风险，因为它们具有无限的到期期限。（即使是你友好的经纪人，如果他有任何可用的债券，也不会有胆量把一张100年期的债券当作“安全”的东西来兜售。）由于风险增加了，投资者的自然反应是期望股票的回报率高于债券的回报率——而12%的股票回报率相对于同一企业领域发行的债券的10%的回报率似乎并不令人满意。随着利差缩小，股票投资者开始寻找出路。
+
+Stocks are quite properly thought of as riskier than bonds. While that equity coupon is more or less fixed over periods of time, it does fluctuate somewhat from year to year. Investors’ attitudes about the future can be affected substantially, although frequently erroneously, by those yearly changes. Stocks are also riskier because they come equipped with infinite maturities. (Even your friendly broker wouldn’t have the nerve to peddle a 100-year bond, if he had any available, as “safe.”) Because of the additional risk, the natural reaction of investors is to expect an equity return that is comfortably above the bond return — and 12% on equity versus, say, 10% on bonds issued by the same corporate universe does not seem to qualify as comfortable. As the spread narrows, equity investors start looking for the exits.
+
+<br>
+
+但是，当然，他们作为一个群体是无法退出的。他们所能做到的只是大量的转换，造成相当大的摩擦成本，以及一个新的、更低的估值水平，反映了在通货膨胀条件下12%的股权票息的降低吸引力。债券投资者在过去十年中经历了一连串的震惊，在发现任何给定票息水平都没有魔力的过程中：无论是6%、8%还是10%，债券仍然可能暴跌。股票投资者，他们通常不知道他们也有一个“票息”，仍然在接受这一点的教育。
+
+But, of course, as a group they can’t get out. All they can achieve is a lot of movement, substantial frictional costs, and a new, much lower level of valuation, reflecting the lessened attractiveness of the 12% equity coupon under inflationary conditions. Bond investors have had a succession of shocks over the past decade in the course of discovering that there is no magic attached to any given coupon level: at 6%, or 8%, or 10%, bonds can still collapse in price. Stock investors, who are in general not aware that they too have a “coupon,” are still receiving their education on this point.
+
+<br>
+
+## 提高收益的五种方法 Five ways to improve earnings
+
+我们真的必须把12%的股本息率视为不变吗？有没有什么法律规定，企业对股本资本的回报率不能根据永久性的平均通货膨胀率而向上调整？当然没有这样的法律。另一方面，美国企业不能凭愿望或命令来增加收益。要提高股本回报率，企业至少需要以下一项：（1）提高周转率，即销售额与业务中使用的总资产之间的比率；（2）更便宜的杠杆；（3）更多的杠杆；（4）更低的所得税；（5）更宽的销售毛利率。
+
+Must we really view that 12% equity coupon as immutable? Is there any law that says the corporate return on equity capital cannot adjust itself upward in response to a permanently higher average rate of inflation? There is no such law, of course. On the other hand, corporate America cannot increase earnings by desire or decree. To raise that return on equity, corporations would need at least one of the following: (1) an increase in turnover, i.e., in the ratio between sales and total assets employed in the business; (2) cheaper leverage; (3) more leverage; (4) lower income taxes; (5) wider operating margins on sales.
+
+<br>
+
+就这些了。增加普通股的回报率就没有其他方法了。让我们看看能用这些方法做些什么。
+
+And that’s it. There simply are no other ways to increase returns on common equity. Let’s see what can be done with these.
+
+<br>
+
+我们从周转率开始。在这个练习中，我们要考虑的三大类资产是应收账款、存货和固定资产，如厂房和机器。
+
+We’ll begin with turnover. The three major categories of assets we have to think about for this exercise are accounts receivable, inventories, and fixed assets such as plants and machinery.
+
+<br>
+
+销售额增加时，应收账款也会按比例增加，无论销售额的增加是由更多的实物量还是由通货膨胀造成的。这里没有改进的空间。
+
+Accounts receivable go up proportionally as sales go up, whether the increase in dollar sales is produced by more physical volume or by inflation. No room for improvement here.
+
+<br>
+
+存货的情况就不那么简单了。从长期来看，单位存货的趋势可以预期会跟随单位销售的趋势。但是，从短期来看，物理周转率可能会因为一些特殊因素而波动——例如，成本预期或瓶颈。
+
+With inventories, the situation is not quite so simple. Over the long term, the trend in unit inventories may be expected to follow the trend in unit sales. Over the short term, however, the physical turnover rate may bob around because of special influences — e.g., cost expectations, or bottlenecks.
+
+
+<br>
+
+使用后进先出（LIFO）存货计价方法可以在通货膨胀时期提高报告的周转率。当美元销售额因为通货膨胀而上升时，LIFO公司的存货估值要么保持不变（如果单位销售量没有上升），要么落后于美元销售额的上升（如果单位销售量有上升）。在这两种情况下，美元周转率都会增加。
+
+The use of last-in, first-out (LIFO) inventory-valuation methods serves to increase the reported turnover rate during inflationary times. When dollar sales are rising because of inflation, inventory valuations of a LIFO company either will remain level (if unit sales are not rising) or will trail the rise in dollar sales (if unit sales are rising). In either case, dollar turnover will increase.
+
+<br>
+
+在20世纪70年代初，公司向LIFO会计（这会降低公司的报告收益和税单）的转变有了明显的趋势。这种趋势现在似乎已经放缓。不过，由于存在很多LIFO公司，再加上可能还有一些其他公司加入这个行列，可以确保存货的报告周转率还会有进一步的增加。
+
+During the early 1970s, there was a pronounced swing by corporations toward LIFO accounting (which has the effect of lowering a company’s reported earnings and tax bills). The trend now seems to have slowed. Still, the existence of a lot of LIFO companies, plus the likelihood that some others will join the crowd, ensures some further increase in the reported turnover of inventory.
+
+## 收益可能很微薄 The gains are apt to be modest
+
+对于固定资产来说，假设通货膨胀率影响所有产品的程度相同，那么通货膨胀率的上升最初会导致营业额增加。这是因为销售额会立即反映新的价格水平，而固定资产账户则只会逐渐反映这种变化，即在现有资产被淘汰并以新价格替换时。显然，公司替换资产的速度越慢，营业额比率就会越高。但是，这种行为在完成一个替换周期后就会停止。假设通货膨胀率保持不变，销售额和固定资产将以通货膨胀率的速度同步上升。
+
+In the case of fixed assets, any rise in the inflation rate, assuming it affects all products equally, will initially have the effect of increasing turnover. That is true because sales will immediately reflect the new price level, while the fixed asset account will reflect the change only gradually, i.e., as existing assets are retired and replaced at the new prices. Obviously, the more slowly a company goes about this replacement process, the more the turnover ratio will rise. The action stops, however, when a replacement cycle is completed. Assuming a constant rate of inflation, sales and fixed assets will then begin to rise in concert at the rate of inflation.
+
+<br>
+
+总之，通货膨胀会带来一些营业额比率的提高。由于采用了后进先出法（LIFO），一些改善是肯定的；而如果通货膨胀加速，由于销售额比固定资产上升得更快，一些改善也是可能的。但是，收益可能很微薄，并不足以显著提高股本资本的回报率。在截至1975年的十年间，尽管通货膨胀普遍加速，并且广泛采用了后进先出法（LIFO）会计，财富500强的营业额比率只从1.18/1上升到1.29/1。
+
+To sum up, inflation will produce some gains in turnover ratios. Some improvement would be certain because of LIFO and some would be possible (if inflation accelerates) because of sales rising more rapidly than fixed assets. But the gains are apt to be modest and not of a magnitude to produce substantial improvement in returns on equity capital. During the decade ending in 1975, despite generally accelerating inflation and the extensive use of LIFO accounting, the turnover ratio of the Fortune 500 went only from 1.18/1 to 1.29/1.
+
+<br>
+
+更便宜的杠杆？不太可能。高通胀率通常会导致借贷变得更昂贵，而不是更便宜。飞涨的通胀率造成飞涨的资本需求；而借贷者，随着他们对长期合同越来越不信任，也变得更加苛刻。但即使利率没有进一步上升，杠杆的成本也会变得更高，因为现在企业账面上的债务成本低于替换它们的成本。而替换是必须的，因为现有的债务到期了。总的来说，未来杠杆成本的变化似乎很可能对股本回报率产生轻微的抑制作用。
+
+Cheaper leverage? Not likely. High rates of inflation generally cause borrowing to become dearer, not cheaper. Galloping rates of inflation create galloping capital needs; and lenders, as they become increasingly distrustful of long-term contracts, become more demanding. But even if there is no further rise in interest rates, leverage will be getting more expensive because the average cost of the debt now on corporate books is less than would be the cost of replacing it. And replacement will be required as the existing debt matures. Overall, then, future changes in the cost of leverage seem likely to have a mildly depressing effect on the return on equity.
+
+<br>
+
+更多的杠杆？美国企业已经使用了许多，如果不是大部分，曾经可用的更多杠杆子弹。这一命题的证据可以在《财富》500强的一些统计数据中看到：在截至1975年的20年中，500强企业的股东权益占总资产的百分比从63%下降到不到50%。换句话说，现在每一美元的股权资本都比以前有更多的杠杆。
+
+More leverage? American business already has fired many, if not most, of the more-leverage bullets once available to it. Proof of that proposition can be seen in some other Fortune 500 statistics: in the 20 years ending in 1975, stockholders’ equity as a percentage of total assets declined for the 500 from 63% to just under 50%. In other words, each dollar of equity capital now is leveraged much more heavily than it used to be.
+
+<br>
+
+## 借贷者学到了什么 What the lenders learned
+
+通胀引起的金融需求的一个讽刺之处是，利润率最高的公司——通常是最好的信用——相对而言需要较少的债务资本。但是利润率低迷的落后者永远得不到足够的资金。借贷者对这个问题比十年前了解得多得多——并且相应地不太愿意让资金饥渴、利润率低下的企业把自己杠杆化到极致。
+
+An irony of inflation-induced financial requirements is that the highly profitable companies — generally the best credits — require relatively little debt capital. But the laggards in profitability never can get enough. Lenders understand this problem much better than they did a decade ago — and are correspondingly less willing to let capital-hungry, low-profitability enterprises leverage themselves to the sky.
+
+<br>
+
+然而，在通货膨胀的条件下，许多公司似乎在未来肯定会采用更多的杠杆，以提高股本回报。他们的管理层会这样做，因为他们将需要大量的资本——往往只是为了做同样的业务量——并且希望在不削减股息或发行股票的情况下获得它，而由于通货膨胀，这些股票不太可能具有吸引力。他们自然的反应是不惜代价地增加债务，就像那些在1960年代争论八分之一点，在1974年感激地找到12%的债务融资的公用事业公司一样。
+
+Nevertheless, given inflationary conditions, many corporations seem sure in the future to turn to still more leverage as a means of shoring up equity returns. Their managements will make that move because they will need enormous amounts of capital — often merely to do the same physical volume of business — and will wish to get it without cutting dividends or making equity offerings that, because of inflation, are not apt to shape up as attractive. Their natural response will be to heap on debt, almost regardless of cost. They will tend to behave like those utility companies that argued over an eighth of a point in the 1960s and were grateful to find 12% debt financing in 1974.
+
+<br>
+
+然而，在目前的利率下，增加的债务对股本回报的作用将小于在1960年代初4%利率下增加的债务。还有一个问题是，较高的债务比率会导致信用评级下降，进而导致利息成本进一步上升。
+
+Added debt at present interest rates, however, will do less for equity returns than did added debt at 4% rates in the early 1960s. There is also the problem that higher debt ratios cause credit ratings to be lowered, creating a further rise in interest costs.
+
+<br>
+
+因此，这是另一种方式，除了我们已经讨论过的方式之外，杠杆成本将会上升。总体而言，杠杆的高成本可能会抵消杠杆的好处。
+
+So that is another way, to be added to those already discussed, in which the cost of leverage will be rising. In total, the higher costs of leverage are likely to offset the benefits of greater leverage.
+
+<br>
+
+此外，在美国企业中已经存在了远远超过传统资产负债表所反映的债务。许多公司有大量与目前员工退休时的工资水平挂钩的养老金义务。在1955-65年低通货膨胀率的情况下，这类计划产生的负债是相当可预测的。今天，没有人真正知道公司最终的义务是什么。但是如果未来通货膨胀率平均为7%，那么现在年薪为12,000美元、加薪不超过生活成本增长的25岁员工，在65岁退休时将赚到180,000美元。
+
+Besides, there is already far more debt in corporate America than is conveyed by conventional balance sheets. Many companies have massive pension obligations geared to whatever pay levels will be in effect when present workers retire. At the low inflation rates of 1955-65, the liabilities arising from such plans were reasonably predictable. Today, nobody can really know the company’s ultimate obligation. But if the inflation rate averages 7% in the future, a 25-year-old employee who is now earning $12,000, and whose raises do no more than match increases in living costs, will be making $180,000 when he retires at 65.
