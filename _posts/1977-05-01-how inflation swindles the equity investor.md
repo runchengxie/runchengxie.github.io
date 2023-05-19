@@ -298,12 +298,96 @@ Recent statistical evidence, furthermore, does not inspire confidence in the pro
 
 If business was able to base its prices on replacement costs, margins would widen in inflationary periods. But the simple fact is that most large businesses, despite a widespread belief in their market power, just don’t manage to pull it off. Replacement cost accounting almost always shows that corporate earnings have declined significantly in the past decade. If such major industries as oil, steel, and aluminum really have the oligopolistic muscle imputed to them, one can only conclude that their pricing policies have been remarkably restrained.
 
+<br>
+
 这就是完整的阵容：五个可以提高普通股权益回报率的因素，但根据我的分析，在高通货膨胀时期，它们都不太可能带我们走向这个方向。你可能比我更乐观。但请记住，在12%左右的回报率已经伴随我们很长时间了。
 
 There you have the complete lineup: five factors that can improve returns on common equity, none of which, by my analysis, are likely to take us very far in that direction in periods of high inflation. You may have emerged from this exercise more optimistic than I am. But remember, returns in the 12% area have been with us a long time.
+
+<br>
 
 ## 投资者的方程式 The investor’s equation
 
 即使你同意12%的股权息率或多或少是不变的，你仍然可能希望在未来几年里做得很好。这是有可能的。毕竟，很多投资者用它赚了很长时间的钱。但是你未来的结果将受到三个变量的影响：账面价值和市场价值之间的关系，税率和通货膨胀率。
 
 Even if you agree that the 12% equity coupon is more or less immutable, you still may hope to do well with it in the years ahead. It’s conceivable that you will. After all, a lot of investors did well with it for a long time. But your future results will be governed by three variables: the relationship between book value and market value, the tax rate, and the inflation rate.
+
+<br>
+
+让我们来看看有关账面价值和市场价值的一些算术。当股票持续以账面价值出售时，一切都很简单。如果一只股票的账面价值是100美元，平均市场价值也是100美元，那么企业12%的收益就会为投资者带来12%的回报（减去那些我们暂时忽略的摩擦成本）。如果派息率是50%，我们的投资者将通过股息获得6美元，另外6美元来自企业账面价值的增加，这当然也会反映在他持有的股票的市场价值上。
+
+Let’s wade through a little arithmetic about book and market value. When stocks consistently sell at book value, it’s all very simple. If a stock has a book value of $100 and also an average market value of $100, 12% earnings by business will produce a 12% return for the investor (less those frictional costs, which we’ll ignore for the moment). If the payout ratio is 50%, our investor will get $6 via dividends and a further $6 from the increase in the book value of the business, which will, of course, be reflected in the market value of his holdings.
+
+<br>
+
+如果股票以账面价值的150%出售，情况就会改变。投资者将收到相同的6美元现金股息，但这现在只代表他150美元成本的4%回报。企业的账面价值仍然会增加6%（至106美元），而投资者持有的市值，按照账面价值的150%一致计算，也会相应地增加6%（至159美元）。但投资者的总回报，即来自升值和股息的回报，只有10%，而不是企业赚取的基础12%。
+
+If the stock sold at 150% of book value, the picture would change. The investor would receive the same $6 cash dividend, but it would now represent only a 4% return on his $150 cost. The book value of the business would still increase by 6% (to $106) and the market value of the investor’s holdings, valued consistently at 150% of book value, would similarly increase by 6% (to $159). But the investor’s total return, i.e., from appreciation plus dividends, would be only 10% versus the underlying 12% earned by the business.
+
+<br>
+
+当投资者以低于账面价值的价格买入时，过程就反过来了。例如，如果股票以账面价值的80%出售，相同的收益和派息假设将产生7.5%的股息回报（$6在$80的价格上）和6%的升值回报——总回报为13.5%。换句话说，你通过以折扣价买入而不是溢价买入而获得更好的回报，正如常识所告诉你的那样。
+
+When the investor buys in below book value, the process is reversed. For example, if the stock sells at 80% of book value, the same earnings and payout assumptions would yield 7.5% from dividends ($6 on an $80 price) and 6% from appreciation — a total return of 13.5%. In other words, you do better by buying at a discount rather than a premium, just as common sense would suggest.
+
+<br>
+
+在战后的年代，道琼斯工业指数的市值曾低至账面价值的84%（1974年），也曾高达232%（1965年）；大部分时间，这个比率都远高于100%。（今年春天初，它大约是110%。）让我们假设，在未来，这个比率将接近100%，意味着股票投资者可以获得全部12%的收益。至少，在税收和通货膨胀之前，他们可以获得这个数字。
+
+During the postwar years, the market value of the Dow Jones industrials has been as low as 84% of book value (in 1974) and as high as 232% (in 1965); most of the time the ratio has been well over 100%. (Early this spring, it was around 110%.) Let’s assume that in the future the ratio will be something close to 100%, meaning that investors in stocks could earn the full 12%. At least, they could earn that figure before taxes and before inflation.
+
+<br>
+
+## 7%的税后收益 7% after taxes
+
+税收会从12%的收益中咬掉多大一块呢？对于个人投资者来说，合理的假设是，联邦、州和地方所得税平均可能会在股息上收取50%，在资本利得上收取30%。大多数投资者的边际税率可能略低于这些数字，但许多持有较大股份的投资者会面临更高的税率。根据新的税法，正如《财富》杂志上个月所观察到的，一个高收入的投资者，在一个税收很重的城市，他的资本利得的边际税率可能高达56%。
+
+How large a bite might taxes take out of the 12%? For individual investors, it seems reasonable to assume that federal, state, and local income taxes will average perhaps 50% on dividends and 30% on capital gains. A majority of investors may have marginal rates somewhat below these, but many with larger holdings will experience substantially higher rates. Under the new tax law, as Fortune observed last month, a high-income investor in a heavily taxed city could have a marginal rate on capital gains as high as 56%.
+
+<br>
+
+那么，让我们用50%和30%作为个人投资者的代表。让我们也假设，与近期的经验一致，以12%的股本收益率赚钱的公司支付5%的现金股息（税后2.5%），并保留7%，这些保留的收益产生相应的市值增长（税后30%的4.9%）。那么，税后回报率就是7.4%。可能这应该四舍五入到大约7%，以考虑摩擦成本。为了进一步推进我们的股票作为伪装债券的论点，那么，股票可以被视为个人投资者的7%免税永续债券的等价物。
+
+So let’s use 50% and 30% as representative for individual investors. Let’s also assume, in line with recent experience, that corporations earning 12% on equity pay out 5% in cash dividends (2.5% after tax) and retain 7%, with those retained earnings producing a corresponding market-value growth (4.9% after the 30% tax). The after-tax return, then, would be 7.4%. Probably this should be rounded down to about 7% to allow for frictional costs. To push our stocks-as-disguised-bonds thesis one notch further, then, stocks might be regarded as the equivalent, for individuals, of 7% tax-exempt perpetual bonds.
+
+<br>
+
+## 无人知晓的数字 The number nobody knows
+
+这就引出了一个关键的问题——通货膨胀率。这个问题没有人知道答案——包括那些几年前觉得只要轻轻地在这里那里推一推，失业率和通货膨胀率就会像受过训练的海豹一样听话的政客、经济学家和权威专家。
+
+Which brings us to the crucial question — the inflation rate. No one knows the answer on this one — including the politicians, economists, and Establishment pundits, who felt, a few years back, that with slight nudges here and there unemployment and inflation rates would respond like trained seals.
+
+<br>
+
+但是许多迹象似乎对价格稳定不利：通货膨胀现在已经是全球性的；我们社会中主要群体利用他们的选举力量来转移而不是解决经济问题的倾向；如果问题可以推迟，就表现出不愿意解决甚至最重要的问题（例如能源和核扩散）的态度；以及一个政治制度，如果立法者的行为看起来能产生短期利益，即使他们最终的影响将是加剧长期痛苦，也会让他们连任。
+
+But many signs seem negative for stable prices: the fact that inflation is now worldwide; the propensity of major groups in our society to utilize their electoral muscle to shift, rather than solve, economic problems; the demonstrated unwillingness to tackle even the most vital problems (e.g., energy and nuclear proliferation) if they can be postponed; and a political system that rewards legislators with reelection if their actions appear to produce short-term benefits even though their ultimate imprint will be to compound long-term pain.
+
+<br>
+
+大多数在政治职位上的人，完全可以理解，他们坚决反对通货膨胀，同时又坚决支持导致通货膨胀的政策。（这种精神分裂并没有让他们失去现实感，然而；国会议员们已经确保了他们的退休金——与私营部门授予的几乎所有退休金不同——在退休后与生活成本变化挂钩。）
+
+Most of those in political office, quite understandably, are firmly against inflation and firmly in favor of policies producing it. (This schizophrenia hasn’t caused them to lose touch with reality, however; Congressmen have made sure that their pensions — unlike practically all granted in the private sector — are indexed to cost-of-living changes after retirement.)
+
+<br>
+
+关于未来通货膨胀率的讨论通常探讨货币和财政政策的微妙之处。这些是决定任何特定通货膨胀方程式结果的重要变量。但是，在源头上，和平时期的通货膨胀是一个政治问题，而不是一个经济问题。人类行为，而不是货币行为，是关键。而当非常人性化的政治家在下一次选举和下一代之间做出选择时，通常会发生什么是很明显的。
+
+Discussions regarding future inflation rates usually probe the subtleties of monetary and fiscal policies. These are important variables in determining the outcome of any specific inflationary equation. But, at the source, peacetime inflation is a political problem, not an economic problem. Human, behavior, not monetary behavior, is the key. And when very human politicians choose between the next election and the next generation, it’s clear what usually happens.
+
+<br>
+
+这样的宽泛的概括并不能产生精确的数字。但在我看来，未来几年的通货膨胀率很有可能平均为7%。我希望这个预测是错的。而且很可能是。预测通常告诉我们更多的是预测者而不是未来。你可以自由地将你自己的通货膨胀率因素纳入投资者的方程式中。但如果你预见到一个平均2%或3%的率，那么你戴的眼镜和我不一样。
+
+Such broad generalizations do not produce precise numbers. However, it seems quite possible to me that inflation rates will average 7% in future years. I hope this forecast proves to be wrong. And it may well be. Forecasts usually tell us more of the forecaster than of the future. You are free to factor your own inflation rate into the investor’s equation. But if you foresee a rate averaging 2% or 3%, you are wearing different glasses than I am.
+
+<br>
+
+所以我们就这样：税前和通货膨胀之前是12%；税后和通货膨胀之前是7%；税后和通货膨胀之后可能是零。这听起来几乎不像是一个能让电视上那些奔跑的牛群持续冲刺的公式。
+
+So there we are: 12% before taxes and inflation; 7% after taxes and before inflation; and maybe zero percent after taxes and inflation. It hardly sounds like a formula that will keep all those cattle stampeding on TV.
+
+作为一个普通股东，你会有更多的美元，但你可能没有更多的购买力。拜拜了，本杰明·富兰克林（“省下一分钱就是赚了一分钱”），迎接米尔顿·弗里德曼（“一个人消费他的资本和投资他的资本没什么区别”）。
+
+As a common stockholder you will have more dollars, but you may have no more purchasing power. Out with Ben Franklin (“a penny saved is a penny earned”) and in with Milton Friedman (“a man might as well consume his capital as invest it”).
