@@ -6,8 +6,8 @@ categories: 翻译
 ---
 
 <p class="small">时间：1953年3月</p>
-<p class="small">来源：newspaper</p>
-<p class="small">原文标题：HThe Security I Like Best </p>
+<p class="small">来源：The Commercial and Financial Chronicle</p>
+<p class="small">原文标题：The Security I Like Best </p>
 
 *编者注：一个持续的论坛，每周都有来自全国各地的投资和咨询领域的不同专家参与，他们给出了他们支持某种证券的理由。（本论坛中包含的文章不构成也不应被视为出售所讨论的证券的要约。）*
 

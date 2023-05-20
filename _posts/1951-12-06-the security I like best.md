@@ -1,11 +1,27 @@
 ---
 layout: post
 title: 巴菲特：我最喜欢的股票 The Security I Like Best
-date: 2023-05-08
+date: 1951-12-06
 categories: 翻译
 ---
 
-*译者注：我没记错的话，这是巴菲特写的第一篇文章*
+> 译者注：我没记错的话，这是巴菲特写的第一篇文章
+
+<p class="small">时间：1951年12月6日</p>
+<p class="small">来源：The Commercial and Financial Chronicle</p>
+<p class="small">原文标题：The Security I Like Best </p>
+
+<br>
+
+沃伦·巴菲特
+WARREN E. BUFFETT 
+
+<br>
+
+巴菲特-福克公司，奥马哈，内布拉斯加州
+Buffett-Falk & Co., Omaha, Nebr. 
+
+<br>
 
 全面就业、繁荣时期的利润和创纪录的股息支付并不意味着股票价格低迷。过去五年，大多数行业都在这股繁荣浪潮中波澜不惊地前进。
 
