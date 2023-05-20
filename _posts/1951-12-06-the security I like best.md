@@ -23,13 +23,9 @@ categories: 翻译
 
 <br>
 
-沃伦·巴菲特
+沃伦·巴菲特 WARREN E. BUFFETT 
 <br>
-WARREN E. BUFFETT 
-<br>
-巴菲特-福克公司，奥马哈，内布拉斯加州
-<br>
-Buffett-Falk & Co., Omaha, Nebr. 
+巴菲特-福克公司，奥马哈，内布拉斯加州 Buffett-Falk & Co., Omaha, Nebr. 
 
 <br>
 
