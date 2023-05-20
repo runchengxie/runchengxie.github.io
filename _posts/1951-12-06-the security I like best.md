@@ -65,7 +65,13 @@ The company has no agents or branch offices. As a result, policyholders receive 
 
 在过去的几年里，有些公司被滥用地称为“增长型公司”，而它们的销售增长只不过是价格的通货膨胀和商业竞争的普遍放松。GEICO是一家合格的增长型公司，其记录如下：
 
-*译者注：晚些我补上
+| Year | Premiums Written | Policyholders |
+|------|------------------|---------------|
+| 1936 | 103,696.31       | 3,754         |
+| 1940 | 768,057.86       | 25,514        |
+| 1945 | 1,638,562.09     | 51,697        |
+| 1950 | 8,016,975.79     | 143,944       |
+
 
 The term “growth company” has been applied with abandon during the past few years to companies whose sales increases represented little more than inflation of prices and general easing of business competition. GEICO qualifies as a legitimate growth company based upon the following record:
 
