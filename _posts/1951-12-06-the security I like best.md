@@ -5,7 +5,11 @@ date: 1951-12-06
 categories: 翻译
 ---
 
+<br>
+
 > 译者注：我没记错的话，这是巴菲特写的第一篇文章
+
+<br>
 
 <p class="small">时间：1951年12月6日</p>
 <p class="small">来源：The Commercial and Financial Chronicle</p>
@@ -14,11 +18,11 @@ categories: 翻译
 <br>
 
 沃伦·巴菲特
-WARREN E. BUFFETT 
-
 <br>
-
+WARREN E. BUFFETT 
+<br>
 巴菲特-福克公司，奥马哈，内布拉斯加州
+<br>
 Buffett-Falk & Co., Omaha, Nebr. 
 
 <br>
