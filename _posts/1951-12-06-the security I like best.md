@@ -17,6 +17,12 @@ categories: 翻译
 
 <br>
 
+*编者注：这是一篇连续的论坛，每周都有来自全国各地的投资和咨询领域的不同专家参与，并给出他们为什么支持某种特定证券的理由，它出现在《Chrenicle》杂志上。*
+
+*This is part of a continuous forum appearing in the "Chronicle,” in which each week, a different group of experts in the investment and advisory field from all sections of the country participate and give their reasons for favoring a particular security.*
+
+<br>
+
 沃伦·巴菲特
 <br>
 WARREN E. BUFFETT 
