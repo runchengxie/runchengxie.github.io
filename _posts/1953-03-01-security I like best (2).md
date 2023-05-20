@@ -5,6 +5,26 @@ date: 1953-03-01
 categories: 翻译
 ---
 
+<p class="small">时间：1953年3月</p>
+<p class="small">来源：newspaper</p>
+<p class="small">原文标题：HThe Security I Like Best </p>
+
+*编者注：一个持续的论坛，每周都有来自全国各地的投资和咨询领域的不同专家参与，他们给出了他们支持某种证券的理由。（本论坛中包含的文章不构成也不应被视为出售所讨论的证券的要约。）*
+
+*A continuous forum in which, each week, a different group of experts in the investment and advisory field from all sections of the country participate and give their reasons for favoring a particular security (The articles contained in this forum are not intended to be, nor are they to be regarded, as an offer to sell the securities discussed.)*
+
+<br>
+
+沃伦·巴菲特
+WARREN E. BUFFETT 
+
+<br>
+
+巴菲特-福克公司，奥马哈，内布拉斯加州
+Buffett-Falk & Co., Omaha, Nebr. 
+
+<br>
+
 我最喜欢的证券是一家年轻、快速增长且管理能力强的保险公司的股票。虽然政府雇员保险公司，我15个月前的选择，其股价已经上涨了100%以上，但它仍然是一个非常有吸引力的长期资本增长的载体。
 
 Again my favorite security is the equity stock of a young, rapidly growing and ably managed insurance company. Although Government Employees Insurance Co., my selection of 15 months ago, has had a price rise of more than 100%, it still appears very attractive as a vehicle for long-term capital growth.
