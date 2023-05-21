@@ -388,6 +388,41 @@ Such broad generalizations do not produce precise numbers. However, it seems qui
 
 So there we are: 12% before taxes and inflation; 7% after taxes and before inflation; and maybe zero percent after taxes and inflation. It hardly sounds like a formula that will keep all those cattle stampeding on TV.
 
+<br>
+
 作为一个普通股东，你会有更多的美元，但你可能没有更多的购买力。拜拜了，本杰明·富兰克林（“省下一分钱就是赚了一分钱”），迎接米尔顿·弗里德曼（“一个人消费他的资本和投资他的资本没什么区别”）。
 
 As a common stockholder you will have more dollars, but you may have no more purchasing power. Out with Ben Franklin (“a penny saved is a penny earned”) and in with Milton Friedman (“a man might as well consume his capital as invest it”).
+
+<br>
+
+## 寡妇们没有注意到的事情 What widows don’t notice
+
+算术很清楚地表明，通货膨胀是一种比我们的立法机关制定的任何税收都更具破坏性的税收。通货膨胀税有着惊人的消耗资本的能力。对于一个把她的积蓄放在5%存折账户里的寡妇来说，她在零通货膨胀时期对她的利息收入缴纳100%所得税，或者在5%通货膨胀的年份不缴纳任何所得税，这没有什么区别。无论哪种方式，她都被“征税”了一种让她没有任何真正收入的方式。她花的任何钱都是直接从资本中来的。她会觉得120%的所得税是荒谬的，但似乎没有注意到6%的通货膨胀在经济上是等同的。
+
+The arithmetic makes it plain that inflation is a far more devastating tax than anything that has been enacted by our legislatures. The inflation tax has a fantastic ability to simply consume capital. It makes no difference to a widow with her savings in a 5% passbook account whether she pays 100% income tax on her interest income during a period of zero inflation, or pays no income taxes during years of 5% inflation. Either way, she is “taxed” in a manner that leaves her no real income whatsoever. Any money she spends comes right out of capital. She would find outrageous a 120% income tax, but doesn’t seem to notice that 6% inflation is the economic equivalent.
+
+<br>
+
+如果我的通货膨胀假设接近正确，令人失望的结果不是因为市场下跌，而是尽管市场上涨。上个月初，道琼斯指数在920点左右，比10年前高出55点。但是按照通货膨胀调整后，道琼斯指数下降了近345点——从865点降到520点。而且，为了达到这样的结果，道琼斯指数的一半收益都必须从它们的所有者那里扣除并重新投资。
+
+If my inflation assumption is close to correct, disappointing results will occur not because the market falls, but in spite of the fact that the market rises. At around 920 early last month, the Dow was up 55 points from where it was 10 years ago. But adjusted for inflation, the Dow is down almost 345 points — from 865 to 520. And about half of the earnings of the Dow had to be withheld from their owners and reinvested in order to achieve even that result.
+
+<br>
+
+在未来10年里，道琼斯指数将仅仅由12%的股权票息、40%的股息支付率和目前110%的市净率的组合而翻倍。而如果通货膨胀率为7%，那么在1800点卖出的投资者在缴纳了资本利得税后，仍然会比现在的情况要差得多。
+
+In the next 10 years, the Dow would be doubled just by a combination of the 12% equity coupon, a 40% payout ratio, and the present 110% ratio of market to book value. And with 7% inflation, investors who sold at 1800 would still be considerably worse off than they are today after paying their capital-gains taxes.
+
+<br>
+
+我几乎可以听到一些投资者对这些悲观的想法的反应。他们会认为，无论新的投资时代带来了什么困难，他们总能设法为自己获得优异的回报。他们的成功是极不可能的。而且，从总体上讲，当然是不可能的。如果你觉得你可以在证券市场上跳来跳去，以一种可以抵消通货膨胀税的方式，我很乐意做你的经纪人——但不愿意做你的合伙人。
+
+I can almost hear the reaction of some investors to these downbeat thoughts. It will be to assume that, whatever the difficulties presented by the new investment era, they will somehow contrive to turn in superior results for themselves. Their success is most unlikely. And, in aggregate, of course, impossible. If you feel you can dance in and out of securities in a way that defeats the inflation tax, I would like to be your broker — but not your partner.
+
+<br>
+
+即使是所谓的免税投资者，如养老基金和大学捐赠基金，也无法逃避通货膨胀税。如果我的7%的通货膨胀率的假设是正确的，那么一所大学的财务主管应该把每年赚到的前7%仅仅看作是购买力的补充。捐赠基金在超越通货膨胀的跑步机之前，是没有任何收益的。在7%的通货膨胀和，比如说，总体投资回报率为8%的情况下，这些认为自己免税的机构，实际上是在支付87.5%的“所得税”。
+
+Even the so-called tax-exempt investors, such as pension funds and college endowment funds, do not escape the inflation tax. If my assumption of a 7% inflation rate is correct, a college treasurer should regard the first 7% earned each year merely as a replenishment of purchasing power. Endowment funds are earning nothing until they have outpaced the inflation treadmill. At 7% inflation and, say, overall investment returns of 8%, these institutions, which believe they are tax-exempt, are in fact paying “income taxes” of 87.5%.
+
