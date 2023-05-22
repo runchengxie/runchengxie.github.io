@@ -426,3 +426,23 @@ I can almost hear the reaction of some investors to these downbeat thoughts. It 
 
 Even the so-called tax-exempt investors, such as pension funds and college endowment funds, do not escape the inflation tax. If my assumption of a 7% inflation rate is correct, a college treasurer should regard the first 7% earned each year merely as a replenishment of purchasing power. Endowment funds are earning nothing until they have outpaced the inflation treadmill. At 7% inflation and, say, overall investment returns of 8%, these institutions, which believe they are tax-exempt, are in fact paying “income taxes” of 87.5%.
 
+<br>
+
+## 社会方程式 The social equation
+
+
+不幸的是，高通货膨胀率带来的主要问题不是对投资者，而是对整个社会。投资收入只占国民收入的一小部分，如果人均实际收入能够在零实际投资回报的情况下保持健康的增长，社会正义可能会得到提升。
+
+Unfortunately, the major problems from high inflation rates flow not to investors but to society as a whole. Investment income is a small portion of national income, and if per capita real income could grow at a healthy rate alongside zero real investment returns, social justice might well be advanced.
+
+<br>
+
+市场经济给参与者带来了一些不平衡的收益。 声带、解剖结构、体力或智力的正确禀赋可以产生大量关于未来国民产出的索赔支票（股票、债券和其他形式的资本）。 类似地，适当选择祖先可以导致在出生时终生供应此类门票。 如果零实际投资回报将更多的国家产出从这些股东手中转移到同样有价值和勤奋但缺乏中奖人才的公民身上，似乎不太可能对公平的世界构成如此侮辱，以至于冒着神圣干预的风险。
+
+A market economy creates some lopsided payoffs to participants. The right endowment of vocal chords, anatomical structure, physical strength, or mental powers can produce enormous piles of claim checks (stocks, bonds, and other forms of capital) on future national output. Proper selection of ancestors similarly can result in lifetime supplies of such tickets upon birth. If zero real investment returns diverted a bit greater portion of the national output from such stockholders to equally worthy and hardworking citizens lacking jackpot-producing talents, it would seem unlikely to pose such an insult to an equitable world as to risk Divine Intervention.
+
+<br>
+
+但是，以牺牲富裕股东为代价，提高工人福利的潜力并不显著。员工报酬已经是分红总额的28倍，而且很多分红现在流向了养老基金、非营利机构如大学，以及并不富裕的个人股东。在这种情况下，如果我们现在把富裕股东的所有分红都转移到工资中——这是我们只能做一次的事情，就像杀掉一头牛（或者，如果你喜欢，一头猪）——我们只能把实际工资提高不到我们过去从一年的经济增长中获得的那么多。
+
+But the potential for real improvement in the welfare of workers at the expense of affluent stockholders is not significant. Employee compensation already totals 28 times the amount paid out in dividends, and a lot of those dividends now go to pension funds, nonprofit institutions such as universities, and individual stockholders who are not affluent. Under these circumstances, if we now shifted all dividends of wealthy stockholders into wages — something we could do only once, like killing a cow (or, if you prefer, a pig) — we would increase real wages by less than we used to obtain from one year’s growth of the economy.
