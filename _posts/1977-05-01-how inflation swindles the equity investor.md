@@ -446,3 +446,55 @@ A market economy creates some lopsided payoffs to participants. The right endowm
 但是，以牺牲富裕股东为代价，提高工人福利的潜力并不显著。员工报酬已经是分红总额的28倍，而且很多分红现在流向了养老基金、非营利机构如大学，以及并不富裕的个人股东。在这种情况下，如果我们现在把富裕股东的所有分红都转移到工资中——这是我们只能做一次的事情，就像杀掉一头牛（或者，如果你喜欢，一头猪）——我们只能把实际工资提高不到我们过去从一年的经济增长中获得的那么多。
 
 But the potential for real improvement in the welfare of workers at the expense of affluent stockholders is not significant. Employee compensation already totals 28 times the amount paid out in dividends, and a lot of those dividends now go to pension funds, nonprofit institutions such as universities, and individual stockholders who are not affluent. Under these circumstances, if we now shifted all dividends of wealthy stockholders into wages — something we could do only once, like killing a cow (or, if you prefer, a pig) — we would increase real wages by less than we used to obtain from one year’s growth of the economy.
+
+<br>
+
+## 俄罗斯人也明白这一点 The Russians understand it too
+
+因此，通过通货膨胀对他们投资的影响，削弱富裕阶层，甚至不会为那些不富裕的人提供实质性的短期帮助。他们的经济福祉将随着通货膨胀对经济的总体影响而升降。而这些影响很可能不会是好的。
+
+Therefore, diminishment of the affluent, through the impact of inflation on their investments, will not even provide material short-term aid to those who are not affluent. Their economic well-being will rise or fall with the general effects of inflation on the economy. And those effects are not likely to be good.
+
+<br>
+
+要想实现经济福祉的大幅增长，就需要在现代生产设施中投入大量的实物资本。如果没有不断创造和使用各行各业昂贵的新资本资产，那么巨大的劳动力供给、巨大的消费者需求和巨大的政府承诺只会导致巨大的挫折。这是一个俄罗斯人和洛克菲勒都能理解的方程式。而且，这也是西德和日本取得惊人成功的方程式。高资本积累率使这些国家的生活水平提高的速度远远超过了我们，即使我们在能源方面拥有更优越的地位。
+
+Large gains in real capital, invested in modern production facilities, are required to produce large gains in economic well-being. Great labor availability, great consumer wants, and great government promises will lead to nothing but great frustration without continuous creation and employment of expensive new capital assets throughout industry. That’s an equation understood by Russians as well as Rockefellers. And it’s one that has been applied with stunning success in West Germany and Japan. High capital-accumulation rates have enabled those countries to achieve gains in living standards at rates far exceeding ours, even though we have enjoyed much the superior position in energy.
+
+<br>
+
+要理解通货膨胀对实际资本积累的影响，需要一些数学知识。回到那个12%的股本回报率。这样的收益是在折旧之后计算的，这样假设可以用未来的价格替换现有的生产能力——如果那些工厂和设备可以在未来以与原始成本相似的价格购买的话。
+
+To understand the impact of inflation upon real capital accumulation, a little math is required. Come back for a moment to that 12% return on equity capital. Such earnings are stated after depreciation, which presumably will allow replacement of present productive capacity — if that plant and equipment can be purchased in the future at prices similar to their original cost.
+
+<br>
+
+## 过去的情况 The way it was
+
+假设大约一半的收益用于支付股息，留下6%的股本用于资助未来的增长。如果通货膨胀率很低——比如说2%——那么很大一部分增长就可以是实物产出的实际增长。因为在这种情况下，明年只需要多投资2%的应收账款、存货和固定资产，就可以复制今年的实物产出——留下4%用于投资生产更多实物商品的资产。其中2%用于资助反映通货膨胀的虚幻美元增长，剩下的4%用于资助实际增长。如果人口增长率是1%，那么实物产出的4%增长就相当于人均实际净收入的3%增长。这大致就是我们经济过去发生的情况。
+
+Let’s assume that about half of earnings are paid out in dividends, leaving 6% of equity capital available to finance future growth. If inflation is low — say, 2% — a large portion of that growth can be real growth in physical output. For under these conditions, 2% more will have to be invested in receivables, inventories, and fixed assets next year just to duplicate this year’s physical output — leaving 4% for investment in assets to produce more physical goods. The 2% finances illusory dollar growth reflecting inflation and the remaining 4% finances real growth. If population growth is 1%, the 4% gain in real output translates into a 3% gain in real per capita net income. That, very roughly, is what used to happen in our economy.
+
+<br>
+
+现在把通货膨胀率提高到7%，计算出在为强制性通货膨胀部分的融资后，还剩下多少用于实际增长。答案是没有——如果股息政策和杠杆率保持不变。在12%的收益中支付了一半后，还剩下6%，但这些都被征用了，用于提供与去年的实物交易量相同的美元数量。
+
+Now move the inflation rate to 7% and compute what is left for real growth after the financing of the mandatory inflation component. The answer is nothing — if dividend policies and leverage ratios remain unchanged. After half of the 12% earnings are paid out, the same 6% is left, but it is all conscripted to provide the added dollars needed to transact last year’s physical volume of business.
+
+<br>
+
+许多公司，在正常支付股息后，没有真正的留存收益来资助实物扩张，就会想办法。他们会问自己，我们怎样才能在不惹恼股东的情况下停止或减少股息呢？我有一个好消息要告诉他们：一套现成的蓝图已经准备好了。
+
+Many companies, faced with no real retained earnings with which to finance physical expansion after normal dividend payments, will improvise. How, they will ask themselves, can we stop or reduce dividends without risking stockholder wrath? I have good news for them: a ready-made set of blueprints is available.
+
+<br>
+
+近年来，电力行业几乎没有或没有分红能力。或者，更确切地说，如果投资者同意从他们那里购买股票，他们就有支付股息的能力。1975年，电力公司向普通股股东支付了33亿美元的股息，并要求投资者退还34亿美元。当然，他们也采用了一些向彼得索要钱来支付保罗的技巧，以免获得康埃迪（ED）的声誉。你可能还记得，康埃迪在1974年很不明智地简单地告诉股东，它没有钱支付股息。市场对坦诚的回报是灾难。
+
+In recent years the electric-utility industry has had little or no dividend-paying capacity. Or, rather, it has had the power to pay dividends if investors agree to buy stock from them. In 1975 electric utilities paid common dividends of $3.3 billion and asked investors to return $3.4 billion. Of course, they mixed in a little solicit-Peter-to-pay-Paul technique so as not to acquire a Con Ed (ED) reputation. Con Ed, you will remember, was unwise enough in 1974 to simply tell its shareholders it didn’t have the money to pay the dividend. Candor was rewarded with calamity in the marketplace.
+
+<br>
+
+更精明的公用事业公司会维持——甚至增加——每季度的股息，然后要求股东（无论是老股东还是新股东）把钱寄回来。换句话说，公司发行新股。这种做法使大量的资本流向了税务机关和承销商。然而，每个人似乎都保持着良好的心情（尤其是承销商）。
+
+The more sophisticated utility maintains — perhaps increases — the quarterly dividend and then ask shareholders (either old or new) to mail back the money. In other words, the company issues new stock. This procedure diverts massive amounts of capital to the tax collector and substantial sums to underwriters. Everyone, however, seems to remain in good spirits (particularly the underwriters).
