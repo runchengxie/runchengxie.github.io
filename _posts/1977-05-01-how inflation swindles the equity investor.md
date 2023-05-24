@@ -498,3 +498,49 @@ In recent years the electric-utility industry has had little or no dividend-payi
 更精明的公用事业公司会维持——甚至增加——每季度的股息，然后要求股东（无论是老股东还是新股东）把钱寄回来。换句话说，公司发行新股。这种做法使大量的资本流向了税务机关和承销商。然而，每个人似乎都保持着良好的心情（尤其是承销商）。
 
 The more sophisticated utility maintains — perhaps increases — the quarterly dividend and then ask shareholders (either old or new) to mail back the money. In other words, the company issues new stock. This procedure diverts massive amounts of capital to the tax collector and substantial sums to underwriters. Everyone, however, seems to remain in good spirits (particularly the underwriters).
+
+<br>
+
+## AT&T的更多快乐 More joy at AT&T
+
+受到这样的成功的鼓舞，一些公用事业公司想出了一个更快捷的办法。在这种情况下，公司宣布分红，股东缴纳税款，然后——咻——就发行了更多的股票。没有现金交易，尽管IRS，像往常一样，坚持把这笔交易当作现金交易来处理。
+
+Encouraged by such success, some utilities have devised a further shortcut. In this case, the company declares the dividend, the shareholder pays the tax, and — presto — more shares are issued. No cash changes hands, although the IRS, spoilsport as always, persists in treating the transaction as if it had.
+
+<br>
+
+例如，AT&T（T）在1973年推出了一项股息再投资计划。这家公司，公平地说，必须被描述为非常重视股东的，而且考虑到金融的风俗习惯，它采用这个计划必须被视为完全可以理解的。但是这个计划的实质是出自爱丽丝梦游仙境。
+
+AT&T (T), for example, instituted a dividend-reinvestment program in 1973. This company, in fairness, must be described as very stockholder-minded, and its adoption of this program, considering the folkways of finance, must be regarded as totally understandable. But the substance of the program is out of Alice in Wonderland.
+
+<br>
+
+1976年，美国电话电报公司（AT&T）向其约290万股东支付了23亿美元的现金股息。年底时，有64.8万股东（比前一年增加了4.7万）将4.32亿美元（比前一年增加了1.05亿美元）再投资于公司直接提供的额外股份。
+
+In 1976, AT&T paid $2.3 billion in cash dividends to about 2.9 million owners of its common stock. At the end of the year, 648,000 holders (up from 601,000 the previous year) reinvested $432 million (up from $327 million) in additional shares supplied directly by the company.
+
+<br>
+
+就当作是一种乐趣，我们假设所有的AT&T股东最终都参加了这个计划。在这种情况下，股东们根本不会收到任何现金——就像当康埃迪发放股息时一样。然而，每一个290万个股东都会收到通知，他应该按照他在当年被称为“股息”的留存收益的份额缴纳所得税。假设“股息”总计23亿美元，与1976年相同，而且股东们平均要缴纳30%的税，那么他们最终会因为这个奇妙的计划，向IRS支付近7亿美元。想象一下，如果在这种情况下，董事会又将股息提高了一倍，股东们会有多高兴。
+
+Just for fun, let’s assume that all AT&T shareholders ultimately sign up for this program. In that case, no cash at all would be mailed to shareholders — just as when Con Ed passed a dividend. However, each of the 2.9 million owners would be notified that he should pay income taxes on his share of the retained earnings that had that year been called a “dividend.” Assuming that “dividends” totaled $2.3 billion, as in 1976, and that shareholders paid an average tax of 30% on these, they would end up, courtesy of this marvelous plan, paying nearly $700 million to the IRS. Imagine the joy of shareholders, in such circumstances, if the directors were then to double the dividend.
+
+<br>
+
+## 政府会试图做到这一点 The government will try to do it
+
+我们可以预期，随着企业面临真实资本积累的问题，更多地使用伪装的红利削减。但是稍微限制股东的收益并不能完全解决问题。7%的通货膨胀和12%的回报的结合，将减少企业用于资助真实增长的资本流量。
+
+We can expect to see more use of disguised payout reductions as business struggles with the problem of real capital accumulation. But throttling back shareholders somewhat will not entirely solve the problem. A combination of 7% inflation and 12% returns will reduce the stream of corporate capital available to finance real growth.
+
+<br>
+
+随着通货膨胀的影响，传统的私人资本积累方式越来越失效，我们的政府将越来越多地试图影响资本流向工业，无论是像英国那样不成功，还是像日本那样成功。美国似乎缺乏日本式的政府、企业和劳工之间热情合作的文化和历史基础。如果我们幸运的话，我们将避免走英国的路，那里各个部门争夺分配饼干，而不是合力扩大饼干的大小。
+
+And so, as conventional private capital-accumulation methods falter under inflation, our government will increasingly attempt to influence capital flows to industry, either unsuccessfully as in England or successfully as in Japan. The necessary cultural and historical underpinning for a Japanese-style enthusiastic partnership of government, business, and labor seems lacking here. If we are lucky, we will avoid following the English path, where all segments fight over division of the pie rather than pool their energies to enlarge it.
+
+<br>
+
+总的来说，然而，似乎很有可能在未来的几年里，我们会听到更多关于投资不足、滞胀和私营部门未能满足需求的失败的消息。
+
+On balance, however, it seems likely that we will hear a great deal more as the years unfold about underinvestment, stagflation, and the failures of the private sector to fulfill needs.
