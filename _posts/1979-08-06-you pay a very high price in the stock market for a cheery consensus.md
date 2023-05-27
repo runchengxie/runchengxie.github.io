@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 巴菲特：待到皆大欢喜时，时不我与
+title: 巴菲特：待到皆大欢喜时，时不我与 You pay a very high price in the stock market for a cheery consensus
 date: 1979-08-06
 categories: 翻译
 ---
