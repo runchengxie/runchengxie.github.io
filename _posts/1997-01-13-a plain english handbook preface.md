@@ -1,7 +1,6 @@
 ---
 layout: post
-title: 巴菲特：一本简明英语手册 序言 A Plain English 
-Handbook Preface
+title: 巴菲特：一本简明英语手册 序言 A Plain English Handbook Preface
 date: 1997-01-13
 categories: 翻译
 ---
