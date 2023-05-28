@@ -1,11 +1,15 @@
 ---
 layout: post
 title: 沃伦巴菲特 500 亿美元的决定 Warren Buffett's $50 Billion Decision
-date: 2023-05-10
+date: 2012-04-01
 categories: 翻译
 ---
 
-*这篇文章是沃伦·巴菲特向兰德尔·莱恩讲述的，发表在即将出版的《福布斯生活》杂志四月刊的“我25岁时”系列中。This article, by Warren Buffett, as told to Randall Lane, appears in the upcoming April issue of ForbesLife magazine, as part of its "When I Was 25" series.*
+<p class="small">时间：2012年4月1日</p>
+<p class="small">来源：[Forbes](https://www.forbes.com/sites/randalllane/2012/03/26/warren-buffetts-50-billion-decision/) </p>
+<p class="small">原文标题：Warren Buffett's $50 Billion Decision</p>
+
+*编者注：这篇文章是沃伦·巴菲特向兰德尔·莱恩讲述的，发表在即将出版的《福布斯生活》杂志四月刊的“我25岁时”系列中。This article, by Warren Buffett, as told to Randall Lane, appears in the upcoming April issue of ForbesLife magazine, as part of its "When I Was 25" series.*
 
 作者：沃伦·巴菲特 By Warren Buffett
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 巴菲特：通货膨胀如何欺骗股权投资者
+title: 巴菲特：通货膨胀如何欺骗股权投资者 How inflation swindles the equity investor
 date: 1977-05-01
 tags: 翻译
 ---

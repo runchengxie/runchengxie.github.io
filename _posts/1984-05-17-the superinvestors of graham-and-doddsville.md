@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 巴菲特：格雷汉姆多德流派的投资者们
+title: 巴菲特：格雷汉姆多德流派的投资者们 The Superinvestors of Graham-and-Doddsville
 date: 1984-06-17
 tags: 翻译
 ---
