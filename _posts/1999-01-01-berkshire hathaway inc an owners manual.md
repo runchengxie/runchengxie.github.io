@@ -1,6 +1,7 @@
 ---
+layout: post
 title: 翻译巴菲特：伯克希尔哈撒韦股东手册
-author: 沃伦·巴菲特 Warren Buffett
+date: 1999-01-01
 tags: 翻译
 ---
 <p class="small">时间：1999年1月</p>

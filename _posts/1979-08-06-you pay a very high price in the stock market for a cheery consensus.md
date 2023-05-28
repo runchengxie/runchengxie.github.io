@@ -2,11 +2,11 @@
 layout: post
 title: 巴菲特：待到皆大欢喜时，时不我与
 date: 1979-08-06
-categories: 翻译
+tags: 翻译
 ---
 
 <p class="small">时间：1979年8月6日</p>
-<p class="small">来源：New York Times</p>
+<p class="small">来源：[Forbes](https://www.forbes.com/2008/11/08/buffett-forbes-article-markets-cx_pm-1107stocks.html)</p>
 <p class="small">原文标题：You pay a very high price in the stock market for a cheery consensus </p>
 
 ### 正文

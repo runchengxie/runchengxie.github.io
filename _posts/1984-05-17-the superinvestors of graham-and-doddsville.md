@@ -2,11 +2,11 @@
 layout: post
 title: 巴菲特：格雷汉姆多德流派的投资者们
 date: 1984-06-17
-categories: 翻译
+tags: 翻译
 ---
 
 <p class="small">时间：1984年5月17日</p>
-<p class="small">来源：Columbia Business School</p>
+<p class="small">来源：[Columbia Business School](https://www8.gsb.columbia.edu/sites/valueinvesting/files/files/Buffett1984.pdf)</p>
 <p class="small">原文标题：The Superinvestors of Graham-and-Doddsville</p>
 
 <br>

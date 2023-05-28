@@ -2,12 +2,12 @@
 layout: post
 title: 巴菲特：通货膨胀如何欺骗股权投资者
 date: 1977-05-01
-categories: 翻译
+tags: 翻译
 ---
 
 <p class="small">时间：1977年5月</p>
-<p class="small">来源：Fortune</p>
-<p class="small">原文标题：How inflation swindles the equity investor </p>
+<p class="small">来源：[Fortune](https://fortune.com/2011/06/12/buffett-how-inflation-swindles-the-equity-investor-fortune-classics-1977/)</p>
+<p class="small">原文标题：How inflation swindles the equity investor</p>
 
 https://fortune.com/2011/06/12/buffett-how-inflation-swindles-the-equity-investor-fortune-classics-1977/
 

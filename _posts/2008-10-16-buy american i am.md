@@ -1,6 +1,7 @@
 ---
+layout: post
 title: 翻译巴菲特：我正在做多美股
-author: 沃伦·巴菲特 Warren Buffett
+date: 2008-10-16
 tags: 翻译
 ---
 
