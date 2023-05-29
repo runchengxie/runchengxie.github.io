@@ -2,7 +2,7 @@
 layout: post
 title: 翻译巴菲特：伯克希尔哈撒韦股东手册
 date: 1999-01-01
-tags: 翻译
+tags: 文章
 ---
 <p class="small">时间：1999年1月</p>
 <p class="small">来源：伯克希尔哈撒韦公司网站 <https://www.berkshirehathaway.com/owners.html> </p>

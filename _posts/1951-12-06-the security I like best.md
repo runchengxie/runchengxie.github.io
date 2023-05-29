@@ -2,7 +2,7 @@
 layout: post
 title: 巴菲特：我最喜欢的股票 The Security I Like Best
 date: 1951-12-06
-tags: 翻译
+tags: 文章
 ---
 
 <br>

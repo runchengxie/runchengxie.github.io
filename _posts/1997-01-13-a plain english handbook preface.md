@@ -2,7 +2,7 @@
 layout: post
 title: 巴菲特：一本简明英语手册 序言 A Plain English Handbook Preface
 date: 1997-01-13
-categories: 翻译
+categories: 文章
 ---
 
 <p class="small">时间：1997年1月13日</p>

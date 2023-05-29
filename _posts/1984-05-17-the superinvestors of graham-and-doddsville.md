@@ -2,7 +2,7 @@
 layout: post
 title: 巴菲特：格雷汉姆多德流派的投资者们 The Superinvestors of Graham-and-Doddsville
 date: 1984-06-17
-tags: 翻译
+tags: 文章
 ---
 
 <p class="small">时间：1984年5月17日</p>

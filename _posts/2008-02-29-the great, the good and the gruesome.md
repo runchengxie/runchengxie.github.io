@@ -2,7 +2,7 @@
 layout: post
 title: 巴菲特：商业模式的优善丑（伯克希尔哈撒韦2007年给股东的信）Business - The Great, the Good and the Gruesome
 date: 2008-02-29
-categories: 翻译
+categories: 年报
 ---
 
 <p class="small">时间：2008年2月29日</p>

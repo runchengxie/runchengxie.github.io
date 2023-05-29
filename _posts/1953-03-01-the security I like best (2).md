@@ -2,7 +2,7 @@
 layout: post
 title: 巴菲特：我最喜欢的股票 The Security I Like Best 2
 date: 1953-03-01
-tags: 翻译
+tags: 文章
 ---
 
 <p class="small">时间：1953年3月</p>

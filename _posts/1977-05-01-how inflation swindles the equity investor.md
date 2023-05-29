@@ -2,7 +2,7 @@
 layout: post
 title: 巴菲特：通货膨胀如何欺骗股权投资者 How inflation swindles the equity investor
 date: 1977-05-01
-tags: 翻译
+tags: 文章
 ---
 
 <p class="small">时间：1977年5月</p>
