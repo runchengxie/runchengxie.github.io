@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 巴菲特：1999年
+title: 巴菲特：1999年艾伦太阳谷会议演讲
 date: 1999-07-01
 tags: 年报
 ---
@@ -29,9 +29,9 @@ I would like to talk about the stock market, he (Buffett) said. I will be talkin
 
 <br>
 
-在这17年里，经济规模增长了五倍多。财富五百强公司的销售额也增长了五倍多。然而，在这17年里，股市却毫无起色。”
+在这17年里，经济规模增长了五倍多。[^1]财富五百强公司的销售额也增长了五倍多。然而，在这17年里，股市却毫无起色。”
 
-During these 17 years, the size of the economy grew more than fivefold. The sales of the Fortune Five Hundred companies grew more than fivefold.[^1] Yet, during these seventeen years, the stock market went exactly nowhere.”
+During these 17 years, the size of the economy grew more than fivefold. The sales of the Fortune Five Hundred companies grew more than fivefold. Yet, during these seventeen years, the stock market went exactly nowhere.”
 
 [^1]: 《财富》杂志根据销售额对最大的500家公司进行排名，并称之为“财富500强”。这一组公司可以粗略地代表美国的商业。Fortune magazine ranks the largest 500 companies based on sales and refers to them as the Fortune 500.” This group of companies can be used as a rough proxy for U.S. –based business.
 
