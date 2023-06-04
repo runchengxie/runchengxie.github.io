@@ -10,9 +10,71 @@ tags: 年报
 
 <br>
 
-我想谈谈股市，他（巴菲特）说。我将讨论如何定价股票，但我不会讨论它们在下个月或明年的走势。估值与预测不同。
+巴菲特穿着他最喜欢的内布拉斯加红色毛衣，外套一件格子衬衫，和克拉克一起站在讲台上。他把故事讲完了。
 
-I would like to talk about the stock market, he (Buffett) said. I will be talking about pricing stocks, but I will not be talking about predicting their course of action next month or next year. Valuing is not the same as predicting.
+Buffett joined Clarke at the podium, wearing his favorite Nebraska red sweater over a plaid shirt. He finished the story.
+
+<br>
+
+“科夫（Keough）一家是很棒的邻居，”他说。“确实有时候唐（Don）会提到，他和我不一样，他有一份工作，但我们的关系很好。有一次，我的妻子苏西（Susie）过去借了一杯糖，就像中西部人常做的那样，而唐的妻子米基（Mickie）给了她一整袋。当我听说这件事时，我决定那天晚上也去科夫家。我对唐说，‘你为什么不给我两万五千美元，让我为合伙人投资呢？’科夫一家在那时有点紧张，我被拒绝了。”
+
+“The Keoughs were wonderful neighbors,” he said. “It’s true that occasionally Don would mention that, unlike me, he had a job, but the relationship was terrific. One time my wife, Susie, went over and did the proverbial Midwestern bit of asking to borrow a cup of sugar, and Don’s wife, Mickie, gave her a whole sack. When I heard about that, I decided to go over to the Keoughs’ that night myself. I said to Don, ‘Why don’t you give me twenty-five thousand dollars for the partnership to invest?’ And the Keough family stiffened a little bit at that point, and I was rejected.
+
+<br>
+
+“我后来又回来，要求克拉克提到的一万美元，结果也是一样。但我并不自豪。所以我又过了一段时间，要求五千美元。到了那时，我又被拒绝了。”
+
+“I came back sometime later and asked for the ten thousand dollars Clarke referred to and got a similar result. But I wasn’t proud. So I returned at a later time and asked for five thousand dollars. And at that point, I got rejected again.
+
+<br>
+
+“所以有一天晚上，1962年夏天，我开始朝着基奥家走去。我不知道我会不会把价格降到两千五百美元，但是当我到了基奥家的时候，整个地方都是黑暗的，寂静无声。看不到任何东西。但我知道发生了什么。我知道唐和米基正在楼上躲着，所以我没有离开。”
+
+“So one night, in the summer of 1962, I started heading over to the Keough house. I don’t know whether I would have dropped it to twenty-five hundred dollars or not, but by the time I got to the Keough household, the whole place was dark, silent. There wasn’t a thing to see. But I knew what was going on. I knew that Don and Mickie were hiding upstairs, so I didn’t leave.
+
+<br>
+
+“我按了门铃。我敲了敲门。没人应。但是唐和米基在楼上，而且一片漆黑。”
+
+“I rang that doorbell. I knocked. Nothing happened. But Don and Mickie were upstairs, and it was pitch-black.
+
+<br>
+
+“太黑了，看不清楚。太早了，没到睡觉的时候。我记得那一天就像昨天一样。那是1962年6月21日。”
+
+“Too dark to read, and too early to go to sleep. And I remember that day as if it were yesterday. That was June twenty-first, 1962.
+
+<br>
+
+“克拉克，你什么时候出生的？”
+
+“Clarke, when were you born?”
+
+<br>
+
+“1963年3月21日。”
+
+“March twenty-first, 1963.”
+
+<br>
+
+“就是这样的小事，历史才会因此改变。所以你应该庆幸他们没有给我一万美元。”
+
+“It’s little things like that that history turns on. So you should be glad they didn’t give me the ten thousand dollars.”
+
+<br>
+
+在用这个小小的互动吸引了观众的注意后，巴菲特转向了手头的事情。“现在，我要尝试一下多任务处理。赫伯（Herb）让我加入了几张幻灯片。‘要跟上时代，’他说。在巴菲特家里，赫伯说的话就像是一条命令。”他故意忽略了“巴菲特家庭”到底包括了什么——因为巴菲特认为他的家庭就像其他普通家庭一样——他开始讲了一个关于艾伦（Allen）的笑话。美国总统的秘书匆匆跑进椭圆形办公室，为不小心安排了两个同时进行的会议而道歉。总统必须在见教皇和见赫伯特·艾伦之间做出选择。巴菲特停顿了一下，制造效果。“‘让教皇进来，’总统说。‘至少我只需要亲他的戒指。’”
+
+Having charmed the audience with this little piece of give and take, Buffett turned to the matter at hand. “Now, I’m going to attempt to multitask today. Herb told me to include a few slides. ‘Show you’re with it,’ he said. When Herb says something, it’s practically an order in the Buffett household.” Speeding past exactly what comprised “the Buffett household”—for Buffett thought of his household as being like any other family’s—he launched into a joke about Allen. The secretary to the President of the U.S. rushed into the Oval Office, apologizing for accidentally scheduling two meetings at once. The President had to choose between seeing the Pope and seeing Herbert Allen. Buffett paused for effect. “ ‘Send in the Pope,’ said the President. ‘At least I only have to kiss his ring.’
+
+<br>
+
+“各位亲爱的戒指亲吻者，今天我想跟你们谈谈股市，”他说。“我将讨论如何定价股票，但我不会讨论预测它们下个月或明年的走势。估值和预测不是一回事。”
+
+“To all you fellow ring-kissers, I would like to talk today about the stock market,” he said. “I will be talking about pricing stocks, but I will not be talking about predicting their course of action next month or next year. Valuing is not the same as predicting.
+
+xxx
 
 <br>
 
