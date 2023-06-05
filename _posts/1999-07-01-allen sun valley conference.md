@@ -14,7 +14,7 @@ tags: 年报
 
 Buffett joined Clarke at the podium, wearing his favorite Nebraska red sweater over a plaid shirt. He finished the story.
 
-[^1] 为了可读性和长度，巴菲特的言论被精简了。Buffett’s remarks have been condensed for readability and length.
+[^1]: 为了可读性和长度，巴菲特的言论被精简了。Buffett’s remarks have been condensed for readability and length.
 
 <br>
 
@@ -96,8 +96,8 @@ xxx
 
 Buffett clicked a button, which illuminated a PowerPoint slide on a huge screen to his right.17 Bill Gates, sitting in the audience, caught his breath until the notoriously fumble-fingered Buffett managed to get the first slide up.
 
-[^2] PowerPoint 是最常用于制作幻灯片演示文稿的 Microsoft 程序，在美国企业中普遍使用。PowerPoint is the Microsoft program most often used to make the slide presentations so ubiquitous in corporate America.
-[^3] 来自比尔·盖茨的采访。Interview with Bill Gates.
+[^2]: PowerPoint 是最常用于制作幻灯片演示文稿的 Microsoft 程序，在美国企业中普遍使用。PowerPoint is the Microsoft program most often used to make the slide presentations so ubiquitous in corporate America.
+[^3]: 来自比尔·盖茨的采访。Interview with Bill Gates.
 
 
 <br>
@@ -149,6 +149,6 @@ The audience, full of technology gurus who were changing the world while getting
 
 Buffett continued. There were only three ways the stock market could keep rising at ten percent or more a year. One was if interest rates fell and remained below historic levels. The second was if the share of the economy that went to investors, as opposed to employees and government and other things, rose above its already historically high level.19 Or, he said, the economy could start growing faster than normal.20 He called it “wishful thinking” to use optimistic assumptions like these.
 
-[^4] 当时的企业利润超过 GDP 的 6%，而长期平均水平为 4.88%。 他们后来升至 9% 以上，远高于历史标准。Corporate profits at the time were more than 6% of GDP, compared to a long-term average of 4.88%. They later rose to over 9%, far above historic standards.
+[^4]: 当时的企业利润超过 GDP 的 6%，而长期平均水平为 4.88%。 他们后来升至 9% 以上，远高于历史标准。Corporate profits at the time were more than 6% of GDP, compared to a long-term average of 4.88%. They later rose to over 9%, far above historic standards.
 
-[^5] 长期以来，美国经济的实际增长率为 3%，名义增长率（扣除通货膨胀后）为 5%。 除了战后繁荣或从严重衰退中复苏之外，很少有人超过这一水平。Over long periods the U.S. economy has grown at a real rate of 3% and a nominal rate (after inflation) of 5%. Other than a postwar boom or recovery from severe recession, this level is rarely exceeded.
+[^5]: 长期以来，美国经济的实际增长率为 3%，名义增长率（扣除通货膨胀后）为 5%。 除了战后繁荣或从严重衰退中复苏之外，很少有人超过这一水平。Over long periods the U.S. economy has grown at a real rate of 3% and a nominal rate (after inflation) of 5%. Other than a postwar boom or recovery from severe recession, this level is rarely exceeded.
