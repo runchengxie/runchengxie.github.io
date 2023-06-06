@@ -102,10 +102,12 @@ Buffett clicked a button, which illuminated a PowerPoint slide on a huge screen 
 
 <br>
 
-| Dow Jones Industrial Average  |         |
-|-------------------------------|---------|
-| December 31, 1964             | 874.12  |
-| December 31, 1981             | 875.00  |
+道琼斯工业平均指数
+DOW JONES INDUSTRIAL AVERAGE
+
+1964 年 12 月 31 日 December 31, 1964   874.12
+
+1981 年 12 月 31 日 December 31, 1981   875.00
 
 <br>
 
@@ -152,3 +154,127 @@ Buffett continued. There were only three ways the stock market could keep rising
 [^4]: 当时的企业利润超过 GDP 的 6%，而长期平均水平为 4.88%。 他们后来升至 9% 以上，远高于历史标准。Corporate profits at the time were more than 6% of GDP, compared to a long-term average of 4.88%. They later rose to over 9%, far above historic standards.
 
 [^5]: 长期以来，美国经济的实际增长率为 3%，名义增长率（扣除通货膨胀后）为 5%。 除了战后繁荣或从严重衰退中复苏之外，很少有人超过这一水平。Over long periods the U.S. economy has grown at a real rate of 3% and a nominal rate (after inflation) of 5%. Other than a postwar boom or recovery from severe recession, this level is rarely exceeded.
+
+<br>
+
+他说，有些人并不认为整个市场都会繁荣。他们只是相信自己能从其他人中挑选出赢家。他挥舞着手臂，就像一个管弦乐团的指挥，一边解释虽然创新可能会使世界摆脱贫困，但历史上投资创新的人们事后并未感到高兴，一边成功地放上了另一张幻灯片。
+
+Some people, he said, were not thinking that the whole market would flourish. They just believed they could pick the winners from the rest. Swinging his arms like an orchestra conductor, he succeeded in putting up another slide while explaining that, although innovation might lift the world out of poverty, people who invest in innovation historically have not been glad afterward.
+
+<br>
+
+“这是来自一个70页清单的半页内容，列出了美国所有的汽车公司。”他在空中挥舞着完整的清单。“曾有两千家汽车公司：可能是二十世纪上半叶最重要的发明。它对人们的生活产生了巨大影响。如果你在第一辆汽车出现的时候看到了这个国家如何与汽车共同发展，你就会说，‘这就是我必须在的地方。’但在这两千家公司中，直到几年前，只有三家汽车公司幸存[^6]。而且，这三家公司中的每一家在某个时候都曾以低于账面价值的价格出售，账面价值就是投入公司并留在那里的金额。所以，汽车对美国产生了巨大影响，但对投资者则产生了相反的影响。”
+
+“This is half of a page which comes from a list seventy pages long of all the auto companies in the United States.” He waved the complete list in the air. “There were two thousand auto companies: the most important invention, probably, of the first half of the twentieth century. It had an enormous impact on people’s lives. If you had seen at the time of the first cars how this country would develop in connection with autos, you would have said, ‘This is the place I must be.’ But of the two thousand companies, as of a few years ago, only three car companies survived. And, at one time or another, all three were selling for less than book value, which is the amount of money that had been put into the companies and left there. So autos had an enormous impact on America, but in the opposite direction on investors.”
+
+[^6]: 美国汽车公司，最小的“四大”汽车制造商之一，于1987年被克莱斯勒收购American Motors, smallest of the “Big Four” automakers, sold out to Chrysler in 1987.
+
+<br>
+
+他放下清单，把手塞进口袋。“现在，有时候找出输家要容易得多。我认为，当时有一个明显的决定。当然，你应该做的事情是做空马。”* 点击。一个关于马的幻灯片弹了出来。
+
+He put down the list to shove his hand in his pocket. “Now, sometimes it’s much easier to figure out the losers. There was, I think, one obvious decision back then. And, of course, the thing you should have been doing was shorting horses.”* Click. A slide about horses popped up.
+
+<br>
+
+美国马的数量
+
+U.S. HORSE POPULATION
+
+1900— 1700万 17 million
+
+1998— 500万 5 million
+
+<br>
+
+“坦率地说，我有点失望，巴菲特家族在这整个时期都没有做空马。总是有输家的。”
+
+“Frankly, I’m kind of disappointed that the Buffett family was not shorting horses throughout this entire period. There are always losers.”
+
+<br>
+
+观众们轻轻笑了，尽管声音微弱。他们的公司可能正在亏损，但他们心中坚信他们是赢家，他们是在天际发生巨大变化的时刻闪耀的超新星。
+
+Members of the audience chuckled, albeit faintly. Their companies might be losing money, but in their hearts beat a conviction that they were winners, supernovas blazing at the cusp of a momentous shift in the heavens.
+
+<br>
+
+点击。另一张幻灯片出现了。
+
+Click. Another slide appeared.
+
+<br>
+
+“现在，二十世纪上半叶的另一项伟大发明是飞机。在1919年到1939年这段期间，大约有两百家公司。想象一下，如果你当时能看到在基蒂霍克的航空工业的未来。你会看到一个你从未梦想过的世界。但假设你有这种洞察力，你看到所有这些人都希望飞翔，去拜访他们的亲戚，或者从他们的亲戚那里逃跑，或者做任何你在飞机上要做的事情，你决定这就是你要去的地方。
+
+“Now, the other great invention of the first half of the century was the airplane. In this period from 1919 to 1939, there were about two hundred companies. Imagine if you could have seen the future of the airline industry back there at Kitty Hawk. You would have seen a world undreamed of. But assume you had the insight, and you saw all of these people wishing to fly and to visit their relatives or run away from their relatives or whatever you do in an airplane, and you decided this was the place to be.
+
+<br>
+
+“直到几年前，从历史上看，航空工业的所有股票投资累计起来一共没有赚到任何钱。
+
+“As of a couple of years ago, there had been zero money made from the aggregate of all stock investments in the airline industry in history.
+
+<br>
+
+“所以我向你们提出：我真的很喜欢想象，如果我当时在基蒂霍克，我应该足够有远见，足够有公心，去击落奥维尔。我欠未来的资本家这个。”[^7]
+
+“So I submit to you: I really like to think that if I had been down there at Kitty Hawk, I would have been farsighted enough and public-spirited enough to have shot Orville down. I owed it to future capitalists.”
+
+[^7]: 这里，巴菲特是在比喻说话。他承认自己一两次投资了带翅膀的东西，但结果并不好。Buffett is speaking metaphorically here. He admits to investing in things with wings a time or two, and not with good results.
+
+<br>
+
+人们再次轻轻地笑了一下。有些人开始厌倦这些陈旧的例子。但出于尊重，他们让巴菲特继续。
+
+Another light chuckle. Some were getting tired of these musty old examples. But out of respect, they let Buffett get on with it.
+
+<br>
+
+现在他开始谈论他们的业务。“推广新行业是很棒的，因为它们非常容易被推广。推广一个平淡无奇的产品是非常困难的。推广一个深奥的产品，尤其是一个有损失的产品，要容易得多，因为没有定量的指导。”这直接攻击了观众，让他们痛苦。“但人们会不断回来投资，你知道。这让我想起了一个故事，关于一个油田勘探者死后去了天堂。圣彼得说，‘嗯，我查过你，你符合所有的条件。但有一个问题。’他说，‘我们在这里有一些严格的分区法，我们把所有的油田勘探者都关在那个围栏里。你可以看到，那里已经满得快要爆炸了。没有你的位置。’
+
+Now he was talking about their businesses. “It’s wonderful to promote new industries, because they are very promotable. It’s very hard to promote investment in a mundane product. It’s much easier to promote an esoteric product, even particularly one with losses, because there’s no quantitative guideline.” This was goring the audience directly, where it hurt. “But people will keep coming back to invest, you know. It reminds me a little of that story of the oil prospector who died and went to heaven. And St. Peter said, ‘Well, I checked you out, and you meet all of the qualifications. But there’s one problem.’ He said, ‘We have some tough zoning laws up here, and we keep all of the oil prospectors over in that pen. And as you can see, it is absolutely chock-full. There is no room for you.’
+
+<br>
+
+“那个勘探者说，‘你介意我只说四个字吗？’
+
+“And the prospector said, ‘Do you mind if I just say four words?’
+
+<br>
+
+“圣彼得说，‘那没什么问题。’
+
+“St. Peter said, ‘No harm in that.’
+
+<br>
+
+“所以那个勘探者捧起手，大声喊道，‘在地狱发现了石油！’
+
+“So the prospector cupped his hands and yells out, ‘Oil discovered in hell!’
+
+<br>
+
+“然后，笼子的锁就开了，所有的油田勘探者都开始直奔地狱。
+
+“And of course, the lock comes off the cage and all of the oil prospectors start heading right straight down.
+
+<br>
+
+“圣彼得说，‘那是一个非常聪明的把戏。那么，’他说，‘进去吧，像在自己家一样。这里有你想要的所有空间。’
+
+“St. Peter said, ‘That’s a pretty slick trick. So,’ he says, ‘go on in, make yourself at home. All the room in the world.’
+
+“那个勘探者停了一会儿，然后说，‘不，我想我还是和其他人一起去吧。那个谣言说不定是真的。’[^8]
+
+“The prospector paused for a minute, then said, ‘No, I think I’ll go along with the rest of the boys. There might be some truth to that rumor after all.’
+
+[^8]: 巴菲特在 1985 年董事长的信中首次使用了这个故事，引用了本·格雷厄姆 (Ben Graham) 的话，格雷厄姆在纽约金融学院证券分析当前问题系列的第十次演讲中讲述了这个故事。 这些讲座的文字记录于 1946 年 9 月至 1947 年 2 月之间提供，可在 http://www.wiley.com//legacy/products/subject/finance/bgraham/ 或本杰明·格雷厄姆和珍妮特·洛，*重新发现的本杰明格雷厄姆：华尔街传奇文选*。 纽约：威利出版社，1999 年。Buffett first used this story in his 1985 chairman’s letter, citing Ben Graham, who told the story at his tenth lecture in the series Current Problems in Security Analysis at the New York Institute of Finance. The transcripts of these lectures, given between September 1946 and February 1947, can be found at http://www.wiley.com//legacy/products/subject/finance/bgraham/ or in Benjamin Graham and Janet Lowe, The Rediscovered Benjamin Graham: Selected Writings of the Wall Street Legend. New York: Wiley, 1999.
+
+“嗯，人们对股票就是这种感觉。很容易相信那个谣言说不定是真的。”
+
+“Well, that’s the way people feel with stocks. It’s very easy to believe that there’s some truth to that rumor after all.”
+
+这引起了半秒钟的微笑，但是，一旦观众明白了巴菲特的观点，笑声就被窒息了。他的观点是，他们可能会像那些勘探者一样，不假思索地跟随谣言，到地狱去钻石油。
+
+This got a mild laugh for a half second, which choked off as soon as the audience caught on to Buffett’s point, which was that, like the prospectors, they might be mindless enough to follow rumors and drill for oil in hell.
