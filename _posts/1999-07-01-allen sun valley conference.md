@@ -249,7 +249,7 @@ Now he was talking about their businesses. “It’s wonderful to promote new in
 
 <br>
 
-“所以那个勘探者捧起手，大声喊道，‘在地狱发现了石油！’
+“所以那个勘探者捧起手，大声喊道，‘地狱有油！’
 
 “So the prospector cupped his hands and yells out, ‘Oil discovered in hell!’
 
