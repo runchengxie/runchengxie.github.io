@@ -2,7 +2,7 @@
 layout: post
 title: 巴菲特：1999年艾伦太阳谷会议演讲
 date: 1999-07-01
-tags: 年报
+tags: 演讲
 ---
 <p class="small">时间：1999年7月</p>
 <p class="small">来源：The Snowball by Alice Schroeder</p>
