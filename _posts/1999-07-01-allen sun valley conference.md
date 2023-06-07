@@ -129,7 +129,7 @@ He backed up a step or two. “What you’re doing when you invest is deferring 
 
 <br>
 
-“现在，伊索并不擅长金融，因为他说过类似这样的话，‘手中一鸟胜过林中两鸟。’ 但他没有说什么时候。”利率——借款的成本——巴菲特解释说，是“何时”的价格。它们对金融就像引力对物理学一样。随着利率的变化，所有金融资产——房屋、股票、债券的价值都会改变，就好像鸟的价格发生了波动。“这就是为什么有时手中的一只鸟比林中的两只鸟更好，有时林中的两只鸟比手中的一只鸟更好。”
+“伊索并不擅长金融，因为他说过类似这样的话，‘手中一鸟胜过林中两鸟。’ 但他没有说什么时候。”利率——借款的成本——巴菲特解释说，是“何时”的价格。它们对金融就像引力对物理学一样。随着利率的变化，所有金融资产——房屋、股票、债券的价值都会改变，就好像鸟的价格发生了波动。“这就是为什么有时手中的一只鸟比林中的两只鸟更好，有时林中的两只鸟比手中的一只鸟更好。”
 
 “Now, Aesop was not much of a finance major, because he said something like, ‘A bird in the hand is worth two in the bush.’ But he doesn’t say when.” Interest rates—the cost of borrowing—Buffett explained, are the price of “when.” They are to finance as gravity is to physics. As interest rates vary, the value of all financial assets—houses, stocks, bonds—changes, as if the price of birds had fluctuated. “And that’s why sometimes a bird in the hand is better than two birds in the bush and sometimes two in the bush are better than one in the hand.”
 
@@ -171,9 +171,11 @@ Some people, he said, were not thinking that the whole market would flourish. Th
 
 <br>
 
-他放下清单，把手塞进口袋。“现在，有时候找出输家要容易得多。我认为，当时有一个明显的决定。当然，你应该做的事情是做空马。”* 点击。一个关于马的幻灯片弹了出来。
+他放下清单，把手塞进口袋。“现在，有时候找出输家要容易得多。我认为，当时有一个明显的决定。当然，你应该做的事情是做空马。”[^8] 点击。一个关于马的幻灯片弹了出来。
 
 He put down the list to shove his hand in his pocket. “Now, sometimes it’s much easier to figure out the losers. There was, I think, one obvious decision back then. And, of course, the thing you should have been doing was shorting horses.”* Click. A slide about horses popped up.
+
+[^8]: 《财富》杂志根据销售额对最大的 500 家公司进行排名，并将它们称为“财富 500 强”。 这组公司可以用作美国企业的粗略代表。Fortune magazine ranks the largest 500 companies based on sales and refers to them as the “Fortune 500.” This group of companies can be used as a rough proxy for U.S.-based business.
 
 <br>
 
