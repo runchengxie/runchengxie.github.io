@@ -287,7 +287,7 @@ This got a mild laugh for a half second, which choked off as soon as the audienc
 
 <br>
 
-他通过回到那句谚语中的灌木丛中的鸟来结束。他说，股市没有新的范例。最终，股市的价值只能反映经济的产出。
+他通过回到那句谚语中的灌木丛中的鸟来结束。他说，股市没有改变。最终，股市的价值只能反映经济的产出。
 
 He closed by returning to the proverbial bird in the bush. There was no new paradigm, he said. Ultimately, the value of the stock market could only reflect the output of the economy.
 
