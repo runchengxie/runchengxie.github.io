@@ -219,11 +219,11 @@ Click. Another slide appeared.
 
 <br>
 
-“所以我向你们提出：我真的很喜欢想象，如果我当时在基蒂霍克，我应该足够有远见，足够有公心，去击落奥维尔。我欠未来的资本家这个。”[^8]
+“所以我向你们提出：我真的很喜欢想象，如果我当时在基蒂霍克，我应该足够有远见，足够有公心，去击落奥维尔。我欠未来的资本家这个。”[^9]
 
 “So I submit to you: I really like to think that if I had been down there at Kitty Hawk, I would have been farsighted enough and public-spirited enough to have shot Orville down. I owed it to future capitalists.”
 
-[^8]: 这里，巴菲特是在比喻说话。他承认自己一两次投资了带翅膀的东西，但结果并不好。Buffett is speaking metaphorically here. He admits to investing in things with wings a time or two, and not with good results.
+[^9]: 这里，巴菲特是在比喻说话。他承认自己一两次投资了带翅膀的东西，但结果并不好。Buffett is speaking metaphorically here. He admits to investing in things with wings a time or two, and not with good results.
 
 <br>
 
@@ -269,11 +269,11 @@ Now he was talking about their businesses. “It’s wonderful to promote new in
 
 <br>
 
-“那个勘探者停了一会儿，然后说，‘不，我想我还是和其他人一起去吧。那个谣言说不定是真的。’[^9]
+“那个勘探者停了一会儿，然后说，‘不，我想我还是和其他人一起去吧。那个谣言说不定是真的。’[^10]
 
 “The prospector paused for a minute, then said, ‘No, I think I’ll go along with the rest of the boys. There might be some truth to that rumor after all.’
 
-[^9]: 巴菲特在 1985 年董事长的信中首次使用了这个故事，引用了本·格雷厄姆 (Ben Graham) 的话，格雷厄姆在纽约金融学院证券分析当前问题系列的第十次演讲中讲述了这个故事。 这些讲座的文字记录于 1946 年 9 月至 1947 年 2 月之间提供，可在 http://www.wiley.com//legacy/products/subject/finance/bgraham/ 或本杰明·格雷厄姆和珍妮特·洛，*重新发现的本杰明格雷厄姆：华尔街传奇文选*。 纽约：威利出版社，1999 年。Buffett first used this story in his 1985 chairman’s letter, citing Ben Graham, who told the story at his tenth lecture in the series Current Problems in Security Analysis at the New York Institute of Finance. The transcripts of these lectures, given between September 1946 and February 1947, can be found at http://www.wiley.com//legacy/products/subject/finance/bgraham/ or in Benjamin Graham and Janet Lowe, The Rediscovered Benjamin Graham: Selected Writings of the Wall Street Legend. New York: Wiley, 1999.
+[^10]: 巴菲特在 1985 年董事长的信中首次使用了这个故事，引用了本·格雷厄姆 (Ben Graham) 的话，格雷厄姆在纽约金融学院证券分析当前问题系列的第十次演讲中讲述了这个故事。 这些讲座的文字记录于 1946 年 9 月至 1947 年 2 月之间提供，可在 http://www.wiley.com//legacy/products/subject/finance/bgraham/ 或本杰明·格雷厄姆和珍妮特·洛，*重新发现的本杰明格雷厄姆：华尔街传奇文选*。 纽约：威利出版社，1999 年。Buffett first used this story in his 1985 chairman’s letter, citing Ben Graham, who told the story at his tenth lecture in the series Current Problems in Security Analysis at the New York Institute of Finance. The transcripts of these lectures, given between September 1946 and February 1947, can be found at http://www.wiley.com//legacy/products/subject/finance/bgraham/ or in Benjamin Graham and Janet Lowe, The Rediscovered Benjamin Graham: Selected Writings of the Wall Street Legend. New York: Wiley, 1999.
 
 <br>
 
@@ -295,21 +295,21 @@ He closed by returning to the proverbial bird in the bush. There was no new para
 
 <br>
 
-他放上一张幻灯片，以说明在过去的几年里，市场的估值已经大大超过了经济的增长。巴菲特说，这意味着接下来的十七年可能不会比1964年到1981年那个长时间段看起来好多少，当时道琼斯指数一直没有变化——也就是说，除非市场暴跌。“如果我必须选一个在那个期间最有可能的回报，”他说，“那可能是6%。”[^10]然而，最近的一次PaineWebber-Gallup民意调查显示，投资者预计股票将回报13%到22%。[^11]
+他放上一张幻灯片，以说明在过去的几年里，市场的估值已经大大超过了经济的增长。巴菲特说，这意味着接下来的十七年可能不会比1964年到1981年那个长时间段看起来好多少，当时道琼斯指数一直没有变化——也就是说，除非市场暴跌。“如果我必须选一个在那个期间最有可能的回报，”他说，“那可能是6%。”[^11]然而，最近的一次PaineWebber-Gallup民意调查显示，投资者预计股票将回报13%到22%。[^12]
 
 He put up a slide to illustrate how, for several years, the market’s valuation had outstripped the economy’s growth by an enormous degree. This meant, Buffett said, that the next seventeen years might not look much better than that long stretch from 1964 to 1981 when the Dow had gone exactly nowhere—that is, unless the market plummeted. “If I had to pick the most probable return over that period,” he said, “it would probably be six percent.” Yet a recent PaineWebber-Gallup poll had shown that investors expected stocks to return thirteen to twenty-two percent.
 
-[^10]: 这篇演讲的精简和编辑版本被发表为“巴菲特先生谈股市”，《财富》，1999年11月22日。A condensed and edited version of this speech was published as “Mr. Buffett on the Stock Market,” Fortune, November 22, 1999.
+[^11]: 这篇演讲的精简和编辑版本被发表为“巴菲特先生谈股市”，《财富》，1999年11月22日。A condensed and edited version of this speech was published as “Mr. Buffett on the Stock Market,” Fortune, November 22, 1999.
 
-[^11]: PaineWebber-Gallup民意调查，1999年7月。PaineWebber–Gallup poll, July 1999.
+[^12]: PaineWebber-Gallup民意调查，1999年7月。PaineWebber–Gallup poll, July 1999.
 
 <br>
 
-他走到屏幕前。他扬起浓密的眉毛，指着一个裸体男人和女人的漫画，这个漫画取自一本关于股市的传奇书籍，叫《顾客的游艇在哪里？》[^12]“男人对女人说，‘有些事情是不能通过言语或图片充分解释给处女的。’ ”观众明白了他的观点，即那些买互联网股票的人即将遭受重创。他们默默无言地坐着。没有人笑。没有人笑出声，没有人嘲笑或大笑。
+他走到屏幕前。他扬起浓密的眉毛，指着一个裸体男人和女人的漫画，这个漫画取自一本关于股市的传奇书籍，叫《顾客的游艇在哪里？》[^13]“男人对女人说，‘有些事情是不能通过言语或图片充分解释给处女的。’ ”观众明白了他的观点，即那些买互联网股票的人即将遭受重创。他们默默无言地坐着。没有人笑。没有人笑出声，没有人嘲笑或大笑。
 
 He walked over to the screen. Waggling his bushy eyebrows, he gestured at the cartoon of a naked man and woman, taken from a legendary book on the stock market, Where Are the Customers’ Yachts? “The man said to the woman, ‘There are certain things that cannot be adequately explained to a virgin either by words or pictures.’ ” The audience took his point, which was that people who bought Internet stocks were about to get screwed. They sat in stony silence. Nobody laughed. Nobody chuckled or snickered or guffawed.
 
-[^12]: Fred Schwed Jr., 《顾客的游艇在哪里？或者，对华尔街的一次深入了解》。纽约，西蒙与舒斯特，1940年。Fred Schwed Jr., Where Are the Customers’ Yachts? or, A Good Hard Look at Wall Street. New York, Simon & Schuster, 1940.
+[^13]: Fred Schwed Jr., 《顾客的游艇在哪里？或者，对华尔街的一次深入了解》。纽约，西蒙与舒斯特，1940年。Fred Schwed Jr., Where Are the Customers’ Yachts? or, A Good Hard Look at Wall Street. New York, Simon & Schuster, 1940.
 
 <br>
 
@@ -325,27 +325,27 @@ That hit its mark. The audience laughed and applauded. Then they stopped. A rese
 
 <br>
 
-然而，有些人认为他们正在听到一些重要的事情。“这太棒了，这就是关于股市的基本教程，一次性上完所有的课程，”盖茨想。[^13]许多正在寻找更便宜股票的资金经理人觉得这很安慰，甚至觉得它是一种宣泄。
+然而，有些人认为他们正在听到一些重要的事情。“这太棒了，这就是关于股市的基本教程，一次性上完所有的课程，”盖茨想。[^14]许多正在寻找更便宜股票的资金经理人觉得这很安慰，甚至觉得它是一种宣泄。
 
 Yet some thought they were hearing something important. “This is great; it’s the basic tutorial on the stock market, all in one lesson,” thought Gates. The money managers, many of whom were hunting for cheaper stocks, found it comforting and even cathartic.
 
-[^13]: 与比尔·盖茨的访谈。Interview with Bill Gates.
+[^14]: 与比尔·盖茨的访谈。Interview with Bill Gates.
 
 <br>
 
-巴菲特在空中挥舞着一本书。“这本书是1929年股市狂热的知识基础。埃德加·劳伦斯·史密斯的《作为长期投资的普通股》证明了股票总是比债券产生更多的收益。史密斯找出了五个原因，但其中最新颖的一个是公司保留了部分收益，他们可以以相同的回报率进行再投资。这就是反耕作——在1924年这是一个新颖的观点！但是像我的导师本·格雷厄姆总是说的那样，‘你可能因为一个好主意而惹上更多的麻烦，而不是一个坏主意，’因为你忘记了好主意是有限的。凯恩斯勋爵在他给这本书的序言中说，‘存在一种危险，期望未来的结果可以从过去预测。’”[^14]
+巴菲特在空中挥舞着一本书。“这本书是1929年股市狂热的知识基础。埃德加·劳伦斯·史密斯的《作为长期投资的普通股》证明了股票总是比债券产生更多的收益。史密斯找出了五个原因，但其中最新颖的一个是公司保留了部分收益，他们可以以相同的回报率进行再投资。这就是反耕作——在1924年这是一个新颖的观点！但是像我的导师本·格雷厄姆总是说的那样，‘你可能因为一个好主意而惹上更多的麻烦，而不是一个坏主意，’因为你忘记了好主意是有限的。凯恩斯勋爵在他给这本书的序言中说，‘存在一种危险，期望未来的结果可以从过去预测。’”[^15]
 
 Buffett waved a book in the air. “This book was the intellectual underpinning of the 1929 stock-market mania. Edgar Lawrence Smith’s Common Stocks as Long Term Investments proved that stocks always yielded more than bonds. Smith identified five reasons, but the most novel of these was the fact that companies retained some of their earnings, which they could reinvest at the same rate of return. That was the plowback—a novel idea in 1924! But as my mentor, Ben Graham, always used to say, ‘You can get in way more trouble with a good idea than a bad idea,’ because you forget that the good idea has limits. Lord Keynes, in his preface to this book, said, ‘There is a danger of expecting the results of the future to be predicted from the past.’ ”
 
-[^14]: 凯恩斯写道：“对未来应用基于过去经验的归纳论断是危险的……除非我们可以区分出为什么过去的经验是这样的广泛原因”，他在1925年为史密斯的《作为长期投资的普通股》的《国家和雅典艳》的书评中写道，后来成为凯恩斯，《约翰·梅纳德·凯恩斯著作集》卷12，经济文章和通信；投资和编辑。剑桥：剑桥大学出版社，1983年。Keynes wrote: “It is dangerous … to apply to the future inductive arguments based on past experience, unless one can distinguish the broad reasons why past experience was what it was,” in a book review for Smith’s Common Stocks as Long-Term Investments in Nation and Athenaeum in 1925 that later became the preface for Keynes, The Collected Writings of John Maynard Keynes. Vol.12, Economic Articles and Correspondence; Investment and Editorial. Cambridge: Cambridge University Press, 1983.
+[^15]: 凯恩斯写道：“对未来应用基于过去经验的归纳论断是危险的……除非我们可以区分出为什么过去的经验是这样的广泛原因”，他在1925年为史密斯的《作为长期投资的普通股》的《国家和雅典艳》的书评中写道，后来成为凯恩斯，《约翰·梅纳德·凯恩斯著作集》卷12，经济文章和通信；投资和编辑。剑桥：剑桥大学出版社，1983年。Keynes wrote: “It is dangerous … to apply to the future inductive arguments based on past experience, unless one can distinguish the broad reasons why past experience was what it was,” in a book review for Smith’s Common Stocks as Long-Term Investments in Nation and Athenaeum in 1925 that later became the preface for Keynes, The Collected Writings of John Maynard Keynes. Vol.12, Economic Articles and Correspondence; Investment and Editorial. Cambridge: Cambridge University Press, 1983.
 
 <br>
 
-他又回到了同样的主题：人们不能从过去几年股价的加速上升中推断出未来。“现在，有没有我没冒犯的人？”[^15]他停顿了一下。这个问题是反问的；没有人举手。
+他又回到了同样的主题：人们不能从过去几年股价的加速上升中推断出未来。“现在，有没有我没冒犯的人？”[^16]他停顿了一下。这个问题是反问的；没有人举手。
 
 He had worked his way back around to the same subject: that one couldn’t extrapolate from the past few years of accelerating stock prices. “Now, is there anyone I haven’t insulted?” He paused. The question was rhetorical; nobody raised a hand.
 
-[^15]: 喜剧演员莫特·萨尔常常以“有没有我没冒犯的人”结束他的表演。The comedian Mort Sahl used to end his routine by asking, “Is there anyone I haven’t offended?”
+[^16]: 喜剧演员莫特·萨尔常常以“有没有我没冒犯的人”结束他的表演。The comedian Mort Sahl used to end his routine by asking, “Is there anyone I haven’t offended?”
 
 <br>
 
