@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 巴菲特：1999年太阳谷会议演讲
+title: 巴菲特谈股市
 date: 1999-11-22
 tags: 文章
 ---
