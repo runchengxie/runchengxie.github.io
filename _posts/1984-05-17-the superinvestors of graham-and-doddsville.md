@@ -131,6 +131,8 @@ In introducing me to (Schloss) Warren had also, to my mind, described himself. �
 Walter has diversified enormously, owning well over 100 stocks currently. He knows how to identify securities that sell at considerably less than their value to a private owner. And that’s all he does. He doesn’t worry about whether it it’s January, he doesn’t worry about whether it’s Monday, he doesn’t worry about whether it’s an election year. He simply says, if a business is worth a dollar and I can buy it for 40 cents, something good may happen to me. And he does it over and over and over again. He owns many more stocks than I do — and is far less interested in the underlying nature of the business; I don’t seem to have very much influence on Walter. That’s one of his strengths; no one has much influence on him.
 
 
+<br>
+
 | Year          | S&P Overall Gain. Including Dividend (%) | WJS Ltd Partners Overall Gain per year (%) | WJS Partnership Overall Gain per year (%) |
 | ------------- | ---------------------------------------- | ------------------------------------------ | ----------------------------------------- |
 | 1956          | 7.5                                      | 5.1                                        | 6.8                                       |
