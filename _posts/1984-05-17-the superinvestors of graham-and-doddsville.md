@@ -130,8 +130,51 @@ In introducing me to (Schloss) Warren had also, to my mind, described himself. �
 
 Walter has diversified enormously, owning well over 100 stocks currently. He knows how to identify securities that sell at considerably less than their value to a private owner. And that’s all he does. He doesn’t worry about whether it it’s January, he doesn’t worry about whether it’s Monday, he doesn’t worry about whether it’s an election year. He simply says, if a business is worth a dollar and I can buy it for 40 cents, something good may happen to me. And he does it over and over and over again. He owns many more stocks than I do — and is far less interested in the underlying nature of the business; I don’t seem to have very much influence on Walter. That’s one of his strengths; no one has much influence on him.
 
-![](https://i.imgur.com/gyDvb9T.png)
-![](https://i.imgur.com/7RjvRq0.png)
+
+| Year          | S&P Overall Gain. Including Dividend (%) | WJS Ltd Partners Overall Gain per year (%) | WJS Partnership Overall Gain per year (%) |
+| ------------- | ---------------------------------------- | ------------------------------------------ | ----------------------------------------- |
+| 1956          | 7.5                                      | 5.1                                        | 6.8                                       |
+| 1957          | \-10.5                                   | \-4.7                                      | \-4.7                                     |
+| 1958          | 42.1                                     | 42.1                                       | 54.6                                      |
+| 1959          | 12.7                                     | 17.5                                       | 23.3                                      |
+| 1960          | \-1.6                                    | 7.0                                        | 9.3                                       |
+| 1961          | 26.4                                     | 21.6                                       | 28.8                                      |
+| 1962          | \-10.2                                   | 8.3                                        | 11.1                                      |
+| 1963          | 23.3                                     | 15.1                                       | 20.1                                      |
+| 1964          | 16.5                                     | 17.1                                       | 22.8                                      |
+| 1965          | 13.1                                     | 26.8                                       | 35.7                                      |
+| 1966          | \-10.4                                   | 0.5                                        | 0.7                                       |
+| 1967          | 26.8                                     | 25.8                                       | 34.4                                      |
+| 1968          | 10.6                                     | 26.6                                       | 35.5                                      |
+| 1969          | \-7.5                                    | \-9.0                                      | \-9.0                                     |
+| 1970          | 2.4                                      | \-8.2                                      | \-8.2                                     |
+| 1971          | 14.9                                     | 25.5                                       | 28.3                                      |
+| 1972          | 19.8                                     | 11.6                                       | 15.5                                      |
+| 1973          | \-14.8                                   | \-8.0                                      | \-8.0                                     |
+| 1974          | \-26.6                                   | \-6.2                                      | \-6.2                                     |
+| 1975          | 36.9                                     | 42.7                                       | 52.2                                      |
+| 1976          | 22.4                                     | 29.4                                       | 39.2                                      |
+| 1977          | \-8.6                                    | 25.8                                       | 34.4                                      |
+| 1978          | 7.0                                      | 36.6                                       | 48.4                                      |
+| 1979          | 17.6                                     | 29.8                                       | 39.7                                      |
+| 1980          | 32.1                                     | 23.3                                       | 31.1                                      |
+| 1981          | \-6.7                                    | 18.4                                       | 24.5                                      |
+| 1982          | 20.2                                     | 24.1                                       | 32.1                                      |
+| 1983          | 22.8                                     | 38.4                                       | 51.2                                      |
+| 1984 1st Qtr. | \-2.3                                    | 0.8                                        | 1.1                                       |
+
+<br>
+
+| Description                                     | Percentage |
+| ----------------------------------------------- | ---------- |
+| Standard & Poor's 28 1/4 year compounded gain   | 887.2%     |
+| WJS Limited Partners 28 1/4 year compounded gain| 6,678.8%   |
+| WJS Partnership 28 1/4 year compounded gain     | 23,104.7%  |
+| Standard & Poor's 28 1/4 year annual compounded rate | 8.1%       |
+| WJS Limited Partners 28 1/4 year annual compounded rate | 16.1%   |
+| WJS Partnership 28 1/4 year annual compounded rate | 21.3%     |
+
+*During the history of the Partnership it has owned over 800 issues and, at most times, has had at least 100 positions, Present assets undermanagement approximate $45 million.* 
 
 <br>
 
