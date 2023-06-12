@@ -212,11 +212,14 @@ In 1968, Tom Knapp and Ed Anderson, also a Graham disciple, along with one or tw
 | 1981                                       | \-3.3             | \-2.7                     | 14.4                  | 11.6                              |
 | 1982                                       | 12.5              | 10.1                      | 10.2                  | 8.2                               |
 | 1983                                       | 44.5              | 44.3                      | 35.0                  | 28.2                              |
+| 15 3/4 年总回报 Total Return 15 3/4 years      | 191.8%            | 238.5%                    | 1661.2%               | 936.4%                            |
 
-* 包括：为标准普尔 500 综合指数和杜琼斯工业平均指数支付的股息。Include: dividends paid for both Standard & Poor's 500 Composite Index and Duw Jones Industrial Average.
+| 标准普尔：15 3/4 年复合利率 Standard & Poor's: 15 3/4 year annual compounded rate      | 7.0%  |
+| ---------------------------------------------------------------------------- | ----- |
+| TBK 有限合伙人 153/4 年复合利率 TBK Limited Partners 153/4 year annual compounded rate | 16.0% |
+| TBK 整体 15 3/4 年复合利率 TBK Overall 15 3/4 year annual compounded rate           | 20.0% |
 
-
-![](https://i.imgur.com/3lon2yq.png)
+*\*包括：为标准普尔 500 综合指数和杜琼斯工业平均指数支付的股息。Include: dividends paid for both Standard & Poor's 500 Composite Index and Duw Jones Industrial Average.*
 
 <br>
 
