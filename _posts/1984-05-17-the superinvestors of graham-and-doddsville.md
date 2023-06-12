@@ -130,8 +130,9 @@ In introducing me to (Schloss) Warren had also, to my mind, described himself. �
 
 Walter has diversified enormously, owning well over 100 stocks currently. He knows how to identify securities that sell at considerably less than their value to a private owner. And that’s all he does. He doesn’t worry about whether it it’s January, he doesn’t worry about whether it’s Monday, he doesn’t worry about whether it’s an election year. He simply says, if a business is worth a dollar and I can buy it for 40 cents, something good may happen to me. And he does it over and over and over again. He owns many more stocks than I do — and is far less interested in the underlying nature of the business; I don’t seem to have very much influence on Walter. That’s one of his strengths; no one has much influence on him.
 
-
 <br>
+
+表 1 · Table 1 · Walter J. Schloss
 
 | 年份 Year           | 标准普尔整体收益（包括股息） S&P Overall Gain. Including Dividend (%) |  WJS Ltd Partners 合伙人每年整体收益 WJS Ltd Partners Overall Gain per year (%) | WJS Partnership合伙人每年整 WJS Partnership Overall Gain per year (%) |
 | ----------------- | ------------------------------------------------------- | ---------------------------------------------------------------------- | --------------------------------------------------------------- |
@@ -190,6 +191,8 @@ The second case is Tom Knapp who also worked at Graham-Newman with me. Tom was a
 In 1968, Tom Knapp and Ed Anderson, also a Graham disciple, along with one or two other fellows of similar persuasion, formed Tweedy, Browne Partners, and their investment results appear in Table 2. Tweedy, Browne built that record with very wide diversification. They occasionally bought control of businesses, but the record of the passive investments is equal to the record of the control investments.
 
 <br>
+
+表2 Table 2·Tweedy,Browne Inc
 
 | 截至 9 月 30 日的期间 Period Ended (September 30) | 道琼斯 Dow Jones (%) | 标准普尔 500 指数S&P 500 \* (%) | TBK整体 TBK Overall (%) | TBK有限合伙人 TBK Limited Partners (%) |
 | ------------------------------------------ | ----------------- | ------------------------- | --------------------- | --------------------------------- |
