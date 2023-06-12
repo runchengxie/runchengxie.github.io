@@ -189,6 +189,30 @@ The second case is Tom Knapp who also worked at Graham-Newman with me. Tom was a
 
 In 1968, Tom Knapp and Ed Anderson, also a Graham disciple, along with one or two other fellows of similar persuasion, formed Tweedy, Browne Partners, and their investment results appear in Table 2. Tweedy, Browne built that record with very wide diversification. They occasionally bought control of businesses, but the record of the passive investments is equal to the record of the control investments.
 
+<br>
+
+| 截至 9 月 30 日的期间 Period Ended (September 30) | 道琼斯 Dow Jones (%) | 标准普尔 500 指数S&P 500 \* (%) | TBK整体 TBK Overall (%) | TBK有限合伙人 TBK Limited Partners (%) |
+| ------------------------------------------ | ----------------- | ------------------------- | --------------------- | --------------------------------- |
+| 1968 (9个月数据 9 mos.)                        | 6.0               | 8.8                       | 27.6                  | 22                                |
+| 1969                                       | \-9.5             | \-6.2                     | 12.7                  | 10                                |
+| 1970                                       | \-2.5             | \-6.1                     | \-1.3                 | \-1.9                             |
+| 1971                                       | 20.7              | 20.4                      | 20.9                  | 16.1                              |
+| 1972                                       | 11.0              | 15.5                      | 14.6                  | 11.8                              |
+| 1973                                       | 2.9               | 1.0                       | 8.3                   | 7.5                               |
+| 1974                                       | \-31.8            | \-38.1                    | 1.5                   | 1.5                               |
+| 1975                                       | 36.9              | 37.8                      | 28.8                  | 22                                |
+| 1976                                       | 29.6              | 30.1                      | 40.2                  | 32.8                              |
+| 1977                                       | \-9.9             | \-4.0                     | 23.4                  | 18.7                              |
+| 1978                                       | 8.3               | 11.9                      | 41.0                  | 32.1                              |
+| 1979                                       | 7.9               | 12.7                      | 25.5                  | 20.5                              |
+| 1980                                       | 13.0              | 21.1                      | 21.4                  | 17.3                              |
+| 1981                                       | \-3.3             | \-2.7                     | 14.4                  | 11.6                              |
+| 1982                                       | 12.5              | 10.1                      | 10.2                  | 8.2                               |
+| 1983                                       | 44.5              | 44.3                      | 35.0                  | 28.2                              |
+
+* 包括：为标准普尔 500 综合指数和杜琼斯工业平均指数支付的股息。Include: dividends paid for both Standard & Poor's 500 Composite Index and Duw Jones Industrial Average.
+
+
 ![](https://i.imgur.com/3lon2yq.png)
 
 <br>
