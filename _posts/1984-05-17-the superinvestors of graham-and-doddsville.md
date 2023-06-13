@@ -227,7 +227,42 @@ In 1968, Tom Knapp and Ed Anderson, also a Graham disciple, along with one or tw
 
 Table 3 describes the third member of the group who formed Buffett Partnership in 1957. The best thing he did was to quit in 1969. Since then, in a sense, Berkshire Hathaway has been a continuation of the partnership in some respects. There is no single index I can give you that I would feel would be a fair test of investment management at Berkshire. But I think that any way you figure it, it has been satisfactory.
 
-![](https://i.imgur.com/TCNMdat.png)
+表 3·巴菲特合伙有限公司 Table 3· Buffett Partnership, Ltd.
+
+|      | 道指的总体结果 Overall Results From Dow (%) | 合伙人整体收益 Partnership Results (%) | 有限合伙人收益Limited Partners Results (%) |
+| ---- | ------------------------------------ | ------------------------------- | ----------------------------------- |
+| 1957 | \-8.4                                | 10.4                            | 9.3                                 |
+| 1958 | 38.5                                 | 40.9                            | 32.2                                |
+| 1959 | 20.0                                 | 25.9                            | 20.9                                |
+| 1960 | \-6.2                                | 22.8                            | 18.6                                |
+| 1961 | 22.4                                 | 45.9                            | 35.9                                |
+| 1962 | \-7.6                                | 13.9                            | 11.9                                |
+| 1963 | 20.6                                 | 38.7                            | 30.5                                |
+| 1964 | 18.7                                 | 27.8                            | 22.3                                |
+| 1965 | 14.2                                 | 47.2                            | 36.9                                |
+| 1966 | \-15.6                               | 20.4                            | 16.8                                |
+| 1967 | 19.0                                 | 35.9                            | 28.4                                |
+| 1968 | 7.7                                  | 58.8                            | 45.6                                |
+| 1969 | \-11.6                               | 6.8                             | 6.6                                 |
+
+*\*考虑累积或复合的结果 On a cumulative or compounded basis, the results are:*
+
+|                             | 道指的总体结果 Overall Results From Dow (%) | 合伙人整体收益 Partnership Results (%) | 有限合伙人收益Limited Partners Results (%) |
+| --------------------------- | ------------------------------------ | ------------------------------- | ----------------------------------- |
+| 1957                        | \-8.4                                | 10.4                            | 9.3                                 |
+| 1957-58                     | 26.9                                 | 55.6                            | 44.5                                |
+| 1957-59                     | 52.2                                 | 95.8                            | 74.7                                |
+| 1957-60                     | 42.8                                 | 140.5                           | 107.2                               |
+| 1957-61                     | 74.8                                 | 250.9                           | 181.6                               |
+| 1957-62                     | 61.5                                 | 299.7                           | 215.1                               |
+| 1957-63                     | 94.8                                 | 454.3                           | 311.2                               |
+| 1957-64                     | 131.2                                | 608.4                           | 402.9                               |
+| 1957-65                     | 164                                  | 942.8                           | 588.4                               |
+| 1957-66                     | 122.8                                | 1155.5                          | 704.1                               |
+| 1957-67                     | 165.2                                | 1606.3                          | 932.4                               |
+| 1957-68                     | 185.6                                | 2609.5                          | 1403.2                              |
+| 1957-69                     | 152.5                                | 2793.8                          | 1502.4                              |
+| 年化收益 Annual Compounded Rate | 7.4                                  | 29.5                            | 23.8                                |
 
 <br>
 
