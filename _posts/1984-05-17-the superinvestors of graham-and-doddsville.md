@@ -229,7 +229,7 @@ Table 3 describes the third member of the group who formed Buffett Partnership i
 
 表 3 · 巴菲特合伙有限公司 Table 3 · Buffett Partnership, Ltd.
 
-|      | 道指的总体结果 Overall Results From Dow (%) | 合伙人整体收益 Partnership Results (%) | 有限合伙人收益Limited Partners Results (%) |
+| 年份 Year     | 道指的总体结果 Overall Results From Dow (%) | 合伙人整体收益 Partnership Results (%) | 有限合伙人收益Limited Partners Results (%) |
 | ---- | ------------------------------------ | ------------------------------- | ----------------------------------- |
 | 1957 | \-8.4                                | 10.4                            | 9.3                                 |
 | 1958 | 38.5                                 | 40.9                            | 32.2                                |
@@ -247,7 +247,7 @@ Table 3 describes the third member of the group who formed Buffett Partnership i
 
 *\*考虑累积或复合的结果 On a cumulative or compounded basis, the results are:*
 
-|                             | 道指的总体结果 Overall Results From Dow (%) | 合伙人整体收益 Partnership Results (%) | 有限合伙人收益Limited Partners Results (%) |
+| 年份 Year                            | 道指的总体结果 Overall Results From Dow (%) | 合伙人整体收益 Partnership Results (%) | 有限合伙人收益Limited Partners Results (%) |
 | --------------------------- | ------------------------------------ | ------------------------------- | ----------------------------------- |
 | 1957                        | \-8.4                                | 10.4                            | 9.3                                 |
 | 1957-58                     | 26.9                                 | 55.6                            | 44.5                                |
