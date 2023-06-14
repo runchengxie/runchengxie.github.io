@@ -132,7 +132,7 @@ Walter has diversified enormously, owning well over 100 stocks currently. He kno
 
 <br>
 
-表 1 · Table 1 · Walter J. Schloss
+表 1 · 沃尔特·施洛斯 Table 1 · Walter J. Schloss
 
 | 年份 Year           | 标准普尔整体收益（包括股息） S&P Overall Gain. Including Dividend (%) |  WJS Ltd Partners 合伙人每年整体收益 WJS Ltd Partners Overall Gain per year (%) | WJS Partnership合伙人每年整 WJS Partnership Overall Gain per year (%) |
 | ----------------- | ------------------------------------------------------- | ---------------------------------------------------------------------- | --------------------------------------------------------------- |
@@ -192,7 +192,7 @@ In 1968, Tom Knapp and Ed Anderson, also a Graham disciple, along with one or tw
 
 <br>
 
-表2 Table 2·Tweedy,Browne Inc
+表 2 · Tweedy, Browne 合伙人 Table 2 ·Tweedy,Browne Inc
 
 | 截至 9 月 30 日的期间 Period Ended (September 30) | 道琼斯 Dow Jones (%) | 标准普尔 500 指数S&P 500 \* (%) | TBK整体 TBK Overall (%) | TBK有限合伙人 TBK Limited Partners (%) |
 | ------------------------------------------ | ----------------- | ------------------------- | --------------------- | --------------------------------- |
@@ -227,7 +227,7 @@ In 1968, Tom Knapp and Ed Anderson, also a Graham disciple, along with one or tw
 
 Table 3 describes the third member of the group who formed Buffett Partnership in 1957. The best thing he did was to quit in 1969. Since then, in a sense, Berkshire Hathaway has been a continuation of the partnership in some respects. There is no single index I can give you that I would feel would be a fair test of investment management at Berkshire. But I think that any way you figure it, it has been satisfactory.
 
-表 3·巴菲特合伙有限公司 Table 3· Buffett Partnership, Ltd.
+表 3 · 巴菲特合伙有限公司 Table 3 · Buffett Partnership, Ltd.
 
 |      | 道指的总体结果 Overall Results From Dow (%) | 合伙人整体收益 Partnership Results (%) | 有限合伙人收益Limited Partners Results (%) |
 | ---- | ------------------------------------ | ------------------------------- | ----------------------------------- |
@@ -270,7 +270,33 @@ Table 3 describes the third member of the group who formed Buffett Partnership i
 
 Table 4 shows the record of the Sequoia Fund, which is managed by a man whom I met in 1951 in Ben Graham’s class, Bill Ruane. After getting out of Harvard Business School, he went to Wall Street. Then he realized that he needed to get a real business education so he came up to take Ben’s course at Columbia, where we met in early 1951. Bill’s record from 1951 to 1970, working with relatively small sums, was far better than average. When I wound up Buffett Partnership I asked Bill if he would set up a fund to handle all of our partners, so he set up the Sequoia Fund. He set it up at a terrible time, just when I was quitting. He went right into the two-tier market and all the difficulties that made for comparative performance for value-oriented investors. I am happy to say that my partners, to an amazing degree, not only stayed with him but added money, with the happy result shown here.
 
-![](https://i.imgur.com/mh4jJTv.png)
+表 4 · 红杉基金公司 Table 4 · Sequoia Fund, Inc.
+
+| 年份 Year                    | 红杉基金 Sequoia Fund (%) | 标准普尔 500 指数 S&P 500 Index \* |
+| ----------------------- | ---------------- | ---------------- |
+| 1970 (7月15日起 from July 15)     | 12.1             | 20.6             |
+| 1971                    | 13.5             | 14.3             |
+| 1972                    | 3.7              | 18.9             |
+| 1973                    | \-24             | \-14.8           |
+| 1974                    | \-15.7           | \-26.4           |
+| 1975                    | 60.5             | 37.2             |
+| 1976                    | 72.3             | 23.6             |
+| 1977                    | 19.9             | \-7.4            |
+| 1978                    | 23.9             | 6.4              |
+| 1979                    | 12.1             | 18.2             |
+| 1980                    | 12.6             | 32.3             |
+| 1981                    | 21.5             | \-5.0            |
+| 1982                    | 31.2             | 21.4             |
+| 1983                    | 27.3             | 22.4             |
+| 1984 (第一季度 first quarter)    | \-160.0%         | \-2.4            |
+| 累计 Entire Period           | 775.3%           | 270.00%          |
+| 复合年回报率 Compound Annual Return  | 17.2%            | 10.00%           |
+| 另加 1% 管理费 Plus 1% Management Fee  | 1.0%             |                  |
+| 总投资回报 Gross Investment Return | 18.2%            | 10.00%           |
+
+*\* 包括被视为再投资的股息（以及红杉基金的资本收益分配）Includes dividend (and capital gains distributions in the case of Sequoia Fund) treated as though reinvested.*
+
+*\*\* 由于计算或再投资股息的差异，这些数字与表 1 中的标准普尔数据略有不同 These figures differ slightly from the S&P figures in Table 1 because of a difference in calculation ot reinvested dividends.*
 
 <br>
 
