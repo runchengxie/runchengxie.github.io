@@ -316,8 +316,41 @@ I should add that, in the records we’ve looked at so far, throughout this whol
 
 Table 5 is the record of a friend of mine who is a Harvard Law graduate, who set up a major law firm. I ran into him in about 1960 and told him that law was fine as a hobby but he could do better. He set up a partnership quite the opposite of Walter’s. His portfolio was concentrated in very few securities and therefore, his record was much more volatile but it was based on the same discount-from-value approach. He was willing to accept greater peaks and valleys of performance, and he happens to be a fellow whose whole psyche goes toward concentration, with the results shown. Incidentally, this record belongs to Charlie Munger, my partner for a long time in the operation of Berkshire Hathaway. When he ran his partnership, however, his portfolio holdings were almost completely different from mine and the other fellows mentioned earlier.
 
-![](https://i.imgur.com/yWtjjdt.png)
-![](https://i.imgur.com/oqswOEQ.png)
+表 5 · 查理芒格 Table 5 · Charles Munger
+
+| 每年收益 Yearly Results (l)               | Mass. Inv. Trust (%) | Investors Stock (%) | Lehman (%) | Tri-Cont. (%) | 道琼斯指数 Dow (%) | 合伙人整体收益 Over-all Partnership (%) | 有限合伙人收益 Limited Partners (%) |
+| ------------------------------------- | -------------------- | ------------------- | ---------- | ------------- | ------------- | -------------------------------- | ---------------------------- |
+| 1962                                  | \-9.8                | \-13.4              | \-14.4     | \-12.2        | \-7.6         | 30.1                             | 20.1                         |
+| 1963                                  | 20.0                 | 16.5                | 23.8       | 20.3          | 20.6          | 71.7                             | 47.8                         |
+| 1964                                  | 15.9                 | 14.3                | 13.6       | 13.3          | 18.7          | 49.7                             | 33.1                         |
+| 1965                                  | 10.2                 | 9.8                 | 19.0       | 10.7          | 14.2          | 8.4                              | 6.0                          |
+| 1966                                  | \-7.7                | \-9.9               | \-2.6      | \-6.9         | \-15.7        | 12.4                             | 8.3                          |
+| 1967                                  | 20.0                 | 22.8                | 28.0       | 25.4          | 19.0          | 56.2                             | 37.5                         |
+| 1968                                  | 10.3                 | 8.1                 | 6.7        | 6.8           | 7.7           | 40.4                             | 27.0                         |
+| 1969                                  | \-4.8                | \-7.9               | \-1.9      | 0.1           | \-11.6        | 28.3                             | 21.3                         |
+| 1970                                  | 0.6                  | \-4.1               | \-7.2      | \-1.0         | 8.7           | \-0.1                            | \-0.1                        |
+| 1971                                  | 9.0                  | 16.8                | 26.6       | 22.4          | 9.8           | 25.4                             | 20.6                         |
+| 1972                                  | 11.0                 | 15.2                | 23.7       | 21.4          | 18.2          | 8.3                              | 7.3                          |
+| 1973                                  | \-12.5               | \-17.6              | \-14.3     | \-21.3        | \-13.1        | \-31.9                           | \-31.9                       |
+| 1974                                  | \-25.5               | \-25.6              | \-30.3     | \-27.6        | \-23.1        | \-31.5                           | \-31.5                       |
+| 1975                                  | 32.9                 | 33.3                | 30.8       | 35.4          | 44.4          | 73.2                             | 73.2                         |
+|                                       |                      |                     |            |               |               |                                  |                              |
+| 复合收益Compound Results                  |                      |                     |            |               |               |                                  |
+| 1962                                  | \-9.8                | \-13.4              | \-14.4     | \-12.2        | \-7.6         | 30.1                             | 20.1                         |
+| 1962-3                                | 8.2                  | 0.9                 | 6.0        | 5.6           | 11.5          | 123.4                            | 77.5                         |
+| 1962-4                                | 25.5                 | 15.3                | 20.4       | 19.6          | 32.4          | 234.4                            | 136.3                        |
+| 1962-5                                | 38.2                 | 26.6                | 43.3       | 32.4          | 51.2          | 262.5                            | 150.5                        |
+| 1962-6                                | 27.6                 | 14.1                | 39.5       | 23.2          | 27.5          | 307.5                            | 171.3                        |
+| 1962-7                                | 53.1                 | 40.1                | 78.5       | 54.5          | 51.8          | 536.5                            | 273.0                        |
+| 1962-8                                | 68.9                 | 51.4                | 90.5       | 65.0          | 63.5          | 793.6                            | 373.7                        |
+| 1962-9                                | 60.8                 | 39.4                | 86.9       | 65.2          | 44.5          | 1046.5                           | 474.6                        |
+| 1962-70                               | 61.8                 | 33.7                | 73.4       | 63.5          | 57.1          | 1045.4                           | 474.0                        |
+| 1962-71                               | 76.3                 | 56.2                | 119.5      | 100.1         | 72.5          | 1336.3                           | 592.2                        |
+| 1962-72                               | 95.7                 | 79.9                | 171.5      | 142.9         | 103.9         | 1455.5                           | 642.7                        |
+| 1962-73                               | 71.2                 | 48.2                | 132.7      | 91.2          | 77.2          | 959.3                            | 405.8                        |
+| 1962-74                               | 27.5                 | 10.3                | 62.2       | 38.4          | 36.3          | 625.6                            | 246.5                        |
+| 1962-75                               | 69.4                 | 47.0                | 112.2      | 87.4          | 96.8          | 1156.7                           | 500.1                        |
+| 平均年化收益 Average Annual Compounded Rate | 3.8                  | 2.8                 | 5.5        | 4.6           | 5.0           | 19.8                             | 13.7                         |
 
 <br>
 
