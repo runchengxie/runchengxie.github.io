@@ -358,7 +358,35 @@ Table 5 is the record of a friend of mine who is a Harvard Law graduate, who set
 
 Table 6 is the record of a fellow who was a pal of Charlie Munger’s — another non-business school type — who was a math major at USC. He went to work for IBM after graduation and was an IBM salesman for a while. After I got to Charlie, Charlie got to him. This happens to be the record of Rick Guerin. Rick, from 1965 to 1983, against a compounded gain of 316 percent for the S&P, came off with 22,200 percent, which probably because he lacks a business school education, he regards as statistically significant.
 
-![](https://i.imgur.com/1xoaz8H.png)
+| 年份 Year | 标准普尔 500 指数 S&P500 Index (%) | 有限合伙企业收益 Limited Partnership Results (%) | 整体合伙人收益 Overall Partnership Results (%) |
+| ------- | ---------------------------- | ---------------------------------------- | --------------------------------------- |
+| 1965    | 12.4                         | 21.2                                     | 32.0                                    |
+| 1966    | \-10.1                       | 24.5                                     | 36.7                                    |
+| 1967    | 23.9                         | 120.1                                    | 180.1                                   |
+| 1968    | 11.0                         | 114.6                                    | 171.9                                   |
+| 1969    | \-8.4                        | 64.7                                     | 97.1                                    |
+| 1970    | 3.9                          | \-7.2                                    | \-7.2                                   |
+| 1971    | 14.6                         | 10.9                                     | 16.4                                    |
+| 1972    | 18.9                         | 12.8                                     | 17.1                                    |
+| 1973    | \-14.8                       | \-42.1                                   | \-42.1                                  |
+| 1974    | \-26.4                       | \-34.4                                   | \-34.4                                  |
+| 1975    | 37.2                         | 23.4                                     | 31.2                                    |
+| 1976    | 23.6                         | 127.8                                    | 127.8                                   |
+| 1977    | \-7.4                        | 20.3                                     | 27.1                                    |
+| 1978    | 6.4                          | 28.4                                     | 37.9                                    |
+| 1979    | 18.2                         | 36.1                                     | 48.2                                    |
+| 1980    | 32.3                         | 18.1                                     | 24.1                                    |
+| 1981    | \-5.0                        | 6.0                                      | 8.0                                     |
+| 1982    | 21.4                         | 24.0                                     | 32.0                                    |
+| 1983    | 22.4                         | 18.6                                     | 24.8                                    |
+
+| 标准普尔19年累计收益 Standard & Poor's 19 year compounded gain                | 316.4%   |
+| -------------------------------------------------------------------- | -------- |
+| 有限合伙人19年累计收益 Ltd. Partnership 19 year compounded gain                | 5530.2%  |
+| 整体合伙人19年累计收益 Overall Partnership 19 year compounded gain             | 22200.0% |
+| 标准普尔500\* 19 年年化收益 Standard & Poor'\* 19 year annual compounded rate | 7.8%     |
+| 有限合伙人19年年化收益 Ltd. Partnership 19 year annual compounded rate         | 23.6%    |
+| 整体合伙人 19 年年化收益 Overall Partnership 19 year annual compounded rate    | 32.9%    |
 
 <br>
 
