@@ -358,6 +358,8 @@ Table 5 is the record of a friend of mine who is a Harvard Law graduate, who set
 
 Table 6 is the record of a fellow who was a pal of Charlie Munger’s — another non-business school type — who was a math major at USC. He went to work for IBM after graduation and was an IBM salesman for a while. After I got to Charlie, Charlie got to him. This happens to be the record of Rick Guerin. Rick, from 1965 to 1983, against a compounded gain of 316 percent for the S&P, came off with 22,200 percent, which probably because he lacks a business school education, he regards as statistically significant.
 
+表 6 · 太平洋合伙人 Table 6 · Pacific Partners, Ltd.
+
 | 年份 Year | 标准普尔 500 指数 S&P500 Index (%) | 有限合伙企业收益 Limited Partnership Results (%) | 整体合伙人收益 Overall Partnership Results (%) |
 | ------- | ---------------------------- | ---------------------------------------- | --------------------------------------- |
 | 1965    | 12.4                         | 21.2                                     | 32.0                                    |
