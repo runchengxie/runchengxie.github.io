@@ -386,7 +386,7 @@ Table 6 is the record of a fellow who was a pal of Charlie Munger’s — anothe
 | -------------------------------------------------------------------- | -------- |
 | 有限合伙人19年累计收益 Ltd. Partnership 19 year compounded gain                | 5530.2%  |
 | 整体合伙人19年累计收益 Overall Partnership 19 year compounded gain             | 22200.0% |
-| 标准普尔500\* 19 年年化收益 Standard & Poor'\* 19 year annual compounded rate | 7.8%     |
+| 标准普尔500 19年年化收益 Standard & Poor's 19 year annual compounded rate      | 7.8%     |
 | 有限合伙人19年年化收益 Ltd. Partnership 19 year annual compounded rate         | 23.6%    |
 | 整体合伙人 19 年年化收益 Overall Partnership 19 year annual compounded rate    | 32.9%    |
 
