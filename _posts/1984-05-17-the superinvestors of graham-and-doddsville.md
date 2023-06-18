@@ -402,12 +402,42 @@ One sidelight here: it is extraordinary to me that the idea of buying dollar bil
 
 Table 7 is the record of Stan Perlmeter. Stan was a liberal arts major at the University of Michigan who was a partner in the advertising agency of Bozell & Jacobs. We happened to be in the same building in Omaha. In 1965 he figured out I had a better business than he did, so he left advertising. Again, it took five minutes for Stan to embrace the value approach.
 
-![](https://i.imgur.com/bwOWDIn.png)
-![](https://i.imgur.com/0oMQ9gG.png)
+表 7 · 佩尔米特基金 Table 7 · Perimeter Investments
+
+| 年份 Year          | 佩尔米特基金总体 PIL Overall (%) | 有限合伙人收益 Limited Partner (%) |
+| ---------------- | ------------------------ | --------------------------- |
+| 8/1-12/31/65     | 40.6                     | 32.5                        |
+| 1966             | 6.4                      | 5.1                         |
+| 1967             | 73.5                     | 58.8                        |
+| 1968             | 65.0                     | 52.0                        |
+| 1969             | \-13.8                   | \-13.8                      |
+| 1970             | \-6.0                    | \-6.0                       |
+| 1971             | 55.7                     | 49.3                        |
+| 1972             | 23.6                     | 18.9                        |
+| 1973             | \-28.1                   | \-28.1                      |
+| 1974             | \-12.0                   | \-12.0                      |
+| 1975             | 38.5                     | 38.5                        |
+| 1/1-10/31/76     | 38.2                     | 34.5                        |
+| 11/1/76-10/31/77 | 30.3                     | 25.5                        |
+| 11/1/77-10/31/78 | 31.8                     | 26.6                        |
+| 11/1/78-10/31/79 | 34.7                     | 28.9                        |
+| 11/1/79-10/31/80 | 41.8                     | 34.7                        |
+| 11/1/80-10/31/81 | 4.0                      | 3.3                         |
+| 11/1/81-10/31/82 | 29.8                     | 25.4                        |
+| 11/1/82-10/31/83 | 22.2                     | 18.4                        |
+
+| 8/1/65 至 10/31/83 的合作人总体收益 Total Partnership Percentage Gain 8/1/65 through 10/31/83 | 4277.20% |
+| ------------------------------------------------------------------------------------ | -------- |
+| 8/1/65 至 10/31/83有限合伙人整体收益 Limited Partners Percentage Gain 8/1/65 through 10/31/83  | 2309.50% |
+| 合伙人整体年化收益 Annual Compound Rate of Gain Overall Partnership                           | 23.00%   |
+| 有限合伙人年化收益 Annual Compound Rate of Gain Limited Partners                              | 19.00%   |
+| 1965年7月31日道琼斯工业平均指数（近似值） Dow Jones Industrial Averages 7/31/65 (Approximate)         | 882      |
+| 1983年10月31日道琼斯工业平均指数（近似值） Dow Jones Industrial Averages 10/31/83 (Approximate)       | 1225     |
+| 包括股息的道琼斯工业平均指数近似年化收益率 Approximate Compound Rate of Gain of DJI including dividends   | 7%       |
 
 <br>
 
-Perlmeter不拥有Walter Schloss拥有的东西。他也不拥有Bill Ruane拥有的东西。这些都是他们独立创造的记录。但是每次Perlmeter买一支股票，都是因为他花的钱比他得到的价值少。这是他唯一考虑的事情。他不看季度盈利预测，他不看明年的盈利，他不在乎今天是星期几，他不在乎任何地方的投资研究报告，他对价格动量、成交量或者任何其他东西都不感兴趣。他只问一个问题：这个企业值多少钱？
+Perlmeter和沃尔特·施洛斯（Walter Schloss）的持仓不一样。他也和比尔·鲁安（Bill Ruane）的持仓不一样。这些都是他们独立创造的记录。但是每次Perlmeter买一支股票，都是因为他花的钱比他得到的价值少。这是他唯一考虑的事情。他不看季度盈利预测，他不看明年的盈利，他不在乎今天是星期几，他不在乎任何地方的投资研究报告，他对价格动量、成交量或者任何其他东西都不感兴趣。他只问一个问题：这个企业值多少钱？
 
 Perlmeter does not own what Walter Schloss owns. He does not own what Bill Ruane owns. These are records made independently. But every time Perlmeter buys a stock it’s because he’s getting more for his money than he’s paying. That’s the only thing he’s thinking about. He’s not looking at quarterly earnings projections, he’s not looking at next year’s earnings, he’s not thinking about what day of the week it is, he doesn’t care what investment research from any place says, he’s not interested in price momentum, volume, or anything. He’s simply asking: What is the business worth?
 
