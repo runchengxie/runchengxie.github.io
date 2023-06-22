@@ -36,7 +36,7 @@ These and other blessings are showered upon us by legislators in Washington who 
 
 <br>
 
-去年我缴纳的联邦税款——包括我自己支付的所得税和代我支付的工资税——是6938744美元。这听起来是一大笔钱。但我所缴纳的只占我的应纳税收入的17.4%，而且这实际上是我们办公室里其他20个人中缴纳的百分比最低的。他们的税负从33%到41%，平均为36%。
+去年我缴纳的联邦税款——包括我自己支付的所得税和代我支付的工资税——是6,938,744美元。这听起来是一大笔钱。但我所缴纳的只占我的应纳税收入的17.4%，而且这实际上是我们办公室里其他20个人中缴纳的百分比最低的。他们的税负从33%到41%，平均为36%。
 
 Last year my federal tax bill — the income tax I paid, as well as payroll taxes paid by me and on my behalf — was $6,938,744. That sounds like a lot of money. But what I paid was only 17.4 percent of my taxable income — and that’s actually a lower percentage than was paid by any of the other 20 people in our office. Their tax burdens ranged from 33 percent to 41 percent and averaged 36 percent.
 
@@ -102,6 +102,6 @@ But for those making more than $1 million — there were 236,883 such households
 
 <br>
 
-我和我的朋友们已经被一个亲亿万富翁的国会娇惯了够久了。是时候让我们的政府认真对待共同的牺牲了。
+我和我的朋友们已经被一个偏好亿万富翁的国会娇惯了够久了。是时候让我们的政府认真对待共同的牺牲了。
 
 My friends and I have been coddled long enough by a billionaire-friendly Congress. It’s time for our government to get serious about shared sacrifice.

@@ -492,6 +492,8 @@ As you can see, overall they have been in the top percentile ever since they mad
 
 Table 9 is the record of the FMC Corporation fund. I don’t manage a dime of it myself but I did, in 1974, influence their decision to select value-oriented managers. Prior to that time they had selected managers much the same way as most larger companies. They now rank number one in the Becker survey of pension funds for their size over the period of time subsequent to this “conversion” to the value approach. Last year they had eight equity managers of any duration beyond a year. Seven of them had a cumulative record better than the S&P. All eight had a better record last year than the S&P. The net difference now between a median performance and the actual performance of the FMC fund over this period is $243 million. FMC attributes this to the mindset given to them about the selection of managers. Those managers are not the managers I would necessarily select but they have the common denominators of selecting securities based on value.
 
+Table 9 · FMC Corporation Pension Fund. Annual Rate of Return (Percent)
+
 ![](https://i.imgur.com/bIk0OU4.png)
 ![](https://i.imgur.com/BowB3sU.png)
 
