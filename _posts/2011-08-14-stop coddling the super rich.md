@@ -18,7 +18,7 @@ Omaha
 
 <br>
 
-我们的领导人要求“共同牺牲”。但是当他们这样要求的时候，他们没有碰我。我问了我的超级富有的朋友，他们期待什么样的痛苦。他们也没有受到影响。
+我们的领导人要求“共同牺牲”。但是当他们真的这么做的时候，他们没有找我。我问了我的超级富有的朋友，他们的生活发生了什么变化。他们说没有受到任何影响。
 
 OUR leaders have asked for “shared sacrifice.” But when they did the asking, they spared me. I checked with my mega-rich friends to learn what pain they were expecting. They, too, were left untouched.
 
