@@ -492,10 +492,46 @@ As you can see, overall they have been in the top percentile ever since they mad
 
 Table 9 is the record of the FMC Corporation fund. I don’t manage a dime of it myself but I did, in 1974, influence their decision to select value-oriented managers. Prior to that time they had selected managers much the same way as most larger companies. They now rank number one in the Becker survey of pension funds for their size over the period of time subsequent to this “conversion” to the value approach. Last year they had eight equity managers of any duration beyond a year. Seven of them had a cumulative record better than the S&P. All eight had a better record last year than the S&P. The net difference now between a median performance and the actual performance of the FMC fund over this period is $243 million. FMC attributes this to the mindset given to them about the selection of managers. Those managers are not the managers I would necessarily select but they have the common denominators of selecting securities based on value.
 
-Table 9 · FMC Corporation Pension Fund. Annual Rate of Return (Percent)
+表 9 · FMC 公司养老基金 年回报率（百分比）Table 9 · FMC Corporation Pension Fund. Annual Rate of Return (Percent)
 
-![](https://i.imgur.com/bIk0OU4.png)
-![](https://i.imgur.com/BowB3sU.png)
+| 投资期限 Period ending | 1 Year | 2 Years | 3 Years | 4 Years | 5 Years | 6 Years | 7 Years | 8 Years | 9 Years                               |
+| ------------------ | ------ | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------------------------------------- |
+| FMC                |        |         |         |         |         |         |         |         |                                       |
+| 1983               | 23.0   |         |         |         |         |         |         |         | \*17.1                                |
+| 1982               | 22.8   | 13.6    | 16.0    | 16.6    | 15.5    | 12.3    | 13.9    | 16.3    |                                       |
+| 1981               | 5.4    | 13.0    | 15.3    | 13.8    | 10.5    | 12.6    | 15.4    |         |                                       |
+| 1980               | 21.0   | 19.7    | 16.8    | 11.7    | 14.0    | 17.3    |         |         |                                       |
+| 1979               | 18.4   | 14.7    | 8.7     | 12.3    | 16.5    |         |         |         |                                       |
+| 1978               | 11.2   | 4.2     | 10.4    | 16.1    |         |         |         |         |                                       |
+| 1977               | \-2.3  | 9.8     | 17.8    |         |         |         |         |         |                                       |
+| 1976               | 23.8   | 29.3    |         |         |         |         |         |         |                                       |
+| 1975               | 35.0   |         |         |         |         |         |         |         | \*权益投资收益为18.5 18.5 from equities only |
+
+| 投资期限 Period ending                    | 1 Year | 2 Years | 3 Years | 4 Years | 5 Years | 6 Years | 7 Years | 8 Years | 9 Years |
+| ------------------------------------- | ------ | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- |
+| Becker 计划中位数 Becker large plan median |        |         |         |         |         |         |
+| 1983                                  | 15.6   |         |         |         |         |         |         |         | 12.6    |
+| 1982                                  | 21.4   | 11.2    | 13.9    | 13.9    | 12.5    | 9.7     | 10.9    | 12.3    |         |
+| 1981                                  | 1.2    | 10.8    | 11.9    | 10.3    | 7.7     | 8.9     | 10.9    |         |         |
+| 1980                                  | 20.9   | NA      | NA      | NA      | 10.8    | NA      |         |         |         |
+| 1979                                  | 13.7   | NA      | NA      | NA      | 11.1    |         |         |         |         |
+| 1978                                  | 6.5    | NA      | NA      | NA      |         |         |         |         |         |
+| 1977                                  | \-3.3  | NA      | NA      |         |         |         |         |         |         |
+| 1976                                  | 17.0   | NA      |         |         |         |         |         |         |         |
+| 1975                                  | 24.1   |         |         |         |         |         |         |         |         |
+
+| 投资期限 Period ending  | 1 Year | 2 Years | 3 Years | 4 Years | 5 Years | 6 Years | 7 Years | 8 Years | 9 Years |
+| ------------------- | ------ | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- |
+| 标准普尔 500 指数 S&P 500 |        |         |         |         |         |         |         |
+| 1983                | 22.8   |         |         |         |         |         |         |         | 15.6    |
+| 1982                | 21.5   | 7.3     | 15.1    | 16.0    | 14.0    | 10.2    | 12.0    | 14.9    |         |
+| 1981                | \-5.0  | 12.0    | 14.2    | 12.2    | 8.1     | 10.5    | 14.0    |         |         |
+| 1980                | 32.5   | 25.3    | 18.7    | 11.7    | 14.0    | 17.5    |         |         |         |
+| 1979                | 18.6   | 12.4    | 5.5     | 9.8     | 14.8    |         |         |         |         |
+| 1978                | 6.6    | \-0.8   | 6.8     | 13.7    |         |         |         |         |         |
+| 1977                | \-7.7  | 6.9     | 16.1    |         |         |         |         |         |         |
+| 1976                | 23.7   | 30.3    |         |         |         |         |         |         |         |
+| 1975                | 37.2   |         |         |         |         |         |         |         |         |
 
 <br>
 
