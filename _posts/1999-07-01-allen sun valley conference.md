@@ -208,7 +208,7 @@ Click. Another slide appeared.
 
 <br>
 
-“现在，二十世纪上半叶的另一项伟大发明是飞机。在1919年到1939年这段期间，大约有两百家公司。想象一下，如果你当时能看到在基蒂霍克的航空工业的未来。你会看到一个你从未梦想过的世界。但假设你有这种洞察力，你看到所有这些人都希望飞翔，去拜访他们的亲戚，或者从他们的亲戚那里逃跑，或者做任何你在飞机上要做的事情，你决定这就是你要去的地方。
+“二十世纪上半叶的另一项伟大发明是飞机。在1919年到1939年这段期间，大约有两百家公司。想象一下，如果你当时能看到在基蒂霍克的航空工业的未来。你会看到一个你从未梦想过的世界。但假设你有这种洞察力，你看到所有这些人都希望飞翔，去拜访他们的亲戚，或者从他们的亲戚那里逃跑，或者做任何你在飞机上要做的事情，你决定这就是你要去的地方。
 
 “Now, the other great invention of the first half of the century was the airplane. In this period from 1919 to 1939, there were about two hundred companies. Imagine if you could have seen the future of the airline industry back there at Kitty Hawk. You would have seen a world undreamed of. But assume you had the insight, and you saw all of these people wishing to fly and to visit their relatives or run away from their relatives or whatever you do in an airplane, and you decided this was the place to be.
 
