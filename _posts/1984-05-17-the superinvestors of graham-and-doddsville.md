@@ -494,7 +494,7 @@ Table 9 is the record of the FMC Corporation fund. I don’t manage a dime of it
 
 表 9 · FMC 公司养老基金 年回报率（百分比）Table 9 · FMC Corporation Pension Fund. Annual Rate of Return (Percent)
 
-| 投资期限 Period ending | 1 Year | 2 Years | 3 Years | 4 Years | 5 Years | 6 Years | 7 Years | 8 Years | 9 Years                               |
+| 投资期限（年） Period ending | 1 Year | 2 Years | 3 Years | 4 Years | 5 Years | 6 Years | 7 Years | 8 Years | 9 Years                               |
 | ------------------ | ------ | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------------------------------------- |
 | FMC                |        |         |         |         |         |         |         |         |                                       |
 | 1983               | 23.0   |         |         |         |         |         |         |         | \*17.1                                |
@@ -507,7 +507,7 @@ Table 9 is the record of the FMC Corporation fund. I don’t manage a dime of it
 | 1976               | 23.8   | 29.3    |         |         |         |         |         |         |                                       |
 | 1975               | 35.0   |         |         |         |         |         |         |         | \*权益投资收益为18.5 18.5 from equities only |
 
-| 投资期限 Period ending                    | 1 Year | 2 Years | 3 Years | 4 Years | 5 Years | 6 Years | 7 Years | 8 Years | 9 Years |
+| 投资期限（年） Period ending                    | 1 Year | 2 Years | 3 Years | 4 Years | 5 Years | 6 Years | 7 Years | 8 Years | 9 Years |
 | ------------------------------------- | ------ | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- |
 | Becker 计划中位数 Becker large plan median |        |         |         |         |         |         |
 | 1983                                  | 15.6   |         |         |         |         |         |         |         | 12.6    |
@@ -520,7 +520,7 @@ Table 9 is the record of the FMC Corporation fund. I don’t manage a dime of it
 | 1976                                  | 17.0   | NA      |         |         |         |         |         |         |         |
 | 1975                                  | 24.1   |         |         |         |         |         |         |         |         |
 
-| 投资期限 Period ending  | 1 Year | 2 Years | 3 Years | 4 Years | 5 Years | 6 Years | 7 Years | 8 Years | 9 Years |
+| 投资期限（年） Period ending  | 1 Year | 2 Years | 3 Years | 4 Years | 5 Years | 6 Years | 7 Years | 8 Years | 9 Years |
 | ------------------- | ------ | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- |
 | 标准普尔 500 指数 S&P 500 |        |         |         |         |         |         |         |
 | 1983                | 22.8   |         |         |         |         |         |         |         | 15.6    |
