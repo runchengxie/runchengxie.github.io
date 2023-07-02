@@ -98,8 +98,52 @@ The power of interest rates had the effect of pushing up equities as well, thoug
 
 The increase in equity values since 1981 beats anything you can find in history. This increase even surpasses what you would have realized if you'd bought stocks in 1932, at their Depression bottom--on its lowest day, July 8, 1932, the Dow closed at 41.22--and held them for 17 years.
 
+<br>
+
 ![After-tax corporate profits as apercent of GDP](/images/After-tax%20corporate%20profits%20as%20apercent%20of%20GDP.png)
 
 第二个影响这17年股票价格的因素是税后企业利润，这张图表显示了税后企业利润占GDP的百分比。实际上，这张图表告诉你的是美国企业股东每年从GDP中获得了多少份额。
 
 The second thing bearing on stock prices during this 17 years was after-tax corporate profits, which this chart [above] displays as a percentage of GDP. In effect, what this chart tells you is what portion of the GDP ended up every year with the shareholders of American business.
+
+<br>
+
+你会看到，图表开始于1929年。我对1929年颇有好感，因为那是我开始的时候。我的父亲当时是股票销售员，当秋天的股灾来临后，他害怕打电话给任何人——所有那些受伤的人。所以他下午就呆在家里。那时候还没有电视。所以......我妈是在大约1929年11月30日（9个月后，1930年8月30日出生）这个时间左右怀孕的，我一直对那次崩溃有一种温暖的感觉。
+
+The chart, as you will see, starts in 1929. I'm quite fond of 1929, since that's when it all began for me. My dad was a stock salesman at the time, and after the Crash came, in the fall, he was afraid to call anyone--all those people who'd been burned. So he just stayed home in the afternoons. And there wasn't television then. Soooo... I was conceived on or about Nov. 30, 1929 (and born nine months later, on Aug. 30, 1930), and I've forever had a kind of warm feeling about the Crash.
+
+<br>
+
+如你所见，企业利润占GDP的比例在1929年达到峰值，然后便直线下跌。图表的左侧实际上充满了异常：不仅有大萧条，还有战时利润繁荣——被超额利润税压制——以及战后的另一次繁荣。但是从1951年开始，这个百分比基本上稳定在4%到6.5%的范围内。
+
+As you can see, corporate profits as a percentage of GDP peaked in 1929, and then they tanked. The left-hand side of the chart, in fact, is filled with aberrations: not only the Depression but also a wartime profits boom--sedated by the excess-profits tax--and another boom after the war. But from 1951 on, the percentage settled down pretty much to a 4% to 6.5% range.
+
+<br>
+
+然而，到1981年，趋势朝着这个区间的底部发展，到1982年利润跌至3.5%。因此，投资者此时面临两个严重的负面因素：利润低于平均水平，利率又高企。
+
+By 1981, though, the trend was headed toward the bottom of that band, and in 1982 profits tumbled to 3.5%. So at that point investors were looking at two strong negatives: Profits were sub-par and interest rates were sky-high.
+
+<br>
+
+正如我们常见的那样，投资者将他们所看到的情况投射到未来。这是他们不可动摇的习惯：总是通过后视镜看事情，而不是透过挡风玻璃向前看。他们从过去看到的情况，让他们对这个国家感到非常沮丧。他们预测利率会上升，预测利润会下降，因此，尽管GDP近乎增长了五倍，他们仍然以17年前的水平来评估道琼斯指数。
+
+And as is so typical, investors projected out into the future what they were seeing. That's their unshakable habit: looking into the rear-view mirror instead of through the windshield. What they were observing, looking backward, made them very discouraged about the country. They were projecting high interest rates, they were projecting low profits, and they were therefore valuing the Dow at a level that was the same as 17 years earlier, even though GDP had nearly quintupled.
+
+<br>
+
+那么，从1982年开始的这17年里发生了什么呢？一件并未发生的事情是GDP的相应增长：在这第二个17年期间，GDP不到三倍。但利率开始下降，而在沃尔克效应消退后，利润开始攀升——尽管不是稳步的，但无疑是实力强大的。你可以从图表中看到利润的趋势，图表显示，到了20世纪90年代末，税后利润占GDP的百分比接近6%，这在"正常"范围内是偏上的。而到了1998年底，长期政府利率已经降到5%左右。
+
+Now, what happened in the 17 years beginning with 1982? One thing that didn't happen was comparable growth in GDP: In this second 17-year period, GDP less than tripled. But interest rates began their descent, and after the Volcker effect wore off, profits began to climb--not steadily, but nonetheless with real power. You can see the profit trend in the chart, which shows that by the late 1990s, after-tax profits as a percent of GDP were running close to 6%, which is on the upper part of the "normalcy" band. And at the end of 1998, long-term government interest rates had made their way down to that 5%.
+
+<br>
+
+对投资者来说，最重要的两个基本因素的巨大变化，虽然不能完全解释，但在很大程度上解释了这17年期间股票价格的十倍以上的上涨——道琼斯指数从875上升到9，181。当然，影响这一切的还有市场心理。一旦牛市开始，一旦你达到每个人无论采取什么策略都能赚钱的地步，就会有一群人被吸引进来，他们的反应不是对利率和利润，而只是对错过股市的恐惧。实际上，这些人在市场驱动的基本因素之上，叠加了一种我不能错过这场派对的因素。就像巴甫洛夫的狗，这些"投资者"学会了，当钟声响起——在这个例子中，是早上9点半开启纽约股票交易所的那个钟声——他们就能得到食物。通过这种日常的强化，他们确信存在一个上帝，并且他希望他们富裕。
+
+These dramatic changes in the two fundamentals that matter most to investors explain much, though not all, of the more than tenfold rise in equity prices--the Dow went from 875 to 9,181-- during this 17-year period. What was at work also, of course, was market psychology. Once a bull market gets under way, and once you reach the point where everybody has made money no matter what system he or she followed, a crowd is attracted into the game that is responding not to interest rates and profits but simply to the fact that it seems a mistake to be out of stocks. In effect, these people superimpose an I-can't-miss-the-party factor on top of the fundamental factors that drive the market. Like Pavlov's dog, these "investors" learn that when the bell rings--in this case, the one that opens the New York Stock Exchange at 9:30 a.m.--they get fed. Through this daily reinforcement, they become convinced that there is a God and that He wants them to get rich.
+
+<br>
+
+今天，大多数投资者盯着他们刚走过的路，满怀乐观的期待。潘瑞伟伯和盖洛普组织在7月发布的一项调查显示，最没有经验的投资者——那些投资不到五年的人——预期未来十年的年回报率为22.6%。即使是那些投资超过20年的人，也预期回报率为12.9%。
+
+Today, staring fixedly back at the road they just traveled, most investors have rosy expectations. A Paine Webber and Gallup Organization survey released in July shows that the least experienced investors--those who have invested for less than five years--expect annual returns over the next ten years of 22.6%. Even those who have invested for more than 20 years are expecting 12.9%.
