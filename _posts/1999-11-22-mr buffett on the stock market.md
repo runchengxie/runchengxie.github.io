@@ -7,8 +7,12 @@ tags: 文章
 
 <p class="small">时间：1999年11月22日</p>
 <p class="small">来源：Fortune</p>
-<p class="small">原文标题： [Mr. Buffett on the Stock Market The most celebrated of investors says stocks can't possibly meet the public's expectations. As for the Internet? He notes how few people got rich from two other transforming industries, auto and aviation.]()
+<p class="small">原文标题： Mr. Buffett on the Stock Market The most celebrated of investors says stocks can't possibly meet the public's expectations. As for the Internet? He notes how few people got rich from two other transforming industries, auto and aviation 
+
+[Fortune](https://www.berkshirehathaway.com/1999ar/FortuneMagazine.pdf)
 </p>
+
+[cnn](https://money.cnn.com/magazines/fortune/fortune_archive/1999/11/22/269071/)
 
 <br>
 
@@ -95,5 +99,7 @@ The power of interest rates had the effect of pushing up equities as well, thoug
 The increase in equity values since 1981 beats anything you can find in history. This increase even surpasses what you would have realized if you'd bought stocks in 1932, at their Depression bottom--on its lowest day, July 8, 1932, the Dow closed at 41.22--and held them for 17 years.
 
 第二个影响这17年股票价格的因素是税后企业利润，这张图表显示了税后企业利润占GDP的百分比。实际上，这张图表告诉你的是美国企业股东每年从GDP中获得了多少份额。
+
+![After-tax corporate profits as apercent of GDP](/images/After-tax%20corporate%20profits%20as%20apercent%20of%20GDP.png)
 
 The second thing bearing on stock prices during this 17 years was after-tax corporate profits, which this chart [above] displays as a percentage of GDP. In effect, what this chart tells you is what portion of the GDP ended up every year with the shareholders of American business.
