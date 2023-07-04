@@ -147,3 +147,44 @@ These dramatic changes in the two fundamentals that matter most to investors exp
 今天，大多数投资者盯着他们刚走过的路，满怀乐观的期待。潘瑞伟伯和盖洛普组织在7月发布的一项调查显示，最没有经验的投资者——那些投资不到五年的人——预期未来十年的年回报率为22.6%。即使是那些投资超过20年的人，也预期回报率为12.9%。
 
 Today, staring fixedly back at the road they just traveled, most investors have rosy expectations. A Paine Webber and Gallup Organization survey released in July shows that the least experienced investors--those who have invested for less than five years--expect annual returns over the next ten years of 22.6%. Even those who have invested for more than 20 years are expecting 12.9%.
+
+<br>
+
+现在，我想要说的是，我们甚至无法接近那12.9%，我会通过考察关键的价值决定因素来阐述我的观点。今天，如果一个投资者想在未来十年或17年或20年在市场上获得丰厚的利润，以下三件事情必须至少发生一个。我会稍后再谈最后一件事情，但这是前两个：
+
+Now, I'd like to argue that we can't come even remotely close to that 12.9%, and make my case by examining the key value-determining factors. Today, if an investor is to achieve juicy profits in the market over ten years or 17 or 20, one or more of three things must happen. I'll delay talking about the last of them for a bit, but here are the first two:
+
+<br>
+
+（1）利率必须进一步下降。如果政府利率，现在约为6%，如果下降到3%，仅这一因素就足以将普通股的价值提高近一倍。顺便说一下，如果你认为利率会这样做--或者下降到日本经历过的1%--你应该去能真正赚大钱的地方：债券期权。
+
+(1) Interest rates must fall further. If government interest rates, now at a level of about 6%, were to fall to 3%, that factor alone would come close to doubling the value of common stocks. Incidentally, if you think interest rates are going to do that--or fall to the 1% that Japan has experienced--you should head for where you can really make a bundle: bond options.
+
+<br>
+
+(2) 企业盈利相对于国内生产总值（GDP）必须上升。你知道，有人曾经告诉我，纽约的律师数量超过了人口数量。我想这个人也相信利润会超过GDP。当你开始期望一个组成因素的增长永远超过总体的时候，你就会遇到一些数学问题。在我看来，你必须非常乐观才能相信，企业利润占GDP的百分比，能在任何持续的时期内，保持在6%以上。一个保持这个百分比的因素将是竞争，它是活生生的存在。此外，还有一个公共政策的观点：如果企业投资者总体上要吃掉美国经济大饼的越来越大的一部分，那么其他群体就必须接受更小的一部分。这会引发正当的政治问题——在我看来，这种大规模的重新分配饼干是不会发生的。
+
+(2) Corporate profitability in relation to GDP must rise. You know, someone once told me that New York has more lawyers than people. I think that's the same fellow who thinks profits will become larger than GDP. When you begin to expect the growth of a component factor to forever outpace that of the aggregate, you get into certain mathematical problems. In my opinion, you have to be wildly optimistic to believe that corporate profits as a percent of GDP can, for any sustained period, hold much above 6%. One thing keeping the percentage down will be competition, which is alive and well. In addition, there's a public-policy point: If corporate investors, in aggregate, are going to eat an ever-growing portion of the American economic pie, some other group will have to settle for a smaller portion. That would justifiably raise political problems--and in my view a major reslicing of the pie just isn't going to happen.
+
+<br>
+
+那么，一些合理的假设会引导我们走向何处呢？假设GDP每年平均增长5%——实际增长3%，这已经相当不错了，再加上2%的通胀。如果GDP以5%的速度增长，而你不能从利率那里得到一些帮助，那么股票的总体价值就不会增长太多。是的，你可以从股息中获得一些回报。但是，随着股票在今天的价格上卖出，股息对总回报的重要性已经大不如前了。投资者也不能期待因为公司忙于通过回购股票来提高每股收益而获得高分。这里的抵消因素是，公司几乎同样忙于发行新股，既有通过首次公开发行，也有那些永远存在的股票期权。
+
+So where do some reasonable assumptions lead us? Let's say that GDP grows at an average 5% a year--3% real growth, which is pretty darn good, plus 2% inflation. If GDP grows at 5%, and you don't have some help from interest rates, the aggregate value of equities is not going to grow a whole lot more. Yes, you can add on a bit of return from dividends. But with stocks selling where they are today, the importance of dividends to total return is way down from what it used to be. Nor can investors expect to score because companies are busy boosting their per-share earnings by buying in their stock. The offset here is that the companies are just about as busy issuing new stock, both through primary offerings and those ever present stock options.
+
+<br>
+
+所以我回到我对GDP 5%增长的假设，并提醒你这是你将获得回报的限制因素：如果美国企业的盈利只增长5%，你就不能期望永远实现12%的年增长——更不用说22%了。无法回避的事实是，无论资产的性质如何，其价值长期来看不能增长得比其盈利快。
+
+So I come back to my postulation of 5% growth in GDP and remind you that it is a limiting factor in the returns you're going to get: You cannot expect to forever realize a 12% annual increase--much less 22%--in the valuation of American business if its profitability is growing only at 5%. The inescapable fact is that the value of an asset, whatever its character, cannot over the long term grow faster than its earnings do.
+
+<br>
+
+现在，也许你想要提出一个不同的观点。那也说得通。但是给我你的假设。如果你认为美国公众每年能在股票中赚取12%，我想你必须说，比如，“那是因为我预计GDP每年将增长10%，股息将为回报增加两个百分点，利率将保持恒定。”或者你必须以其他方式重新安排这些关键变量。只是简单的信仰——如果你相信就鼓掌——是行不通的。
+
+Now, maybe you'd like to argue a different case. Fair enough. But give me your assumptions. If you think the American public is going to make 12% a year in stocks, I think you have to say, for example, "Well, that's because I expect GDP to grow at 10% a year, dividends to add two percentage points to returns, and interest rates to stay at a constant level." Or you've got to rearrange these key variables in some other manner. The Tinker Bell approach--clap if you believe--just won't cut it.
+
+除此之外，你需要记住，未来的回报总是受到当前估值的影响，并需要考虑一下你现在在股市中用你的钱能得到什么。下面是1998年《财富》500强的两个数据。这些公司占了所有公开持有的美国企业价值的大约75%，所以当你看这500家公司时，你实际上在谈论的是美国公司。
+
+Beyond that, you need to remember that future returns are always affected by current valuations and give some thought to what you're getting for your money in the stock market right now. Here are two 1998 figures for the FORTUNE 500. The companies in this universe account for about 75% of the value of all publicly owned American businesses, so when you look at the 500, you're really talking about America Inc.
+
