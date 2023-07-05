@@ -184,7 +184,48 @@ So I come back to my postulation of 5% growth in GDP and remind you that it is a
 
 Now, maybe you'd like to argue a different case. Fair enough. But give me your assumptions. If you think the American public is going to make 12% a year in stocks, I think you have to say, for example, "Well, that's because I expect GDP to grow at 10% a year, dividends to add two percentage points to returns, and interest rates to stay at a constant level." Or you've got to rearrange these key variables in some other manner. The Tinker Bell approach--clap if you believe--just won't cut it.
 
+<br>
+
 除此之外，你需要记住，未来的回报总是受到当前估值的影响，并需要考虑一下你现在在股市中用你的钱能得到什么。下面是1998年《财富》500强的两个数据。这些公司占了所有公开持有的美国企业价值的大约75%，所以当你看这500家公司时，你实际上在谈论的是美国公司。
 
 Beyond that, you need to remember that future returns are always affected by current valuations and give some thought to what you're getting for your money in the stock market right now. Here are two 1998 figures for the FORTUNE 500. The companies in this universe account for about 75% of the value of all publicly owned American businesses, so when you look at the 500, you're really talking about America Inc.
+
+<br>
+
+《财富》500强1998年的利润：334,335,000,000美元 
+1999年3月15日的市场价值：9,907,233,000,000美元
+
+FORTUNE 500 1998 profits: $334,335,000,000 Market value on March 15, 1999: $9,907,233,000,000
+
+<br>
+
+当我们关注这两个数字时，我们需要意识到，利润数字有其特殊之处。1998年的利润包括一个非常特殊的项目——福特公司在剥离Associates公司时报告的160亿美元的账务收益——同时，利润中也包括了一些，如State Farm这样的互助公司的收益，这些公司没有市场价值。此外，一个主要的公司费用，即股票期权补偿成本，没有从利润中扣除。另一方面，利润数字在某些情况下由于冲销而减少，这可能并没有反映经济现实，也可以重新计算回来。但是，忽略这些限定条件，投资者在今年3月15日表示，他们愿意为3340亿美元的利润支付高达10万亿美元。
+
+As we focus on those two numbers, we need to be aware that the profits figure has its quirks. Profits in 1998 included one very unusual item--a $16 billion bookkeeping gain that Ford reported from its spinoff of Associates--and profits also included, as they always do in the 500, the earnings of a few mutual companies, such as State Farm, that do not have a market value. Additionally, one major corporate expense, stock-option compensation costs, is not deducted from profits. On the other hand, the profits figure has been reduced in some cases by write-offs that probably didn't reflect economic reality and could just as well be added back in. But leaving aside these qualifications, investors were saying on March 15 this year that they would pay a hefty $10 trillion for the $334 billion in profits.
+
+<br>
+
+请记住——这是一个经常被忽视的关键事实——投资者总的来说不能从他们的企业中得到任何超出企业所赚的东西。当然，你和我可以以越来越高的价格相互出售股票。假设《财富》500强只是一家企业，而在这个房间里的每个人都拥有其中的一部分。在这种情况下，我们可以坐在这里，以越来越高的价格互相出售股份。你个人可能会通过低买高卖来比下一个人更聪明。但当这种情况发生时，没有钱会离开这个游戏：你只是取走他投入的。同时，群体的经验不会受到丝毫影响，因为其命运仍然与利润挂钩。总的来说，一家企业的所有者最终能从中获得的绝对最大收益——从现在到最后的审判日——就是那家企业随着时间的推移所赚的钱。
+
+Bear in mind--this is a critical fact often ignored--that investors as a whole cannot get anything out of their businesses except what the businesses earn. Sure, you and I can sell each other stocks at higher and higher prices. Let's say the FORTUNE 500 was just one business and that the people in this room each owned a piece of it. In that case, we could sit here and sell each other pieces at ever-ascending prices. You personally might outsmart the next fellow by buying low and selling high. But no money would leave the game when that happened: You'd simply take out what he put in. Meanwhile, the experience of the group wouldn't have been affected a whit, because its fate would still be tied to profits. The absolute most that the owners of a business, in aggregate, can get out of it in the end--between now and Judgment Day--is what that business earns over time.
+
+<br>
+
+还有另一个需要考虑的主要限制。如果你和我在这个房间里交易我们企业的一部分，我们可以避开交易成本，因为没有经纪人在我们每次交易中都要分一杯羹。但在现实世界中，投资者有想要换座位的习惯，或者至少会花钱获取是否应该这样做的建议，这需要花费大量的金钱。他们承担的费用——我称之为摩擦成本——包括广泛的项目。有做市商的差价，佣金，销售负担，12b-1费用，管理费用，托管费，包装费，甚至是金融刊物的订阅费。不要把这些费用当作无关紧要的事。如果你在评估一份投资房地产，你会不会在计算回报率时扣除管理成本？是的，当然——以完全相同的方式，计算他们的回报的股市投资者必须面对他们承担的摩擦成本。
+
+And there's still another major qualification to be considered. If you and I were trading pieces of our business in this room, we could escape transactional costs because there would be no brokers around to take a bite out of every trade we made. But in the real world investors have a habit of wanting to change chairs, or of at least getting advice as to whether they should, and that costs money--big money. The expenses they bear--I call them frictional costs--are for a wide range of items. There's the market maker's spread, and commissions, and sales loads, and 12b-1 fees, and management fees, and custodial fees, and wrap fees, and even subscriptions to financial publications. And don't brush these expenses off as irrelevancies. If you were evaluating a piece of investment real estate, would you not deduct management costs in figuring your return? Yes, of course--and in exactly the same way, stock market investors who are figuring their returns must face up to the frictional costs they bear.
+
+<br>
+
+那么，他们需要支付多少呢？我估计，美国股票的投资者每年支付超过1000亿美元——比如说，1300亿美元——来换椅子，或者购买有关他们是否应该这样做的建议！其中大约有1000亿美元与《财富》500强有关。换句话说，投资者正在将《财富》500强为他们赚取的所有收益——1998年的3340亿美元——的近三分之一，交给各种各样的换椅子和椅子咨询“助手”。当这种交接完成后，拥有500强的投资者在他们的10万亿美元的投资上获得的回报不到2500亿美元。在我看来，这是微不足道的收益。
+
+<br>
+
+And what do they come to? My estimate is that investors in American stocks pay out well over $100 billion a year--say, $130 billion--to move around on those chairs or to buy advice as to whether they should! Perhaps $100 billion of that relates to the FORTUNE 500. In other words, investors are dissipating almost a third of everything that the FORTUNE 500 is earning for them--that $334 billion in 1998--by handing it over to various types of chair-changing and chair-advisory "helpers." And when that handoff is completed, the investors who own the 500 are reaping less than a $250 billion return on their $10 trillion investment. In my view, that's slim pickings.
+
+<br>
+
+也许到现在你已经在心里和我对那些“助手”流向的1000亿美元的估计产生了争议。他们是如何向你收费的呢？让我来数一数。首先是交易成本，包括佣金，做市商的收入，和承销发行的差价：剔除双重计算后，今年在美国至少会有3500亿股股票交易，我估计每股的交易成本——即买方和卖方的成本——平均为6美分。这加起来就是420亿美元。
+
+Perhaps by now you're mentally quarreling with my estimate that $100 billion flows to those "helpers." How do they charge thee? Let me count the ways. Start with transaction costs, including commissions, the market maker's take, and the spread on underwritten offerings: With double counting stripped out, there will this year be at least 350 billion shares of stock traded in the U.S., and I would estimate that the transaction cost per share for each side--that is, for both the buyer and the seller--will average 6 cents. That adds up to $42 billion.
 
