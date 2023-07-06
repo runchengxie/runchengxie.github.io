@@ -229,3 +229,93 @@ And what do they come to? My estimate is that investors in American stocks pay o
 
 Perhaps by now you're mentally quarreling with my estimate that $100 billion flows to those "helpers." How do they charge thee? Let me count the ways. Start with transaction costs, including commissions, the market maker's take, and the spread on underwritten offerings: With double counting stripped out, there will this year be at least 350 billion shares of stock traded in the U.S., and I would estimate that the transaction cost per share for each side--that is, for both the buyer and the seller--will average 6 cents. That adds up to $42 billion.
 
+<br>
+
+继续讨论额外的成本：对于拥有包装账户的小投资者来说，费用很高；对于大投资者来说，管理费也不菲；而对于国内股票共同基金的持有者来说，一大笔费用正悬在头顶。这些基金目前的资产总额约为3.5万亿美元，我们必须得出这样一个结论：每年这些基金给投资者带来的成本（包括管理费、销售费、12b-1费用、一般运营成本）至少占1%，也就是350亿美元。
+
+Move on to the additional costs: hefty charges for little guys who have wrap accounts; management fees for big guys; and, looming very large, a raft of expenses for the holders of domestic equity mutual funds. These funds now have assets of about $3.5 trillion, and you have to conclude that the annual cost of these to their investors--counting management fees, sales loads, 12b-1 fees, general operating costs--runs to at least 1%, or $35 billion.
+
+<br>
+
+到目前为止，我所描述的损失还没有包括期权和期货的佣金和价差，也没有包括可变年金持有者所承担的成本，更不用说那些“助手们”能够想出的无数其他费用了。简而言之，对于财富500强的所有者来说，1000亿美元的摩擦成本（占500强市值的1%）在我看来，不仅是一个非常有力的估计，而且很可能偏低。
+
+And none of the damage I've so far described counts the commissions and spreads on options and futures, or the costs borne by holders of variable annuities, or the myriad other charges that the "helpers" manage to think up. In short, $100 billion of frictional costs for the owners of the FORTUNE 500--which is 1% of the 500's market value--looks to me not only highly defensible as an estimate, but quite possibly on the low side.
+
+<br>
+
+这看起来也是一个可怕的成本。我曾听说过一个漫画，其中一位新闻评论员说：“今天纽约证券交易所没有交易。每个人都对自己拥有的东西感到满意。”那么，如果真的是这样的话，投资者每年将能在口袋里多留下大约1300亿美元。
+
+It also looks like a horrendous cost. I heard once about a cartoon in which a news commentator says, "There was no trading on the New York Stock Exchange today. Everyone was happy with what they owned." Well, if that were really the case, investors would every year keep around $130 billion in their pockets.
+
+<br>
+
+让我总结一下我对股市的看法：我认为很难找到一个有说服力的理由，证明在未来17年里，股票的表现会像过去的17年那样。如果我必须选择一个最可能的回报，即股价上涨和股息相结合，那么在一个利率恒定、通货膨胀2%以及摩擦成本持续伤害的世界里，投资者整体（重复，整体）所能获得的回报可能是6%。如果你从这个名义回报中剔除通货膨胀成分（不管通货膨胀如何波动，都需要这样做），那么实际回报就是4%。如果4%是错误的，我认为这个百分比很可能会低于或高于这个水平。
+
+Let me summarize what I've been saying about the stock market: I think it's very hard to come up with a persuasive case that equities will over the next 17 years perform anything like--anything like--they've performed in the past 17. If I had to pick the most probable return, from appreciation and dividends combined, that investors in aggregate--repeat, aggregate--would earn in a world of constant interest rates, 2% inflation, and those ever hurtful frictional costs, it would be 6%. If you strip out the inflation component from this nominal return (which you would need to do however inflation fluctuates), that's 4% in real terms. And if 4% is wrong, I believe that the percentage is just as likely to be less as more.
+
+<br>
+
+让我回到我之前所说的：未来投资者在市场上实现显著利润的三个可能因素。第一个是利率可能下降，第二个是企业利润占GDP的比例可能大幅上升。现在我来谈谈第三点：也许你是一个乐观主义者，认为尽管投资者整体可能艰难前行，但你自己会是赢家。在信息革命（我完全相信）的初期，这个想法可能尤其诱人。你的经纪人会告诉你，只需选择明显的赢家，然后乘风破浪。
+
+Let me come back to what I said earlier: that there are three things that might allow investors to realize significant profits in the market going forward. The first was that interest rates might fall, and the second was that corporate profits as a percent of GDP might rise dramatically. I get to the third point now: Perhaps you are an optimist who believes that though investors as a whole may slog along, you yourself will be a winner. That thought might be particularly seductive in these early days of the information revolution (which I wholeheartedly believe in). Just pick the obvious winners, your broker will tell you, and ride the wave.
+
+<br>
+
+好吧，我认为回顾一下本世纪早期改变了美国的几个行业会很有启发性：汽车和航空。首先谈谈汽车：在这里，我有一页，共计70页，介绍了在美国运营过的汽车和卡车制造商。曾经有一款伯克希尔汽车和一款奥马哈汽车。当然，我注意到了这些。但还有一整本电话簿的其他品牌。
+
+Well, I thought it would be instructive to go back and look at a couple of industries that transformed this country much earlier in this century: automobiles and aviation. Take automobiles first: I have here one page, out of 70 in total, of car and truck manufacturers that have operated in this country. At one time, there was a Berkshire car and an Omaha car. Naturally I noticed those. But there was also a telephone book of others.
+
+<br>
+
+总的来说，似乎至少有2000个汽车品牌，这个行业对人们的生活产生了令人难以置信的影响。如果你在汽车早期预见到这个行业将如何发展，你会说，“这是通往财富的道路。”那么到了20世纪90年代，我们发展到了什么程度呢？在屠杀从未停止的企业浩劫之后，美国汽车公司只剩下了三家——而这三家对投资者来说也没有什么吸引力。所以，这是一个对美国产生了巨大影响的行业——同时也对投资者产生了巨大影响，尽管不是预期的那种影响。
+
+All told, there appear to have been at least 2,000 car makes, in an industry that had an incredible impact on people's lives. If you had foreseen in the early days of cars how this industry would develop, you would have said, "Here is the road to riches." So what did we progress to by the 1990s? After corporate carnage that never let up, we came down to three U.S. car companies--themselves no lollapaloozas for investors. So here is an industry that had an enormous impact on America--and also an enormous impact, though not the anticipated one, on investors.
+
+<br>
+
+顺便说一下，有时在这些变革性事件中，找出输家要容易得多。当汽车出现时，你本可以领悟到它的重要性，但仍然难以挑选能让你赚钱的公司。但当时有一个明显的决定你本可以做出——有时把这些事情颠倒过来会更好——那就是做空马匹。坦率地说，我对巴菲特家族在整个时期都没有做空马匹感到失望。而且我们确实没有借口：生活在内布拉斯加州，我们本可以很容易地借到马匹，避免“做空挤压”。
+
+Sometimes, incidentally, it's much easier in these transforming events to figure out the losers. You could have grasped the importance of the auto when it came along but still found it hard to pick companies that would make you money. But there was one obvious decision you could have made back then--it's better sometimes to turn these things upside down--and that was to short horses. Frankly, I'm disappointed that the Buffett family was not short horses through this entire period. And we really had no excuse: Living in Nebraska, we would have found it super-easy to borrow horses and avoid a "short squeeze."
+
+<br>
+
+美国马匹数量 1900年：2100万匹 1998年：500万匹
+
+U.S. Horse Population 1900: 21 million 1998: 5 million
+
+<br>
+
+除汽车之外，20世纪第一个25年中另一个真正变革性的商业发明是飞机——这又是一个明显具有辉煌前景的行业，足以让投资者垂涎。因此，我回顾了飞机制造商的历史，发现在1919-1939年期间，有大约300家公司，如今仅有少数几家仍在运营。当时制造的飞机——我们一定是那个时代的硅谷——包括内布拉斯加和奥马哈两款飞机，即使是最忠诚的内布拉斯加州人如今也不再依赖它们。
+
+The other truly transforming business invention of the first quarter of the century, besides the car, was the airplane--another industry whose plainly brilliant future would have caused investors to salivate. So I went back to check out aircraft manufacturers and found that in the 1919-39 period, there were about 300 companies, only a handful still breathing today. Among the planes made then--we must have been the Silicon Valley of that age--were both the Nebraska and the Omaha, two aircraft that even the most loyal Nebraskan no longer relies upon.
+
+<br>
+
+继续谈论航空公司的失败。以下是过去20年里申请破产的129家航空公司的名单。大陆航空公司足够聪明，竟然两次上榜。实际上，截至1992年——尽管此后情况有所改善——自航空业诞生以来，美国所有航空公司赚到的钱是零。绝对的零。
+
+Move on to failures of airlines. Here's a list of 129 airlines that in the past 20 years filed for bankruptcy. Continental was smart enough to make that list twice. As of 1992, in fact--though the picture would have improved since then--the money that had been made since the dawn of aviation by all of this country's airline companies was zero. Absolutely zero.
+
+<br>
+
+权衡这一切，我想如果1903年我在基蒂霍克见证奥维尔·莱特起飞时，我会有足够的远见和公益心——我对未来的资本家们负有这个责任——去击落他。我的意思是，卡尔·马克思对资本家们造成的损害都不如奥维尔大。
+
+Sizing all this up, I like to think that if I'd been at Kitty Hawk in 1903 when Orville Wright took off, I would have been farsighted enough, and public-spirited enough--I owed this to future capitalists--to shoot him down. I mean, Karl Marx couldn't have done as much damage to capitalists as Orville did.
+
+<br>
+
+我不会详细论述其他改变了我们生活的璀璨产业，但同时未能给美国投资者带来回报的例子，例如无线电和电视制造业。但是我会从这些产业中得出一个教训：投资的关键并不在于评估一个行业将如何影响社会，或者它将增长多少，而在于判断任何特定公司的竞争优势，尤其是这种优势的持久性。那些拥有广泛、可持续护城河的产品或服务，才是能够给投资者带来回报的。
+
+I won't dwell on other glamorous businesses that dramatically changed our lives but concurrently failed to deliver rewards to U.S. investors: the manufacture of radios and televisions, for example. But I will draw a lesson from these businesses: The key to investing is not assessing how much an industry is going to affect society, or how much it will grow, but rather determining the competitive advantage of any given company and, above all, the durability of that advantage. The products or services that have wide, sustainable moats around them are the ones that deliver rewards to investors.
+
+<br>
+
+谈到17年周期，让我想起了（虽然我承认这有点不相关）17年蝉。假如现在有一批预计在2016年出现的这些小家伙，它们能预期遇到什么呢？我看到它们进入一个股票市场中公众的狂热程度低于现在的世界。自然地，投资者会感到失望——但这仅仅是因为他们一开始期望过高。
+
+This talk of 17-year periods makes me think--incongruously, I admit--of 17-year locusts. What could a current brood of these critters, scheduled to take flight in 2016, expect to encounter? I see them entering a world in which the public is less euphoric about stocks than it is now. Naturally, investors will be feeling disappointment--but only because they started out expecting too much.
+
+<br>
+
+无论他们是否心情不好，到那时他们都会变得相当富有，仅仅是因为他们所拥有的美国企业机构一直在稳步前进，在实际意义上每年将利润提高3%。最重要的是，这种财富创造带来的回报将惠及普通美国人，他们将享有远高于今天的生活水平。即使这种情况不能与过去17年的投资者习惯相比，这个世界也不会太糟。
+
+Grumpy or not, they will have by then grown considerably wealthier, simply because the American business establishment that they own will have been chugging along, increasing its profits by 3% annually in real terms. Best of all, the rewards from this creation of wealth will have flowed through to Americans in general, who will be enjoying a far higher standard of living than they do today. That wouldn't be a bad world at all--even if it doesn't measure up to what investors got used to in the 17 years just passed.
+
