@@ -21,19 +21,19 @@ tags: 文章
 
 <br>
 
-那么，我们现在的状况是什么呢？股市似乎反映出了黯淡的利润前景、一场陌生的战争以及受到冲击的消费者信心。对于这个问题，有谁比巴菲特更能提供深刻的见解呢？
+*那么，我们现在的状况是什么呢？股市似乎反映出了黯淡的利润前景、一场陌生的战争以及受到冲击的消费者信心。对于这个问题，有谁比巴菲特更能提供深刻的见解呢？*
 
-So where do we stand now--with the stock market seeming to reflect a dismal profit outlook, an unfamiliar war, and rattled consumer confidence? Who better to supply perspective on that question than Buffett?
-
-<br>
-
-以下的观点来自巴菲特的第二次演讲，于去年7月在第一次演讲的地点 —— 艾伦公司为企业高管举办的年度太阳谷盛会 —— 发表。在那里，这位著名的股票投资专家回顾了之前讨论过的主题，并为这个话题带来了新的数据和见解。在与《财富》杂志的Carol Loomis合作下，巴菲特将这次演讲提炼成了这篇文章，为今年的投资者指南创作了一个恰当的开篇。以下是巴菲特先生再次谈论股市。
-
-The thoughts that follow come from a second Buffett speech, given last July at the site of the first talk, Allen & Co.'s annual Sun Valley bash for corporate executives. There, the renowned stockpicker returned to the themes he'd discussed before, bringing new data and insights to the subject. Working with FORTUNE's Carol Loomis, Buffett distilled that speech into this essay, a fitting opening for this year's Investor's Guide. Here again is Mr. Buffett on the Stock Market.
+*So where do we stand now--with the stock market seeming to reflect a dismal profit outlook, an unfamiliar war, and rattled consumer confidence? Who better to supply perspective on that question than Buffett?*
 
 <br>
 
-上一次我谈论这个主题是在1999年，当时我将之前的34年分为两个17年时期，从瘦年和丰年的角度来看，它们呈现出惊人的对称性。以下是第一个时期。如您所见，17年间道指涨幅仅为0.1%。
+*以下的观点来自巴菲特的第二次演讲，于去年7月在第一次演讲的地点 —— 艾伦公司为企业高管举办的年度太阳谷盛会 —— 发表。在那里，这位著名的股票投资专家回顾了之前讨论过的主题，并为这个话题带来了新的数据和见解。在与《财富》杂志的Carol Loomis合作下，巴菲特将这次演讲提炼成了这篇文章，为今年的投资者指南创作了一个恰当的开篇。以下是巴菲特先生再次谈论股市。*
+
+*The thoughts that follow come from a second Buffett speech, given last July at the site of the first talk, Allen & Co.'s annual Sun Valley bash for corporate executives. There, the renowned stockpicker returned to the themes he'd discussed before, bringing new data and insights to the subject. Working with FORTUNE's Carol Loomis, Buffett distilled that speech into this essay, a fitting opening for this year's Investor's Guide. Here again is Mr. Buffett on the Stock Market.*
+
+<br>
+
+上一次我谈论这个主题是在1999年，当时我将之前的34年分为两个17年时期，从瘦年和丰年的角度来看，它们呈现出惊人的对称性。以下是第一个时期。如你所见，17年间道指涨幅仅为0.1%。
 
 The last time I tackled this subject, in 1999, I broke down the previous 34 years into two 17-year periods, which in the sense of lean years and fat were astonishingly symmetrical. Here's the first period. As you can see, over 17 years the Dow gained exactly one-tenth of one percent.
 
