@@ -19,6 +19,7 @@ Current translated essay:
 - Buy American I Am
 - Stop Coddling the Super Rich
 - Warren Buffett $50 Billion Decision
+- Berkshire — Past, Present and Future
 - Advice For Average American
 - Don’t Compete with Chess Grand Master
 - First Step for A New Investor
