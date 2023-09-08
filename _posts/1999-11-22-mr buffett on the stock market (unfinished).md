@@ -7,7 +7,7 @@ tags: 文章
 
 <p class="small">时间：1999年11月22日</p>
 <p class="small">来源：Fortune</p>
-<p class="small">原文标题： Mr. Buffett on the Stock Market The most celebrated of investors says stocks can't possibly meet the public's expectations. As for the Internet? He notes how few people got rich from two other transforming industries, auto and aviation.
+<p class="small">原文标题： [Mr. Buffett on the Stock Market The most celebrated of investors says stocks can't possibly meet the public's expectations. As for the Internet? He notes how few people got rich from two other transforming industries, auto and aviation.]()
 </p>
 
 <br>
