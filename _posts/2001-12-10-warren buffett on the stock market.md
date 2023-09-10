@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 沃伦·巴菲特谈股市
+title: 沃伦·巴菲特谈股市（未完成）
 date: 2001-12-10
 tags: 文章
 ---
