@@ -12,7 +12,7 @@ tags: 年报
 
 <br>
 
-### 在一开始 In the Beginning
+## 在一开始 In the Beginning
 
 1964年5月6日，那时由Seabury Stanton先生领导的伯克希尔·哈撒韦公司向其股东发送了一份通知，提议以每股11.375美元的价格回购225,000股股票。我原本预期会收到这样的通知；但价格让我有些意外。
 
@@ -135,3 +135,77 @@ One more confession and then I’ll go on to more pleasant topics: Can you belie
 现在来报告些好消息：北部的纺织行业终于消失了。如果你听说我被看到在新英格兰徘徊，你就不必再惊慌了。
 
 And now some good news: The northern textile industry is finally extinct. You need no longer panic if you hear that I’ve been spotted wandering around New England.
+
+## 查理给我指明方向 Charlie Straightens Me Out
+
+当我管理着微薄资金时，我的“雪茄蒂”投资策略表现得非常出色。实际上，上世纪五十年代，我获得了许多免费的机会，这使得那个十年成为了我绝对和相对投资表现最佳的时期。
+
+My cigar-butt strategy worked very well while I was managing small sums. Indeed, the many dozens of free puffs I obtained in the 1950s made that decade by far the best of my life for both relative and absolute investment performance.
+
+<br>
+
+然而，即便在那个时候，我也有一些例外，其中最重要的就是GEICO。多亏了我在1951年与洛里默·戴维森（Lorimer Davidson）进行的一次交谈。这位后来成为该公司首席执行官的出色人才让我了解到，GEICO是一家了不起的企业，于是我立刻将我的净资产的65%投入到了它的股票中。然而，那些早期年份的大部分收益都来自于那些以低价交易的中等水平公司的投资。本·格雷厄姆（Ben Graham）教给了我这一技巧，而它确实有效。
+
+Even then, however, I made a few exceptions to cigar butts, the most important being GEICO. Thanks to a 1951 conversation I had with Lorimer Davidson, a wonderful man who later became CEO of the company, I learned that GEICO was a terrific business and promptly put 65% of my $9,800 net worth into its shares. Most of my gains in those early years, though, came from investments in mediocre companies that traded at bargain prices. Ben Graham had taught me that technique, and it worked.
+
+<br>
+
+然而，这种策略的一个主要弱点逐渐显现出来：雪茄蒂投资策略只在某个程度上可扩展。对于大笔资金，这种策略将永远无法表现良好。
+
+But a major weakness in this approach gradually became apparent: Cigar-butt investing was scalable only to a point. With large sums, it would never work well.
+
+<br>
+
+此外，尽管以低价购买的边际企业可能在短期内吸引人，但它们不是建立一个大而持久企业的正确基础。选择结婚伙伴明显需要比约会更为严格的标准。（值得注意的是，伯克希尔哈撒韦（Berkshire Hathaway）可能是一个非常理想的“约会对象”：如果我们接受了西伯利·斯坦顿（Seabury Stanton）以11.375美元的价格购买我们的股份的提议，那么伯克希尔哈撒韦对其投资的年化加权回报率将达到约40%。）
+
+In addition, though marginal businesses purchased at cheap prices may be attractive as short-term investments, they are the wrong foundation on which to build a large and enduring enterprise. Selecting a marriage partner clearly requires more demanding criteria than does dating. (Berkshire, it should be noted, would have been a highly satisfactory “date”: If we had taken Seabury Stanton’s $11.375 offer for our shares, BPL’s weighted annual return on its Berkshire investment would have been about 40%.)
+
+************
+
+<br>
+
+需要查理·芒格才能打破我的雪茄蒂投资习惯，为建立一个规模庞大但获得令人满意利润的企业制定方向。查理就在我现在居住的地方几百英尺处长大，年轻时曾像我一样在我祖父的杂货店工作。然而，直到1959年，我才第一次见到查理，那时他已经离开奥马哈，定居洛杉矶。我当时28岁，而他35岁。介绍我们认识的奥马哈医生曾预言我们会合得来，事实证明他说得对。
+
+It took Charlie Munger to break my cigar-butt habits and set the course for building a business that could combine huge size with satisfactory profits. Charlie had grown up a few hundred feet from where I now live and as a youth had worked, as did I, in my grandfather’s grocery store. Nevertheless, it was 1959 before I met Charlie, long after he had left Omaha to make Los Angeles his home. I was then 28 and he was 35. The Omaha doctor who introduced us predicted that we would hit it off — and we did.
+
+<br>
+
+如果你们参加过我们的年度股东大会，你们就知道查理拥有广泛的才智、惊人的记忆力，还有一些坚定的观点。我自己也不是个优柔寡断的人，我们有时候意见不合。然而，56年来，我们从未发生过争执。当我们有分歧时，查理通常会结束对话，说：“沃伦，好好考虑一下，你会同意我的，因为你很聪明，而我是正确的。”
+
+If you’ve attended our annual meetings, you know Charlie has a wide-ranging brilliance, a prodigious memory, and some firm opinions. I’m not exactly wishy-washy myself, and we sometimes don’t agree. In 56 years, however, we’ve never had an argument. When we differ, Charlie usually ends the conversation by saying: “Warren, think it over and you’ll agree with me because you’re smart and I’m right.”
+
+<br>
+
+大多数人不知道的是，查理对建筑有着浓厚的兴趣。尽管他开始职业生涯是执业律师（计时费用为每小时15美元），但在30多岁时，查理通过设计和建造洛杉矶附近的五个公寓项目第一次赚到了真正的钱。与此同时，他设计了他今天住的房子，已经有55年了。（和我一样，如果他身处喜欢的环境中，查理也是不可动摇的。）近年来，查理还设计了斯坦福大学和密歇根大学的大型宿舍综合体，而现在，已经91岁的他正在进行另一个重大项目的设计。
+
+What most of you do not know about Charlie is that architecture is among his passions. Though he began his career as a practicing lawyer (with his time billed at $15 per hour), Charlie made his first real money in his 30s by designing and building five apartment projects near Los Angeles. Concurrently, he designed the house that he lives in today — some 55 years later. (Like me, Charlie can’t be budged if he is happy in his surroundings.) In recent years, Charlie has designed large dorm complexes at Stanford and the University of Michigan and today, at age 91, is working on another major project.
+
+<br>
+
+从我的角度来看，查理最重要的建筑壮举是设计今天的伯克希尔。他给我的蓝图很简单：忘记你知道的以美妙的价格购买普通企业的方式，取而代之的是，以公平的价格购买出色企业。
+
+From my perspective, though, Charlie’s most important architectural feat was the design of today’s Berkshire. The blueprint he gave me was simple: Forget what you know about buying fair businesses at wonderful prices; instead, buy wonderful businesses at fair prices.
+
+<br>
+
+改变我的行为并非易事（问问我的家人就知道了）。在没有查理的建议之前，我已经取得了一些合理的成功，那么为什么要听一个从未在商学院待过一天的律师（咳咳，我则已经上了三个学期）呢？但查理从未厌倦地向我重复他关于商业和投资的格言，而他的逻辑是无可辩驳的。因此，伯克希尔是按照查理的蓝图建立起来的。我的角色就像总承包商，伯克希尔子公司的首席执行官才是实际工作的分包商。
+
+Altering my behavior is not an easy task (ask my family). I had enjoyed reasonable success without Charlie’s input, so why should I listen to a lawyer who had never spent a day in business school (when — ahem — I had attended three). But Charlie never tired of repeating his maxims about business and investing to me, and his logic was irrefutable. Consequently, Berkshire has been built to Charlie’s blueprint. My role has been that of general contractor, with the CEOs of Berkshire’s subsidiaries doing the real work as sub-contractors.
+
+<br>
+
+1972年对伯克希尔来说是一个转折点（尽管在我方面偶尔会有一些倒退，记得我在1975年购买Waumbec吗）。那时，我们有机会以蓝筹股票（Blue Chip Stamps）的名义购买See's Candy，这家公司是查理、我和伯克希尔都持有大量股份的公司，后来并入了伯克希尔。
+
+The year 1972 was a turning point for Berkshire (though not without occasional backsliding on my part — remember my 1975 purchase of Waumbec). We had the opportunity then to buy See’s Candy for Blue Chip Stamps, a company in which Charlie, I and Berkshire had major stakes, and which was later merged into Berkshire.
+
+<br>
+
+See's是一家传奇的西海岸巧克力制造和零售商，当时每年实现税前约400万美元的利润，只利用了800万美元的净有形资产。此外，公司拥有一项在资产负债表上没有显示的巨大优势：广泛而持久的竞争优势，赋予了它重要的定价权。这种优势几乎可以肯定地使See's在未来的时间里获得重大的盈利。更好的是，这些盈利将只需进行少量增量投资就能实现。换句话说，See's可以预期未来几十年都会产生大量现金流。
+
+See’s was a legendary West Coast manufacturer and retailer of boxed chocolates, then annually earning about $4 million pre-tax while utilizing only $8 million of net tangible assets. Moreover, the company had a huge asset that did not appear on its balance sheet: a broad and durable competitive advantage that gave it significant pricing power. That strength was virtually certain to give See’s major gains in earnings over time. Better yet, these would materialize with only minor amounts of incremental investment. In other words, See’s could be expected to gush cash for decades to come.
+
+<br>
+
+控制See's的家族希望以3000万美元出售该业务，查理说它值那么多是正确的。但我不想支付超过2500万美元，即使在那个数字上也不是特别热衷。（三倍净有形资产的价格让我感到有点吃惊。）我的谨慎可能会破坏一次绝佳的收购。但幸运的是，卖方决定接受我们2500万美元的报价。
+
+The family controlling See’s wanted $30 million for the business, and Charlie rightly said it was worth that much. But I didn’t want to pay more than $25 million and wasn’t all that enthusiastic even at that figure. (A price that was three times net tangible assets made me gulp.) My misguided caution could have scuttled a terrific purchase. But, luckily, the sellers decided to take our $25 million bid.
