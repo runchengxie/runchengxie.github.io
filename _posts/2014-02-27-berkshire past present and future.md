@@ -209,3 +209,59 @@ See’s was a legendary West Coast manufacturer and retailer of boxed chocolates
 控制See's的家族希望以3000万美元出售该业务，查理说它值那么多是正确的。但我不想支付超过2500万美元，即使在那个数字上也不是特别热衷。（三倍净有形资产的价格让我感到有点吃惊。）我的谨慎可能会破坏一次绝佳的收购。但幸运的是，卖方决定接受我们2500万美元的报价。
 
 The family controlling See’s wanted $30 million for the business, and Charlie rightly said it was worth that much. But I didn’t want to pay more than $25 million and wasn’t all that enthusiastic even at that figure. (A price that was three times net tangible assets made me gulp.) My misguided caution could have scuttled a terrific purchase. But, luckily, the sellers decided to take our $25 million bid.
+
+<br>
+
+至今，See's公司税前赚取了190亿美元，而这一增长仅需要额外投资4000万美元。西兹公司因此能够分配巨额资金，用以协助伯克希尔购并其他企业，这些企业进而创造了可观的可分配利润（可视为兔子的繁殖过程）。此外，透过观察西兹公司的运营，我获得了一份关于强大品牌价值的商业教育，这打开了我对许多其他有利可图投资的眼界。
+
+To date, See’s has earned $1.9 billion pre-tax, with its growth having required added investment of only $40 million. See’s has thus been able to distribute huge sums that have helped Berkshire buy other businesses that, in turn, have themselves produced large distributable profits. (Envision rabbits breeding.) Additionally, through watching See’s in action, I gained a business education about the value of powerful brands that opened my eyes to many other profitable investments.
+
+************
+
+即便有了查理的蓝图，自Waumbec以来，我也犯了不少错误，其中最严重的是德克斯特鞋业。1993年我们收购了这家公司，当时它的业绩相当出色，绝不像一家“雪茄蒂”公司。然而，由于外国竞争的崛起，它的竞争优势迅速蒸发，而我却未能看到这一点。
+
+Even with Charlie’s blueprint, I have made plenty of mistakes since Waumbec. The most gruesome was Dexter Shoe. When we purchased the company in 1993, it had a terrific record and in no way looked to me like a cigar butt. Its competitive strengths, however, were soon to evaporate because of foreign competition. And I simply didn’t see that coming.
+
+<br>
+
+因此，伯克希尔以43.3亿美元购得德克斯特，然而其价值很快便一落千丈。然而，根据通用会计准则，无法准确反映我的错误之重大。事实上，我向德克斯特的出售方提供了伯克希尔的股票，而我用于交易的股票现在价值约57亿美元。从财务灾难的角度看，这次错误堪称吉尼斯世界纪录的奇迹。
+
+Consequently, Berkshire paid $433 million for Dexter and, rather promptly, its value went to zero. GAAP accounting, however, doesn’t come close to recording the magnitude of my error. The fact is that I gave Berkshire stock to the sellers of Dexter rather than cash, and the shares I used for the purchase are now worth about $5.7 billion. As a financial disaster, this one deserves a spot in the Guinness Book of World Records.
+
+<br>
+
+我随后的一些错误也包括使用伯克希尔的股票购买那些注定无法实现增长的企业。这类错误是致命的。以一家卓越企业的股票 - 伯克希尔绝对属于此类企业 - 来换取一家普通企业的所有权将不可逆地损害价值。
+
+Several of my subsequent errors also involved the use of Berkshire shares to purchase businesses whose earnings were destined to simply limp along. Mistakes of that kind are deadly. Trading shares of a wonderful business — which Berkshire most certainly is — for ownership of a so-so business irreparably destroys value.
+
+<br>
+
+在我们持有的公司犯下这种错误时，我们也遭受了财务损失（有时我还担任董事职务）。太多时候，CEO们似乎对一个基本的现实视而不见：在一项并购中，你用股票支付的内在价值不应该大于你获得的企业的内在价值。
+
+We’ve also suffered financially when this mistake has been committed by companies whose shares Berkshire has owned (with the errors sometimes occurring while I was serving as a director). Too often CEOs seem blind to an elementary reality: The intrinsic value of the shares you give in an acquisition must not be greater than the intrinsic value of the business you receive.
+
+<br>
+
+我从未见过一位投资银行家在向潜在收购方董事会提出股权交易时量化这一极其重要的数学关系。相反，银行家的关注点往往在于描述当前用于并购的“惯例”市价溢价，这种评估并购吸引力的方式绝对是愚蠢的，或者交易是否将提高收购方的每股盈利（这本身不应该是决定性因素）。为了实现所需的每股数字，气喘吁吁的CEO和他的“助手”们经常会虚构出奇想的“协同效应”。（作为多年来19家公司的董事，我从未听说过“非协同效应”的提及，尽管我见证了交易完成后大量的这种情况。）美国董事会会议室中很少有对并购的事后总结，其中实际情况诚实地与最初的预测进行比较。它们应该成为标准做法。
+
+I’ve yet to see an investment banker quantify this all-important math when he is presenting a stock-for-stock deal to the board of a potential acquirer. Instead, the banker’s focus will be on describing “customary” premiums-to-market-price that are currently being paid for acquisitions — an absolutely asinine way to evaluate the attractiveness of an acquisition — or whether the deal will increase the acquirer’s earnings-per-share (which in itself should be far from determinative). In striving to achieve the desired per-share number, a panting CEO and his “helpers” will often conjure up fanciful “synergies.” (As a director of 19 companies over the years, I’ve never heard “dis-synergies” mentioned, though I’ve witnessed plenty of these once deals have closed.) Post mortems of acquisitions, in which reality is honestly compared to the original projections, are rare in American boardrooms. They should instead be standard practice.
+
+<br>
+
+我向您保证，即使在我离开后的很长时间里，伯克希尔的CEO和董事会在发行股份进行任何收购之前都会仔细进行内在价值计算。即使您的顾问向您推荐了一份昂贵的“公允性”意见支持这种交易，您也不可能通过用一张百元钞票交换八张十元钞票而致富。
+
+I can promise you that long after I’m gone, Berkshire’s CEO and Board will carefully make intrinsic value calculations before issuing shares in any acquisitions. You can’t get rich trading a hundred-dollar bill for eight tens (even if your advisor has handed you an expensive “fairness” opinion endorsing that swap).
+
+************
+
+<br>
+
+总体而言，伯克希尔的收购表现得非常出色，尤其是在一些大规模收购案例中。同样，我们在可交易证券方面的投资也表现不俗。后者始终以其市场价格计值，因此任何收益，包括未实现的收益，都会立即反映在我们的净值中。但是，我们完全拥有的企业永远不会在我们的资产负债表上被重新升值，即使我们可以以数十亿美元以上的价格出售它们，高于其账面价值。伯克希尔子公司价值的未记录增长已经巨大，尤其在过去十年中增长迅猛。
+
+Overall, Berkshire’s acquisitions have worked out well — and very well in the case of a few large ones. So, too, have our investments in marketable securities. The latter are always valued on our balance sheet at their market prices so any gains — including those unrealized — are immediately reflected in our net worth. But the businesses we buy outright are never revalued upward on our balance sheet, even when we could sell them for many billions of dollars more than their carrying value. The unrecorded gains in the value of Berkshire’s subsidiaries have become huge, with these growing at a particularly fast pace in the last decade.
+
+<br>
+
+倾听查理的建议确实带来了回报。
+
+Listening to Charlie has paid off.
