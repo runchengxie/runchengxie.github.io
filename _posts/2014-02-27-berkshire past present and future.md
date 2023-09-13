@@ -265,3 +265,101 @@ Overall, Berkshire’s acquisitions have worked out well — and very well in th
 倾听查理的建议确实带来了回报。
 
 Listening to Charlie has paid off.
+
+## 今日的伯克希尔Berkshire Today
+
+如今，伯克希尔是一个庞大的企业集团，不断试图扩张更广泛。
+
+Berkshire is now a sprawling conglomerate, constantly trying to sprawl further.
+
+<br>
+
+必须承认，企业集团在投资者中享有糟糕的声誉，而这一声誉是当之无愧的。首先，让我解释一下它们为何备受诟病，然后我将继续描述为何企业集团的形式为伯克希尔带来了巨大且长久的优势。
+
+Conglomerates, it should be acknowledged, have a terrible reputation with investors. And they richly deserve it. Let me first explain why they are in the doghouse, and then I will go on to describe why the conglomerate form brings huge and enduring advantages to Berkshire.
+
+<br>
+
+自从我踏入商界以来，企业集团曾多次极为流行，其中最愚蠢的时期出现在20世纪60年代末。当时，企业集团的首席执行官们的做法很简单：通过个人魅力、推销手段，甚至可疑的会计方法（通常三者兼具），他们将新兴企业集团的股价推高至盈利的20倍左右，然后尽快发行股票，以收购其他盈利大约为10倍左右的企业。他们随后将“合并会计”这一术语应用于收购，尽管基础业务毫无改变，但这自动增加了每股盈利，他们以此作为管理天才的证明。接下来，他们向投资者解释，这种才能足以证明维持或甚至增强收购方的市盈率是正当的。最后，他们承诺将不断重复此程序，从而创造不断增长的每股盈利。
+
+Since I entered the business world, conglomerates have enjoyed several periods of extreme popularity, the silliest of which occurred in the late 1960s. The drill for conglomerate CEOs then was simple: By personality, promotion or dubious accounting — and often by all three — these managers drove a fledgling conglomerate’s stock to, say, 20 times earnings and then issued shares as fast as possible to acquire another business selling at ten-or-so times earnings. They immediately applied “pooling” accounting to the acquisition, which — with not a dime’s worth of change in the underlying businesses — automatically increased per-share earnings, and used the rise as proof of managerial genius. They next explained to investors that this sort of talent justified the maintenance, or even the enhancement, of the acquirer’s p/e multiple. And, finally, they promised to endlessly repeat this procedure and thereby create ever-increasing per-share earnings.
+
+<br>
+
+华尔街对这种戏法的热爱在20世纪60年代愈演愈烈。华尔街的从业者总是愿意在可疑的手法用于捏造每股盈利上升时暂时抛开怀疑，尤其是如果这些高难度动作会产生巨额投行费用的并购交易的话。审计师们乐意为企业集团的会计工作洒下神圣的一抹水，有时甚至提出如何进一步榨取数字的建议。对许多人来说，容易赚取的丰厚利润淹没了道德底线。
+
+Wall Street’s love affair with this hocus-pocus intensified as the 1960s rolled by. The Street’s denizens are always ready to suspend disbelief when dubious maneuvers are used to manufacture rising per-share earnings, particularly if these acrobatics produce mergers that generate huge fees for investment bankers. Auditors willingly sprinkled their holy water on the conglomerates’ accounting and sometimes even made suggestions as to how to further juice the numbers. For many, gushers of easy money washed away ethical sensitivities.
+
+<br>
+
+由于不断扩张的企业集团的每股盈利增长来自于利用市盈率差异，其首席执行官必须寻找那些以较低盈利倍数出售的企业。当然，这些企业通常都是前景平平的平庸企业。这种寻找低估股票的激励通常导致企业集团持有的基础企业变得越来越不值得投资。但这对投资者来说并不重要：他们主要看重的是交易速度和合并会计，以实现盈利的增长。
+
+Since the per-share earnings gains of an expanding conglomerate came from exploiting p/e differences, its CEO had to search for businesses selling at low multiples of earnings. These, of course, were characteristically mediocre businesses with poor long-term prospects. This incentive to bottom-fish usually led to a conglomerate’s collection of underlying businesses becoming more and more junky. That mattered little to investors: It was deal velocity and pooling accounting they looked to for increased earnings.
+
+<br>
+
+由此带来的并购活动的火爆局面受到了媒体的追捧。像ITT、利顿工业、湾岸与西部以及LTV等公司备受推崇，它们的首席执行官成为名人。（这些曾经声名显赫的企业集团现在早已不复存在。正如约吉·贝拉所说，“每个拿破仑都会遭遇他的‘水门事件’。”）
+
+The resulting firestorm of merger activity was fanned by an adoring press. Companies such as ITT, Litton Industries, Gulf & Western, and LTV were lionized, and their CEOs became celebrities. (These once-famous conglomerates are now long gone. As Yogi Berra said, “Every Napoleon meets his Watergate.”)
+
+<br>
+
+那个时候，各种各样的会计把戏——其中许多都毫无遮掩——被原谅或被忽视。事实上，在不断扩张的企业集团中，拥有一位会计巫师的领导被视为巨大的优势：在这些情况下，股东可以确信报告的盈利永远不会令人失望，无论业务的实际状况如何。
+
+Back then, accounting shenanigans of all sorts — many of them ridiculously transparent — were excused or overlooked. Indeed, having an accounting wizard at the helm of an expanding conglomerate was viewed as a huge plus: Shareholders in those instances could be sure that reported earnings would never disappoint, no matter how bad the operating realities of the business might become.
+
+<br>
+
+20世纪60年代晚期，我参加了一次会议，一位热衷于并购的首席执行官吹嘘自己的“大胆、富有想象力的会计手法”。大多数聆听的分析师都表示认可，他们认为找到了一个无论业务结果如何都能实现预测的经理。
+
+In the late 1960s, I attended a meeting at which an acquisitive CEO bragged of his “bold, imaginative accounting.” Most of the analysts listening responded with approving nods, seeing themselves as having found a manager whose forecasts were certain to be met, whatever the business results might be.
+
+<br>
+
+然而，最终钟声响起，一切都变成了南瓜和老鼠。再次变得明显的是，基于高价股票的连续发行的商业模式——就像连锁信模式一样——确实重新分配财富，但绝不创造财富。然而，这两种现象周期性地在我们的国家盛行——它们是每个推销员的梦想——尽管它们经常以精心策划的伪装出现。结局总是一样的：钱从轻信者流向欺诈者。而与连锁信不同，股票的金额被劫持可能会令人震惊。
+
+Eventually, however, the clock struck twelve, and everything turned to pumpkins and mice. Once again, it became evident that business models based on the serial issuances of overpriced shares — just like chain-letter models — most assuredly redistribute wealth, but in no way create it. Both phenomena, nevertheless, periodically blossom in our country — they are every promoter’s dream — though often they appear in a carefully-crafted disguise. The ending is always the same: Money flows from the gullible to the fraudster. And with stocks, unlike chain letters, the sums hijacked can be staggering.
+
+<br>
+
+在BPL和伯克希尔，我们从未投资于那些执意发行股票的公司。这种行为往往是一个典型的推销型管理、脆弱的会计体系、高估值的股票，而且太常常还涉及到彻底的不诚实。
+
+At both BPL and Berkshire, we have never invested in companies that are hell-bent on issuing shares. That behavior is one of the surest indicators of a promotion-minded management, weak accounting, a stock that is overpriced and — all too often — outright dishonesty.
+
+************
+
+<br>
+
+那么，查理和我对伯克希尔的企业集团结构有什么吸引力呢？简单来说：如果企业集团形式得当，它是最大程度实现长期资本增长的理想结构之一。
+
+So what do Charlie and I find so attractive about Berkshire’s conglomerate structure? To put the case simply: If the conglomerate form is used judiciously, it is an ideal structure for maximizing long-term capital growth.
+
+<br>
+
+资本主义的一大优点之一是它能够高效配置资金。论点是市场将资金引导到有前景的企业，拒绝流向注定衰败的企业。这是正确的：尽管市场存在过度之处，但市场驱动的资本配置通常比任何其他方式要好得多。
+
+One of the heralded virtues of capitalism is that it efficiently allocates funds. The argument is that markets will direct investment to promising businesses and deny it to those destined to wither. That is true: With all its excesses, market-driven allocation of capital is usually far superior to any alternative.
+
+<br>
+
+然而，在纺织行业内，理性的资本撤回常常会受到障碍。正如那些1954年的伯克希尔会议记录所清楚显示的那样，本应该显而易见的纺织业内资本的撤回被因管理层的虚荣和自身利益而拖延了几十年。事实上，我自己对于放弃陈旧的纺织厂也拖延了太久。
+
+Nevertheless, there are often obstacles to the rational movement of capital. As those 1954 Berkshire minutes made clear, capital withdrawals within the textile industry that should have been obvious were delayed for decades because of the vain hopes and self-interest of managements. Indeed, I myself delayed abandoning our obsolete textile mills for far too long.
+
+<br>
+
+资本已用于不断衰退业务的首席执行官很少会选择将大量资本重新投入无关的活动中。这种举措通常需要解雇长期的合作伙伴并承认错误。此外，即使他或她有意进行，也不太可能成为您希望处理重新配置工作的经理。
+
+A CEO with capital employed in a declining operation seldom elects to massively redeploy that capital into unrelated activities. A move of that kind would usually require that long-time associates be fired and mistakes be admitted. Moreover, it’s unlikely that CEO would be the manager you would wish to handle the redeployment job even if he or she was inclined to undertake it.
+
+<br>
+
+在股东层面上，当个人投资者试图在业务和行业之间重新配置资本时，税收和摩擦成本会对他们产生重大影响。即使是免税的机构投资者在移动资本时也会面临重大成本，因为他们通常需要中介来完成这项工作。此时会有许多口味高昂的人争相获得满足，包括投资银行家、会计师、顾问、律师以及资本重新配置者等。金钱转移者并非便宜。
+
+At the shareholder level, taxes and frictional costs weigh heavily on individual investors when they attempt to reallocate capital among businesses and industries. Even tax-free institutional investors face major costs as they move capital because they usually need intermediaries to do this job. A lot of mouths with expensive tastes then clamor to be fed — among them investment bankers, accountants, consultants, lawyers and such capital-reallocators as leveraged buyout operators. Money-shufflers don’t come cheap.
+
+<br>
+
+相比之下，像伯克希尔这样的企业集团完全有条件以合理的方式和最低的成本分配资本。当然，形式本身并不能保证成功：我们犯了很多错误，还会犯更多错误。然而，我们的结构性优势是强大的。
+
+In contrast, a conglomerate such as Berkshire is perfectly positioned to allocate capital rationally and at minimal cost. Of course, form itself is no guarantee of success: We have made plenty of mistakes, and we will make more. Our structural advantages, however, are formidable.
