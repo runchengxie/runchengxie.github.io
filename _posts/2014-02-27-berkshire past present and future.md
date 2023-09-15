@@ -449,3 +449,97 @@ Berkshire offers a third choice to the business owner who wishes to sell: a perm
 Some sellers don’t care about these matters. But, when sellers do, Berkshire does not have a lot of competition.
 
 ************
+
+<br>
+
+有时候，专家会建议伯克希尔公司将其某些业务分拆出去。这些建议毫无道理。我们的公司作为伯克希尔的一部分，价值更高，而不是独立实体。一个原因是我们有能力在业务之间或进入新的企业时，立即进行资金调动，而且无需支付税款。此外，如果业务被分开，某些成本可能会在全部或部分业务中重复产生。这里有一个最明显的例子：伯克希尔仅为其单一董事会支付名义成本；如果我们的数十个子公司被拆分出去，董事会的总成本将飙升。监管和行政开支也会同样增加。
+
+Sometimes pundits propose that Berkshire spin-off certain of its businesses. These suggestions make no sense. Our companies are worth more as part of Berkshire than as separate entities. One reason is our ability to move funds between businesses or into new ventures instantly and without tax. In addition, certain costs duplicate themselves, in full or part, if operations are separated. Here’s the most obvious example: Berkshire incurs nominal costs for its single board of directors; were our dozens of subsidiaries to be split off, the overall cost for directors would soar. So, too, would regulatory and administration expenditures.
+
+<br>
+
+最后，由于我们拥有子公司B，因此子公司A有时会获得重要的税收效益。例如，我们的公用事业部门目前只能实现某些税收抵免，因为我们在伯克希尔的其他运营部门产生了巨额应税收入。这使得伯克希尔哈撒韦能源在开发风能和太阳能项目方面比大多数上市公用事业公司具有更大的优势。
+
+Finally, there are sometimes important tax efficiencies for Subsidiary A because we own Subsidiary B. For example, certain tax credits that are available to our utilities are currently realizable only because we generate huge amounts of taxable income at other Berkshire operations. That gives Berkshire Hathaway Energy a major advantage over most public-utility companies in developing wind and solar projects.
+
+<br>
+
+投资银行家，由于他们的行动而得到报酬，不断敦促收购者为公开持有的企业支付市场价值的20%到50%的溢价。银行家告诉买方，这种溢价是为了“控制价值”和一旦收购者的CEO掌握公司后将发生的美好事情所合理化的。（哪位渴望收购的经理会质疑这一说法呢？）
+
+Investment bankers, being paid as they are for action, constantly urge acquirers to pay 20% to 50% premiums over market price for publicly-held businesses. The bankers tell the buyer that the premium is justified for “control value” and for the wonderful things that are going to happen once the acquirer’s CEO takes charge. (What acquisition-hungry manager will challenge that assertion?)
+
+<br>
+
+几年后，银行家——一脸严肃地再次出现，一如既往地急切地建议剥离先前的收购，以“释放股东价值”。分拆，当然，会剥夺所属公司所谓的“控制价值”，而不提供任何补偿。银行家解释说，分拆后的公司将蓬勃发展，因为其管理层将更具企业家精神，摆脱了母公司沉闷的官僚主义。（那位才华横溢的CEO我们早先见过的事情就这么被抛在脑后了。）
+
+A few years later, bankers — bearing straight faces — again appear and just as earnestly urge spinning off the earlier acquisition in order to “unlock shareholder value.” Spin-offs, of course, strip the owning company of its purported “control value” without any compensating payment. The bankers explain that the spun-off company will flourish because its management will be more entrepreneurial, having been freed from the smothering bureaucracy of the parent company. (So much for that talented CEO we met earlier.)
+
+<br>
+
+如果剥离的公司后来希望重新收购被分拆的业务，毫无疑问，再次会被银行家敦促支付可观的“控制”溢价以获得这一特权。（银行界这种思维方式已经引发了人们说，费用太经常导致交易，而不是交易引发费用。）
+
+If the divesting company later wishes to reacquire the spun-off operation, it presumably would again be urged by its bankers to pay a hefty “control” premium for the privilege. (Mental “flexibility” of this sort by the banking fraternity has prompted the saying that fees too often lead to transactions rather than transactions leading to fees.)
+
+<br>
+
+当然，伯克希尔未来可能会受到监管机构要求进行分拆或出售的可能性。1979年，伯克希尔就曾进行过这样的分拆，当时，新的银行控股公司监管规定迫使我们剥离了伊利诺伊州洛克福德的一家银行。
+
+It’s possible, of course, that someday a spin-off or sale at Berkshire would be required by regulators. Berkshire carried out such a spin-off in 1979, when new regulations for bank holding companies forced us to divest a bank we owned in Rockford, Illinois.
+
+<br>
+
+然而，对我们来说，自愿性分拆毫无意义：我们将失去控制价值、资本分配的灵活性，以及在某些情况下，重要的税收优势。目前出色地管理着我们子公司的CEO，如果要管理分拆出去的业务，将会面临困难，因为他们得益于伯克希尔的所有权而拥有的运营和财务优势。此外，母公司和分拆出去的业务一旦分开，很可能会产生比它们合并时更高的适度成本。
+
+Voluntary spin-offs, though, make no sense for us: We would lose control value, capital-allocation flexibility and, in some cases, important tax advantages. The CEOs who brilliantly run our subsidiaries now would have difficulty in being as effective if running a spun-off operation, given the operating and financial advantages derived from Berkshire’s ownership. Moreover, the parent and the spun-off operations, once separated, would likely incur moderately greater costs than existed when they were combined.
+
+************
+
+<br>
+
+在我结束关于分拆的讨论之前，让我们从早前提到的一个混合企业中汲取一些教训：LTV。我会在这里做个简要总结，但那些喜欢精彩财经故事的人可以查看1982年10月份D Magazine上刊登的关于Jimmy Ling的文章。可以在互联网上找到这篇文章。
+
+Before I depart the subject of spin-offs, let’s look at a lesson to be learned from a conglomerate mentioned earlier: LTV. I’ll summarize here, but those who enjoy a good financial story should read the piece about Jimmy Ling that ran in the October 1982 issue of D Magazine. Look it up on the Internet.
+
+<br>
+
+通过大量企业策略的精彩表演，Ling将LTV从1965年仅3600万美元的销售额提升到仅仅两年后的《财富》500强排名第14位。值得注意的是，Ling从未展示过任何管理技能。但查理很早以前告诉我，永远不要低估那些高估自己的人。在这一点上，Ling没有对手。
+
+Through a lot of corporate razzle-dazzle, Ling had taken LTV from sales of only $36 million in 1965 to number 14 on the Fortune 500 list just two years later. Ling, it should be noted, had never displayed any managerial skills. But Charlie told me long ago to never underestimate the man who overestimates himself. And Ling had no peer in that respect.
+
+<br>
+
+林的策略，他称之为“项目重组”，是购买一家大公司，然后部分分拆其各个部门。在LTV的1966年年报中，他解释了随之而来的魔法：“最重要的是，收购必须符合2加2等于5（或6）的测试公式。”媒体、公众和华尔街都喜欢这种说法。
+
+Ling’s strategy, which he labeled “project redeployment,” was to buy a large company and then partially spin off its various divisions. In LTV’s 1966 annual report, he explained the magic that would follow: “Most importantly, acquisitions must meet the test of the 2 plus 2 equals 5 (or 6) formula.” The press, the public and Wall Street loved this sort of talk.
+
+<br>
+
+1967年，林购买了威尔森公司（Wilson & Co.），这是一家巨大的肉类加工公司，还涉足高尔夫装备和制药业。不久之后，他将母公司分拆为三个业务，威尔森公司（肉类加工），威尔森体育用品和威尔森制药公司，每个业务都将部分分拆。这些公司很快在华尔街被称为肉丸（Meatball），高尔夫球（Golf Ball）和傻瓜球（Goof Ball）。
+
+In 1967 Ling bought Wilson & Co., a huge meatpacker that also had interests in golf equipment and pharmaceuticals. Soon after, he split the parent into three businesses, Wilson & Co. (meatpacking), Wilson Sporting Goods and Wilson Pharmaceuticals, each of which was to be partially spun off. These companies quickly became known on Wall Street as Meatball, Golf Ball and Goof Ball.
+
+<br>
+
+然而，不久之后，就像伊卡洛斯一样，林飞得太靠近太阳，问题开始显现。到了20世纪70年代初，林的帝国开始溃败，而他本人也被从LTV中“分拆”出去……也就是被解雇了。
+
+Soon thereafter, it became clear that, like Icarus, Ling had flown too close to the sun. By the early 1970s, Ling’s empire was melting, and he himself had been spun off from LTV . . . that is, fired.
+
+<br>
+
+定期地，金融市场会脱离现实——可以肯定会发生这种情况。会出现更多的吉米·林（Jimmy Ling）。他们看起来和听起来都很有权威。媒体会追随他们的每个言论。银行家们会争夺他们的业务。他们所说的话最近都“奏效了”。他们的早期追随者会感到非常聪明。我们的建议是：不管他们怎么说，永远不要忘记2加2始终等于4。当有人告诉你这种数学已经过时时——扣紧你的钱包，度个假，几年后以便以便宜的价格购买股票回来。
+
+Periodically, financial markets will become divorced from reality — you can count on that. More Jimmy Lings will appear. They will look and sound authoritative. The press will hang on their every word. Bankers will fight for their business. What they are saying will recently have “worked.” Their early followers will be feeling very clever. Our suggestion: Whatever their line, never forget that 2+2 will always equal 4. And when someone tells you how old-fashioned that math is ---zip up your wallet, take a vacation and come back in a few years to buy stocks at cheap prices.
+
+************
+
+<br>
+
+今天，伯克希尔拥有以下强大优势：（1）无与伦比的企业组合，其中大多数现在享有良好的经济前景；（2）一支杰出的管理团队，几乎没有例外，他们对自己经营的子公司和伯克希尔都非常忠诚；（3）非同寻常的收益多样性、卓越的财务实力和充沛的流动性，在任何情况下我们都将保持；（4）在许多正在考虑出售他们的企业的业主和经理中，我们排名第一选择；以及（5）与前一项相关的一点，一种与大多数大公司在许多方面都截然不同的文化，这是我们花费了50年时间来培养的，现在已经牢不可破。
+
+Today Berkshire possesses (1) an unmatched collection of businesses, most of them now enjoying favorable economic prospects; (2) a cadre of outstanding managers who, with few exceptions, are unusually devoted to both the subsidiary they operate and to Berkshire; (3) an extraordinary diversity of earnings, premier financial strength and oceans of liquidity that we will maintain under all circumstances; (4) a first-choice ranking among many owners and managers who are contemplating sale of their businesses and (5) in a point related to the preceding item, a culture, distinctive in many ways from that of most large companies, that we have worked 50 years to develop and that is now rock-solid.
+
+<br>
+
+这些优势为我们提供了一个出色的基础，可以在其上继续发展。
+
+These strengths provide us a wonderful foundation on which to build.
