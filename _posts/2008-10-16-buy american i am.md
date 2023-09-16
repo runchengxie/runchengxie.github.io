@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 翻译巴菲特：我正在做多美股
+title: 巴菲特：我正在做多美股
 date: 2008-10-16
 tags: 翻译
 ---
