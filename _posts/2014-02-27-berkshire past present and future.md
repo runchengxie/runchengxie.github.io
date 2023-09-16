@@ -266,6 +266,8 @@ Overall, Berkshire’s acquisitions have worked out well — and very well in th
 
 Listening to Charlie has paid off.
 
+<br>
+
 ## 今日的伯克希尔Berkshire Today
 
 如今，伯克希尔是一个庞大的企业集团，不断试图扩张更广泛。
@@ -543,6 +545,8 @@ Today Berkshire possesses (1) an unmatched collection of businesses, most of the
 这些优势为我们提供了一个出色的基础，可以在其上继续发展。
 
 These strengths provide us a wonderful foundation on which to build.
+
+<br>
 
 ## 伯克希尔未来50年 The Next 50 Years at Berkshire
 
