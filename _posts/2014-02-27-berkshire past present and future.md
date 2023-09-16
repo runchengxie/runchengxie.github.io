@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 伯克希尔--过去、现在和未来
+title: 巴菲特：伯克希尔--过去、现在和未来（来自2014年股东信）
 date: 2014-02-27
 tags: 年报
 ---
@@ -558,7 +558,7 @@ Now let’s take a look at the road ahead. Bear in mind that if I had attempted 
 
 1.首先，也绝对是最重要的，我相信耐心持有伯克希尔股票的投资者永久资本损失的机会几乎是可以在单一公司投资中找到的最低的。这是因为我们每股的内在业务价值几乎肯定会随着时间的推移而增长。
 
-First and definitely foremost, I believe that the chance of permanent capital loss for patient Berkshire shareholders is as low as can be found among single-company investments. That’s because our per-share intrinsic business value is almost certain to advance over time.
+1.First and definitely foremost, I believe that the chance of permanent capital loss for patient Berkshire shareholders is as low as can be found among single-company investments. That’s because our per-share intrinsic business value is almost certain to advance over time.
 
 <br>
 
@@ -594,7 +594,7 @@ Another warning: Berkshire shares should not be purchased with borrowed money. T
 
 2.我相信导致伯克希尔陷入财务问题的机会基本上是零。我们将永远为千年一遇的大灾做好准备；事实上，如果发生这种情况，我们将向没有做好准备的人出售救生衣。在2008-2009年的危机中，伯克希尔扮演了“第一响应者”的重要角色，而且自那以后，我们已经将资产负债表的实力和盈利潜力增加了一倍以上。贵公司是美国企业的不可动摇的支柱，将始终如此。
 
-I believe the chance of any event causing Berkshire to experience financial problems is essentially zero. We will always be prepared for the thousand-year flood; in fact, if it occurs we will be selling life jackets to the unprepared. Berkshire played an important role as a “first responder” during the 2008-2009 meltdown, and we have since more than doubled the strength of our balance sheet and our earnings potential. Your company is the Gibraltar of American business and will remain so.
+2.I believe the chance of any event causing Berkshire to experience financial problems is essentially zero. We will always be prepared for the thousand-year flood; in fact, if it occurs we will be selling life jackets to the unprepared. Berkshire played an important role as a “first responder” during the 2008-2009 meltdown, and we have since more than doubled the strength of our balance sheet and our earnings potential. Your company is the Gibraltar of American business and will remain so.
 
 <br>
 
@@ -631,3 +631,88 @@ At Berkshire, our “breathing” went uninterrupted. Indeed, in a three-week pe
 我们之所以能够做到这一点，是因为我们始终至少保持着200亿美元，通常远远超过这个数字，以备用金的形式。我们所说的备用金是指美国国债，而不是其他声称可以提供流动性的现金替代品，实际上只在真正需要时才能够如此。到期时，只有现金才是法定货币。外出前请务必携带足够的现金。
 
 We could do that because we always maintain at least $20 billion — and usually far more — in cash equivalents. And by that we mean U.S. Treasury bills, not other substitutes for cash that are claimed to deliver liquidity and actually do so, except when it is truly needed. When bills come due, only cash is legal tender. Don’t leave home without it.
+
+<br>
+
+最后一点，我们永远不会从事可能导致突然大额资金需求的经营或投资做法。这意味着我们不会将伯克希尔暴露于大规模短期债务到期或进入衍生合同或其他业务安排可能需要大额担保调用的情况。
+
+Finally — getting to our third point — we will never engage in operating or investment practices that can result in sudden demands for large sums. That means we will not expose Berkshire to short-term debt maturities of size nor enter into derivative contracts or other business arrangements that could require large collateral calls.
+
+<br>
+
+几年前，我们成为某些衍生合同的一方，我们认为这些合同明显定价不准确，而且只需要少量担保。这些合同已被证明非常有利可图。然而，最近编写的衍生合同要求提供充分担保。这结束了我们对衍生品的兴趣，无论它们可能提供什么利润潜力。多年来，我们已不再编写这些合同，除了为我们公用事业业务的操作目的编写了一些合同。
+
+Some years ago, we became a party to certain derivative contracts that we believed were significantly mispriced and that had only minor collateral requirements. These have proved to be quite profitable. Recently, however, newly-written derivative contracts have required full collateralization. And that ended our interest in derivatives, regardless of what profit potential they might offer. We have not, for some years, written these contracts, except for a few needed for operational purposes at our utility businesses.
+
+<br>
+
+此外，我们不会编写那些允许保单持有人随时提取现金的保险合同。许多寿险产品包含赎回条款，使它们容易在极端恐慌时被批量赎回。然而，在我们所经营的财产损失领域，不存在这种类型的合同。即使我们的保费收入减少，我们的保费资金也只会以非常缓慢的速度减少。
+
+Moreover, we will not write insurance contracts that give policyholders the right to cash out at their option. Many life insurance products contain redemption features that make them susceptible to a “run” in times of extreme panic. Contracts of that sort, however, do not exist in the property-casualty world that we inhabit. If our premium volume should shrink, our float would decline — but only at a very slow pace.
+
+<br>
+
+我们之所以如此保守，可能会给一些人留下极端的印象，是因为可以完全预见到人们偶尔会恐慌，但不能预测这将在何时发生。尽管几乎每一天都相对平稳，但明天总是不确定的。（1941年12月6日或2001年9月10日，我都没有特别的担忧。）如果您不能预测明天会发生什么，那么您必须为明天可能发生的任何事情做好准备。
+
+The reason for our conservatism, which may impress some people as extreme, is that it is entirely predictable that people will occasionally panic, but not at all predictable when this will happen. Though practically all days are relatively uneventful, tomorrow is always uncertain. (I felt no special apprehension on December 6, 1941 or September 10, 2001.) And if you can’t predict what tomorrow will bring, you must be prepared for whatever it does.
+
+<br>
+
+一个64岁计划在65岁退休的首席执行官可能会根据一年内发生机会微乎其微的风险进行特殊的计算。事实上，他可能在99%的时间里都是“正确”的。然而，对我们来说，这些机会没有吸引力。即使是隐喻性的枪中有100个弹膛，只有一个子弹，我们也不会冒险失去您托付给我们的资金，即使隐喻的枪中有100个弹膛，只有一个子弹。在我们看来，冒险失去您所需的东西以追求您仅仅渴望的东西是疯狂的。
+
+A CEO who is 64 and plans to retire at 65 may have his own special calculus in evaluating risks that have only a tiny chance of happening in a given year. He may, in fact, be “right” 99% of the time. Those odds, however, hold no appeal for us. We will never play financial Russian roulette with the funds you’ve entrusted to us, even if the metaphorical gun has 100 chambers and only one bullet. In our view, it is madness to risk losing what you need in pursuing what you simply desire.
+
+
+<br>
+
+3.尽管我们保守谨慎，但我认为我们每年都将能够提升伯克希尔的基础每股盈利能力。这并不意味着经营收益每年都会增加——远非如此。美国经济将会起伏不定，尽管大多数时间会向好发展，但当它疲软时，我们当前的盈利也会受到影响。但我们将继续实现有机增长，进行并购以及进入新领域。因此，我相信伯克希尔将每年都增加其基础盈利能力。
+
+3.Despite our conservatism, I think we will be able every year to build the underlying per-share earning power of Berkshire. That does not mean operating earnings will increase each year — far from it. The U.S. economy will ebb and flow — though mostly flow — and, when it weakens, so will our current earnings. But we will continue to achieve organic gains, make bolt-on acquisitions and enter new fields. I believe, therefore, that Berkshire will annually add to its underlying earning power.
+
+<br>
+
+在某些年份，增益将会很可观，而在其他时候则较小。市场、竞争和机遇将决定机会何时降临。在此过程中，伯克希尔将继续前进，依靠我们现在拥有的一系列坚实企业和我们将要收购的新公司。此外，大多数年份里，我们国家的经济将为企业提供强大的迎风助力。我们有幸将美国视为我们的主场。
+
+In some years the gains will be substantial, and at other times they will be minor. Markets, competition, and chance will determine when opportunities come our way. Through it all, Berkshire will keep moving forward, powered by the array of solid businesses we now possess and the new companies we will purchase. In most years, moreover, our country’s economy will provide a strong tailwind for business. We are blessed to have the United States as our home field.
+
+<br>
+
+4.不好的消息是，伯克希尔的长期增益——以百分比衡量，而不是以美元衡量——不可能是惊人的，也不会接近过去50年所取得的成就。数字已经变得太大了。我认为伯克希尔将会胜过普通美国公司，但如果有任何优势，也不会太大。
+
+4.The bad news is that Berkshire’s long-term gains — measured by percentages, not by dollars — cannot be dramatic and will not come close to those achieved in the past 50 years. The numbers have become too big. I think Berkshire will outperform the average American company, but our advantage, if any, won’t be great.
+
+<br>
+
+最终——可能在未来十到二十年之间——伯克希尔的收益和资本资源将达到一个水平，不允许管理层明智地再投资公司全部收益。那时，我们的董事们将需要决定通过股息、股份回购或两者结合的方式分配多余的收益。如果伯克希尔的股价低于内在企业价值，大规模回购几乎肯定是最佳选择。您可以放心，您的董事会将会做出正确的决策。
+
+Eventually — probably between ten and twenty years from now — Berkshire’s earnings and capital resources will reach a level that will not allow management to intelligently reinvest all of the company’s earnings. At that time our directors will need to determine whether the best method to distribute the excess earnings is through dividends, share repurchases or both. If Berkshire shares are selling below intrinsic business value, massive repurchases will almost certainly be the best choice. You can be comfortable that your directors will make the right decision.
+
+<br>
+
+5.没有公司比伯克希尔更加注重股东利益。三十多年来，我们每年都再次确认我们的股东原则（请见第117页），始终以以下话语开头：“虽然我们的形式是公司，但我们的态度是合伙关系。”这与您的契约已经铭刻在石头上。
+
+5.No company will be more shareholder-minded than Berkshire. For more than 30 years, we have annually reaffirmed our Shareholder Principles (see page 117), always leading off with: “Although our form is corporate, our attitude is partnership.” This covenant with you is etched in stone.
+
+<br>
+
+我们拥有一支非常博学且以业务为导向的董事会，愿意履行合作伙伴的承诺。他们没有因金钱而担任这个职位：在几乎没有其他地方存在的安排中，我们的董事只获得象征性的报酬。他们通过持有伯克希尔股份来获得回报，以及成为一家重要企业的善良管理者所带来的满足感。
+
+We have an extraordinarily knowledgeable and business-oriented board of directors ready to carry out that promise of partnership. None took the job for the money: In an arrangement almost non-existent elsewhere, our directors are paid only token fees. They receive their rewards instead through ownership of Berkshire shares and the satisfaction that comes from being good stewards of an important enterprise.
+
+<br>
+
+他们和他们家人拥有的股份——在许多情况下，价值非常可观——都是在市场上购买的（而不是通过期权或授予获得的）。此外，与几乎所有其他规模较大的上市公司不同，我们没有董事和高管责任保险。在伯克希尔，董事们与您的立场是一样的。
+
+The shares that they and their families own — which, in many cases, are worth very substantial sums — were purchased in the market (rather than their materializing through options or grants). In addition, unlike almost all other sizable public companies, we carry no directors and officers liability insurance. At Berkshire, directors walk in your shoes.
+
+<br>
+
+为了进一步确保我们文化的延续，我建议我的儿子霍华德接替我成为非执行主席。我之所以有这个愿望，唯一的原因是为了使如果任命了错误的首席执行官，需要主席采取有力措施来进行变革更加容易。我可以向您保证，在伯克希尔这种问题发生的概率非常低，可能与任何其他上市公司一样低。然而，在我服务过的十九家上市公司董事会中，我看到了如果一个平庸的首席执行官同时也是主席，要替换他是多么困难。（通常最终会完成，但几乎总是很晚。）
+
+To further ensure continuation of our culture, I have suggested that my son, Howard, succeed me as a non-executive Chairman. My only reason for this wish is to make change easier if the wrong CEO should ever be employed and there occurs a need for the Chairman to move forcefully. I can assure you that this problem has a very low probability of arising at Berkshire — likely as low as at any public company. In my service on the boards of nineteen public companies, however, I’ve seen how hard it is to replace a mediocre CEO if that person is also Chairman. (The deed usually gets done, but almost always very late.)
+
+<br>
+
+如果当选，霍华德将不获得薪水，也不会花费除了所有董事都需要的时间以外的任何时间。他只是一个安全阀，任何董事如果对首席执行官有顾虑，并希望了解其他董事是否也有疑虑，可以找他。如果有多个董事感到担忧，霍华德的主席地位将使问题能够迅速而正确地得到解决。
+
+If elected, Howard will receive no pay and will spend no time at the job other than that required of all directors. He will simply be a safety valve to whom any director can go if he or she has concerns about the CEO and wishes to learn if other directors are expressing doubts as well. Should multiple directors be apprehensive, Howard’s chairmanship will allow the matter to be promptly and properly addressed.
