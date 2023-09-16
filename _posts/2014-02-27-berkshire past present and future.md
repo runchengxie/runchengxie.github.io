@@ -543,3 +543,87 @@ Today Berkshire possesses (1) an unmatched collection of businesses, most of the
 这些优势为我们提供了一个出色的基础，可以在其上继续发展。
 
 These strengths provide us a wonderful foundation on which to build.
+
+## 伯克希尔未来50年 The Next 50 Years at Berkshire
+
+接下来，让我们来看看未来的道路。请记住，如果50年前我尝试评估未来会发生什么，那么我的某些预测可能会大大偏离实际情况。在这个警告下，如果我的家人今天问我关于伯克希尔的未来，我会告诉他们什么呢？
+
+Now let’s take a look at the road ahead. Bear in mind that if I had attempted 50 years ago to gauge what was coming, certain of my predictions would have been far off the mark. With that warning, I will tell you what I would say to my family today if they asked me about Berkshire’s future.
+
+<br>
+
+1.首先，也绝对是最重要的，我相信耐心持有伯克希尔股票的投资者永久资本损失的机会几乎是可以在单一公司投资中找到的最低的。这是因为我们每股的内在业务价值几乎肯定会随着时间的推移而增长。
+
+First and definitely foremost, I believe that the chance of permanent capital loss for patient Berkshire shareholders is as low as can be found among single-company investments. That’s because our per-share intrinsic business value is almost certain to advance over time.
+
+<br>
+
+然而，这个乐观的预测伴随着一个重要的警告：如果投资者以高于公司回购股票的价格进入伯克希尔股票——比如，接近百分之二百的账面价值，就像伯克希尔股票偶尔达到的那样——可能需要很多年才能实现利润。换句话说，如果以高价购买，一个明智的投资可能会变成冒险的投机。伯克希尔不例外。
+
+This cheery prediction comes, however, with an important caution: If an investor’s entry point into Berkshire stock is unusually high — at a price, say, approaching double book value, which Berkshire shares have occasionally reached — it may well be many years before the investor can realize a profit. In other words, a sound investment can morph into a rash speculation if it is bought at an elevated price. Berkshire is not exempt from this truth.
+
+<br>
+
+然而，以略高于公司回购股票的价格购买伯克希尔的投资者，应该能够在合理的时间内获得收益。伯克希尔的董事会只会在他们认为远低于内在价值的价格下批准回购。在我们看来，这是回购经常被其他管理层忽视的一个重要标准。
+
+Purchases of Berkshire that investors make at a price modestly above the level at which the company would repurchase its shares, however, should produce gains within a reasonable period of time. Berkshire’s directors will only authorize repurchases at a price they believe to be well below intrinsic value. (In our view, that is an essential criterion for repurchases that is often ignored by other managements.)
+
+<br>
+
+对于那些计划在购买后一两年内出售的投资者，我无法提供任何保证，无论购入价格如何。在这种缩短的时间段内，总体股市的波动可能对您的结果产生更大的影响，而不是伯克希尔股票内在价值的同时变化。正如本·格雷厄姆几十年前所说：“短期内，市场是一台投票机；长期内，它则充当一个称重机。” 偶尔，投资者的投票决策，无论是业余投资者还是专业投资者，有时会近乎疯狂。
+
+For those investors who plan to sell within a year or two after their purchase, I can offer no assurances, whatever the entry price. Movements of the general stock market during such abbreviated periods will likely be far more important in determining your results than the concomitant change in the intrinsic value of your Berkshire shares. As Ben Graham said many decades ago: “In the short-term the market is a voting machine; in the long-run it acts as a weighing machine.” Occasionally, the voting decisions of investors — amateurs and professionals alike — border on lunacy.
+
+<br>
+
+由于我不知道如何可靠地预测市场走势，因此我建议您只在预计持有至少五年的情况下购买伯克希尔股票。那些寻求短期利润的人应该另寻他路。
+
+Since I know of no way to reliably predict market movements, I recommend that you purchase Berkshire shares only if you expect to hold them for at least five years. Those who seek short-term profits should look elsewhere.
+
+<br>
+
+另一个警告：伯克希尔股票不应该用借来的资金购买。自1965年以来，我们的股票曾三次从高点下跌约50%。总有一天，会再次发生类似的下跌，而且没有人知道何时会发生。对于投资者来说，伯克希尔几乎肯定是一个满意的投资选择。但对于利用杠杆的投机者来说，这可能是一个灾难性的选择。
+
+Another warning: Berkshire shares should not be purchased with borrowed money. There have been three times since 1965 when our stock has fallen about 50% from its high point. Someday, something close to this kind of drop will happen again, and no one knows when. Berkshire will almost certainly be a satisfactory holding for investors. But it could well be a disastrous choice for speculators employing leverage.
+
+<br>
+
+2.我相信导致伯克希尔陷入财务问题的机会基本上是零。我们将永远为千年一遇的大灾做好准备；事实上，如果发生这种情况，我们将向没有做好准备的人出售救生衣。在2008-2009年的危机中，伯克希尔扮演了“第一响应者”的重要角色，而且自那以后，我们已经将资产负债表的实力和盈利潜力增加了一倍以上。贵公司是美国企业的不可动摇的支柱，将始终如此。
+
+I believe the chance of any event causing Berkshire to experience financial problems is essentially zero. We will always be prepared for the thousand-year flood; in fact, if it occurs we will be selling life jackets to the unprepared. Berkshire played an important role as a “first responder” during the 2008-2009 meltdown, and we have since more than doubled the strength of our balance sheet and our earnings potential. Your company is the Gibraltar of American business and will remain so.
+
+<br>
+
+财务稳定力要求公司在任何情况下都保持三个关键因素：（1）大规模且可靠的盈利流；（2）大规模的流动性资产；以及（3）没有重大的近期现金需求。忽视最后一个要点通常会导致公司经历意想不到的问题：太多时候，盈利的公司首席执行官会觉得他们永远能够偿还到期债务，无论这些债务有多大。在2008-2009年，许多管理层都意识到这种心态有多危险。
+
+Financial staying power requires a company to maintain three strengths under all circumstances: (1) a large and reliable stream of earnings; (2) massive liquid assets and (3) no significant near-term cash requirements. Ignoring that last necessity is what usually leads companies to experience unexpected problems: Too often, CEOs of profitable companies feel they will always be able to refund maturing obligations, however large these are. In 2008-2009, many managements learned how perilous that mindset can be.
+
+<br>
+
+以下是我们将始终坚守这三个关键要点的方式。首先，我们的盈利流量巨大，来自各种各样的业务。我们的股东现在拥有许多具有持久竞争优势的大型公司，未来我们还将收购更多这样的公司。我们的多元化确保了伯克希尔的持续盈利，即使一场灾难导致保险损失远远超过以往的任何损失。
+
+Here’s how we will always stand on the three essentials. First, our earnings stream is huge and comes from a vast array of businesses. Our shareholders now own many large companies that have durable competitive advantages, and we will acquire more of those in the future. Our diversification assures Berkshire’s continued profitability, even if a catastrophe causes insurance losses that far exceed any previously experienced.
+
+<br>
+
+接下来是现金。在一个健康的企业中，有时会将现金视为需要最小化的东西——一种无效的资产，对股本回报等指标产生负担。然而，对于企业而言，现金就像对个人而言的氧气一样不可或缺：当它存在时，几乎不会考虑它，但当它不足时，它会成为唯一关心的事物。
+
+Next up is cash. At a healthy business, cash is sometimes thought of as something to be minimized — as an unproductive asset that acts as a drag on such markers as return on equity. Cash, though, is to a business as oxygen is to an individual: never thought about when it is present, the only thing in mind when it is absent.
+
+<br>
+
+2008年，美国企业提供了一个典型案例。那年九月，许多长期繁荣的公司突然担心未来几天自己的支票是否会被退票。一夜之间，它们的财务氧气消失了。
+
+American business provided a case study of that in 2008. In September of that year, many long-prosperous companies suddenly wondered whether their checks would bounce in the days ahead. Overnight, their financial oxygen disappeared.
+
+<br>
+
+在伯克希尔，我们的“呼吸”从未间断。事实上，在2008年九月底到十月初的三周时间内，我们向美国企业提供了1560亿美元的新鲜资金。
+
+At Berkshire, our “breathing” went uninterrupted. Indeed, in a three-week period spanning late September and early October, we supplied $15.6 billion of fresh money to American businesses.
+
+<br>
+
+我们之所以能够做到这一点，是因为我们始终至少保持着200亿美元，通常远远超过这个数字，以备用金的形式。我们所说的备用金是指美国国债，而不是其他声称可以提供流动性的现金替代品，实际上只在真正需要时才能够如此。到期时，只有现金才是法定货币。外出前请务必携带足够的现金。
+
+We could do that because we always maintain at least $20 billion — and usually far more — in cash equivalents. And by that we mean U.S. Treasury bills, not other substitutes for cash that are claimed to deliver liquidity and actually do so, except when it is truly needed. When bills come due, only cash is legal tender. Don’t leave home without it.
