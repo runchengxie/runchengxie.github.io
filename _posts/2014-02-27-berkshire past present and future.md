@@ -716,3 +716,121 @@ To further ensure continuation of our culture, I have suggested that my son, How
 如果当选，霍华德将不获得薪水，也不会花费除了所有董事都需要的时间以外的任何时间。他只是一个安全阀，任何董事如果对首席执行官有顾虑，并希望了解其他董事是否也有疑虑，可以找他。如果有多个董事感到担忧，霍华德的主席地位将使问题能够迅速而正确地得到解决。
 
 If elected, Howard will receive no pay and will spend no time at the job other than that required of all directors. He will simply be a safety valve to whom any director can go if he or she has concerns about the CEO and wishes to learn if other directors are expressing doubts as well. Should multiple directors be apprehensive, Howard’s chairmanship will allow the matter to be promptly and properly addressed.
+
+<br>
+
+6.选择合适的首席执行官至关重要，这是伯克希尔董事会会议上花费大量时间讨论的课题。管理伯克希尔主要是关于资本配置，同时也涉及到选择和保留出色的管理者来领导我们的运营子公司。当然，这项工作还需要在必要时更换子公司的首席执行官。这些职责要求伯克希尔的首席执行官必须是一个理性、沉稳和果断的人，他对业务有广泛的了解，对人类行为有深刻的洞察力。同样重要的是，他必须知道自己的局限性。（正如IBM的汤姆·沃森·斯尔所说，“我并非天才，但在某些方面很聪明，我会集中精力做那些方面。”）
+
+6.Choosing the right CEO is all-important and is a subject that commands much time at Berkshire board meetings. Managing Berkshire is primarily a job of capital allocation, coupled with the selection and retention of outstanding managers to captain our operating subsidiaries. Obviously, the job also requires the replacement of a subsidiary’s CEO when that is called for. These duties require Berkshire’s CEO to be a rational, calm and decisive individual who has a broad understanding of business and good insights into human behavior. It’s important as well that he knows his limits. (As Tom Watson, Sr. of IBM said, “I’m no genius, but I’m smart in spots and I stay around those spots.”)
+
+<br>
+
+品格至关重要：一位伯克希尔的首席执行官必须全身心地为公司服务，而不是只为个人利益着想。（我使用男性代词以避免措辞上的尴尬，但性别永远不应该决定谁能成为首席执行官。）他难以避免地会赚取远远超过任何可能需要的财富。但重要的是，不论他的成就有多大，都不应该让自己的自负或贪婪驱使他追求与同行最慷慨薪酬相匹配的报酬，即使他的成就远远超过他们的水平。一位首席执行官的行为对下属管理者产生巨大的影响：如果他们清楚地看到股东的利益对他来说是最重要的，他们将在很少例外的情况下也会采纳这种思维方式。
+
+Character is crucial: A Berkshire CEO must be “all in” for the company, not for himself. (I’m using male pronouns to avoid awkward wording, but gender should never decide who becomes CEO.) He can’t help but earn money far in excess of any possible need for it. But it’s important that neither ego nor avarice motivate him to reach for pay matching his most lavishly-compensated peers, even if his achievements far exceed theirs. A CEO’s behavior has a huge impact on managers down the line: If it’s clear to them that shareholders’ interests are paramount to him, they will, with few exceptions, also embrace that way of thinking.
+
+<br>
+
+我的继任者还需要具备另外一种特殊的能力：抵御企业腐化的ABC，即傲慢、官僚主义和自满。当这些企业病变扩散时，即使最强大的公司也可能失利。证明这一点的例子有很多，但为了保持友好关系，我只会挖掘遥远过去的案例。
+
+My successor will need one other particular strength: the ability to fight off the ABCs of business decay, which are arrogance, bureaucracy and complacency. When these corporate cancers metastasize, even the strongest of companies can falter. The examples available to prove the point are legion, but to maintain friendships I will exhume only cases from the distant past.
+
+<br>
+
+在它们的辉煌时期，通用汽车、IBM、西尔斯-罗巴克（Sears Roebuck）和美国钢铁公司（U.S. Steel）都是庞大产业的领头羊。它们的优势似乎无可撼动。但我在上文所痛斥的破坏性行为最终导致它们各自跌落到其首席执行官和董事们不久前还认为不可能的深渊。事实证明，它们曾经的雄厚财力和历史盈利能力都无法抵挡。
+
+In their glory days, General Motors, IBM, Sears Roebuck and U.S. Steel sat atop huge industries. Their strengths seemed unassailable. But the destructive behavior I deplored above eventually led each of them to fall to depths that their CEOs and directors had not long before thought impossible. Their one-time financial strength and their historical earning power proved no defense.
+
+<br>
+
+在伯克希尔日益壮大的过程中，只有警觉而坚定的首席执行官才能抵御这种削弱力量。他决不能忘记查理的恳求： "告诉我死在哪里，我就不会去那里" 如果我们的非经济价值丧失殆尽，伯克希尔的大部分经济价值也将随之崩溃。要保持伯克希尔的特殊文化，"高层语调 "将是关键。
+
+Only a vigilant and determined CEO can ward off such debilitating forces as Berkshire grows ever larger. He must never forget Charlie’s plea: “Tell me where I’m going to die, so I’ll never go there.” If our noneconomic values were to be lost, much of Berkshire’s economic value would collapse as well. “Tone at the top” will be key to maintaining Berkshire’s special culture.
+
+<br>
+
+幸运的是，我们未来的首席执行官取得成功所需的结构已经稳固建立。伯克希尔现有的非凡授权是官僚主义的理想解药。从运营意义上讲，伯克希尔不是一家巨型公司，而是多家大公司的集合体。在总部，我们从未设立过委员会，也从未要求子公司提交预算（尽管许多子公司将预算作为重要的内部工具）。我们没有法律办公室，也没有其他公司认为理所当然的部门：人际关系部、公共关系部、投资者关系部、战略部、收购部等等。
+
+Fortunately, the structure our future CEOs will need to be successful is firmly in place. The extraordinary delegation of authority now existing at Berkshire is the ideal antidote to bureaucracy. In an operating sense, Berkshire is not a giant company but rather a collection of large companies. At headquarters, we have never had a committee nor have we ever required our subsidiaries to submit budgets (though many use them as an important internal tool). We don’t have a legal office nor departments that other companies take for granted: human relations, public relations, investor relations, strategy, acquisitions, you name it.
+
+<br>
+
+当然，我们有一个积极的审计职能部门；做一个该死的傻瓜是没有意义的。不过，我们在某种程度上异常信任我们的经理人，相信他们会以敏锐的管理意识来经营业务。毕竟，在我们收购他们的企业之前，他们正是这样做的。此外，除了偶尔的例外情况，我们的信任所产生的结果比层层指令、无休止的审查和层层官僚主义所产生的结果要好得多。查理和我努力与我们的经理们进行互动，如果我们的立场颠倒过来，我们也会这样做。
+
+We do, of course, have an active audit function; no sense being a dammed fool. To an unusual degree, however, we trust our managers to run their operations with a keen sense of stewardship. After all, they were doing exactly that before we acquired their businesses. With only occasional exceptions, furthermore, our trust produces better results than would be achieved by streams of directives, endless reviews and layers of bureaucracy. Charlie and I try to interact with our managers in a manner consistent with what we would wish for, if the positions were reversed.
+
+<br>
+
+7.我们的董事认为，我们未来的首席执行官应该来自伯克希尔董事会非常熟悉的内部候选人。我们的董事还认为，即将上任的首席执行官应该相对年轻，这样他或她才能在这个职位上长期工作。如果首席执行官的平均执掌年限超过十年，伯克希尔的运营将达到最佳状态。(他们也不可能在 65 岁退休（你注意到了吗？）
+
+7.Our directors believe that our future CEOs should come from internal candidates whom the Berkshire board has grown to know well. Our directors also believe that an incoming CEO should be relatively young, so that he or she can have a long run in the job. Berkshire will operate best if its CEOs average well over ten years at the helm. (It’s hard to teach a new dog old tricks.) And they are not likely to retire at 65 either (or have you noticed?).
+
+<br>
+
+在伯克希尔的业务收购和大型定制投资活动中，我们的交易对手必须熟悉伯克希尔的首席执行官，并对其感到满意。培养这种信心和巩固关系需要时间。但回报可能是巨大的。
+
+In both Berkshire’s business acquisitions and large, tailored investment moves, it is important that our counterparties be both familiar with and feel comfortable with Berkshire’s CEO. Developing confidence of that sort and cementing relationships takes time. The payoff, though, can be huge.
+
+<br>
+
+董事会和我都相信，我们现在已经有了接替我担任首席执行官的合适人选--一个可以在我去世或卸任后第二天上任的继任者。在某些重要方面，他将比我做得更好。
+
+Both the board and I believe we now have the right person to succeed me as CEO — a successor ready to assume the job the day after I die or step down. In certain important respects, this person will do a better job than I am doing.
+
+<br>
+
+8.投资对伯克希尔来说始终非常重要，将由几位专家负责。他们将向首席执行官汇报，因为他们的投资决策在很大程度上需要与伯克希尔的运营和收购计划相协调。但总的来说，我们的投资经理将享有极大的自主权。在这一领域，我们在未来几十年也将处于良好的状态。托德-康博斯（Todd Combs）和泰德-韦施勒（Ted Weschler）都曾在伯克希尔的投资团队工作过数年，他们在各方面都是一流的，尤其能帮助首席执行官评估收购项目。
+
+8.Investments will always be of great importance to Berkshire and will be handled by several specialists. They will report to the CEO because their investment decisions, in a broad way, will need to be coordinated with Berkshire’s operating and acquisition programs. Overall, though, our investment managers will enjoy great autonomy. In this area, too, we are in fine shape for decades to come. Todd Combs and Ted Weschler, each of whom has spent several years on Berkshire’s investment team, are first-rate in all respects and can be of particular help to the CEO in evaluating acquisitions.
+
+<br>
+
+总而言之，伯克希尔为查理和我离开后的生活做好了理想的准备。我们拥有合适的人才--合适的董事、经理和这些经理的未来继任者。此外，我们的文化已经深入到他们的队伍中。我们的系统还具有再生能力。在很大程度上，好的文化和坏的文化都会自我选择，使自己永久存在。出于很好的理由，拥有与我们相似价值观的企业主和运营经理将继续被伯克希尔吸引，将其视为独一无二的永久家园。
+
+All told, Berkshire is ideally positioned for life after Charlie and I leave the scene. We have the right people in place — the right directors, managers and prospective successors to those managers. Our culture, furthermore, is embedded throughout their ranks. Our system is also regenerative. To a large degree, both good and bad cultures self-select to perpetuate themselves. For very good reasons, business owners and operating managers with values similar to ours will continue to be attracted to Berkshire as a one-of-a-kind and permanent home.
+
+<br>
+
+9.如果我不向使伯克希尔与众不同的另一个关键群体--我们的股东--致敬，那将是我的失职。伯克希尔真正拥有与其他任何巨型公司都不同的股东基础。这一事实在去年的年会上得到了充分体现，股东们在会上通过了一项代理决议：
+
+9.I would be remiss if I didn’t salute another key constituency that makes Berkshire special: our shareholders. Berkshire truly has an owner base unlike that of any other giant corporation. That fact was demonstrated in spades at last year’s annual meeting, where the shareholders were offered a proxy resolution:
+
+<br>
+
+决议：鉴于公司的资金超过其需求，而且公司所有者与沃伦不同，都不是亿万富翁，董事会应考虑每年支付有意义的股票股息。
+
+RESOLVED: Whereas the corporation has more money than it needs and since the owners unlike Warren are not multi billionaires, the board shall consider paying a meaningful annual dividend on the shares.
+
+<br>
+
+该决议的提案股东从未出席会议，因此他的动议没有被正式提出。不过，代理投票已经统计出来，而且很有启发性。
+
+The sponsoring shareholder of that resolution never showed up at the meeting, so his motion was not officially proposed. Nevertheless, the proxy votes had been tallied, and they were enlightening.
+
+<br>
+
+不足为奇的是，A 股（股东人数相对较少，但每个股东都拥有巨大的经济利益）在股息问题上以 89 票对 1 票的比例投了反对票。
+
+Not surprisingly, the A shares — owned by relatively few shareholders, each with a large economic interest — voted “no” on the dividend question by a margin of 89 to 1.
+
+<br>
+
+最引人注目的是我们的 B 股股东。他们有几十万人，甚至可能有一百万人，他们投了 660,759,855 票 "反对 "和 13,927,026 票 "赞成"，比例约为 47:1。
+
+The remarkable vote was that of our B shareholders. They number in the hundreds of thousands — perhaps even totaling one million — and they voted 660,759,855 “no” and 13,927,026 “yes,” a ratio of about 47 to 1.
+
+<br>
+
+我们的董事建议投 "反对 "票，但公司并未试图以其他方式影响股东。尽管如此，98% 的投票股份实际上是在说："不要给我们派发股息，而是将所有收益再投资"。我们的大小股东们与我们的管理理念如此一致，这既了不起，也很有意义。
+
+Our directors recommended a “no” vote but the company did not otherwise attempt to influence shareholders. Nevertheless, 98% of the shares voting said, in effect, “Don’t send us a dividend but instead reinvest all of the earnings.” To have our fellow owners — large and small — be so in sync with our managerial philosophy is both remarkable and rewarding.
+
+<br>
+
+我很幸运能与你们成为合作伙伴。
+
+I am a lucky fellow to have you as partners.
+
+<br>
+
+沃伦-巴菲特 Warren E. Buffett
