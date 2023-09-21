@@ -141,3 +141,57 @@ vii.His first priority would be reservation of much time for quiet reading and t
 viii.并且他还将花费大量时间热情地欣赏其他人所取得的成就。
 
 viii.He would also spend much time in enthusiastically admiring what others were accomplishing.
+
+<br>
+
+7.新子公司通常会用现金购买，而不是新发行的股票。
+
+7.New subsidiaries would usually be bought with cash, not newly issued stock.
+
+<br>
+
+8.只要每一美元的留存收益能为股东创造一美元以上的市值，伯克希尔不会支付股息。
+
+8.Berkshire would not pay dividends so long as more than one dollar of market value for shareholders was being created by each dollar of retained earnings.
+
+<br>
+
+9.在购买新子公司时，伯克希尔会寻求以合理的价格收购一家优质企业，而主席能够相当了解该企业。伯克希尔还希望有一位优秀的首席执行官，预计将长期任职，并且能够在不需要总部帮助的情况下有效管理。
+
+9.In buying a new subsidiary, Berkshire would seek to pay a fair price for a good business that the Chairman could pretty well understand. Berkshire would also want a good CEO in place, one expected to remain for a long time and to manage well without need for help from headquarters.
+
+<br>
+
+10.在选择子公司首席执行官时，伯克希尔会努力确保他们的可信度、技能、活力，以及对所在行业和环境的热爱。
+
+10.In choosing CEOs of subsidiaries, Berkshire would try to secure trustworthiness, skill, energy, and love for the business and circumstances the CEO was in.
+
+<br>
+
+11.作为首选行为的重要事项，伯克希尔几乎永远不会出售子公司。
+
+11.As an important matter of preferred conduct, Berkshire would almost never sell a subsidiary.
+
+<br>
+
+12.伯克希尔几乎不会将子公司的首席执行官调至其他无关的子公司。
+
+12.Berkshire would almost never transfer a subsidiary’s CEO to another unrelated subsidiary.
+
+<br>
+
+13.伯克希尔永远不会因年龄而强迫子公司首席执行官退休。
+
+13.Berkshire would never force the CEO of a subsidiary to retire on account of mere age.
+
+<br>
+
+14.伯克希尔会保持较低的债务，以保持在各种情况下（i）几乎完美的信用和（ii）轻松获得现金和信贷，以应对出现不寻常机会的时刻。
+
+14.Berkshire would have little debt outstanding as it tried to maintain (i) virtually perfect creditworthiness under all conditions and (ii) easy availability of cash and credit for deployment in times presenting unusual opportunities.
+
+<br>
+
+15.伯克希尔始终对欲出售大型企业的潜在卖家友好。这样的业务提议将得到迅速的关注。如果没有导致交易，除了主席和伯克希尔的一两位高管外，没有人会知道这一提议。他们也不会向外界透露。
+
+15.Berkshire would always be user-friendly to a prospective seller of a large business. An offer of such a business would get prompt attention. No one but the Chairman and one or two others at Berkshire would ever know about the offer if it did not lead to a transaction. And they would never tell outsiders about it.
