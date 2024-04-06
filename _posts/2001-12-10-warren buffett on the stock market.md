@@ -133,3 +133,44 @@ Dec. 31, 1998: 5.09%
 
 The other critical variable here is how many dollars investors expected to get from the companies in which they invested. During the first period expectations fell significantly because corporate profits weren't looking good. By the early 1980s Fed Chairman Paul Volcker's economic sledgehammer had, in fact, driven corporate profitability to a level that people hadn't seen since the 1930s.
 
+<br>
+
+结果是投资者对美国经济失去了信心：他们认为未来将受到两个负面因素的困扰。首先，他们没有看到公司利润有多少好转。其次，当时的高利率使他们进一步对微薄的利润进行折价。这两个因素共同作用，导致 1964 年至 1981 年间股市停滞不前，尽管这些年国民生产总值取得了巨大进步。国家的企业在增长，而投资者对该企业的估值却在缩水！
+
+The upshot is that investors lost their confidence in the American economy: They were looking at a future they believed would be plagued by two negatives. First, they didn't see much good coming in the way of corporate profits. Second, the sky-high interest rates prevailing caused them to discount those meager profits further. These two factors, working together, caused stagnation in the stock market from 1964 to 1981, even though those years featured huge improvements in GNP. The business of the country grew while investors' valuation of that business shrank!
+
+<br>
+
+随后，这些因素发生了逆转，在此期间，国民生产总值的增幅大大降低，但市场却获得了丰厚的回报。首先，盈利率大幅提高。其次，利率大幅下降，使得一美元的未来利润变得更有价值。这两种现象都是推动大牛市的真实而有力的因素。随着时间的推移，我提到的心理因素也加入了这个等式： 投机交易爆炸性增长，原因很简单，因为人们看到了市场行为。稍后，我们将探讨这种危险且经常出现的弊病的病理。
+
+And then the reversal of those factors created a period during which much lower GNP gains were accompanied by a bonanza for the market. First, you got a major increase in the rate of profitability. Second, you got an enormous drop in interest rates, which made a dollar of future profit that much more valuable. Both phenomena were real and powerful fuels for a major bull market. And in time the psychological factor I mentioned was added to the equation: Speculative trading exploded, simply because of the market action that people had seen. Later, we'll look at the pathology of this dangerous and oft-recurring malady.
+
+<br>
+
+两年前，我相信有利的基本趋势已基本结束。如果市场要从当时的水平大幅上涨，就需要长期利率进一步下降（这总是有可能的），或者企业盈利能力有重大改善（当时看来，这似乎是相当大的）。可能性较小）。如果你看一下 50 年税后利润占国内生产总值 (GDP) 百分比的图表，你会发现该比率通常落在 4% 之间（例如 1981 年经济不景气时的水平） - 和 6.5%。利率超过 6.5% 的情况很少见。在1999年和2000年利润非常好的年份，这一比率低于6%，而今年很可能会降至5%以下。
+
+Two years ago I believed the favorable fundamental trends had largely run their course. For the market to go dramatically up from where it was then would have required long-term interest rates to drop much further (which is always possible) or for there to be a major improvement in corporate profitability (which seemed, at the time, considerably less possible). If you take a look at a 50-year chart of after-tax profits as a percent of gross domestic product, you find that the rate normally falls between 4%--that was its neighborhood in the bad year of 1981, for example--and 6.5%. For the rate to go above 6.5% is rare. In the very good profit years of 1999 and 2000, the rate was under 6% and this year it may well fall below 5%.
+
+<br>
+
+这就是我对这两个截然不同的 17 年的解释。问题是，市场过去的这些时期对其未来有多大影响？
+
+So there you have my explanation of those two wildly different 17-year periods. The question is, How much do those periods of the past for the market say about its future?
+
+<br>
+
+为了给出答案，我想回顾一下 20 世纪。如您所知，这确实是美国世纪。我们有了汽车、飞机、收音机、电视和电脑。那是一段令人难以置信的时期。事实上，以实际美元衡量（即不受通货膨胀影响），美国的人均产出增长率达到惊人的 702%。
+
+To suggest an answer, I'd like to look back over the 20th century. As you know, this was really the American century. We had the advent of autos, we had aircraft, we had radio, TV, and computers. It was an incredible period. Indeed, the per capita growth in U.S. output, measured in real dollars (that is, with no impact from inflation), was a breathtaking 702%.
+
+<br>
+
+当然，本世纪也有一些非常艰难的年份，例如 1929 年至 1933 年的大萧条时期。但对人均 GNP 的十年观察显示出一些值得注意的事情：作为一个国家，我们在整个世纪中取得了相对一致的进步。因此，您可能会认为美国的经济价值（至少按照其证券市场来衡量）也会以相当一致的速度增长。
+
+The century included some very tough years, of course--like the Depression years of 1929 to 1933. But a decade-by-decade look at per capita GNP shows something remarkable: As a nation, we made relatively consistent progress throughout the century. So you might think that the economic value of the U.S.--at least as measured by its securities markets--would have grown at a reasonably consistent pace as well.
+
+事实并非如此。从我们之前对 1964-98 年时期的考察中我们知道，并行性在那个时代完全崩溃了。但整个世纪也证明了这一点。例如，在建国初期，即 1900 年至 1920 年间，这个国家一路向前，爆炸性地扩大了电力、汽车和电话的使用。然而市场几乎没有变化，年增长率为 0.4%，大致相当于 1964 年至 1981 年间的微薄采收。
+
+That's not what happened. We know from our earlier examination of the 1964-98 period that parallelism broke down completely in that era. But the whole century makes this point as well. At its beginning, for example, between 1900 and 1920, the country was chugging ahead, explosively expanding its use of electricity, autos, and the telephone. Yet the market barely moved, recording a 0.4% annual increase that was roughly analogous to the slim pickings between 1964 and 1981.
+
+
