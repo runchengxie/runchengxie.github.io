@@ -6,6 +6,7 @@ Current translated essay:
 
 - The Security I Like Best
 - The Security I Like Best (2)
+- Partnership Dissolve Letter
 - How Inflation Swindles the Equity Investor
 - You Pay a Very High Price in The Stock Market for A Cheery Consensus
 - The Superinvestors of Graham-And-Doddsville
