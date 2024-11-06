@@ -7,10 +7,6 @@ tags: 文章
 
 <br>
 
-> 译者注：我没记错的话，这是巴菲特写的第一篇文章
-
-<br>
-
 <p class="small">时间：1951年12月6日</p>
 <p class="small">来源：The Commercial and Financial Chronicle</p>
 <p class="small">原文标题：The Security I Like Best </p>
