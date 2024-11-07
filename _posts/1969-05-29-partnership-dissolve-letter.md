@@ -52,19 +52,19 @@ Therefore, before yearend, I intend to give all limited partners the required fo
 
 最重要的一点是，我有一个关于资金管理的替代方案，可以建议给那些不想自己处理这件事的合作伙伴。当然，一些合作伙伴有他们自己信任并且觉得相当可接受的替代方案。然而，对于其他人，我不会仅仅以“祝好运”的方式把他们的钱交给他们。我打算建议一个替代的资金管理者，我将把我亲戚和其他我有终身财务责任的人的资金托付给他。这个管理者有诚信和能力，未来的表现可能与我相当或更好（尽管与他或我过去的成就相去甚远）。他将对任何合作伙伴开放，因此账户的最低规模不会给你们带来任何问题。我打算在未来与他保持一般性的联系，但频率不高，我的建议主要限于负面的类型。
 
-1. The most important item is that I have an alternative regarding money management to suggest to the many partners who do not want to handle this themselves. Some partners, of course, have alternatives of their own in which they have confidence and find quite acceptable. To the others, however, I will not hand over their money with a “good luck”. I intend to suggest an alternative money manager to whom I will entrust funds of my relatives and others for whom I have lifetime financial responsibility. This manager has integrity and ability, and will probably perform as well or better than I would in the future (although nowhere close to what he or I have achieved in the past). He will be available to any partner, so that no minimum size for accounts will cause any of you a problem. I intend, in the future, to keep in general touch with what he is doing, but only on an infrequent basis, with any advice on my part largely limited to a negative type.
+1.The most important item is that I have an alternative regarding money management to suggest to the many partners who do not want to handle this themselves. Some partners, of course, have alternatives of their own in which they have confidence and find quite acceptable. To the others, however, I will not hand over their money with a “good luck”. I intend to suggest an alternative money manager to whom I will entrust funds of my relatives and others for whom I have lifetime financial responsibility. This manager has integrity and ability, and will probably perform as well or better than I would in the future (although nowhere close to what he or I have achieved in the past). He will be available to any partner, so that no minimum size for accounts will cause any of you a problem. I intend, in the future, to keep in general touch with what he is doing, but only on an infrequent basis, with any advice on my part largely limited to a negative type.
 
 <br>
 
 我希望所有合伙人都有选择接受现金和可能的流动性证券的选项（可能只有一个适用），我喜欢这两者的前景和价格，但合伙人可以自由地将其转换为现金，如果他们愿意的话。
 
-2. I want all partners to have the option of receiving cash and possibly readily marketable securities (there will probably be only one where this will apply) where I like both the prospects and price but which partners will able to freely convert to cash if they wish.
+2.I want all partners to have the option of receiving cash and possibly readily marketable securities (there will probably be only one where this will apply) where I like both the prospects and price but which partners will able to freely convert to cash if they wish.
 
 <br>
 
 然而，我也希望所有合作伙伴都有选择权，保持他们在我们两家控股公司（多元化零售公司和伯克希尔哈撒韦公司）以及另一家小型“受限”控股公司的比例权益。因为这些证券将由我单方面以公允价值进行评估，我认为如果你愿意，你可以在这种评估下保持你的比例权益是至关重要的。
 
-3. However, I also want all partners to have the option of maintaining their proportional interests in our two controlled companies (Diversified Retailing Company Inc. and Berkshire Hathaway Inc.) and one other small “restricted” holding. Because these securities will be valued unilaterally by me at fair value, I feel it is essential that, if you wish, you can maintain your proportionate interest at such valuation.
+3.However, I also want all partners to have the option of maintaining their proportional interests in our two controlled companies (Diversified Retailing Company Inc. and Berkshire Hathaway Inc.) and one other small “restricted” holding. Because these securities will be valued unilaterally by me at fair value, I feel it is essential that, if you wish, you can maintain your proportionate interest at such valuation.
 
 <br>
 
