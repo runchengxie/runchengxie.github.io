@@ -2,7 +2,7 @@
 layout: post
 title: 沃伦巴菲特 500 亿美元的决定 Warren Buffett's $50 Billion Decision
 date: 2012-04-01
-categories: 翻译
+categories: 文章
 ---
 
 <p class="small">时间：2012年4月1日</p>

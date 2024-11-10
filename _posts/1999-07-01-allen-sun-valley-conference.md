@@ -2,7 +2,7 @@
 layout: post
 title: 巴菲特：1999年太阳谷会议演讲
 date: 1999-07-01
-tags: 演讲
+categories: 演讲
 ---
 
 <p class="small">时间：1999年7月</p>

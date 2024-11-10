@@ -2,7 +2,7 @@
 layout: post
 title: 巴菲特：宏观经济预测太难了，所以我们干脆不去想它了
 date: 2022-09-29
-categories: 翻译
+categories:采访
 ---
 
 

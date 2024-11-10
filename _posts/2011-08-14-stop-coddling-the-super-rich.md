@@ -2,7 +2,7 @@
 layout: post
 title: 巴菲特：别再纵容超级富豪
 date: 2011-08-14
-tags: 翻译
+categories: 文章
 ---
 
 <p class="small">时间：2011年8月14日</p>

@@ -8,6 +8,9 @@ title: 文档
     <li>
       <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
       {{ post.excerpt }}
+      {% if post.categories %}
+        <small>categories: {{ post.categories | join: ", " }}</small>
+      {% endif %}
     </li>
   {% endfor %}
 </ul>

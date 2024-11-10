@@ -2,7 +2,7 @@
 layout: post
 title: 巴菲特：给普通人的建议，尽可能做准备
 date: 2022-09-11
-categories: 翻译
+categories: 采访
 ---
 
 你想给每一个普通人的建议是什么？

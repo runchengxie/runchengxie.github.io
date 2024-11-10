@@ -2,7 +2,7 @@
 layout: post
 title: 巴菲特：衍生品（2002年伯克希尔哈撒韦年报）
 date: 2002-12-31
-tags: 年报
+categories: 年报
 ---
 <p class="small">时间：2002年12月31日</p>
 <p class="small">来源：[伯克希尔哈撒韦公司网站](https://www.berkshirehathaway.com/2002ar/2002ar.pdf)</p>

@@ -2,7 +2,7 @@
 layout: post
 title: 巴菲特：我正在做多美股
 date: 2008-10-16
-tags: 翻译
+categories: 文章
 ---
 
 <p class="small">时间：2008年10月16日</p>

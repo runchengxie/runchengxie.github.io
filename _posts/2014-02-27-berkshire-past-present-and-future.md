@@ -2,7 +2,7 @@
 layout: post
 title: 巴菲特：伯克希尔--过去、现在和未来（来自2014年股东信）
 date: 2014-02-27
-tags: 年报
+categories: 年报
 ---
 
 <p class="small">时间：2014年02月27日</p>

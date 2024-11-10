@@ -2,7 +2,7 @@
 layout: post
 title: 巴菲特：合伙企业解散信 Partnership Dissolve Letter
 date: 1969-05-29
-tags: 文章
+categories: 年报
 ---
 
 <p class="small">时间：1969年5月29日</p>

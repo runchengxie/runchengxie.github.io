@@ -2,7 +2,7 @@
 layout: post
 title: 沃伦·巴菲特谈股市（未完成）
 date: 2001-12-10
-tags: 文章
+categories: 文章
 ---
 
 <p class="small">时间：2001年12月10日</p>

@@ -2,7 +2,7 @@
 layout: post
 title: 巴菲特：过去的错误，我不会为它们烦恼
 date: 2022-09-29
-categories: 翻译
+categories: 演讲
 ---
 
 时间：2005年9月30日

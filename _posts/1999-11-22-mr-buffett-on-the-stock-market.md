@@ -2,7 +2,7 @@
 layout: post
 title: 巴菲特谈股市
 date: 1999-11-22
-tags: 文章
+categories: 文章
 ---
 
 <p class="small">时间：1999年11月22日</p>
