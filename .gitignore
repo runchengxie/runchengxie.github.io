@@ -6,4 +6,8 @@ _site/  - scope:
 .jekyll-cache/
 .jekyll-metadata
 
+# tools for debugging
 /tools/
+
+# full source code for debugging
+full_project_source.txt
