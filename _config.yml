@@ -2,9 +2,9 @@ collections:
   authors:
     output: true
 
-title: 巴菲特文档集
+title: Runcheng
 logo: /assets/img/logo.png
-description: 记录巴菲特的投资逻辑
+description: 记录我在投资和生活中的思考
 google_analytics:
 
 defaults:
