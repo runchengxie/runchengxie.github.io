@@ -5,3 +5,5 @@ _site/  - scope:
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
+
+/tools/
