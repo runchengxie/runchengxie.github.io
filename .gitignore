@@ -5,8 +5,5 @@ _site/
 .bundle/
 vendor/bundle/
 
-# tools for debugging
-/tools/
-
 # full source code for debugging
 full_project_source.txt
