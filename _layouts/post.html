@@ -2,11 +2,14 @@
 layout: default
 ---
 
-<small>{{ page.date | date: "%-d %B %Y" }}</small>
-<h1>{{ page.title }}</h1>
+<article class="post-entry">
+  <header class="article-header">
+    <p class="article-meta">{{ page.date | date: "%Y-%m-%d" }}</p>
+    <h1>{{ page.title }}</h1>
+    {% if page.categories %}
+      <p class="article-taxonomy">分类：<em>{{ page.categories | join: "</em> / <em>" }}</em></p>
+    {% endif %}
+  </header>
 
-{{ content }}
-
-{% if page.categories %}
-  <small>categories: <em>{{ page.categories | join: "</em> - <em>" }}</em></small>
-{% endif %}
+  {{ content }}
+</article>

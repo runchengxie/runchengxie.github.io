@@ -1,16 +1,51 @@
 ---
 title: 文档
+heading: 文档与文章
+intro: 汇总固定页面与后续博文。
 ---
-<h1>文章列表</h1>
+{% assign post_count = site.posts | size %}
+{% assign listed_pages = site.pages | sort: "title" %}
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      {{ post.excerpt }}
-      {% if post.categories %}
-        <small>categories: {{ post.categories | join: ", " }}</small>
-      {% endif %}
-    </li>
-  {% endfor %}
-</ul>
+{% if post_count > 0 %}
+  <section class="archive-section">
+    <h2>最新文章</h2>
+    <ul class="entry-list">
+      {% for post in site.posts %}
+        <li class="entry-card">
+          <article>
+            <p class="meta-inline">{{ post.date | date: "%Y-%m-%d" }}</p>
+            <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+            {% if post.excerpt %}
+              <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 140 }}</p>
+            {% endif %}
+            {% if post.categories %}
+              <p class="tag-list">分类：{{ post.categories | join: " / " }}</p>
+            {% endif %}
+          </article>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+{% else %}
+  <div class="empty-state">
+    <p>目前还没有独立长博文，先从下面的固定页面开始。</p>
+  </div>
+{% endif %}
+
+<section class="archive-section">
+  <h2>固定页面</h2>
+  <ul class="entry-list">
+    {% for item in listed_pages %}
+      {% unless item.url == "/" or item.url == "/blog.html" or item.url contains "/assets/" %}
+        <li class="entry-card">
+          <article>
+            <h3><a href="{{ item.url | relative_url }}">{{ item.title }}</a></h3>
+            {% if item.intro %}
+              <p>{{ item.intro }}</p>
+            {% endif %}
+          </article>
+        </li>
+      {% endunless %}
+    {% endfor %}
+  </ul>
+</section>

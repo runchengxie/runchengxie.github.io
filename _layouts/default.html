@@ -7,33 +7,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 {% seo %}
-    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}"
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     {% include head-custom.html %}
 
   </head>
 
   <body>
     <div class="wrapper">
-      <header>
+      <header class="site-header">
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
 
         {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" />
+          <img src="{{ site.logo | relative_url }}" alt="{{ site.title }} 站点标识">
         {% endif %}
 
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
+        <p class="site-description">{{ site.description | default: site.github.project_tagline }}</p>
       </header>
 
-      <section>
-
+      <main class="site-main" aria-label="内容">
         {% include navigation.html %}
 
-        <br>
+        {% unless page.layout == "post" %}
+          {% assign page_heading = page.heading | default: page.title %}
+          {% if page_heading %}
+            <header class="page-header">
+              <h1>{{ page_heading }}</h1>
+              {% if page.intro %}
+                <p class="page-intro">{{ page.intro }}</p>
+              {% endif %}
+            </header>
+          {% endif %}
+        {% endunless %}
 
-        {{ content }}
-
-      </section>
-      <footer>
+        <div class="page-content">
+          {{ content }}
+        </div>
+      </main>
+      <footer class="site-footer">
         <p><small>主题来自 orderedlist</small></p>
       </footer>
     </div>
