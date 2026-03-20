@@ -4,7 +4,6 @@ _site/
 .jekyll-metadata
 .bundle/
 vendor/bundle/
-.ruby-version
 
 # tools for debugging
 /tools/
