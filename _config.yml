@@ -1,5 +1,7 @@
 lang: zh-CN
 timezone: Asia/Shanghai
+url: "https://runchengxie.github.io"
+baseurl: ""
 title: Runcheng
 logo: /assets/img/logo.png
 description: 记录我在投资和生活中的思考
@@ -16,10 +18,9 @@ defaults:
     values:
       layout: "default"
 
-remote_theme: pages-themes/minimal@v0.2.0
+theme: jekyll-theme-minimal
 
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
-  - jekyll-remote-theme

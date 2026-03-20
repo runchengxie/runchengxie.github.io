@@ -1,10 +1,10 @@
-_site/  - scope:
-      path: ""
-    values:
-      layout: "default"
+_site/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
+.bundle/
+vendor/bundle/
+.ruby-version
 
 # tools for debugging
 /tools/
