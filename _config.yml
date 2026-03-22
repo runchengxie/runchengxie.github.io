@@ -19,6 +19,9 @@ defaults:
 
 theme: jekyll-theme-minimal
 
+sass:
+  quiet_deps: true
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap
