@@ -27,7 +27,8 @@ module CombineCode
   EXCLUDE_DIRS_ROOT_ONLY = Set[
     "_site",
     "tools",
-    "vendor"
+    "vendor",
+    "_posts"
   ].freeze
 
   EXCLUDE_DIR_PATTERNS = [
@@ -84,6 +85,10 @@ module CombineCode
 
   module_function
 
+  def normalize_utf8_string(value)
+    value.to_s.dup.force_encoding(Encoding::UTF_8).scrub
+  end
+
   def detect_project_root(start_dir = Pathname.pwd)
     start_path = Pathname(start_dir).expand_path
 
@@ -93,7 +98,7 @@ module CombineCode
   end
 
   def relative_path(path, project_root)
-    path.relative_path_from(project_root).to_s
+    normalize_utf8_string(path.relative_path_from(project_root).to_s)
   end
 
   def root_only_exclude_dirs(include_tools:)
@@ -124,7 +129,7 @@ module CombineCode
     raise OptionParser::InvalidArgument, "path prefix cannot point to the project root itself" if relative.empty? || relative == "."
     raise OptionParser::InvalidArgument, "path prefix must stay inside the project root: #{raw}" if relative.start_with?("../")
 
-    relative.tr("\\", "/")
+    normalize_utf8_string(relative.tr("\\", "/"))
   end
 
   def matches_prefix?(relative, prefix)
@@ -228,11 +233,60 @@ module CombineCode
     files
   end
 
+  def tree_path_included?(relative, directory:, included_relatives:)
+    if directory
+      included_relatives.any? { |candidate| matches_prefix?(candidate, relative) }
+    else
+      included_relatives.include?(relative)
+    end
+  end
+
+  def collect_project_tree(project_root, included_relatives)
+    entries = []
+    walk_project_tree(project_root, project_root, included_relatives, entries)
+    entries
+  end
+
+  def walk_project_tree(current_dir, project_root, included_relatives, entries)
+    children = Dir.children(current_dir).filter_map do |name|
+      path = current_dir / name
+      stat = File.lstat(path)
+      {
+        directory: stat.directory?,
+        name: name,
+        path: path
+      }
+    rescue Errno::EACCES, Errno::ENOENT
+      nil
+    end
+
+    children.sort_by! { |entry| [entry[:directory] ? 0 : 1, entry[:name]] }
+
+    children.each do |entry|
+      path = entry[:path]
+      relative = relative_path(path, project_root)
+      included = tree_path_included?(relative, directory: entry[:directory], included_relatives: included_relatives)
+
+      entries << {
+        directory: entry[:directory],
+        depth: Pathname(relative).each_filename.to_a.length - 1,
+        included: included,
+        name: normalize_utf8_string(entry[:name]),
+        path: path,
+        relative: relative
+      }
+
+      walk_project_tree(path, project_root, included_relatives, entries) if entry[:directory] && included
+    end
+  rescue Errno::EACCES, Errno::ENOENT
+    nil
+  end
+
   def read_text_file(path)
     File.binread(path).force_encoding(Encoding::UTF_8).scrub
   end
 
-  def write_archive(paths:, project_root:, output_io:, mode_label:)
+  def write_archive(tree_entries:, paths:, project_root:, output_io:, mode_label:)
     included_paths = paths.map { |path| relative_path(path, project_root) }.sort
 
     output_io.puts "--- Project Source Code Archive ---"
@@ -240,6 +294,19 @@ module CombineCode
     output_io.puts "Generated at: #{Time.now.iso8601}"
     output_io.puts "Project root: #{project_root}"
     output_io.puts "Mode: #{mode_label}"
+    output_io.puts
+    output_io.puts "--- Project Tree ---"
+    output_io.puts "Legend: [include] appears in the file contents section; [exclude] is omitted from the file contents section"
+    output_io.puts "Total entries: #{tree_entries.length}"
+    output_io.puts
+    tree_entries.each do |entry|
+      indent = "  " * entry[:depth]
+      status = entry[:included] ? "include" : "exclude"
+      suffix = entry[:directory] ? "/" : ""
+      output_io.puts "#{indent}[#{status}] #{entry[:name]}#{suffix}"
+    end
+    output_io.puts
+    output_io.puts "--- End of Project Tree ---"
     output_io.puts
     output_io.puts "--- Included Files ---"
     output_io.puts "Total files: #{included_paths.length}"
@@ -282,11 +349,14 @@ module CombineCode
         exclude_prefixes: exclude_prefixes
       ) && likely_text_file?(path)
     end
+    included_relatives = filtered_paths.map { |path| relative_path(path, project_root) }.sort
+    tree_entries = collect_project_tree(project_root, included_relatives)
 
     puts "Project root: #{project_root}"
     puts "Mode: #{mode_label}"
     puts "Including root tools/: yes" if include_tools
     puts "Extra excludes: #{exclude_prefixes.join(', ')}" unless exclude_prefixes.empty?
+    puts "Project tree entries: #{tree_entries.length}"
     puts "Included files: #{filtered_paths.length}"
 
     if verbose
@@ -296,13 +366,13 @@ module CombineCode
     end
 
     if stdout_mode
-      write_archive(paths: filtered_paths, project_root: project_root, output_io: $stdout, mode_label: mode_label)
+      write_archive(tree_entries: tree_entries, paths: filtered_paths, project_root: project_root, output_io: $stdout, mode_label: mode_label)
       return
     end
 
     FileUtils.mkdir_p(output_path.dirname)
     File.open(output_path, "w:UTF-8") do |file|
-      write_archive(paths: filtered_paths, project_root: project_root, output_io: file, mode_label: mode_label)
+      write_archive(tree_entries: tree_entries, paths: filtered_paths, project_root: project_root, output_io: file, mode_label: mode_label)
     end
 
     puts "Wrote archive to: #{output_path}"
