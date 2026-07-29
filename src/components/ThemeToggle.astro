@@ -1,0 +1,48 @@
+<button
+  class="theme-toggle"
+  id="theme-toggle"
+  type="button"
+  aria-label="切换颜色模式"
+  title="切换颜色模式"
+>
+  <svg class="theme-icon theme-icon--light" viewBox="0 0 24 24" aria-hidden="true">
+    <circle cx="12" cy="12" r="3.5"></circle>
+    <path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.65 17.65l1.42 1.42M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.65 6.35l1.42-1.42"></path>
+  </svg>
+  <svg class="theme-icon theme-icon--dark" viewBox="0 0 24 24" aria-hidden="true">
+    <path d="M20.3 15.2A8.5 8.5 0 0 1 8.8 3.7 8.5 8.5 0 1 0 20.3 15.2Z"></path>
+  </svg>
+</button>
+
+<script>
+  const toggle = document.querySelector<HTMLButtonElement>("#theme-toggle");
+  const root = document.documentElement;
+  const themeColor = document.querySelector<HTMLMetaElement>("#theme-color");
+
+  function applyTheme(theme: "light" | "dark", persist = false) {
+    root.dataset.theme = theme;
+    themeColor?.setAttribute("content", theme === "dark" ? "#171815" : "#f7f6f2");
+    toggle?.setAttribute(
+      "aria-label",
+      theme === "dark" ? "切换到浅色模式" : "切换到深色模式",
+    );
+    toggle?.setAttribute(
+      "title",
+      theme === "dark" ? "切换到浅色模式" : "切换到深色模式",
+    );
+
+    if (persist) localStorage.setItem("theme", theme);
+  }
+
+  applyTheme(root.dataset.theme === "dark" ? "dark" : "light");
+
+  toggle?.addEventListener("click", () => {
+    applyTheme(root.dataset.theme === "dark" ? "light" : "dark", true);
+  });
+
+  window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", (event) => {
+    if (localStorage.getItem("theme") === null) {
+      applyTheme(event.matches ? "dark" : "light");
+    }
+  });
+</script>

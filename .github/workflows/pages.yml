@@ -1,4 +1,4 @@
-name: Deploy Jekyll site to Pages
+name: Deploy Astro site to Pages
 
 on:
   push:
@@ -22,25 +22,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v6
 
-      - name: Setup Pages
-        id: pages
-        uses: actions/configure-pages@v6
-
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: 3.3
-          bundler-cache: true
-
-      - name: Build site
-        run: script/check
-        env:
-          CHECK_BASEURL: ${{ steps.pages.outputs.base_path }}
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v4
-        with:
-          path: ./_site
+      - name: Install, check, build, and upload
+        uses: withastro/action@v6
 
   deploy:
     needs: build

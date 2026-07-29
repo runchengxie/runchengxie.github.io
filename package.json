@@ -1,0 +1,27 @@
+{
+  "name": "runchengxie.github.io",
+  "version": "1.0.0",
+  "private": true,
+  "packageManager": "pnpm@11.17.0",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "ASTRO_TELEMETRY_DISABLED=1 astro dev",
+    "build": "ASTRO_TELEMETRY_DISABLED=1 astro check && ASTRO_TELEMETRY_DISABLED=1 astro build && node scripts/create-legacy-redirects.mjs && node scripts/check-built-site.mjs",
+    "check": "ASTRO_TELEMETRY_DISABLED=1 astro check",
+    "preview": "ASTRO_TELEMETRY_DISABLED=1 astro preview",
+    "test": "pnpm run build"
+  },
+  "dependencies": {
+    "@astrojs/rss": "^4.0.19",
+    "@astrojs/sitemap": "^3.7.3",
+    "astro": "^7.1.4",
+    "yaml": "^2.9.0"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.10",
+    "typescript": "^6.0.3"
+  }
+}

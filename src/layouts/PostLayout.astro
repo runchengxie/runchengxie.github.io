@@ -1,0 +1,67 @@
+---
+import type { BlogPost } from "../lib/posts";
+import {
+  formatDate,
+  getExcerpt,
+  getPostHref,
+  getReadingMinutes,
+} from "../lib/posts";
+import BaseLayout from "./BaseLayout.astro";
+
+interface Props {
+  post: BlogPost;
+  newer?: BlogPost | undefined;
+  older?: BlogPost | undefined;
+}
+
+const { post, newer, older } = Astro.props;
+const body = post.body ?? "";
+const description = getExcerpt(body);
+---
+
+<BaseLayout
+  title={post.data.title}
+  description={description}
+  type="article"
+  publishedTime={post.data.date.toISOString()}
+>
+  <article class="post reading-width">
+    <header class="post-header">
+      <a class="back-link" href="/blog/">← 全部文章</a>
+      <div class="post-meta">
+        <time datetime={post.data.date.toISOString()}>{formatDate(post.data.date)}</time>
+        <span aria-hidden="true">·</span>
+        <span>{getReadingMinutes(body)} 分钟阅读</span>
+      </div>
+      <h1>{post.data.title}</h1>
+      <ul class="tag-list" aria-label="文章分类">
+        {post.data.categories.map((category) => <li>{category}</li>)}
+      </ul>
+    </header>
+
+    <div class="prose">
+      <slot />
+    </div>
+
+    <nav class="post-navigation" aria-label="相邻文章">
+      {
+        newer ? (
+          <a href={getPostHref(newer)}>
+            <span>较新一篇</span>
+            {newer.data.title}
+          </a>
+        ) : (
+          <span />
+        )
+      }
+      {
+        older && (
+          <a href={getPostHref(older)}>
+            <span>较早一篇</span>
+            {older.data.title}
+          </a>
+        )
+      }
+    </nav>
+  </article>
+</BaseLayout>
