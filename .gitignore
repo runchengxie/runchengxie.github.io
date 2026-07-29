@@ -1,9 +1,13 @@
-_site/
-.sass-cache/
-.jekyll-cache/
-.jekyll-metadata
-.bundle/
-vendor/bundle/
+node_modules/
+dist/
+.astro/
 
-# full source code for debugging
-full_project_source.txt
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/

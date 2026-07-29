@@ -1,0 +1,37 @@
+---
+import type { BlogPost } from "../lib/posts";
+import {
+  formatShortDate,
+  getExcerpt,
+  getPostHref,
+} from "../lib/posts";
+
+interface Props {
+  posts: BlogPost[];
+}
+
+const { posts } = Astro.props;
+---
+
+<ol class="post-list">
+  {
+    posts.map((post) => (
+      <li class="post-list__item">
+        <time datetime={post.data.date.toISOString()}>
+          {formatShortDate(post.data.date)}
+        </time>
+        <div>
+          <h2>
+            <a href={getPostHref(post)}>{post.data.title}</a>
+          </h2>
+          <p>{getExcerpt(post.body ?? "")}</p>
+          <ul class="tag-list" aria-label="文章分类">
+            {post.data.categories.map((category) => (
+              <li>{category}</li>
+            ))}
+          </ul>
+        </div>
+      </li>
+    ))
+  }
+</ol>

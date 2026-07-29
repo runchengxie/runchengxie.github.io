@@ -1,0 +1,35 @@
+---
+import { getCollection } from "astro:content";
+import PostList from "../components/PostList.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { sortPosts } from "../lib/posts";
+
+const latestPosts = sortPosts(await getCollection("blog")).slice(0, 5);
+---
+
+<BaseLayout>
+  <section class="home-intro">
+    <div>
+      <p class="eyebrow">Investment · Business · Life</p>
+      <h1>记录投资，也记录思考。</h1>
+      <p class="home-intro__description">
+        关于巴菲特、企业研究、投资错误，以及生活中那些值得慢下来想清楚的问题。
+      </p>
+    </div>
+    <img
+      class="home-intro__portrait"
+      src="/images/buffett.jpg"
+      alt="巴菲特插画"
+      width="112"
+      height="112"
+    />
+  </section>
+
+  <section class="home-latest" aria-labelledby="latest-heading">
+    <div class="section-heading">
+      <h2 id="latest-heading">最近文章</h2>
+      <a href="/blog/">查看全部 →</a>
+    </div>
+    <PostList posts={latestPosts} />
+  </section>
+</BaseLayout>

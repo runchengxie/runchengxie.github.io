@@ -1,0 +1,17 @@
+---
+import { getCollection } from "astro:content";
+import PostList from "../../components/PostList.astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { sortPosts } from "../../lib/posts";
+
+const posts = sortPosts(await getCollection("blog"));
+---
+
+<BaseLayout title="文章" description="关于投资、巴菲特、企业研究与投资错误的文章。">
+  <header class="page-heading">
+    <p class="eyebrow">Archive</p>
+    <h1>文章</h1>
+    <p>共 {posts.length} 篇，按时间倒序排列。</p>
+  </header>
+  <PostList posts={posts} />
+</BaseLayout>
