@@ -1,0 +1,15 @@
+---
+import { repositoryURL, type Project } from "../data/projects";
+interface Props { project: Project; }
+const { project } = Astro.props;
+---
+<article class="project-card">
+  <p class="project-card__group">{project.group}</p>
+  <h3>{project.title}</h3>
+  <p class="project-card__name">{project.name}</p>
+  <p class="project-card__description">{project.description}</p>
+  <div class="project-card__links">
+    {project.website && <a href={project.website}>访问网站 <span aria-hidden="true">↗</span><span class="sr-only">：{project.title}</span></a>}
+    <a href={repositoryURL(project.name)}>代码与说明 <span aria-hidden="true">↗</span><span class="sr-only">：{project.name}</span></a>
+  </div>
+</article>

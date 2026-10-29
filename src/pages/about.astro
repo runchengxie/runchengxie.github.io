@@ -2,49 +2,37 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 ---
 
-<BaseLayout
-  title="关于"
-  description="这个站点关注巴菲特、企业研究、投资错误和长期投资，也记录我对指数比较的思考。"
->
+<BaseLayout title="关于我" description="我是 Richard，开发量化研究和交易工具，也写投资案例与长期投资思考。">
   <header class="page-heading">
-    <p class="eyebrow">About</p>
-    <h1>关于</h1>
-    <p>这里记录巴菲特案例、企业研究、投资错误和长期投资，也记录我对指数比较的思考。</p>
+    <p class="eyebrow">关于我</p>
+    <h1>你好，我是 Richard。</h1>
+    <p>我开发量化研究和交易工具，也写投资案例与长期投资思考。</p>
   </header>
-
-  <div class="about-grid">
-    <article class="prose">
-      <h2>1｜巴菲特的文化误读</h2>
+  <div class="about-content reading-width">
+    <section aria-labelledby="work-heading">
+      <h2 id="work-heading">我在做什么</h2>
+      <p>我的工作围绕市场数据、因子与模型研究、组合构建、回测和交易工具展开。我希望从一个研究问题出发，能够找到数据、检验假设，并说明结果是怎样得到的。</p>
+      <p>目前的项目主要涉及 A 股，也包含港股、美股及其他市场的研究。公开网站提供市场研究、因子目录和市场报告，代码仓库则记录工具、方法与使用说明。</p>
+      <a href="/projects/">查看项目与研究入口 →</a>
+    </section>
+    <section aria-labelledby="principles-heading">
+      <h2 id="principles-heading">我重视的几件事</h2>
       <ul>
-        <li>
-          Oracle of Omaha（奥马哈先知）是英语世界常用的称呼。中文语境更常称他为股神，两个称呼背后的文化语境并不相同。
-        </li>
-        <li>
-          伯克希尔同时采用控股和少数股权两种方式。伯克希尔 2024
-          年股东信提到，一方面，公司控股许多企业，通常持股 100%，当时共有 189
-          家子公司。另一方面，公司持有一批大型企业的少数股权，2024 年末市值约
-          2720 亿美元。巴菲特说，选择控股还是持有少数股权，取决于哪种方式更适合部署资本。
-        </li>
+        <li>研究能根据记录的数据和步骤重新运行。</li>
+        <li>结论有对应的证据，也说明样本范围和局限。</li>
+        <li>数据、研究、回测与运行工具各有明确职责。</li>
+        <li>工具尽量简单，便于检查，也能在实际工作中使用。</li>
       </ul>
-
-      <h2>2｜巴菲特只是生对了时代吗？</h2>
-      <ul>
-        <li>时代红利确实重要，但不能把结果归结为运气。</li>
-        <li>
-          巴菲特在 2024 年股东信里承认，伯克希尔不可能在美国之外复制出同样的结果。美国的制度、资本市场深度、并购环境、保险业生态、法治和股东文化，对伯克希尔都很重要。
-        </li>
-        <li>
-          同一时代也有许多表现平庸的投资经理，巴菲特的稀缺性仍然存在。伯克希尔把几项稀缺条件结合在了一起：保险浮存金、较低的资本成本、长期税务递延、严格的纪律，以及极少犯致命错误。2024 年股东信写到，过去二十年伯克希尔的保险浮存金从 460 亿美元增至 1710 亿美元。2025 年年报写到，2025 年末浮存金约为 1760 亿美元，过去三年的平均浮存金成本都为负，说明承保业务整体仍在盈利。伯克希尔的结果包含杠杆因素，也来自经营和资本配置能力。
-        </li>
-      </ul>
-    </article>
-
-    <img
-      class="about-portrait"
-      src="/images/buffett.jpg"
-      alt="巴菲特插画"
-      width="160"
-      height="160"
-    />
+      <p>我主要使用 Python 和 TypeScript，也用 Rust 处理订单簿、用 Go 编写运维工具。技术选择服务于研究问题和日常使用。</p>
+    </section>
+    <section aria-labelledby="writing-heading">
+      <h2 id="writing-heading">研究之外，也写文章</h2>
+      <p>我关注巴菲特的投资案例、企业经营和投资中的错误。写作让我有机会放慢速度，把一个判断的来龙去脉讲清楚。</p>
+      <p><a href="/blog/">阅读投资文章</a> · <a href="/notes/investment-perspective/">关于巴菲特与长期投资的思考</a></p>
+    </section>
+    <section aria-labelledby="elsewhere-heading">
+      <h2 id="elsewhere-heading">找到我</h2>
+      <p>在 <a href="https://github.com/runchengxie">GitHub · runchengxie</a> 查看代码和项目动态，或通过 <a href="/rss.xml">RSS</a> 订阅新文章。</p>
+    </section>
   </div>
 </BaseLayout>

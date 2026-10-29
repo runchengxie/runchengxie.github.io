@@ -1,8 +1,16 @@
 # runchengxie.github.io
 
-Runcheng 的个人主页和投资文章站点，使用 Astro、TypeScript 和 Markdown 构建，部署到 GitHub Pages。
+Richard（runchengxie）的个人网站，使用 Astro、TypeScript 和 Markdown 构建，部署到 GitHub Pages。
 
-站点目前包括主页、文章列表、文章详情页、关于页、RSS/Atom 订阅源、站内导航、深色模式和旧地址兼容跳转。文章内容以巴菲特案例、企业研究、投资错误和长期投资思考为主。
+站点包括个人介绍、精选项目、公开研究与市场报告入口，以及投资文章。支持深色模式、RSS/Atom 订阅和旧文章地址跳转。
+
+- `/`：个人介绍、公开成果入口、精选项目和最新文章。
+- `/projects/`：按数据与回测、因子与模型、研究与报告、交易与实验分类的项目介绍。
+- `/about/`：个人关注方向、工作方式与 GitHub 入口。
+- `/blog/`：巴菲特案例、企业研究、投资错误和长期投资思考。
+- `/notes/investment-perspective/`：保留原关于页的投资观点。
+
+项目数据集中维护在 `src/data/projects.ts`。更新时核对公开仓库 README、归档状态和网站入口，避免把演示样本或历史回测描述成实际运行成果。本站与其他项目网站分别部署；构建检查只跳过明确列出的独立项目路径，其余站内链接仍须指向本地构建产物。
 
 ## 本地开发
 
