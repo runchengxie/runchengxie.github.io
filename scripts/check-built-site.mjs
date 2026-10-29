@@ -7,6 +7,11 @@ const outputDirectory = path.join(projectRoot, "dist");
 const siteOrigin = "https://runchengxie.github.io";
 const linkPattern = /(?:href|src)\s*=\s*(?:"([^"]*)"|'([^']*)')/gi;
 const skippedProtocols = /^(?:data|javascript|mailto|tel):/i;
+// Independently deployed GitHub Pages sites, not routes built by this repository.
+const projectSitePaths = [
+  "/quant-market-research/", "/quant-factor-observatory/", "/quant-intel-pages/",
+  "/quant-market-data-platform/", "/quant-platform/", "/global-market-research/",
+];
 const errors = [];
 
 async function walk(directory) {
@@ -74,6 +79,7 @@ for (const htmlFile of htmlFiles) {
 
     const resolved = new URL(rawLink, siteOrigin);
     if (resolved.origin !== siteOrigin) continue;
+    if (projectSitePaths.some((prefix) => resolved.pathname === prefix || resolved.pathname.startsWith(prefix))) continue;
 
     checkedLinks += 1;
     const candidates = candidatePaths(resolved.pathname);
@@ -92,6 +98,9 @@ for (const htmlFile of htmlFiles) {
 const requiredFiles = [
   "index.html",
   "about/index.html",
+  "projects/index.html",
+  "notes/investment-perspective/index.html",
+  "images/site-cover.png",
   "about.html",
   "blog/index.html",
   "blog.html",

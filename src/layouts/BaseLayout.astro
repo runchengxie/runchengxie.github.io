@@ -15,7 +15,7 @@ interface Props {
 const {
   title,
   description = SITE.description,
-  image = "/images/buffett.jpg",
+  image = "/images/site-cover.png",
   type = "website",
   publishedTime,
   canonicalPath,
@@ -109,7 +109,7 @@ function isCurrent(href: string): boolean {
     <footer class="site-footer">
       <div class="shell site-footer__inner">
         <p>© {new Date().getFullYear()} {SITE.author}</p>
-        <a href="/rss.xml">RSS</a>
+        <div class="footer-links"><a href="https://github.com/runchengxie">GitHub</a><a href="/rss.xml">RSS</a></div>
       </div>
     </footer>
   </body>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#f7f6f2"/>
+  <path d="M80 100h1040" stroke="#d9d7d0" stroke-width="2"/>
+  <rect x="80" y="170" width="6" height="280" fill="#76513b"/>
+  <g font-family="sans-serif"><text x="120" y="240" font-size="28" fill="#76513b">RICHARD / RUNCHENGXIE</text>
+  <text x="116" y="330" font-size="66" font-weight="600" fill="#20211e">Research. Build. Reflect.</text>
+  <text x="120" y="400" font-size="28" fill="#6e7069">Market data · Quantitative research · Investing</text>
+  <text x="80" y="550" font-size="24" fill="#6e7069">runchengxie.github.io</text></g>
+</svg>
