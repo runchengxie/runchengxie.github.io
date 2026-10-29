@@ -1,6 +1,8 @@
+import { getCollection } from "astro:content";
+import { languageTag, localizedPath, type Locale } from "../i18n";
 import type { CollectionEntry } from "astro:content";
 
-export type BlogPost = CollectionEntry<"blog">;
+export type BlogPost = CollectionEntry<"blog"> | CollectionEntry<"blogEn">;
 
 const DATE_PREFIX = /^\d{4}-\d{2}-\d{2}-/;
 const markdownSyntax = /[#>*_`~[\]()]|!\[[^\]]*]\([^)]*\)|\[([^\]]+)]\([^)]*\)/g;
@@ -9,8 +11,8 @@ export function getPostSlug(post: BlogPost): string {
   return post.id.replace(DATE_PREFIX, "").replace(/\.md$/, "");
 }
 
-export function getPostHref(post: BlogPost): string {
-  return `/blog/${getPostSlug(post)}/`;
+export function getPostHref(post: BlogPost, locale: Locale = "zh"): string {
+  return localizedPath(locale, `/blog/${getPostSlug(post)}/`);
 }
 
 export function sortPosts(posts: BlogPost[]): BlogPost[] {
@@ -19,8 +21,8 @@ export function sortPosts(posts: BlogPost[]): BlogPost[] {
   );
 }
 
-export function formatDate(date: Date): string {
-  return new Intl.DateTimeFormat(SITE_LOCALE, {
+export function formatDate(date: Date, locale: Locale = "zh"): string {
+  return new Intl.DateTimeFormat(languageTag(locale), {
     year: "numeric",
     month: "long",
     day: "numeric",
@@ -28,10 +30,10 @@ export function formatDate(date: Date): string {
   }).format(date);
 }
 
-export function formatShortDate(date: Date): string {
-  return new Intl.DateTimeFormat(SITE_LOCALE, {
+export function formatShortDate(date: Date, locale: Locale = "zh"): string {
+  return new Intl.DateTimeFormat(languageTag(locale), {
     year: "numeric",
-    month: "2-digit",
+    month: locale === "en" ? "short" : "2-digit",
     day: "2-digit",
     timeZone: "Asia/Shanghai",
   })
@@ -39,7 +41,7 @@ export function formatShortDate(date: Date): string {
     .replaceAll("/", ".");
 }
 
-export function getExcerpt(body: string, maximumLength = 116): string {
+export function getExcerpt(body: string, maximumLength = 116, locale: Locale = "zh"): string {
   const firstParagraph =
     body
       .split(/\n\s*\n/)
@@ -57,12 +59,17 @@ export function getExcerpt(body: string, maximumLength = 116): string {
     .replace(/\s+/g, " ")
     .trim();
 
-  return plainText.length > maximumLength
-    ? `${plainText.slice(0, maximumLength).trimEnd()}…`
-    : plainText;
+  if (plainText.length <= maximumLength) return plainText;
+  let excerpt = plainText.slice(0, maximumLength).trimEnd();
+  if (locale === "en" && /\S/.test(plainText[maximumLength] ?? "")) {
+    const lastSpace = excerpt.lastIndexOf(" ");
+    if (lastSpace > 0) excerpt = excerpt.slice(0, lastSpace);
+  }
+  return `${excerpt}…`;
 }
 
-export function getReadingMinutes(body: string): number {
+export function getReadingMinutes(body: string, locale: Locale = "zh"): number {
+  if (locale === "en") return Math.max(1, Math.ceil(body.replace(/```[\s\S]*?```/g, "").split(/\s+/).filter(Boolean).length / 220));
   const textLength = body
     .replace(/```[\s\S]*?```/g, "")
     .replace(markdownSyntax, "$1")
@@ -71,4 +78,11 @@ export function getReadingMinutes(body: string): number {
   return Math.max(1, Math.ceil(textLength / 500));
 }
 
-const SITE_LOCALE = "zh-CN";
+// A new untranslated article remains readable, with an explicit original-language notice.
+export async function getLocalizedPosts(locale: Locale): Promise<BlogPost[]> {
+  const originals = await getCollection("blog");
+  if (locale === "zh") return sortPosts(originals);
+  const translations = await getCollection("blogEn");
+  const bySlug = new Map(translations.map((post) => [getPostSlug(post), post]));
+  return sortPosts(originals.map((post) => bySlug.get(getPostSlug(post)) ?? post));
+}

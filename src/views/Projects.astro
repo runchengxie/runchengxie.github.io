@@ -1,0 +1,30 @@
+---
+import { t, type Locale } from "../i18n";
+interface Props { locale: Locale; }
+const { locale } = Astro.props;
+import BaseLayout from "../layouts/BaseLayout.astro";
+import ProjectCard from "../components/ProjectCard.astro";
+import { projects, projectGroups } from "../data/projects";
+---
+<BaseLayout locale={locale} title={t(locale, "nav.projects")} description={t(locale, "projects.description")}>
+  <header class="page-heading">
+    <p class="eyebrow">{t(locale, "projects.eyebrow")}</p>
+    <h1>{t(locale, "projects.headingFirst")}<br />{t(locale, "projects.headingSecond")}</h1>
+    <p>{t(locale, "projects.intro")}</p>
+  </header>
+  <nav class="project-navigation" aria-label={t(locale, "projects.categories")}>{projectGroups.map((group, i) => <a href={`#group-${i}`}>{t(locale, `group.${group}`)}</a>)}</nav>
+  <section class="project-map" aria-labelledby="map-heading">
+    <h2 id="map-heading">{t(locale, "projects.map")}</h2>
+    <ol>
+      <li><strong>{t(locale, "projects.prepare")}</strong><span>{t(locale, "projects.prepareDetail")}</span></li>
+      <li><strong>{t(locale, "projects.test")}</strong><span>{t(locale, "projects.testDetail")}</span></li>
+      <li><strong>{t(locale, "projects.publish")}</strong><span>{t(locale, "projects.publishDetail")}</span></li>
+    </ol>
+    <p>{t(locale, "projects.boundary")}</p>
+  </section>
+  {projectGroups.map((group, i) => <section class="portfolio-section" aria-labelledby={`group-${i}`}>
+    <div class="section-heading"><h2 id={`group-${i}`}>{t(locale, `group.${group}`)}</h2></div>
+    <div class="project-grid">{projects.filter((project) => project.group === group).map((project) => <ProjectCard locale={locale} project={project} />)}</div>
+  </section>)}
+  <p class="portfolio-closing">{t(locale, "projects.more")} <a href="https://github.com/runchengxie?tab=repositories">{t(locale, "projects.repositories")} ↗</a></p>
+</BaseLayout>

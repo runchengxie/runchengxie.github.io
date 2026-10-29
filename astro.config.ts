@@ -4,5 +4,7 @@ import { defineConfig } from "astro/config";
 export default defineConfig({
   site: "https://runchengxie.github.io",
   trailingSlash: "always",
-  integrations: [sitemap()],
+  integrations: [sitemap({
+    filter: (url) => /^\/(en|zh)\//.test(new URL(url).pathname) && !url.includes("/404/"),
+  })],
 });

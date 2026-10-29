@@ -1,0 +1,22 @@
+---
+import { locales, type Locale } from "../../i18n";
+import Home from "../../views/Home.astro";
+import Projects from "../../views/Projects.astro";
+import About from "../../views/About.astro";
+import Blog from "../../views/Blog.astro";
+import InvestmentNote from "../../views/InvestmentNote.astro";
+import NotFound from "../../views/NotFound.astro";
+const views = { home: Home, projects: Projects, about: About, blog: Blog, note: InvestmentNote, error: NotFound };
+type Section = keyof typeof views;
+interface Props { locale: Locale; section: Section; }
+export function getStaticPaths() {
+  const routes = [
+    [undefined, "home"], ["projects", "projects"], ["about", "about"],
+    ["blog", "blog"], ["notes/investment-perspective", "note"], ["404", "error"],
+  ] as const;
+  return locales.flatMap((locale) => routes.map(([page, section]) => ({ params: {locale, page}, props: {locale, section} })));
+}
+const {locale, section} = Astro.props;
+const View = views[section];
+---
+<View locale={locale} />

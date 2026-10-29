@@ -1,15 +1,17 @@
 ---
-import { repositoryURL, type Project } from "../data/projects";
-interface Props { project: Project; }
-const { project } = Astro.props;
+import { t, type Locale } from "../i18n";
+import { projectText, repositoryURL, type Project } from "../data/projects";
+interface Props { project: Project; locale: Locale; }
+const { project, locale } = Astro.props;
+const text = projectText(project, locale);
 ---
 <article class="project-card">
-  <p class="project-card__group">{project.group}</p>
-  <h3>{project.title}</h3>
+  <p class="project-card__group">{text.group}</p>
+  <h3>{text.title}</h3>
   <p class="project-card__name">{project.name}</p>
-  <p class="project-card__description">{project.description}</p>
+  <p class="project-card__description">{text.description}</p>
   <div class="project-card__links">
-    {project.website && <a href={project.website}>访问网站 <span aria-hidden="true">↗</span><span class="sr-only">：{project.title}</span></a>}
-    <a href={repositoryURL(project.name)}>代码与说明 <span aria-hidden="true">↗</span><span class="sr-only">：{project.name}</span></a>
+    {project.website && <a href={project.website}>{t(locale, "project.website")} <span aria-hidden="true">↗</span><span class="sr-only">: {text.title}</span></a>}
+    <a href={repositoryURL(project.name)}>{t(locale, "project.code")} <span aria-hidden="true">↗</span><span class="sr-only">: {project.name}</span></a>
   </div>
 </article>

@@ -1,0 +1,26 @@
+---
+import { t, type Locale } from "../i18n";
+interface Props { target: string; remember?: boolean; locale?: Locale; }
+const {target, remember = false, locale = "zh"} = Astro.props;
+---
+<!doctype html>
+<html lang={locale === "zh" ? "zh-CN" : "en"}>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <meta name="robots" content="noindex" />
+  <link rel="canonical" href={new URL(target, Astro.site)} />
+  <title>{t(locale, "redirect.title")} · Runcheng</title>
+  <script is:inline define:vars={{target, remember}}>
+    (() => {
+      let destination = target;
+      if (remember) {
+        try { if (localStorage.getItem("site-locale") === "zh") destination = "/zh/"; } catch {}
+      }
+      window.location.replace(destination + window.location.search + window.location.hash);
+    })();
+  </script>
+  <noscript><meta http-equiv="refresh" content={`0; url=${target}`} /></noscript>
+</head>
+<body><p><a href={target}>{t(locale, "redirect.continue")}</a></p></body>
+</html>

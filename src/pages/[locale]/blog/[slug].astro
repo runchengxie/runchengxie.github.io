@@ -1,0 +1,17 @@
+---
+import { render } from "astro:content";
+import PostLayout from "../../../layouts/PostLayout.astro";
+import { locales, type Locale } from "../../../i18n";
+import { getLocalizedPosts, getPostSlug, type BlogPost } from "../../../lib/posts";
+interface Props { locale: Locale; post: BlogPost; newer?: BlogPost | undefined; older?: BlogPost | undefined; }
+export async function getStaticPaths() {
+  const paths = await Promise.all(locales.map(async (locale) => {
+    const posts = await getLocalizedPosts(locale);
+    return posts.map((post, index) => ({ params: {locale, slug: getPostSlug(post)}, props: {locale, post, newer: posts[index-1], older: posts[index+1]} }));
+  }));
+  return paths.flat();
+}
+const {locale, post, newer, older} = Astro.props;
+const {Content} = await render(post);
+---
+<PostLayout locale={locale} post={post} newer={newer} older={older}><Content /></PostLayout>

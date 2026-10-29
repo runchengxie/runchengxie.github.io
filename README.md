@@ -4,17 +4,21 @@ Richard（runchengxie）的个人网站，使用 Astro、TypeScript 和 Markdown
 
 站点包括个人介绍、精选项目、公开研究与市场报告入口，以及投资文章。支持深色模式、RSS/Atom 订阅和旧文章地址跳转。
 
-- `/`：个人介绍、公开成果入口、精选项目和最新文章。
-- `/projects/`：按数据与回测、因子与模型、研究与报告、交易与实验分类的项目介绍。
-- `/about/`：个人关注方向、工作方式与 GitHub 入口。
-- `/blog/`：巴菲特案例、企业研究、投资错误和长期投资思考。
-- `/notes/investment-perspective/`：保留原关于页的投资观点。
+默认使用英文，可在页首切换中文并保存选择。页面和全部 15 篇文章都有中英文版本。
 
-项目数据集中维护在 `src/data/projects.ts`。更新时核对公开仓库 README、归档状态和网站入口，避免把演示样本或历史回测描述成实际运行成果。本站与其他项目网站分别部署；构建检查只跳过明确列出的独立项目路径，其余站内链接仍须指向本地构建产物。
+- `/en/`、`/zh/`：个人介绍、成果入口、精选项目和最新文章。
+- `/{locale}/projects/`：按用途分类的项目目录。
+- `/{locale}/about/`：个人关注方向、工作方式与 GitHub 入口。
+- `/{locale}/blog/`：投资文章列表及对应语言正文。
+- `/{locale}/notes/investment-perspective/`：保留并翻译原关于页的投资观点。
+
+原有中文地址和订阅源继续兼容。语言目录、翻译维护、缺失翻译回退和浏览器检查见 [双语维护说明](docs/i18n.md)。
+
+项目标识与网址维护在 `src/data/projects.ts`，中英文文案维护在 `src/i18n/`。更新时核对公开仓库状态，保留演示样本、历史回测等范围说明。
 
 ## 本地开发
 
-需要 Node.js 22 和 pnpm。
+需要 Node.js 22.18 或更新版本，以及 pnpm。
 
 ```sh
 pnpm install
@@ -35,10 +39,11 @@ script/check
 2. 生产构建
 3. Jekyll 旧地址兼容页生成
 4. 站内链接和关键构建产物检查
+5. 双语目录、文章配对、源链接、回退和复数规则检查
 
 ## 写文章
 
-在 `src/content/blog` 新建 `YYYY-MM-DD-slug.md`：
+在 `src/content/blog` 和 `src/content/blog-en` 分别添加相同文件名的中文原文和完整英文译文，文件名使用 `YYYY-MM-DD-slug.md`：
 
 ```md
 ---

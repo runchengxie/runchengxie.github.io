@@ -1,4 +1,5 @@
 ---
+import { t, localizedPath, countMessage, type Locale } from "../i18n";
 import type { BlogPost } from "../lib/posts";
 import {
   formatDate,
@@ -10,16 +11,18 @@ import BaseLayout from "./BaseLayout.astro";
 
 interface Props {
   post: BlogPost;
+  locale: Locale;
   newer?: BlogPost | undefined;
   older?: BlogPost | undefined;
 }
 
-const { post, newer, older } = Astro.props;
+const { post, newer, older, locale } = Astro.props;
 const body = post.body ?? "";
-const description = getExcerpt(body);
+const description = getExcerpt(body, locale === "en" ? 200 : 116, locale);
 ---
 
 <BaseLayout
+  locale={locale}
   title={post.data.title}
   description={description}
   type="article"
@@ -27,27 +30,28 @@ const description = getExcerpt(body);
 >
   <article class="post reading-width">
     <header class="post-header">
-      <a class="back-link" href="/blog/">← 全部文章</a>
+      <a class="back-link" href={localizedPath(locale, "/blog/")}>← {t(locale, "blog.all")}</a>
       <div class="post-meta">
-        <time datetime={post.data.date.toISOString()}>{formatDate(post.data.date)}</time>
+        <time datetime={post.data.date.toISOString()}>{formatDate(post.data.date, locale)}</time>
         <span aria-hidden="true">·</span>
-        <span>{getReadingMinutes(body)} 分钟阅读</span>
+        <span>{countMessage(locale, "blog.reading", getReadingMinutes(body, post.collection === "blog" ? "zh" : "en"))}</span>
       </div>
-      <h1>{post.data.title}</h1>
-      <ul class="tag-list" aria-label="文章分类">
+      <h1 lang={post.collection === "blog" ? "zh-CN" : "en"}>{post.data.title}</h1>
+      <ul class="tag-list" aria-label={t(locale, "blog.categories")}>
         {post.data.categories.map((category) => <li>{category}</li>)}
       </ul>
     </header>
 
-    <div class="prose">
+    {locale === "en" && post.collection === "blog" && <p class="translation-notice">{t(locale, "blog.fallback")}</p>}
+    <div class="prose" lang={post.collection === "blog" ? "zh-CN" : "en"}>
       <slot />
     </div>
 
-    <nav class="post-navigation" aria-label="相邻文章">
+    <nav class="post-navigation" aria-label={t(locale, "blog.adjacent")}>
       {
         newer ? (
-          <a href={getPostHref(newer)}>
-            <span>较新一篇</span>
+          <a href={getPostHref(newer, locale)}>
+            <span>{t(locale, "blog.newer")}</span>
             {newer.data.title}
           </a>
         ) : (
@@ -56,8 +60,8 @@ const description = getExcerpt(body);
       }
       {
         older && (
-          <a href={getPostHref(older)}>
-            <span>较早一篇</span>
+          <a href={getPostHref(older, locale)}>
+            <span>{t(locale, "blog.older")}</span>
             {older.data.title}
           </a>
         )

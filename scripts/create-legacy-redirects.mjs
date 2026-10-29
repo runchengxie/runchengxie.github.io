@@ -96,12 +96,12 @@ for (const filename of contentFiles) {
     day,
     `${slug}.html`,
   );
-  await writeRedirect(legacyPath, `/blog/${slug}/`);
+  await writeRedirect(legacyPath, `/zh/blog/${slug}/`);
   redirectCount += 1;
 }
 
-await writeRedirect("about.html", "/about/");
-await writeRedirect("blog.html", "/blog/");
+await writeRedirect("about.html", "/zh/about/");
+await writeRedirect("blog.html", "/zh/blog/");
 redirectCount += 2;
 
 await copyFile(

@@ -1,9 +1,11 @@
 ---
+import { localeFromPath, localizedPath, languageTag, t, type Locale } from "../i18n";
 import ThemeToggle from "../components/ThemeToggle.astro";
 import { NAVIGATION, SITE } from "../lib/site";
 import "../styles/global.css";
 
 interface Props {
+  locale?: Locale;
   title?: string;
   description?: string;
   image?: string;
@@ -13,8 +15,9 @@ interface Props {
 }
 
 const {
+  locale = localeFromPath(Astro.url.pathname),
   title,
-  description = SITE.description,
+  description = t(locale, "site.description"),
   image = "/images/site-cover.png",
   type = "website",
   publishedTime,
@@ -27,13 +30,13 @@ const imageURL = new URL(image, Astro.site);
 const currentPath = Astro.url.pathname;
 
 function isCurrent(href: string): boolean {
-  if (href === "/") return currentPath === "/";
+  if (href === localizedPath(locale)) return currentPath === href;
   return currentPath.startsWith(href);
 }
 ---
 
 <!doctype html>
-<html lang={SITE.locale}>
+<html lang={languageTag(locale)}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
@@ -41,15 +44,17 @@ function isCurrent(href: string): boolean {
     <meta name="description" content={description} />
     <meta id="theme-color" name="theme-color" content="#f7f6f2" />
     <link rel="canonical" href={canonicalURL} />
+    {(["en", "zh"] as const).map((target) => <link rel="alternate" hreflang={languageTag(target)} href={new URL(localizedPath(target, canonicalPath ?? currentPath), Astro.site)} />)}
+    <link rel="alternate" hreflang="x-default" href={new URL(localizedPath("en", canonicalPath ?? currentPath), Astro.site)} />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-    <link rel="alternate" type="application/rss+xml" title={SITE.title} href="/rss.xml" />
+    <link rel="alternate" type="application/rss+xml" title={SITE.title} href={localizedPath(locale, "/rss.xml")} />
 
     <meta property="og:type" content={type} />
     <meta property="og:title" content={pageTitle} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonicalURL} />
     <meta property="og:image" content={imageURL} />
-    <meta property="og:locale" content="zh_CN" />
+    <meta property="og:locale" content={locale === "zh" ? "zh_CN" : "en_US"} />
     {publishedTime && <meta property="article:published_time" content={publishedTime} />}
 
     <meta name="twitter:card" content="summary" />
@@ -60,7 +65,8 @@ function isCurrent(href: string): boolean {
     <title>{pageTitle}</title>
     <script is:inline>
       (() => {
-        const saved = localStorage.getItem("theme");
+        let saved = null;
+        try { saved = localStorage.getItem("theme"); } catch {}
         const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
         const theme = saved === "light" || saved === "dark"
           ? saved
@@ -74,34 +80,58 @@ function isCurrent(href: string): boolean {
     </script>
   </head>
   <body>
-    <a class="skip-link" href="#content">跳到正文</a>
+    <a class="skip-link" href="#content">{t(locale, "nav.skip")}</a>
     <header class="site-header">
       <div class="shell site-header__inner">
-        <a class="site-name" href="/" aria-label={`${SITE.title} 主页`}>
+        <a class="site-name" href={localizedPath(locale)} aria-label={t(locale, "nav.homeLabel", {name: SITE.title})}>
           {SITE.title}
         </a>
         <div class="site-actions">
-          <nav aria-label="主导航">
+          <nav aria-label={t(locale, "nav.label")}>
             <ul>
               {
                 NAVIGATION.map((item) => (
                   <li>
                     <a
-                      href={item.href}
-                      aria-current={isCurrent(item.href) ? "page" : undefined}
+                      href={localizedPath(locale, item.path)}
+                      aria-current={isCurrent(localizedPath(locale, item.path)) ? "page" : undefined}
                     >
-                      {item.label}
+                      {t(locale, item.key)}
                     </a>
                   </li>
                 ))
               }
             </ul>
           </nav>
-          <ThemeToggle />
+          <nav class="language-switch" aria-label={t(locale, "language.label")}>
+            {(["en", "zh"] as const).map((target) => <a href={localizedPath(target, canonicalPath ?? currentPath)} lang={languageTag(target)} hreflang={languageTag(target)} data-locale={target} aria-current={target === locale ? "true" : undefined}>{t(locale, `language.${target}`)}</a>)}
+          </nav>
+          <ThemeToggle locale={locale} />
         </div>
       </div>
     </header>
 
+    <script>
+      // Explicit URLs determine the language. Preference is used only at the root entry.
+      const languageLinks = document.querySelectorAll<HTMLAnchorElement>("[data-locale]");
+      function syncLanguageLinks() {
+        languageLinks.forEach((link) => {
+          const target = new URL(link.href);
+          target.search = window.location.search;
+          target.hash = window.location.hash;
+          link.href = target.href;
+        });
+      }
+      syncLanguageLinks();
+      window.addEventListener("hashchange", syncLanguageLinks);
+      window.addEventListener("popstate", syncLanguageLinks);
+      languageLinks.forEach((link) => {
+        link.addEventListener("click", () => {
+          syncLanguageLinks();
+          try { localStorage.setItem("site-locale", link.dataset.locale ?? "en"); } catch { /* Navigation works without storage. */ }
+        });
+      });
+    </script>
     <main class="shell" id="content">
       <slot />
     </main>
@@ -109,7 +139,7 @@ function isCurrent(href: string): boolean {
     <footer class="site-footer">
       <div class="shell site-footer__inner">
         <p>© {new Date().getFullYear()} {SITE.author}</p>
-        <div class="footer-links"><a href="https://github.com/runchengxie">GitHub</a><a href="/rss.xml">RSS</a></div>
+        <div class="footer-links"><a href="https://github.com/runchengxie">GitHub</a><a href={localizedPath(locale, "/rss.xml")}>RSS</a></div>
       </div>
     </footer>
   </body>
