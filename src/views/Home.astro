@@ -1,0 +1,55 @@
+---
+import { t, localizedPath, type Locale } from "../i18n";
+interface Props { locale: Locale; }
+const { locale } = Astro.props;
+import PostList from "../components/PostList.astro";
+import ProjectCard from "../components/ProjectCard.astro";
+import { projects, researchEntrances, projectText } from "../data/projects";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { getLocalizedPosts } from "../lib/posts";
+const latestPosts = (await getLocalizedPosts(locale)).slice(0, 3);
+const featuredProjects = projects.filter((project) => project.featured);
+---
+<BaseLayout locale={locale}>
+  <section class="personal-intro" aria-labelledby="intro-heading">
+    <div>
+      <p class="eyebrow">Richard / runchengxie</p>
+      <h1 id="intro-heading">{t(locale, "home.headingFirst")}<br />{t(locale, "home.headingSecond")}</h1>
+      <p class="personal-intro__description">{t(locale, "home.intro")}</p>
+      <div class="intro-links">
+        <a class="button-link" href={localizedPath(locale, "/projects/")}>{t(locale, "home.explore")} <span aria-hidden="true">→</span></a>
+        <a href={localizedPath(locale, "/about/")}>{t(locale, "home.about")}</a>
+        <a href="https://github.com/runchengxie">GitHub <span aria-hidden="true">↗</span></a>
+      </div>
+    </div>
+    <aside class="work-note" aria-labelledby="work-note-heading">
+      <p class="eyebrow" id="work-note-heading">{t(locale, "home.focus")}</p>
+      <ol>
+        <li><span>01</span>{t(locale, "home.focusData")}</li>
+        <li><span>02</span>{t(locale, "home.focusResearch")}</li>
+        <li><span>03</span>{t(locale, "home.focusInvesting")}</li>
+      </ol>
+      <p>{t(locale, "home.focusNote")}</p>
+    </aside>
+  </section>
+  <section class="portfolio-section" aria-labelledby="research-heading">
+    <div class="section-heading"><h2 id="research-heading">{t(locale, "home.public")}</h2><a href={localizedPath(locale, "/projects/")}>{t(locale, "home.allProjects")} →</a></div>
+    <div class="research-entrances">
+      {researchEntrances.map((project, index) => <a href={project.website} class="research-entrance">
+        <span class="research-entrance__number">0{index + 1}</span>
+        <h3>{projectText(project, locale).title} <span aria-hidden="true">↗</span></h3>
+        <p>{projectText(project, locale).description}</p>
+      </a>)}
+    </div>
+  </section>
+  <section class="portfolio-section" aria-labelledby="projects-heading">
+    <div class="section-heading"><h2 id="projects-heading">{t(locale, "home.featured")}</h2><a href={localizedPath(locale, "/projects/")}>{t(locale, "home.projectMap")} →</a></div>
+    <p class="section-description">{t(locale, "home.projectIntro")}</p>
+    <div class="project-grid">{featuredProjects.filter((p) => !researchEntrances.includes(p)).map((project) => <ProjectCard locale={locale} project={project} />)}</div>
+  </section>
+  <section class="home-latest" aria-labelledby="latest-heading">
+    <div class="section-heading"><h2 id="latest-heading">{t(locale, "home.writing")}</h2><a href={localizedPath(locale, "/blog/")}>{t(locale, "home.allPosts")} →</a></div>
+    <p class="section-description">{t(locale, "home.writingIntro")}</p>
+    <PostList locale={locale} posts={latestPosts} />
+  </section>
+</BaseLayout>

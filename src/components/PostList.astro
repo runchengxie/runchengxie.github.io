@@ -1,4 +1,5 @@
 ---
+import { t, type Locale } from "../i18n";
 import type { BlogPost } from "../lib/posts";
 import {
   formatShortDate,
@@ -8,9 +9,10 @@ import {
 
 interface Props {
   posts: BlogPost[];
+  locale: Locale;
 }
 
-const { posts } = Astro.props;
+const { posts, locale } = Astro.props;
 ---
 
 <ol class="post-list">
@@ -18,14 +20,14 @@ const { posts } = Astro.props;
     posts.map((post) => (
       <li class="post-list__item">
         <time datetime={post.data.date.toISOString()}>
-          {formatShortDate(post.data.date)}
+          {formatShortDate(post.data.date, locale)}
         </time>
-        <div>
+        <div lang={post.collection === "blog" ? "zh-CN" : "en"}>
           <h2>
-            <a href={getPostHref(post)}>{post.data.title}</a>
+            <a href={getPostHref(post, locale)}>{post.data.title}</a>
           </h2>
-          <p>{getExcerpt(post.body ?? "")}</p>
-          <ul class="tag-list" aria-label="文章分类">
+          <p>{getExcerpt(post.body ?? "", locale === "en" ? 200 : 116, locale)}</p>
+          <ul class="tag-list" aria-label={t(locale, "blog.categories")}>
             {post.data.categories.map((category) => (
               <li>{category}</li>
             ))}

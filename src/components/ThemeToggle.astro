@@ -1,9 +1,16 @@
+---
+import { t, type Locale } from "../i18n";
+interface Props { locale?: Locale; }
+const { locale = "en" } = Astro.props;
+---
 <button
   class="theme-toggle"
   id="theme-toggle"
   type="button"
-  aria-label="切换颜色模式"
-  title="切换颜色模式"
+  aria-label={t(locale, "theme.toggle")}
+  title={t(locale, "theme.toggle")}
+  data-light-label={t(locale, "theme.light")}
+  data-dark-label={t(locale, "theme.dark")}
 >
   <svg class="theme-icon theme-icon--light" viewBox="0 0 24 24" aria-hidden="true">
     <circle cx="12" cy="12" r="3.5"></circle>
@@ -24,14 +31,14 @@
     themeColor?.setAttribute("content", theme === "dark" ? "#171815" : "#f7f6f2");
     toggle?.setAttribute(
       "aria-label",
-      theme === "dark" ? "切换到浅色模式" : "切换到深色模式",
+      (theme === "dark" ? toggle?.dataset.lightLabel : toggle?.dataset.darkLabel) ?? "",
     );
     toggle?.setAttribute(
       "title",
-      theme === "dark" ? "切换到浅色模式" : "切换到深色模式",
+      (theme === "dark" ? toggle?.dataset.lightLabel : toggle?.dataset.darkLabel) ?? "",
     );
 
-    if (persist) localStorage.setItem("theme", theme);
+    if (persist) { try { localStorage.setItem("theme", theme); } catch {} }
   }
 
   applyTheme(root.dataset.theme === "dark" ? "dark" : "light");
@@ -41,7 +48,9 @@
   });
 
   window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", (event) => {
-    if (localStorage.getItem("theme") === null) {
+    let saved = null;
+    try { saved = localStorage.getItem("theme"); } catch {}
+    if (saved === null) {
       applyTheme(event.matches ? "dark" : "light");
     }
   });

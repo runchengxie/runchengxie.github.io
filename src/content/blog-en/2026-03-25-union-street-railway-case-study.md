@@ -1,0 +1,47 @@
+---
+title: "Buffett's Early Cigar-Butt Investments: Union Street Railway"
+date: 2026-03-25
+categories: [Investing, Buffett, Case Studies, Cigar-Butt Investing]
+---
+
+Today, let's look at one of Buffett's early cigar-butt investments: Union Street Railway.
+
+## 1. In One Sentence
+
+The company's share price was far below the realizable value on its balance sheet, and it later returned some of that book value to shareholders through a return of capital.
+
+## 2. Introducing the Company
+
+Union Street Railway's name and origins were both tied to streetcars. Its predecessor operated horse-drawn streetcars in 1872, merged to form Union Street Railway in 1887, and began electrification in 1890.
+
+As automobiles and buses gained ground, it gradually shifted toward buses and ended New Bedford's last streetcar service in 1947. By the time Buffett noticed it, it was a declining public transit company operating mainly buses.
+
+According to the Moody's manual from that period, Union Street had about $48.13 per share in net cash around 1953. Including several assets such as `special deposits` and `insurance trusts`, which were very close to cash and likely to become available in the future, added another $53.72 per share.
+
+Buffett later recalled the investment using two sets of figures. In one, the company had about $60 per share in cash and traded at $30 to $35. In the other, it had approximately $100 to $120 per share in cash-like assets and traded at about $30 to $45. Although the figures do not match exactly, they point in the same direction: the market priced the company far below the realizable assets on its books.
+
+Its core business was struggling at the time. Ridership kept falling after the war, and in 1953 it even posted a loss of $4.27 per share. But this fit the young Buffett's cigar-butt approach perfectly: the company did not have to be excellent, as long as it had not yet exhausted its cash.
+
+He later recalled that the company owned more than a hundred buses and a small amusement park. He began buying because it held substantial Treasury securities and cash, alongside liabilities for some tickets that had already been sold but might never be fully redeemed.
+
+## 3. Buffett Starts Buying and Draws Management's Attention
+
+There is an interesting story here. Because the stock was obscure and illiquid, he placed advertisements in the local newspaper seeking people willing to sell, so that he could build a large enough position.
+
+The company also knew its stock was cheap and ran newspaper advertisements offering to buy back shares. Buffett later found a list of major shareholders in Massachusetts public utility regulatory records, contacted them individually, and bought their shares.
+
+He ultimately bought 576 shares, about 3.1% of the shares outstanding in 1953. By 1955, continued company buybacks had increased his ownership to 4.1%.
+
+He also visited management. Buffett recalled getting up at four in the morning and driving to New Bedford to meet president Mark Duff. Before he left, Duff told him the company was considering a `return of capital` distribution. Under Massachusetts public utility regulations, the distribution had to be set as a multiple of the stock's par value, and the company was considering two units.
+
+Buffett immediately realized this meant the company might return $50 per share on a stock then trading at only thirty or forty dollars.
+
+The company subsequently did make a $50-per-share distribution. Buffett later said he did not know whether his visit had helped bring it about, but he ultimately saw the value unlocked.
+
+## 4. What Can We Learn?
+
+Three points in the Union Street Railway case are worth remembering:
+
+1. This was a classic cigar-butt investment, with the purchase thesis based primarily on discounts to net assets and net cash.
+2. Buying cheaply does not automatically produce a return. Capital allocation decisions are often needed to deliver value to shareholders. In this case, the key catalyst was a return of capital.
+3. Buffett, then only 22 or 23, experienced the rewards of cigar-butt investing through this investment. He encountered relatively cooperative management and had yet to experience the most difficult aspects of this approach, such as prolonged dealings with managers resistant to change, along with the resulting execution costs and organizational friction.

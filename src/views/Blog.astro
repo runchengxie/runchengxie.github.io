@@ -1,0 +1,19 @@
+---
+import { t, countMessage, type Locale } from "../i18n";
+interface Props { locale: Locale; }
+const { locale } = Astro.props;
+import PostList from "../components/PostList.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { getLocalizedPosts } from "../lib/posts";
+
+const posts = await getLocalizedPosts(locale);
+---
+
+<BaseLayout locale={locale} title={t(locale, "nav.blog")} description={t(locale, "blog.description")}>
+  <header class="page-heading">
+    <p class="eyebrow">{t(locale, "blog.archive")}</p>
+    <h1>{t(locale, "nav.blog")}</h1>
+    <p>{countMessage(locale, "blog.count", posts.length)}</p>
+  </header>
+  <PostList locale={locale} posts={posts} />
+</BaseLayout>

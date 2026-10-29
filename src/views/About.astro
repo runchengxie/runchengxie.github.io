@@ -1,0 +1,41 @@
+---
+import { t, localizedPath, type Locale } from "../i18n";
+interface Props { locale: Locale; }
+const { locale } = Astro.props;
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout locale={locale} title={t(locale, "about.title")} description={t(locale, "about.description")}>
+  <header class="page-heading">
+    <p class="eyebrow">{t(locale, "about.title")}</p>
+    <h1>{t(locale, "about.heading")}</h1>
+    <p>{t(locale, "about.description")}</p>
+  </header>
+  <div class="about-content reading-width">
+    <section aria-labelledby="work-heading">
+      <h2 id="work-heading">{t(locale, "about.work")}</h2>
+      <p>{t(locale, "about.workFirst")}</p>
+      <p>{t(locale, "about.workSecond")}</p>
+      <a href={localizedPath(locale, "/projects/")}>{t(locale, "about.projects")} →</a>
+    </section>
+    <section aria-labelledby="principles-heading">
+      <h2 id="principles-heading">{t(locale, "about.principles")}</h2>
+      <ul>
+        <li>{t(locale, "about.principleReproduce")}</li>
+        <li>{t(locale, "about.principleEvidence")}</li>
+        <li>{t(locale, "about.principleBoundaries")}</li>
+        <li>{t(locale, "about.principleTools")}</li>
+      </ul>
+      <p>{t(locale, "about.stack")}</p>
+    </section>
+    <section aria-labelledby="writing-heading">
+      <h2 id="writing-heading">{t(locale, "about.writing")}</h2>
+      <p>{t(locale, "about.writingDetail")}</p>
+      <p><a href={localizedPath(locale, "/blog/")}>{t(locale, "about.read")}</a> · <a href={localizedPath(locale, "/notes/investment-perspective/")}>{t(locale, "note.title")}</a></p>
+    </section>
+    <section aria-labelledby="elsewhere-heading">
+      <h2 id="elsewhere-heading">{t(locale, "about.find")}</h2>
+      <p>{t(locale, "about.findBefore")} <a href="https://github.com/runchengxie">GitHub · runchengxie</a> {t(locale, "about.findAfter")} <a href={localizedPath(locale, "/rss.xml")}>RSS</a>.</p>
+    </section>
+  </div>
+</BaseLayout>

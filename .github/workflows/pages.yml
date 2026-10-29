@@ -28,6 +28,11 @@ jobs:
       - name: Install, check, build, and upload
         uses: withastro/action@v6
 
+      - name: Check localized navigation in Chromium
+        run: |
+          pnpm exec playwright install --with-deps chromium
+          pnpm run test:browser
+
   deploy:
     if: github.event_name != 'pull_request'
     needs: build

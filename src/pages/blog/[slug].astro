@@ -1,6 +1,6 @@
 ---
-import { getCollection, render } from "astro:content";
-import PostLayout from "../../layouts/PostLayout.astro";
+import { getCollection } from "astro:content";
+import Redirect from "../../components/Redirect.astro";
 import {
   getPostSlug,
   sortPosts,
@@ -26,10 +26,6 @@ export async function getStaticPaths() {
   }));
 }
 
-const { post, newer, older } = Astro.props;
-const { Content } = await render(post);
+const { post } = Astro.props;
 ---
-
-<PostLayout post={post} newer={newer} older={older}>
-  <Content />
-</PostLayout>
+<Redirect target={`/zh/blog/${getPostSlug(post)}/`} />

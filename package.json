@@ -4,15 +4,16 @@
   "private": true,
   "packageManager": "pnpm@11.17.0",
   "engines": {
-    "node": ">=22.12.0"
+    "node": ">=22.18.0"
   },
   "type": "module",
   "scripts": {
     "dev": "ASTRO_TELEMETRY_DISABLED=1 astro dev",
-    "build": "ASTRO_TELEMETRY_DISABLED=1 astro check && ASTRO_TELEMETRY_DISABLED=1 astro build && node scripts/create-legacy-redirects.mjs && node scripts/check-built-site.mjs",
+    "build": "ASTRO_TELEMETRY_DISABLED=1 astro check && ASTRO_TELEMETRY_DISABLED=1 astro build && node scripts/create-legacy-redirects.mjs && node scripts/check-built-site.mjs && node --test tests/*.test.mjs",
     "check": "ASTRO_TELEMETRY_DISABLED=1 astro check",
     "preview": "ASTRO_TELEMETRY_DISABLED=1 astro preview",
-    "test": "pnpm run build"
+    "test": "pnpm run build",
+    "test:browser": "node tests/i18n-browser.mjs"
   },
   "dependencies": {
     "@astrojs/rss": "^4.0.19",
@@ -22,6 +23,7 @@
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.10",
+    "@playwright/test": "1.63.0",
     "typescript": "^6.0.3"
   }
 }

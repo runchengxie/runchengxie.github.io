@@ -1,0 +1,49 @@
+---
+import { t, type Locale } from "../i18n";
+interface Props { locale: Locale; }
+const { locale } = Astro.props;
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout
+  locale={locale}
+  title={t(locale, "note.title")}
+  description={t(locale, "note.description")}
+>
+  <header class="page-heading">
+    <p class="eyebrow">{t(locale, "nav.about")}</p>
+    <h1>{t(locale, "note.title")}</h1>
+    <p>{t(locale, "note.intro")}</p>
+  </header>
+
+  <div class="about-grid">
+    <article class="prose">
+      <h2>{t(locale, "note.culture")}</h2>
+      <ul>
+        <li>
+          {t(locale, "note.cultureFirst")}
+        </li>
+        <li>{t(locale, "note.cultureSecond")}</li>
+      </ul>
+
+      <h2>{t(locale, "note.era")}</h2>
+      <ul>
+        <li>{t(locale, "note.eraFirst")}</li>
+        <li>
+          {t(locale, "note.eraSecond")}
+        </li>
+        <li>
+          {t(locale, "note.eraThird")}
+        </li>
+      </ul>
+    </article>
+
+    <img
+      class="about-portrait"
+      src="/images/buffett.jpg"
+      alt={t(locale, "note.portrait")}
+      width="160"
+      height="160"
+    />
+  </div>
+</BaseLayout>

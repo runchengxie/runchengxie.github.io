@@ -2,7 +2,7 @@
 
 ## Scope
 
-Turn the existing Astro investment blog into Richard's personal website, with a personal introduction, selected projects, public research entrances, and the existing writing. The owner approved this direction and asked for implementation. Keep the current Chinese content language and existing technology; this refresh does not introduce multiple locales.
+Turn the existing Astro investment blog into Richard's personal website, with a personal introduction, selected projects, public research entrances, and the existing writing. The owner approved this direction and asked for implementation. The initial refresh kept the Chinese content language and existing technology. Subsequent English/Chinese support and full article translations are documented in [i18n.md](i18n.md).
 
 ## Design decisions
 

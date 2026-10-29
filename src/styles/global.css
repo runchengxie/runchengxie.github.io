@@ -671,3 +671,17 @@ main {
   .personal-intro h1 { font-size: clamp(2rem, 7.8vw, 3rem); }
   .work-note { padding: 1.5rem; }
 }
+
+.language-switch { display: flex; gap: 0.5rem; padding-left: 1rem; border-left: 1px solid var(--border); }
+.language-switch a { color: var(--muted); font-size: 0.8rem; text-decoration: none; white-space: nowrap; }
+.language-switch a[aria-current="true"] { color: var(--text); text-decoration: underline; text-underline-offset: 0.3rem; }
+.translation-notice { padding: 1rem; background: var(--surface); color: var(--muted); }
+:lang(en) .prose { font-family: Georgia, "Times New Roman", serif; }
+:lang(en) .post-header h1 { max-width: 26ch; }
+@media (max-width: 40rem) {
+  .site-header__inner { align-items: flex-start; }
+  .site-actions { justify-content: flex-end; flex-wrap: wrap; max-width: 100%; gap: 0.8rem; }
+  .site-actions nav ul { gap: 0.7rem; }
+  .language-switch { padding-left: 0.8rem; }
+  .section-heading { flex-wrap: wrap; }
+}
