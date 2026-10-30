@@ -13,34 +13,35 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       <p>{t(locale, "about.description")}</p>
     </div>
     <div class="about-background" data-about-background aria-hidden="true">
-      <svg class="about-network" aria-hidden="true" focusable="false" viewBox="0 0 360 260" fill="none">
-        <g class="about-network__frame">
-          <path d="M14 34V14H34M326 14H346V34M14 226V246H34M326 246H346V226" />
+      <svg class="about-candles" aria-hidden="true" focusable="false" viewBox="0 0 720 144" preserveAspectRatio="none" fill="none">
+        <defs>
+          <g id="about-candle-sequence">
+            <g class="about-candle about-candle--filled"><path d="M18 56V100" /><rect x="13" y="66" width="10" height="22" /></g>
+            <g class="about-candle"><path d="M54 46V90" /><rect x="49" y="56" width="10" height="20" /></g>
+            <g class="about-candle"><path d="M90 36V80" /><rect x="85" y="46" width="10" height="20" /></g>
+            <g class="about-candle about-candle--filled"><path d="M126 28V72" /><rect x="121" y="38" width="10" height="20" /></g>
+            <g class="about-candle about-candle--filled"><path d="M162 44V88" /><rect x="157" y="54" width="10" height="20" /></g>
+            <g class="about-candle"><path d="M198 54V98" /><rect x="193" y="64" width="10" height="20" /></g>
+            <g class="about-candle"><path d="M234 46V90" /><rect x="229" y="56" width="10" height="20" /></g>
+            <g class="about-candle about-candle--filled"><path d="M270 64V108" /><rect x="265" y="74" width="10" height="22" /></g>
+            <g class="about-candle about-candle--filled"><path d="M306 74V118" /><rect x="301" y="84" width="10" height="20" /></g>
+            <g class="about-candle"><path d="M342 62V106" /><rect x="337" y="72" width="10" height="22" /></g>
+            <g class="about-candle"><path d="M378 46V90" /><rect x="373" y="56" width="10" height="22" /></g>
+            <g class="about-candle"><path d="M414 32V76" /><rect x="409" y="42" width="10" height="22" /></g>
+            <g class="about-candle about-candle--filled"><path d="M450 26V70" /><rect x="445" y="36" width="10" height="20" /></g>
+            <g class="about-candle"><path d="M486 38V82" /><rect x="481" y="48" width="10" height="20" /></g>
+            <g class="about-candle about-candle--filled"><path d="M522 54V98" /><rect x="517" y="64" width="10" height="22" /></g>
+            <g class="about-candle about-candle--filled"><path d="M558 68V112" /><rect x="553" y="78" width="10" height="22" /></g>
+            <g class="about-candle"><path d="M594 60V104" /><rect x="589" y="70" width="10" height="22" /></g>
+            <g class="about-candle"><path d="M630 42V86" /><rect x="625" y="52" width="10" height="22" /></g>
+            <g class="about-candle about-candle--filled"><path d="M666 50V94" /><rect x="661" y="60" width="10" height="22" /></g>
+            <g class="about-candle"><path d="M702 36V82" /><rect x="697" y="46" width="10" height="22" /></g>
+          </g>
+        </defs>
+        <g class="about-candles__track">
+          <use href="#about-candle-sequence" />
+          <use href="#about-candle-sequence" x="720" />
         </g>
-        <g class="about-network__edges">
-          <path d="M34 62H94V96H150M34 136H72V96M94 96H150V58H212M150 96V144H212M212 58H272V104H326M212 144H272V104" />
-          <path d="M132 195V164H178M224 195V224H278" />
-        </g>
-        <path class="about-network__feedback" d="M306 195H330V232H132V207M128 201L132 207L136 201" />
-        <path class="about-network__route" d="M54 195H306" />
-        <g class="about-network__nodes">
-          <circle cx="34" cy="62" r="4" />
-          <circle cx="34" cy="136" r="4" />
-          <rect x="90" y="92" width="8" height="8" />
-          <circle cx="150" cy="58" r="4" />
-          <rect x="146" y="140" width="8" height="8" />
-          <circle cx="212" cy="58" r="4" />
-          <circle cx="212" cy="144" r="4" />
-          <rect x="268" y="100" width="8" height="8" />
-          <circle cx="326" cy="104" r="4" />
-          <circle cx="132" cy="195" r="4" />
-          <circle cx="224" cy="195" r="4" />
-        </g>
-        <g class="about-network__accent">
-          <circle cx="54" cy="195" r="4" />
-          <rect x="300" y="189" width="12" height="12" />
-        </g>
-        <circle class="about-network__signal" cx="54" cy="195" r="3" />
       </svg>
     </div>
   </header>

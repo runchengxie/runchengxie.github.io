@@ -14,6 +14,7 @@ export async function verifyMotion({browser,origin}) {
  assert.equal(await page.locator('.intro-title-line').count(),2);
  assert.equal(await page.locator('.intro-frame[aria-hidden="true"]').count(),1);
  assert.equal(await page.locator('audio,video').count(),0);
+ assert.equal(await page.locator('.work-note svg,.focus-map,.cover-mark').count(),0,'focus note keeps a simple text heading');
  await page.waitForFunction(()=>!document.documentElement.hasAttribute('data-home-motion'));
  const events=await page.evaluate(()=>window.motionEvents);
  const titles=events.filter(event=>event.name==='home-heading-in');assert.equal(titles.length,2);

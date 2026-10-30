@@ -32,14 +32,29 @@ export async function verifyPageEntry({browser,origin}){
  }
  await page.setViewportSize({width:1200,height:500});
  const background=page.locator('[data-about-background]');
- const signal=background.locator('.about-network__signal');
+ const track=background.locator('.about-candles__track');
+ assert.equal(await background.locator('defs .about-candle').count(),20);
+ assert.equal(await track.locator('use').count(),2);
  await page.waitForFunction(()=>document.querySelector('[data-about-background]').dataset.running==='true');
  assert.equal(await background.getAttribute('aria-hidden'),'true');
  assert.equal(await background.evaluate(node=>getComputedStyle(node).pointerEvents),'none');
- assert.equal(await signal.evaluate(node=>getComputedStyle(node).animationPlayState),'running');
+ assert.equal(await track.evaluate(node=>getComputedStyle(node).animationPlayState),'running');
+ const loop=await track.evaluate(node=>{
+  const animation=node.getAnimations()[0];
+  const timing=animation.effect.getTiming();
+  animation.pause();animation.currentTime=0;
+  const first=node.querySelector('use').getBoundingClientRect();
+  animation.currentTime=Number(timing.duration)-1;
+  const second=node.querySelectorAll('use')[1].getBoundingClientRect();
+  animation.play();
+  return {duration:timing.duration,continuous:timing.iterations===Infinity,error:Math.abs(first.x-second.x),keys:animation.effect.getKeyframes().flatMap(frame=>Object.keys(frame)).filter(key=>!['offset','computedOffset','easing','composite'].includes(key))};
+ });
+ assert.equal(loop.duration,64000);assert(loop.continuous);assert(loop.error<.1,'duplicate sequence meets the next cycle');
+ assert(loop.keys.every(key=>key==='transform'),'loop only moves the track');
+
  await page.evaluate(()=>scrollTo(0,document.body.scrollHeight));
  await page.waitForFunction(()=>document.querySelector('[data-about-background]').dataset.running==='false');
- assert.equal(await signal.evaluate(node=>getComputedStyle(node).animationPlayState),'paused');
+ assert.equal(await track.evaluate(node=>getComputedStyle(node).animationPlayState),'paused');
  await page.evaluate(()=>scrollTo(0,0));
  await page.waitForFunction(()=>document.querySelector('[data-about-background]').dataset.running==='true');
  await page.evaluate(()=>{Object.defineProperty(document,'hidden',{value:true,configurable:true});document.dispatchEvent(new Event('visibilitychange'));});
@@ -48,7 +63,7 @@ export async function verifyPageEntry({browser,origin}){
  await page.waitForFunction(()=>document.querySelector('[data-about-background]').dataset.running==='true');
  await page.emulateMedia({reducedMotion:'reduce'});
  await page.waitForFunction(()=>document.querySelector('[data-about-background]').dataset.running==='false');
- assert.equal(await signal.evaluate(node=>getComputedStyle(node).animationName),'none');
+ assert.equal(await track.evaluate(node=>getComputedStyle(node).animationName),'none');
  assert.equal(await page.locator('canvas,video,audio').count(),0);
  await context.close();
  for(const options of [{reducedMotion:'reduce'},{javaScriptEnabled:false}]){
@@ -57,6 +72,7 @@ export async function verifyPageEntry({browser,origin}){
    await plain.goto(`${origin}/${path}`);
    assert.equal(await plain.locator('[data-entry-active]').count(),0);
    assert.equal(await plain.locator('h1').isVisible(),true);
+   if(path.includes('about'))assert.equal(await plain.locator('.about-candles__track').evaluate(node=>node.getAnimations().length),0);
    assert.equal(await plain.locator('[data-about-background][data-running="true"]').count(),0);
   }
   await fallback.close();
