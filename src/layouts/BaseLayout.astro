@@ -1,5 +1,6 @@
 ---
 import { localeFromPath, localizedPath, languageTag, t, type Locale } from "../i18n";
+import PageMotion from "../components/PageMotion.astro";
 import ThemeToggle from "../components/ThemeToggle.astro";
 import { NAVIGATION, SITE } from "../lib/site";
 import "../styles/global.css";
@@ -78,6 +79,7 @@ function isCurrent(href: string): boolean {
         );
       })();
     </script>
+    <slot name="head" />
   </head>
   <body>
     <a class="skip-link" href="#content">{t(locale, "nav.skip")}</a>
@@ -136,6 +138,7 @@ function isCurrent(href: string): boolean {
       <slot />
     </main>
 
+    {type !== "article" && <PageMotion />}
     <footer class="site-footer">
       <div class="shell site-footer__inner">
         <p>© {new Date().getFullYear()} {SITE.author}</p>

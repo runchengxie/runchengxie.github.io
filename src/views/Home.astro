@@ -11,6 +11,24 @@ const latestPosts = (await getLocalizedPosts(locale)).slice(0, 3);
 const featuredProjects = projects.filter((project) => project.featured);
 ---
 <BaseLayout locale={locale}>
+  <script slot="head" is:inline>
+    (() => {
+      const root = document.documentElement;
+      if (matchMedia('(prefers-reduced-motion: reduce)').matches || location.hash) return;
+      const navigation = performance.getEntriesByType('navigation')[0];
+      if (navigation && navigation.type !== 'navigate') return;
+      try {
+        if (sessionStorage.getItem('personal-site-home-motion-v1')) return;
+        sessionStorage.setItem('personal-site-home-motion-v1', 'true');
+      } catch { return; }
+      root.dataset.homeMotion = 'play';
+      // CSS finishes within 180ms; this guard also clears stale state on slow loads.
+      setTimeout(() => root.removeAttribute('data-home-motion'), 600);
+      addEventListener('pageshow', event => {
+        if (event.persisted) root.removeAttribute('data-home-motion');
+      });
+    })();
+  </script>
   <section class="personal-intro" aria-labelledby="intro-heading">
     <div>
       <p class="eyebrow">Richard / runchengxie</p>
@@ -23,6 +41,12 @@ const featuredProjects = projects.filter((project) => project.featured);
       </div>
     </div>
     <aside class="work-note" aria-labelledby="work-note-heading">
+      <div class="home-cover" data-home-cover aria-hidden="true" inert>
+        {Array.from({length:6},()=> <span class="cover-tile"><i></i></span>)}
+      </div>
+      <svg class="cover-mark" aria-hidden="true" width="120" height="32" viewBox="0 0 120 32" fill="none">
+        <path pathLength="1" d="M1 5h22v22H1ZM48 5h22v22H48ZM95 5h22v22H95ZM23 16h25M70 16h25" />
+      </svg>
       <p class="eyebrow" id="work-note-heading">{t(locale, "home.focus")}</p>
       <ol>
         <li><span>01</span>{t(locale, "home.focusData")}</li>

@@ -1,3 +1,4 @@
+import {verifyMotion} from './motion-browser.mjs';
 import { chromium } from '@playwright/test';
 import assert from 'node:assert/strict';
 import { createServer } from 'node:http';
@@ -22,6 +23,7 @@ const origin = `http://127.0.0.1:${server.address().port}`;
 let browser;
 try {
   browser = await chromium.launch();
+  await verifyMotion({browser,origin});
   const context = await browser.newContext({colorScheme:'light'});
   await installResearchFixtures(context);
   const page = await context.newPage();
@@ -127,7 +129,7 @@ try {
     }
   }
   assert.deepEqual(errors,[]);
-  console.log('PASS: 112 locale/viewport/theme combinations, 30 complete articles, language and theme persistence, query/hash preservation, legacy URLs, blocked storage, JavaScript-disabled navigation and source-backed research comparisons.');
+  console.log('PASS: 112 locale/viewport/theme combinations, 30 complete articles, language and theme persistence, query/hash preservation, legacy URLs, blocked storage, JavaScript-disabled navigation source-backed research comparisons, and one-shot reduced-motion-safe cover/scroll effects.');
 } finally {
   await browser?.close();
   await new Promise(resolve=>server.close(resolve));
