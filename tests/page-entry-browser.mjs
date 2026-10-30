@@ -30,14 +30,16 @@ export async function verifyPageEntry({browser,origin}){
   await page.waitForFunction(count=>window.entries.length>count,before);
   await page.waitForFunction(()=>!document.querySelector('[data-entry-active]'));
  }
+ await page.setViewportSize({width:1200,height:500});
  const background=page.locator('[data-about-background]');
+ const signal=background.locator('.about-network__signal');
  await page.waitForFunction(()=>document.querySelector('[data-about-background]').dataset.running==='true');
  assert.equal(await background.getAttribute('aria-hidden'),'true');
  assert.equal(await background.evaluate(node=>getComputedStyle(node).pointerEvents),'none');
- assert.equal(await background.evaluate(node=>getComputedStyle(node,'::after').animationPlayState),'running');
+ assert.equal(await signal.evaluate(node=>getComputedStyle(node).animationPlayState),'running');
  await page.evaluate(()=>scrollTo(0,document.body.scrollHeight));
  await page.waitForFunction(()=>document.querySelector('[data-about-background]').dataset.running==='false');
- assert.equal(await background.evaluate(node=>getComputedStyle(node,'::after').animationPlayState),'paused');
+ assert.equal(await signal.evaluate(node=>getComputedStyle(node).animationPlayState),'paused');
  await page.evaluate(()=>scrollTo(0,0));
  await page.waitForFunction(()=>document.querySelector('[data-about-background]').dataset.running==='true');
  await page.evaluate(()=>{Object.defineProperty(document,'hidden',{value:true,configurable:true});document.dispatchEvent(new Event('visibilitychange'));});
@@ -46,7 +48,7 @@ export async function verifyPageEntry({browser,origin}){
  await page.waitForFunction(()=>document.querySelector('[data-about-background]').dataset.running==='true');
  await page.emulateMedia({reducedMotion:'reduce'});
  await page.waitForFunction(()=>document.querySelector('[data-about-background]').dataset.running==='false');
- assert.equal(await background.evaluate(node=>getComputedStyle(node,'::after').animationName),'none');
+ assert.equal(await signal.evaluate(node=>getComputedStyle(node).animationName),'none');
  assert.equal(await page.locator('canvas,video,audio').count(),0);
  await context.close();
  for(const options of [{reducedMotion:'reduce'},{javaScriptEnabled:false}]){

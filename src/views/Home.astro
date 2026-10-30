@@ -34,8 +34,35 @@ const featuredProjects = projects.filter((project) => project.featured);
       <div class="home-cover" data-home-cover aria-hidden="true" inert>
         {Array.from({length:6},()=> <span class="cover-tile"><i></i></span>)}
       </div>
-      <svg class="cover-mark" aria-hidden="true" width="120" height="32" viewBox="0 0 120 32" fill="none">
-        <path pathLength="1" d="M1 5h22v22H1ZM48 5h22v22H48ZM95 5h22v22H95ZM23 16h25M70 16h25" />
+      <svg class="cover-mark focus-map" aria-hidden="true" focusable="false" width="168" height="40" viewBox="0 0 168 40" fill="none">
+        <g>
+          <path pathLength="1" d="M3 8H13V20H28M3 32H13V20" />
+          <circle class="focus-map__node" cx="3" cy="8" r="2" />
+          <circle class="focus-map__node" cx="3" cy="32" r="2" />
+          <circle class="focus-map__node" cx="13" cy="20" r="3" />
+          <rect class="focus-map__node" x="25" y="17" width="6" height="6" />
+          <path class="focus-map__accent" pathLength="1" d="M33 20L36 23L42 16" />
+        </g>
+        <path class="focus-map__link" pathLength="1" d="M47 20H57" />
+        <g>
+          <path pathLength="1" d="M64 20H75V8H88M75 20V32H88M88 8H98V20H108M88 32H98V20" />
+          <circle class="focus-map__node" cx="64" cy="20" r="2" />
+          <circle class="focus-map__node" cx="75" cy="20" r="3" />
+          <rect class="focus-map__node" x="85" y="5" width="6" height="6" />
+          <rect class="focus-map__node" x="85" y="29" width="6" height="6" />
+          <rect class="focus-map__node" x="95" y="17" width="6" height="6" />
+          <circle class="focus-map__node focus-map__node--accent" cx="108" cy="20" r="3" />
+        </g>
+        <path class="focus-map__link" pathLength="1" d="M114 20H121" />
+        <g>
+          <path pathLength="1" d="M128 8H139V20H151M128 32H139V20M151 20H164M151 20V33H164" />
+          <circle class="focus-map__node" cx="128" cy="8" r="2" />
+          <circle class="focus-map__node" cx="128" cy="32" r="2" />
+          <rect class="focus-map__node" x="136" y="17" width="6" height="6" />
+          <rect class="focus-map__node" x="148" y="17" width="6" height="6" transform="rotate(45 151 20)" />
+          <rect class="focus-map__node focus-map__node--accent" x="161" y="17" width="6" height="6" />
+          <circle class="focus-map__node" cx="164" cy="33" r="2" />
+        </g>
       </svg>
       <p class="eyebrow" id="work-note-heading">{t(locale, "home.focus")}</p>
       <ol>
