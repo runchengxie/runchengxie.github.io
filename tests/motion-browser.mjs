@@ -11,8 +11,14 @@ export async function verifyMotion({browser,origin}) {
  const page=await context.newPage();
  await page.goto(`${origin}/en/`);
  assert.equal(await page.locator('[data-home-cover] .cover-tile').count(),6);
+ assert.equal(await page.locator('.intro-title-line').count(),2);
+ assert.equal(await page.locator('.intro-frame[aria-hidden="true"]').count(),1);
+ assert.equal(await page.locator('audio,video').count(),0);
  await page.waitForFunction(()=>!document.documentElement.hasAttribute('data-home-motion'));
  const events=await page.evaluate(()=>window.motionEvents);
+ const titles=events.filter(event=>event.name==='home-heading-in');assert.equal(titles.length,2);
+ assert(titles.every(event=>Number(event.timing.duration)+Number(event.timing.delay)<=200));
+ const frame=events.find(event=>event.name==='intro-frame-in');assert(frame && Number(frame.timing.duration)<=360);
  assert.equal(events.filter(event=>event.name==='cover-tile-out').length,6,'first visit should animate the six local tiles');
  for(const event of events.filter(event=>event.name==='cover-tile-out'))assert(Number(event.timing.duration)+Number(event.timing.delay)<=180);
  assert.equal(await page.locator('[data-home-cover]').evaluate(node=>getComputedStyle(node).pointerEvents),'none');

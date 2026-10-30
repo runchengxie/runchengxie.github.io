@@ -1,4 +1,5 @@
 ---
+import homeCinema from "../styles/home-cinema.css?inline";
 import { t, localizedPath, type Locale } from "../i18n";
 interface Props { locale: Locale; }
 const { locale } = Astro.props;
@@ -11,7 +12,9 @@ const latestPosts = (await getLocalizedPosts(locale)).slice(0, 3);
 const featuredProjects = projects.filter((project) => project.featured);
 ---
 <BaseLayout locale={locale}>
-  <script slot="head" is:inline>
+  <Fragment slot="head">
+  <style is:inline set:html={homeCinema} />
+  <script is:inline>
     (() => {
       const root = document.documentElement;
       if (matchMedia('(prefers-reduced-motion: reduce)').matches || location.hash) return;
@@ -22,17 +25,21 @@ const featuredProjects = projects.filter((project) => project.featured);
         sessionStorage.setItem('personal-site-home-motion-v1', 'true');
       } catch { return; }
       root.dataset.homeMotion = 'play';
-      // CSS finishes within 180ms; this guard also clears stale state on slow loads.
+      // Entry decoration finishes within 360ms; clear stale state on slow loads too.
       setTimeout(() => root.removeAttribute('data-home-motion'), 600);
       addEventListener('pageshow', event => {
         if (event.persisted) root.removeAttribute('data-home-motion');
       });
     })();
   </script>
+  </Fragment>
   <section class="personal-intro" aria-labelledby="intro-heading">
+    <svg class="intro-frame" aria-hidden="true" viewBox="0 0 1120 720" preserveAspectRatio="none" fill="none">
+      <path pathLength="1" d="M0 10H1120M0 710H1120" />
+    </svg>
     <div>
       <p class="eyebrow">Richard / runchengxie</p>
-      <h1 id="intro-heading">{t(locale, "home.headingFirst")}<br />{t(locale, "home.headingSecond")}</h1>
+      <h1 id="intro-heading"><span class="intro-title-line">{t(locale, "home.headingFirst")}</span><span class="intro-title-line">{t(locale, "home.headingSecond")}</span></h1>
       <p class="personal-intro__description">{t(locale, "home.intro")}</p>
       <div class="intro-links">
         <a class="button-link" href={localizedPath(locale, "/projects/")}>{t(locale, "home.explore")} <span aria-hidden="true">→</span></a>
