@@ -13,8 +13,6 @@ export default {
   "theme.toggle": "Change color theme",
   "theme.light": "Switch to light mode",
   "theme.dark": "Switch to dark mode",
-  "home.replay": "Replay intro",
-  "home.motionReduced": "Motion is reduced according to your system settings.",
   "home.headingFirst": "Market research notes.",
   "home.headingSecond": "Tools in practice.",
   "home.intro": "Hi, I’m Richard. I build quantitative research and trading tools, working on market data, factors and models, portfolio construction and backtesting. I also write about investment cases and long-term investing.",
