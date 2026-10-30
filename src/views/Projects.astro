@@ -3,6 +3,7 @@ import { t, type Locale } from "../i18n";
 interface Props { locale: Locale; }
 const { locale } = Astro.props;
 import BaseLayout from "../layouts/BaseLayout.astro";
+import ProjectDemos from "../components/ProjectDemos.astro";
 import ProjectCard from "../components/ProjectCard.astro";
 import { projects, projectGroups } from "../data/projects";
 ---
@@ -22,6 +23,7 @@ import { projects, projectGroups } from "../data/projects";
     </ol>
     <p>{t(locale, "projects.boundary")}</p>
   </section>
+  <ProjectDemos locale={locale} />
   {projectGroups.map((group, i) => <section class="portfolio-section" aria-labelledby={`group-${i}`}>
     <div class="section-heading"><h2 id={`group-${i}`}>{t(locale, `group.${group}`)}</h2></div>
     <div class="project-grid">{projects.filter((project) => project.group === group).map((project) => <ProjectCard locale={locale} project={project} />)}</div>
