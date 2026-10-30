@@ -710,10 +710,6 @@ main {
 .research-track { position: relative; height: 2rem; margin-inline: 0.4rem; }
 .research-zero { position: absolute; top: 0; bottom: 0; width: 1px; background: var(--text); opacity: 0.5; }
 .research-bar { position: absolute; height: 0.8rem; top: 0.6rem; background: var(--accent); }
-.research-range { position: absolute; height: 2px; top: calc(50% - 1px); background: var(--accent); }
-.research-range::before, .research-range::after { position: absolute; top: -4px; height: 10px; content: ""; border-left: 2px solid var(--accent); }
-.research-range::after { right: 0; }
-.research-point { position: absolute; top: calc(50% - 5px); width: 10px; height: 10px; border: 2px solid var(--text); border-radius: 50%; background: var(--background); transform: translateX(-50%); }
 .research-chart-value { text-align: right; font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
 .research-axis { display: flex; justify-content: space-between; margin: 0 8.4rem 0 15.4rem; color: var(--muted); font-size: 0.75rem; font-variant-numeric: tabular-nums; }
 .research-help { max-width: 60rem; }
@@ -738,3 +734,7 @@ main {
   .research-provenance dl { grid-template-columns: 1fr; }
   .research-values th, .research-values td { padding-inline: 0.2rem; font-size: 0.78rem; }
 }
+
+[data-study="market"] .research-chart-row { grid-template-columns: 5rem minmax(0, 1fr) 7rem; min-height: 2.25rem; }
+[data-study="market"] .research-axis { margin-left: 6.4rem; }
+@media (max-width:48rem) { [data-study="market"] .research-chart-row { grid-template-columns: 3.5rem minmax(0, 1fr) 5rem; } [data-study="market"] .research-chart-label { grid-column: auto; } [data-study="market"] .research-axis { margin-left: 4.6rem; margin-right: 6.1rem; } }

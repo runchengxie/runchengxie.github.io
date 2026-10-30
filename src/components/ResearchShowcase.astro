@@ -1,12 +1,12 @@
 ---
 import {t,type Locale,type MessageKey} from "../i18n";
 import english from "../i18n/en";
-import {controlIds,metricIds,researchSources} from "../lib/research-showcase";
+import {styleIds,metricIds,researchSources} from "../lib/research-showcase";
 interface Props {locale:Locale;}
 const {locale}=Astro.props;
 const messages=Object.fromEntries(Object.keys(english).filter(key=>key.startsWith("research.")).map(key=>[key,t(locale,key as MessageKey)]));
 const studies=[
-  {id:"market",title:"research.market.title",question:"research.market.question",method:"research.market.method",limits:"research.market.limits",url:"https://runchengxie.github.io/quant-market-research/research/factors/low-turnover/"},
+  {id:"market",title:"research.market.title",question:"research.market.question",method:"research.market.method",limits:"research.market.limits",url:"https://runchengxie.github.io/quant-market-research/research/style-factors-18y/"},
   {id:"factor",title:"research.factor.title",question:"research.factor.question",method:"research.factor.method",limits:"research.factor.limits",url:"https://runchengxie.github.io/quant-factor-observatory/studies/pb-roe/"},
 ] as const;
 ---
@@ -21,7 +21,7 @@ const studies=[
       <div><p class="eyebrow">0{index+1} · {t(locale,"research.history")}</p><h3 id={`${study.id}-research-title`}>{t(locale,study.title)}</h3></div>
       <label class="research-filter">{t(locale,study.id==="market"?"research.market.control":"research.factor.metric")}
         <select disabled data-research-control={study.id}>
-          {study.id==="market"?controlIds.map(id=><option value={id}>{t(locale,`research.control.${id}`)}</option>):metricIds.map(id=><option value={id}>{t(locale,`research.metric.${id}`)}</option>)}
+          {study.id==="market"?styleIds.map(id=><option value={id}>{t(locale,`research.style.${id}`)}</option>):metricIds.map(id=><option value={id}>{t(locale,`research.metric.${id}`)}</option>)}
         </select>
       </label>
     </div>
@@ -36,9 +36,9 @@ const studies=[
         <div class="research-chart" data-research-chart aria-hidden="true"></div>
         {study.id==="market"&&<p class="research-help">{t(locale,"research.market.interval")}</p>}
       </figure>
-      <details class="research-values" open>
+      <details class="research-values" open={study.id === "factor"}>
         <summary>{t(locale,"research.values")}</summary>
-        <div class="research-table-scroll"><table><caption class="sr-only">{t(locale,study.title)}</caption><thead><tr><th scope="col">{t(locale,"research.comparison")}</th><th scope="col">{t(locale,"research.value")}</th>{study.id==="market"&&<th scope="col">{t(locale,"research.range")}</th>}</tr></thead><tbody data-research-values></tbody></table></div>
+        <div class="research-table-scroll"><table><caption class="sr-only">{t(locale,study.title)}</caption><thead><tr><th scope="col">{t(locale,study.id==="market"?"research.market.yearColumn":"research.comparison")}</th><th scope="col">{t(locale,"research.value")}</th>{study.id==="market"&&<><th scope="col">{t(locale,"research.market.periodColumn")}</th><th scope="col">{t(locale,"research.market.daysColumn")}</th></>}</tr></thead><tbody data-research-values></tbody></table></div>
       </details>
       <p class="research-version" data-research-version></p>
     </div>
