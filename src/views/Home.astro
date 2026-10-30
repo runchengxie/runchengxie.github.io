@@ -14,26 +14,9 @@ const featuredProjects = projects.filter((project) => project.featured);
 <BaseLayout locale={locale}>
   <Fragment slot="head">
   <style is:inline set:html={homeCinema} />
-  <script is:inline>
-    (() => {
-      const root = document.documentElement;
-      if (matchMedia('(prefers-reduced-motion: reduce)').matches || location.hash) return;
-      const navigation = performance.getEntriesByType('navigation')[0];
-      if (navigation && navigation.type !== 'navigate') return;
-      try {
-        if (sessionStorage.getItem('personal-site-home-motion-v1')) return;
-        sessionStorage.setItem('personal-site-home-motion-v1', 'true');
-      } catch { return; }
-      root.dataset.homeMotion = 'play';
-      // Entry decoration finishes within 360ms; clear stale state on slow loads too.
-      setTimeout(() => root.removeAttribute('data-home-motion'), 600);
-      addEventListener('pageshow', event => {
-        if (event.persisted) root.removeAttribute('data-home-motion');
-      });
-    })();
-  </script>
+
   </Fragment>
-  <section class="personal-intro" aria-labelledby="intro-heading">
+  <section id="home-intro" class="personal-intro" aria-labelledby="intro-heading">
     <svg class="intro-frame" aria-hidden="true" viewBox="0 0 1120 720" preserveAspectRatio="none" fill="none">
       <path pathLength="1" d="M0 10H1120M0 710H1120" />
     </svg>
@@ -45,6 +28,10 @@ const featuredProjects = projects.filter((project) => project.featured);
         <a class="button-link" href={localizedPath(locale, "/projects/")}>{t(locale, "home.explore")} <span aria-hidden="true">→</span></a>
         <a href={localizedPath(locale, "/about/")}>{t(locale, "home.about")}</a>
         <a href="https://github.com/runchengxie">GitHub <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="home-entry-controls">
+        <button type="button" data-home-replay hidden aria-controls="home-intro" aria-describedby="home-entry-status">{t(locale, "home.replay")}</button>
+        <span id="home-entry-status" data-home-entry-status hidden>{t(locale, "home.motionReduced")}</span>
       </div>
     </div>
     <aside class="work-note" aria-labelledby="work-note-heading">
@@ -84,3 +71,8 @@ const featuredProjects = projects.filter((project) => project.featured);
     <PostList locale={locale} posts={latestPosts} />
   </section>
 </BaseLayout>
+
+<script>
+  import { initializeHomeEntry } from "../lib/home-entry";
+  initializeHomeEntry();
+</script>

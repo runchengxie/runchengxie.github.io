@@ -1,3 +1,4 @@
+import {verifyHomeEntry} from './home-entry-browser.mjs';
 import {verifyChartMotion} from './chart-motion-browser.mjs';
 import {verifyContentMotion} from './content-motion-browser.mjs';
 import {verifyMotion} from './motion-browser.mjs';
@@ -25,6 +26,7 @@ const origin = `http://127.0.0.1:${server.address().port}`;
 let browser;
 try {
   browser = await chromium.launch();
+  await verifyHomeEntry({browser,origin});
   await verifyChartMotion({browser,origin});
   await verifyContentMotion({browser,origin});
   await verifyMotion({browser,origin});
