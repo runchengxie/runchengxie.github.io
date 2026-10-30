@@ -1,0 +1,16 @@
+/* Base content stays visible. Only first viewport entry adds brief decoration. */
+@media (prefers-reduced-motion: no-preference) {
+  [data-motion-kind="blog"][data-reveal="play"] {
+    animation: content-reveal 200ms cubic-bezier(.22,.7,.25,1) var(--content-reveal-delay, 0ms) both;
+  }
+  [data-motion-kind="about"][data-reveal="play"] {
+    animation: content-reveal 360ms cubic-bezier(.22,.7,.25,1) both;
+  }
+}
+@keyframes content-reveal {
+  from { opacity: .65; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@media (prefers-reduced-motion: reduce), print {
+  [data-motion-kind][data-reveal="play"] { animation: none; }
+}

@@ -12,13 +12,13 @@ import BaseLayout from "../layouts/BaseLayout.astro";
     <p>{t(locale, "about.description")}</p>
   </header>
   <div class="about-content reading-width">
-    <section aria-labelledby="work-heading">
+    <section data-motion-kind="about" aria-labelledby="work-heading">
       <h2 id="work-heading">{t(locale, "about.work")}</h2>
       <p>{t(locale, "about.workFirst")}</p>
       <p>{t(locale, "about.workSecond")}</p>
       <a href={localizedPath(locale, "/projects/")}>{t(locale, "about.projects")} →</a>
     </section>
-    <section aria-labelledby="principles-heading">
+    <section data-motion-kind="about" aria-labelledby="principles-heading">
       <h2 id="principles-heading">{t(locale, "about.principles")}</h2>
       <ul>
         <li>{t(locale, "about.principleReproduce")}</li>
@@ -28,12 +28,12 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       </ul>
       <p>{t(locale, "about.stack")}</p>
     </section>
-    <section aria-labelledby="writing-heading">
+    <section data-motion-kind="about" aria-labelledby="writing-heading">
       <h2 id="writing-heading">{t(locale, "about.writing")}</h2>
       <p>{t(locale, "about.writingDetail")}</p>
       <p><a href={localizedPath(locale, "/blog/")}>{t(locale, "about.read")}</a> · <a href={localizedPath(locale, "/notes/investment-perspective/")}>{t(locale, "note.title")}</a></p>
     </section>
-    <section aria-labelledby="elsewhere-heading">
+    <section data-motion-kind="about" aria-labelledby="elsewhere-heading">
       <h2 id="elsewhere-heading">{t(locale, "about.find")}</h2>
       <p>{t(locale, "about.findBefore")} · <a href="https://github.com/runchengxie">GitHub · runchengxie</a></p>
       <p>{t(locale, "about.findAfter")} · <a href={localizedPath(locale, "/rss.xml")}>RSS</a></p>

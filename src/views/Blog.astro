@@ -15,5 +15,7 @@ const posts = await getLocalizedPosts(locale);
     <h1>{t(locale, "nav.blog")}</h1>
     <p>{countMessage(locale, "blog.count", posts.length)}</p>
   </header>
-  <PostList locale={locale} posts={posts} />
+  <div data-motion-archive>
+    <PostList locale={locale} posts={posts} />
+  </div>
 </BaseLayout>

@@ -1,7 +1,9 @@
+import {createChartMotion} from "./chart-motion";
 import {summarizeStyle,factorContrasts} from "./research-context";
 import {chartDomain,styleIds,metricIds,parseMarketEvidence,parseFactorEvidence,researchSources,type MarketEvidence,type FactorEvidence,type StyleId,type MetricId} from "./research-showcase";
 
 export function initializeResearchShowcase(root:HTMLElement):void {
+  const motion=createChartMotion();
   const locale=root.dataset.researchLocale==="zh"?"zh-CN":"en";
   const messages=JSON.parse(root.dataset.messages??"{}") as Record<string,string>;
   const text=(key:string,values:Record<string,string|number>={})=>(messages[key]??key).replace(/\{(\w+)\}/g,(token,name:string)=>String(values[name]??token));
@@ -14,14 +16,14 @@ export function initializeResearchShowcase(root:HTMLElement):void {
   const query=<T extends HTMLElement>(parent:Element,selector:string):T=>{const element=parent.querySelector<T>(selector);if(!element)throw new Error(`Missing research element: ${selector}`);return element;};
   interface Mark {label:string;value:number;formatted:string;}
   function plot(container:HTMLElement,rows:Mark[],domain:[number,number],format:(value:number)=>string) {
-    container.replaceChildren();
+    motion.settle(container);container.replaceChildren();
     const position=(value:number)=>(value-domain[0])/(domain[1]-domain[0])*100;
     for(const row of rows) {
       const line=el("div");line.className="research-chart-row";
       const label=el("span",row.label);label.className="research-chart-label";
       const track=el("div");track.className="research-track";
       const zero=el("span");zero.className="research-zero";zero.style.left=`${position(0)}%`;track.append(zero);
-      const bar=el("span");bar.className="research-bar";bar.style.left=`${Math.min(position(0),position(row.value))}%`;bar.style.width=`${Math.abs(position(row.value)-position(0))}%`;track.append(bar);
+      const bar=el("span");bar.className="research-bar";bar.style.transformOrigin=row.value<0?"right center":"left center";bar.style.left=`${Math.min(position(0),position(row.value))}%`;bar.style.width=`${Math.abs(position(row.value)-position(0))}%`;track.append(bar);
       const value=el("span",row.formatted);value.className="research-chart-value";line.append(label,track,value);container.append(line);
     }
     const axis=el("div");axis.className="research-axis";axis.append(el("span",format(domain[0])),el("span",format(domain[1])));container.append(axis);
@@ -82,6 +84,7 @@ export function initializeResearchShowcase(root:HTMLElement):void {
         query(panel,"[data-research-reading]").textContent=text("research.factor.reading",{metric:text(`research.metric.${metric}`),staticDelta:delta(contrasts.staticDelta),adjustedDelta:delta(contrasts.adjustedDelta)});
         query(panel,"[data-research-meaning]").textContent=text(`research.factor.meaning.${metric}`);
       }
+      if(!result.hidden)motion.reveal(query(panel,"[data-research-chart]"));
       query(root,"[data-research-announcement]").textContent=text("research.updated",{selection:select.selectedOptions[0]?.textContent??""});
     }
     async function load() {
@@ -92,7 +95,7 @@ export function initializeResearchShowcase(root:HTMLElement):void {
         if(!response.ok)throw new Error(`Research source HTTP ${response.status}`);
         const payload:unknown=await response.json();
         if(kind==="market")market=parseMarketEvidence(payload);else factor=parseFactorEvidence(payload);
-        render();result.hidden=false;status.hidden=true;status.textContent="";select.disabled=false;panel.dataset.state="ready";
+        render();result.hidden=false;motion.reveal(query(panel,"[data-research-chart]"));status.hidden=true;status.textContent="";select.disabled=false;panel.dataset.state="ready";
       } catch {panel.dataset.state="error";status.textContent=text("research.unavailable");retry.hidden=false;}
       finally {clearTimeout(timer);panel.setAttribute("aria-busy","false");}
     }
