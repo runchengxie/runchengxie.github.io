@@ -7,7 +7,7 @@ Richard（runchengxie）的个人网站，使用 Astro、TypeScript 和 Markdown
 默认使用英文，可在页首切换中文并保存选择。页面和全部 15 篇文章都有中英文版本。
 
 - `/en/`、`/zh/`：个人介绍、成果入口、精选项目和最新文章。
-- `/{locale}/projects/`：按用途分类的项目目录。
+- `/{locale}/projects/`：市场研究与因子研究的交互展示，后附项目代码与文档目录。
 - `/{locale}/about/`：个人关注方向、工作方式与 GitHub 入口。
 - `/{locale}/blog/`：投资文章列表及对应语言正文。
 - `/{locale}/notes/investment-perspective/`：保留并翻译原关于页的投资观点。
@@ -15,6 +15,8 @@ Richard（runchengxie）的个人网站，使用 Astro、TypeScript 和 Markdown
 原有中文地址和订阅源继续兼容。语言目录、翻译维护、缺失翻译回退和浏览器检查见 [双语维护说明](docs/i18n.md)。
 
 项目标识与网址维护在 `src/data/projects.ts`，中英文文案维护在 `src/i18n/`。更新时核对公开仓库状态，保留演示样本、历史回测等范围说明。
+
+项目页直接读取研究网站已公开的汇总结果，保留样本与限制说明；不再展示数据清洗和再平衡工具示例。来源协议、失败状态和检查方式见 [研究展示说明](docs/research-showcase.md)。
 
 ## 本地开发
 
