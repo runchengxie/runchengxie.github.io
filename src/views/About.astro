@@ -6,7 +6,8 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 ---
 
 <BaseLayout locale={locale} title={t(locale, "about.title")} description={t(locale, "about.description")}>
-  <header class="page-heading">
+  <header class="page-heading about-heading" data-page-entry="about">
+    <div class="about-background" data-about-background aria-hidden="true"></div>
     <p class="eyebrow">{t(locale, "about.title")}</p>
     <h1>{t(locale, "about.heading")}</h1>
     <p>{t(locale, "about.description")}</p>
