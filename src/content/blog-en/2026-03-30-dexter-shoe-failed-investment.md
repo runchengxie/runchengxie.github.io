@@ -1,12 +1,17 @@
 ---
-title: "Buffett's Investment Mistakes: Dexter Shoe"
+title: "Why Dexter Shoe Became So Costly for Berkshire"
 date: 2026-03-30
+reviewedAt: 2026-10-30
 categories: [Investing, Buffett, Case Studies, Investment Failures]
 ---
 
-Today we look at Dexter Shoe, a case that helps explain how Buffett misjudged a competitive moat and paid a heavy price for his choice of payment.
+Buffett acquired Dexter Shoe with Berkshire shares in 1993 and later acknowledged misjudging its competitive advantage. As the business lost its value, the Berkshire shares paid for it continued appreciating, increasing the transaction's opportunity cost.
 
-## 0. In One Sentence
+## Source dates and applicability
+
+The acquisition occurred in 1993. Later assessments use reporting-year materials from 2000–2016, with shareholder letters generally issued the following year. The $3.5 billion, $5.7 billion and over $6 billion figures value the shares at different retrospective dates. As of October 2026, the case illustrates competitive-advantage risk and stock-payment opportunity cost. These amounts are not current valuations or same-year cash losses.
+
+## Investment Outcome
 
 Buffett acquired Dexter Shoe in 1993 believing it had a durable competitive advantage, only to see the business decline over the next few years. Because he paid with Berkshire shares, the investment effectively meant shareholders gave up 1.6% of Berkshire in exchange for a business that ultimately became worthless.
 
@@ -30,7 +35,7 @@ Instead, the enduring business advantage he thought he had identified disappeare
 
 ## 3. A Costly Choice of Payment
 
-But what truly made this transaction a classic investment disaster was the method of payment.
+Payment in Berkshire shares further increased the opportunity cost of the transaction.
 
 Had he paid cash, the loss would have been roughly the original $400-million-plus purchase price.
 
@@ -38,7 +43,7 @@ In his 2007 shareholder letter, Buffett reflected that the real cost to sharehol
 
 In 2014, Buffett calculated it again: the Berkshire shares he had handed over were now worth about $5.7 billion.
 
-At the end of 2016, he could not resist another look and said those 25,203 shares were now worth more than $6 billion.
+In the 2016 reporting-year letter, he stated that the 25,203 shares were worth more than $6 billion at that year-end.
 
 Dexter's continuing deterioration also had social consequences. In his 2015 shareholder letter, Buffett noted that the collapse of Dexter Shoe had cost about 1,600 employees their jobs in a small town in Maine.
 

@@ -32,10 +32,12 @@ const description = getExcerpt(body, locale === "en" ? 200 : 116, locale);
     <header class="post-header">
       <a class="back-link" href={localizedPath(locale, "/blog/")}>← {t(locale, "blog.all")}</a>
       <div class="post-meta">
+        <span>{t(locale,"blog.published")}</span>
         <time datetime={post.data.date.toISOString()}>{formatDate(post.data.date, locale)}</time>
         <span aria-hidden="true">·</span>
         <span>{countMessage(locale, "blog.reading", getReadingMinutes(body, post.collection === "blog" ? "zh" : "en"))}</span>
       </div>
+      {post.data.reviewedAt && <p class="post-review"><span>{t(locale,"blog.reviewed")}</span> <time datetime={post.data.reviewedAt.toISOString().slice(0,10)}>{formatDate(post.data.reviewedAt,locale)}</time></p>}
       <h1 lang={post.collection === "blog" ? "zh-CN" : "en"}>{post.data.title}</h1>
       <ul class="tag-list" aria-label={t(locale, "blog.categories")}>
         {post.data.categories.map((category) => <li>{category}</li>)}

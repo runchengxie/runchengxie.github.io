@@ -1,10 +1,15 @@
 ---
-title: "Paper Review: Why Quantitative Funds Still Struggle to Replicate Buffett"
+title: "Why Factor Models Do Not Fully Explain Buffett's Historical Returns"
 date: 2026-03-20
+reviewedAt: 2026-10-30
 categories: [Investing, Buffett, Paper Reviews, Asset Pricing]
 ---
 
-Researchers find that quantitative funds still struggle to fully replicate Buffett.
+Hou and coauthors find that q-factor models do not fully explain Berkshire's historical excess returns. This concerns model explanatory power and does not directly evaluate every quantitative fund's actual performance.
+
+## Source dates and applicability
+
+The main source is The Economics of Security Analysis, published in 2024; its Berkshire test covers February 1968–December 2020. The 2017 working paper supplies theoretical background. As of October 2026, the historical residual alpha remains a research question. No updated sample is tested here, so it establishes neither present replication performance nor the cause of the residual.
 
 ## 1. Quantitative Researchers Have Already Tried Systematic Replication
 
@@ -18,7 +23,7 @@ Their underlying theory is called the investment CAPM, or investment-based asset
 
 The name sounds complicated, but the intuition is simple: stock prices must ultimately connect to a company's investment decisions, returns on investment, and the return required by the market.
 
-This echoes Buffett's famous idea: when you buy a stock, you are buying the business behind it.
+This framework connects stock analysis with business operations.
 
 They identify three core dimensions of pricing that should sound familiar to anyone who knows Buffett:
 
@@ -28,9 +33,9 @@ They identify three core dimensions of pricing that should sound familiar to any
 
 The third point is precisely the proposition the paper seeks to formalize. Across stocks, those with high expected returns tend to combine better quality with modest valuations. This logic does not require assuming market inefficiency first. The researchers argue that it can coexist with an efficient-market framework.
 
-Why can good, cheap companies exist in a nearly efficient market? Because the market leaves investors who carefully analyze financial fundamentals some room to earn returns, though that room is limited and difficult to exploit.
+The model permits links between fundamentals and expected returns without first assuming market inefficiency. It does not guarantee excess returns from careful analysis.
 
-## 3. Buffett Is Constantly Imitated but Remains Hard to Surpass
+## 3. What the Historical Model Leaves Unexplained
 
 After analyzing more than half a century of US stock data and the historical performance of thousands of actively managed funds, the researchers find that their model still cannot fully explain Buffett's excess returns.
 
@@ -40,7 +45,7 @@ Another surprising result concerns expected growth, which the researchers had as
 
 The paper discusses limitations of accounting measurement, including how R&D, advertising and employee training affect profitability and investment measures. Extending that discussion, this article suggests that management quality, long-term capital allocation and organizational capabilities may also contribute to the gap between the model and Buffett’s decisions; these explanations are not directly tested by the paper.
 
-The researchers' replication effort achieved partial success. The q / q5 models capture the quantifiable parts of Buffett's investment logic with statistical significance. But investment managers such as Buffett still exercise some judgment that standard factor models struggle to absorb and imitate.
+The q / q5 models explain part of Berkshire's historical returns. The unexplained component remains a model residual; identifying it as judgment or another ability would require further evidence.
 
 ## 4. References
 

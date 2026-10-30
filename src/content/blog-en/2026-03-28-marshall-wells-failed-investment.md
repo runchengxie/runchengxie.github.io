@@ -1,12 +1,17 @@
 ---
-title: "Buffett's Early Investment Failures: Marshall-Wells"
+title: "Buffett's Marshall-Wells Investment"
 date: 2026-03-28
+reviewedAt: 2026-10-30
 categories: [Investing, Buffett, Case Studies, Investment Failures]
 ---
 
-Today, let's look at a case that helps explain the limits of Buffett's early investing: Marshall-Wells.
+Marshall-Wells's low valuation attracted the young Buffett, but subsequent operating decline weakened the appeal of the discount. Available interviews and secondary archival research do not independently reconstruct his full trading profit or loss.
 
-## 0. In One Sentence
+## Source dates and applicability
+
+The case concerns the 1950s. Sources include a 1989 interview, a 2008 biography and a 2024 secondary archival study. As of October 2026, the relationship between low valuation and declining operations remains relevant, but full transaction records are unavailable. Exit profit or loss is not independently confirmed here, which limits the failed-investment classification.
+
+## Investment Outcome
 
 The Marshall-Wells investment began with a low-valuation case, but the price discount alone does not explain the subsequent return.
 
@@ -40,7 +45,7 @@ He also later found other opportunities, so he soon exited the investment, earni
 
 ## 3. Reviewing the Investment
 
-In the real world, companies often decline quietly. Even Buffett did not recognize it quickly at the time, and still believed the company would soon rebound. Marshall-Wells's situation was roughly as follows:
+Secondary research attributes the operating difficulties to industry changes and an inadequate corporate response. Transaction records are unavailable to confirm Buffett's thinking at the time; the following description retains the source limits noted below.
 
 1. Postwar shortages temporarily benefited traditional hardware wholesalers.
 2. As the market returned to normal, profit margins fell.

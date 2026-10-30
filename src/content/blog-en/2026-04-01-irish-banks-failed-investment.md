@@ -1,12 +1,17 @@
 ---
-title: "Buffett's Investment Mistakes: Two Irish Bank Stocks"
+title: "Buffett's Two Irish Bank Investments"
 date: 2026-04-01
+reviewedAt: 2026-10-30
 categories: [Investing, Buffett, Case Studies, Investment Failures]
 ---
 
-Today we look at two investments in Irish bank stocks, a case that helps explain how Buffett underestimated banks' asset-quality risks during the financial crisis.
+Berkshire spent $244 million on two Irish bank stocks in 2008; their year-end value was just $27 million. Buffett acknowledged misjudging their apparent cheapness. The year-end marks illustrate how deteriorating bank assets can rapidly erode equity value.
 
-## 0. In One Sentence
+## Source dates and applicability
+
+Purchases and year-end valuations refer to 2008; the reporting-year letter is signed February 27, 2009. Background uses a 2012 speech and a 2020 BIS retrospective. As of October 2026, the case remains relevant to bank asset quality and equity risk. The year-end mark is not necessarily a final realized loss, and the letter does not identify the two banks.
+
+## Investment Outcome
 
 Buffett bought shares in two Irish banks in 2008. Berkshire invested $244 million in total that year, but by the end of 2008 the holdings were worth just $27 million, an unrealized loss of nearly 89%.
 
@@ -16,7 +21,7 @@ Buffett did not name the two banks directly in official documents, but they are 
 
 What Buffett saw at the time was two bank stocks with very low valuations. In the 2008 annual report, he said they “appeared cheap to me.”
 
-This fit his usual framework: buy large companies that the market has unfairly punished during a panic.
+The purchase reflected his low-valuation judgment. Subsequent losses show that this judgment did not sufficiently allow for further deterioration in asset quality.
 
 Behind the two banks' low valuations, however, Ireland's entire credit expansion cycle had entered a dangerous stage.
 

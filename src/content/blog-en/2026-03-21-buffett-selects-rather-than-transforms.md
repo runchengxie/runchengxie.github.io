@@ -1,10 +1,15 @@
 ---
-title: "Paper Review: Buffett Excels at Selecting Companies, with Less Transformation After Investing"
+title: "Evidence on Buffett's Stock Selection and Subsequent Influence"
 date: 2026-03-21
+reviewedAt: 2026-10-30
 categories: [Investing, Buffett, Paper Reviews, Corporate Governance]
 ---
 
-This paper examines a key question: does Buffett buy a company because it already meets his standards, or because he transforms it into his ideal company after investing?
+Bowen, Rajgopal and Venkatachalam find that Berkshire's listed investments often already match some of Buffett's publicly stated principles before purchase. Evidence of further changes after investment is weaker.
+
+## Source dates and applicability
+
+This article distinguishes the May 31, 2011 working paper from the 2014 journal publication. Public equity holdings cover 1980–2006. As of October 2026, the evidence concerns historical selection and subsequent influence, without testing later management practices or wholly owned subsidiaries. Working-paper-only portfolio results retain their separate version attribution.
 
 The researchers turn Buffett's publicly stated accounting, governance, and investment principles over the years into testable variables, then examine two questions separately:
 
@@ -35,7 +40,7 @@ More specifically, companies Buffett buys often already have these characteristi
 
 In accounting disclosure, these companies are also more likely to reflect good and bad news promptly, have lower abnormal accruals and more conservative pension assumptions, and voluntarily expense stock options before doing so becomes mandatory. However, they are not significantly less likely to disclose non-GAAP adjusted earnings or issue earnings guidance, and their annual reports are not noticeably more readable.
 
-This suggests a clear hierarchy in Buffett's stock selection philosophy: operating quality matters most, followed by accounting discipline, with explicit board governance factors further down the list.
+Among the measured indicators, operating and investment characteristics align more closely with Buffett's public principles. This does not establish an exact ranking of his personal selection priorities.
 
 ## 3. What This Paper Tells Us
 

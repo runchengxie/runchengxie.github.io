@@ -1,16 +1,17 @@
 ---
-title: "Buffett's Early Cigar-Butt Investments: Sanborn Map"
+title: "How Buffett Helped Sanborn Map Distribute Securities Assets"
 date: 2026-03-23
+reviewedAt: 2026-10-30
 categories: [Investing, Buffett, Case Studies, Cigar-Butt Investing]
 ---
 
-The young Buffett's investments are worth studying because he achieved annualized returns of more than 20% at the time.
+Sanborn Map's securities were worth more than the company's market capitalization. Buffett bought shares and helped arrange an exchange through which shareholders received part of those assets, linking realization of the discount to shareholder action.
 
-Looking back on that period, he later said that if he could start over, he could achieve annualized returns of 50%.
+## Source dates and applicability
 
-Today, let's look at one of his early investments.
+The case concerns the late 1950s and 1960. Its main source is the partnership letter issued January 30, 1961 about 1960; the 2005 Q&A is a later recollection. As of October 2026, the case illustrates asset discounts and shareholder action. Historical tax arrangements and market conditions require separate assessment, and the 50% remark is no present return promise.
 
-## 1. A Two-Sentence Summary
+## 1. The Map Business and Its Securities Assets
 
 Sanborn Map was originally a good business with a strong monopoly position. Later, its main customers, insurance companies, switched to using individual building risk cards for underwriting; revenue from its map business fell sharply, and it gradually became a declining industry.
 

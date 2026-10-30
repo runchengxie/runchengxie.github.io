@@ -1,10 +1,15 @@
 ---
-title: "Paper Review: Where Buffett and Multifactor Quantitative Research Converge"
+title: "Where Buffett's Investment Experience Meets Multifactor Research"
 date: 2026-01-26
+reviewedAt: 2026-10-30
 categories: [Investing, Buffett, Paper Reviews, Quantitative Research]
 ---
 
-Several classic studies in finance examine multiple factors. In plain language, they ask a common question: what characteristics do stocks with higher long-term returns tend to share?
+Multifactor studies link valuation and profitability to historical average returns. These findings overlap with Buffett's discussions of business quality and purchase price, although the methods and samples differ.
+
+## Source dates and applicability
+
+The main papers were published from 1992 to 2015. Carhart studies funds from 1962 to 1993; the momentum and profitability studies use separate historical samples. Shareholder letters are named for the reporting year and generally issued the following year. As of October 2026, these sources support a comparison of investment ideas, without a new test of recent returns or current implementation costs.
 
 Many of their findings echo Buffett's experience. Here are four of the most representative points of overlap.
 
@@ -24,7 +29,7 @@ Berkshire is a diversified holding company, and Buffett has repeatedly emphasize
 
 Carhart's results are straightforward: expense ratios, turnover, and sales charges, or loads, all have significant associations with poorer risk-adjusted performance. The regression coefficients suggest that investors receive essentially no corresponding benefit for the costs they bear.
 
-In his regressions, the expense-ratio coefficient is approximately -1.54, and the turnover coefficient approximately -0.95. Interpreted on an annualized basis, every 100bp increase in expenses or turnover creates a substantial drag on alpha.
+Table V reports coefficients of about -1.54 for expenses and -0.95 for turnover. A one-percentage-point increase in the expense ratio corresponds to about 1.54 percentage points less annual abnormal return. Turnover requires attention to the table's scaling; the author interprets its result as roughly 0.95% net cost per round trip. The two coefficients require their respective units.
 
 In his [1983 shareholder letter](https://www.berkshirehathaway.com/letters/1983.html), Buffett called excessive market activity a pickpocket of business. He also worked through the arithmetic: if shares turn over 100% in a year, with a 1% commission charged on both purchases and sales, shareholders pay 2% of the company's net worth each year for that transfer. That consumes one-sixth of a company's 12% ROE. It is an expensive game of musical chairs and a form of self-imposed taxation.
 
@@ -32,7 +37,7 @@ In his [1983 shareholder letter](https://www.berkshirehathaway.com/letters/1983.
 
 One major difference between Buffett and these quantitative studies concerns short-term momentum. Jegadeesh and Titman's research shows that buying past winners and selling past losers produces significantly positive returns over holding periods of 3 to 12 months. The most successful 12-month/3-month strategy earns approximately 1.31% per month, with results affected by whether the most recent week is skipped.
 
-Buffett does not trade for the short term. Asked how to predict an individual stock's performance over the next year, he would probably give his classic answer: I have no idea how stocks will perform over a year.
+This comparison concerns Buffett's public discussions of business analysis and the papers' short-term momentum signals. They use different information and holding periods; these papers alone do not establish which approach performs better in the current market.
 
 ## 5. References
 

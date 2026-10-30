@@ -1,12 +1,17 @@
 ---
-title: "Buffett's Early Cigar-Butt Investments: Dempster Mill"
+title: "Buffett's Restructuring of Dempster Mill"
 date: 2026-03-24
+reviewedAt: 2026-10-30
 categories: [Investing, Buffett, Case Studies, Cigar-Butt Investing]
 ---
 
-Today, let's look at one of Buffett's early cigar-butt investments: Dempster.
+Buffett bought Dempster Mill below his conservative asset valuation. After taking control, he brought in Harry Bottle to improve operations and convert inventory and other assets into cash, making the outcome dependent on management and disposal.
 
-## 1. In One Sentence
+## Source dates and applicability
+
+The case covers purchases in the 1950s and control, restructuring and exit in 1961–1963. The principal letters were issued in 1962–1964 about the preceding years. As of October 2026, inventory discounts and operational changes remain useful concepts, but realizable value depends on price and disposal outcomes. The roughly $80 figure is historical realized value per share, without a test of present opportunities.
+
+## 1. The Investment and Its Assets
 
 Dempster was an ordinary business with declining core operations but fairly substantial assets on its books. To Buffett, companies like this could deteriorate only so fast, while their assets provided a cushion against losses.
 

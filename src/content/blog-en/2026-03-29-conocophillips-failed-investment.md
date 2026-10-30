@@ -1,12 +1,17 @@
 ---
-title: "Buffett's Investment Mistakes: ConocoPhillips"
+title: "What Buffett Misjudged in ConocoPhillips"
 date: 2026-03-29
+reviewedAt: 2026-10-30
 categories: [Investing, Buffett, Case Studies, Investment Failures]
 ---
 
-Today we look at ConocoPhillips, a case that helps explain how Buffett misjudged a cyclical stock.
+Buffett increased Berkshire's ConocoPhillips position near the peak in energy prices in 2008 without anticipating the sharp second-half decline. He subsequently acknowledged in the shareholder letter that his timing cost Berkshire several billion dollars.
 
-## 0. In One Sentence
+## Source dates and applicability
+
+The case concerns 2008 and uses that reporting year's company annual report and Berkshire letter signed February 27, 2009. Oil figures use the EIA monthly first-purchase-price series cited below. As of October 2026, the case illustrates cyclical earnings and entry-price risk. The historical integrated business structure does not describe today's ConocoPhillips, and historical oil prices do not predict current returns.
+
+## Investment Outcome
 
 After making money on PetroChina, Buffett bought ConocoPhillips, but he did not anticipate the steep decline in energy prices in the second half of 2008, and the investment cost Berkshire billions of dollars.
 

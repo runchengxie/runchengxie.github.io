@@ -1,28 +1,29 @@
 ---
-title: "Buffett's Investment Mistakes: Tesco"
+title: "Why Buffett Sold Tesco Too Slowly"
 date: 2026-03-31
+reviewedAt: 2026-10-30
 categories: [Investing, Buffett, Case Studies, Investment Failures]
 ---
 
-Today we look at Tesco, a case that helps explain how Buffett increased his losses by selling too slowly.
+Buffett had concerns about Tesco's management in 2013 but sold only part of the holding. As operating and accounting problems worsened, Berkshire ultimately recorded an approximately $444 million after-tax loss; Buffett identified his delay in selling as an error.
 
-## 0. In One Sentence
+## Source dates and applicability
+
+The case mainly covers 2012–2014. Berkshire's 2014 reporting-year letter is signed February 27, 2015; Tesco announcements date to 2014 and the FCA notice to 2017. As of October 2026, it remains a historical example of delayed selling amid deteriorating accounting information. Market shares and operating conditions refer to that period, without assessing Tesco today. Some percentages still require original-series verification.
+
+## Investment Outcome
 
 Because he took too long to sell, an investment that could still have produced a profit ultimately became a failure with a cumulative after-tax loss of approximately $444 million.
 
 ## 1. What the Company Looked Like at the Time
 
-Tesco is a British retail giant whose origins go back to 1919, when Jack Cohen founded it. In the company's own description, it is a leading multinational food retailer operating in five markets: the United Kingdom, Ireland, Slovakia, the Czech Republic, and Hungary.
+Tesco was a leading UK food retailer at the time. Buffett describes it that way in his 2014 reporting-year letter, which does not fully record his original reasons for buying.
 
-In publicly available material, Buffett did not set out his investment rationale as fully as he did for Coca-Cola, so we cannot know his complete thinking at the time.
-
-But his public comments suggest a fairly straightforward starting point: this was a large, strongly positioned supermarket leader whose operations appeared stable and predictable.
-
-By the end of 2012, Berkshire held 415 million Tesco shares at a cost of about $2.3 billion. In his 2014 shareholder letter, Buffett also said Tesco was the leading food retailer in the United Kingdom both then and at the time of writing.
+By the end of 2012, Berkshire held 415 million Tesco shares at a cost of about $2.3 billion.
 
 ## 2. Signs of Deterioration Had Appeared, but He Still Sold Too Slowly
 
-In January 2012, Berkshire increased its Tesco stake from 3.21% to 5.08%. Even though Tesco had already issued a profit warning, Buffett still considered it worth adding to, or at least did not judge its problems to be structural deterioration. The percentages still need checking against the original ownership-change notice.
+In January 2012, Berkshire increased its Tesco stake from 3.21% to 5.08%. Tesco had already issued a profit warning. The percentages still need checking against the original ownership-change notice, and this article has not verified the complete decision record.
 
 The real problems began accumulating before the accounting scandal came to light.
 
