@@ -33,8 +33,8 @@ test('all articles have complete English counterparts with stable identities, da
   }
 });
 test('English interface and Chinese interface use their own text and feeds', () => {
-  assert.match(html('en'), /Research markets/);
-  assert.match(html('zh'), /研究市场/);
+  assert.match(html('en'), /Market research notes/);
+  assert.match(html('zh'), /市场研究笔记/);
   assert.match(html('en/projects'), /Data and backtesting/);
   assert.match(html('zh/projects'), /数据与回测/);
   for(const locale of ['en','zh']) {
