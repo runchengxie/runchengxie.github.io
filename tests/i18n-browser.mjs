@@ -79,6 +79,49 @@ try {
       assert.equal(await page.locator('link[rel="canonical"]').getAttribute('href'), href.replace(origin,'https://runchengxie.github.io'));
     }
   }
+  // Interactive project examples use synthetic data and clear invalid results.
+  for (const locale of ['en','zh']) {
+    await page.goto(`${origin}/${locale}/projects/`);
+    const demo=page.locator('[data-project-demos]');
+    assert.equal(await demo.count(),1);
+    assert.equal(await demo.locator('[data-demo-controls]:disabled').count(),0);
+    assert.equal(await demo.locator('[data-market-body] tr').count(),5);
+    assert.equal(await demo.locator('[data-market-issues] li').count(),5);
+    await demo.locator('[data-clean]').click();
+    assert.equal(await demo.locator('[data-market-body] tr').count(),2);
+    assert.equal(await demo.locator('[aria-invalid="true"]').count(),0);
+    await demo.locator('[data-add]').click();
+    assert.equal(await demo.locator('[data-market-body] tr').count(),3);
+    assert.equal(await demo.locator('[data-market-issues] li').count(),4);
+    await demo.locator('[data-reset-market]').click();
+    assert.equal(await demo.locator('[data-market-body] tr').count(),5);
+    const firstSymbol=demo.locator('[data-field="symbol"]').first();
+    await firstSymbol.fill('<img src=x onerror=alert(1)>');
+    assert.equal(await demo.locator('img').count(),0);
+    await demo.locator('[data-reset-market]').click();
+    assert.equal(await demo.locator('[data-metric="fee"]').innerText(),'40');
+    assert.equal(await demo.locator('[data-metric="turnover"]').innerText(),'20%');
+    await demo.locator('[data-fee-bps]').fill('20');
+    assert.equal(await demo.locator('[data-metric="fee"]').innerText(),'80');
+    await demo.locator('[data-target-weight]').first().fill('20');
+    assert.equal(await demo.locator('[data-rebalance-results]').isVisible(),false);
+    assert.equal(await demo.locator('[data-rebalance-error]').isVisible(),true);
+    assert.equal(await demo.locator('[data-trade]').first().innerText(),'—');
+    await demo.locator('[data-rebalance-form] button[type="reset"]').click();
+    await page.waitForFunction(()=>document.querySelector('[data-metric="fee"]').textContent==='40');
+    assert.equal(await demo.locator('[data-rebalance-results]').isVisible(),true);
+    await demo.locator('[data-fee-bps]').fill('');
+    assert.equal(await demo.locator('[data-rebalance-error]').isVisible(),true);
+    await demo.locator('[data-fee-bps]').fill('0');
+    assert.equal(await demo.locator('[data-metric="fee"]').innerText(),'0');
+    for (const width of [320,390,768,1440]) {
+      await page.setViewportSize({width,height:1000});
+      assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),`${locale} demo width ${width} overflows`);
+    }
+    await demo.locator('[data-rebalance-form] button[type="reset"]').click();
+    await demo.locator('.demo-rules summary').first().click();
+    assert.equal(await demo.locator('.demo-rules').first().getAttribute('open'),'');
+  }
   // The page is usable when storage is blocked by the browser.
   const restricted=await browser.newContext();
   await restricted.addInitScript(()=>{
@@ -100,6 +143,10 @@ try {
   await plain.goto(`${origin}/en/about/`);
   await plain.locator('[data-locale="zh"]').click();
   await plain.waitForURL(`${origin}/zh/about/`);
+  await plain.goto(`${origin}/en/projects/`);
+  assert.equal(await plain.locator('[data-demo-controls]:disabled').count(),2);
+  assert.equal(await plain.locator('[data-metric="fee"]').innerText(),'40');
+  assert.equal(await plain.locator('noscript').last().isVisible(),true);
   await plain.goto(origin);
   await plain.waitForURL(`${origin}/en/`);
   await noJS.close();
@@ -110,10 +157,12 @@ try {
       await page.setViewportSize({width,height:1000});
       await page.goto(`${origin}/${locale}/`);
       await page.screenshot({path:path.join(process.env.SCREENSHOT_DIR,`${locale}-${width}.png`),fullPage:true});
+      await page.goto(`${origin}/${locale}/projects/`);
+      await page.locator('[data-project-demos]').screenshot({path:path.join(process.env.SCREENSHOT_DIR,`demos-${locale}-${width}.png`)});
     }
   }
   assert.deepEqual(errors,[]);
-  console.log('PASS: 112 locale/viewport/theme combinations, 30 complete articles, language and theme persistence, query/hash preservation, legacy URLs, blocked storage and JavaScript-disabled navigation.');
+  console.log('PASS: 112 locale/viewport/theme combinations, 30 complete articles, language and theme persistence, query/hash preservation, legacy URLs, blocked storage, JavaScript-disabled navigation and interactive data/rebalance examples.');
 } finally {
   await browser?.close();
   await new Promise(resolve=>server.close(resolve));
