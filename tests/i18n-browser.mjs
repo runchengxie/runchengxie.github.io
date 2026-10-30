@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import { createServer } from 'node:http';
 import { readFile } from 'node:fs/promises';
 import path from 'node:path';
+import {installResearchFixtures,verifyResearchShowcase} from './research-showcase-browser.mjs';
 
 const root = path.resolve('dist');
 const types = {'.html':'text/html; charset=utf-8','.js':'text/javascript','.css':'text/css','.svg':'image/svg+xml','.png':'image/png','.jpg':'image/jpeg','.xml':'application/xml'};
@@ -22,6 +23,7 @@ let browser;
 try {
   browser = await chromium.launch();
   const context = await browser.newContext({colorScheme:'light'});
+  await installResearchFixtures(context);
   const page = await context.newPage();
   const errors = [];
   page.on('pageerror', error => errors.push(error.message));
@@ -34,6 +36,10 @@ try {
       for(const route of ['', 'projects/','about/','blog/','notes/investment-perspective/','404/','blog/buffett-airline-investments/']) {
         const response = await page.goto(`${origin}/${locale}/${route}`);
         assert.equal(response.status(),200);
+        if(route==='projects/') {
+          await page.waitForSelector('[data-study="market"][data-state="ready"]');
+          await page.waitForSelector('[data-study="factor"][data-state="ready"]');
+        }
         assert.equal(await page.locator('html').getAttribute('lang'),locale === 'zh' ? 'zh-CN':'en');
         assert.equal(await page.locator('html').getAttribute('data-theme'),theme);
         assert.equal(await page.locator('h1').count(),1);
@@ -79,49 +85,7 @@ try {
       assert.equal(await page.locator('link[rel="canonical"]').getAttribute('href'), href.replace(origin,'https://runchengxie.github.io'));
     }
   }
-  // Interactive project examples use synthetic data and clear invalid results.
-  for (const locale of ['en','zh']) {
-    await page.goto(`${origin}/${locale}/projects/`);
-    const demo=page.locator('[data-project-demos]');
-    assert.equal(await demo.count(),1);
-    assert.equal(await demo.locator('[data-demo-controls]:disabled').count(),0);
-    assert.equal(await demo.locator('[data-market-body] tr').count(),5);
-    assert.equal(await demo.locator('[data-market-issues] li').count(),5);
-    await demo.locator('[data-clean]').click();
-    assert.equal(await demo.locator('[data-market-body] tr').count(),2);
-    assert.equal(await demo.locator('[aria-invalid="true"]').count(),0);
-    await demo.locator('[data-add]').click();
-    assert.equal(await demo.locator('[data-market-body] tr').count(),3);
-    assert.equal(await demo.locator('[data-market-issues] li').count(),4);
-    await demo.locator('[data-reset-market]').click();
-    assert.equal(await demo.locator('[data-market-body] tr').count(),5);
-    const firstSymbol=demo.locator('[data-field="symbol"]').first();
-    await firstSymbol.fill('<img src=x onerror=alert(1)>');
-    assert.equal(await demo.locator('img').count(),0);
-    await demo.locator('[data-reset-market]').click();
-    assert.equal(await demo.locator('[data-metric="fee"]').innerText(),'40');
-    assert.equal(await demo.locator('[data-metric="turnover"]').innerText(),'20%');
-    await demo.locator('[data-fee-bps]').fill('20');
-    assert.equal(await demo.locator('[data-metric="fee"]').innerText(),'80');
-    await demo.locator('[data-target-weight]').first().fill('20');
-    assert.equal(await demo.locator('[data-rebalance-results]').isVisible(),false);
-    assert.equal(await demo.locator('[data-rebalance-error]').isVisible(),true);
-    assert.equal(await demo.locator('[data-trade]').first().innerText(),'—');
-    await demo.locator('[data-rebalance-form] button[type="reset"]').click();
-    await page.waitForFunction(()=>document.querySelector('[data-metric="fee"]').textContent==='40');
-    assert.equal(await demo.locator('[data-rebalance-results]').isVisible(),true);
-    await demo.locator('[data-fee-bps]').fill('');
-    assert.equal(await demo.locator('[data-rebalance-error]').isVisible(),true);
-    await demo.locator('[data-fee-bps]').fill('0');
-    assert.equal(await demo.locator('[data-metric="fee"]').innerText(),'0');
-    for (const width of [320,390,768,1440]) {
-      await page.setViewportSize({width,height:1000});
-      assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),`${locale} demo width ${width} overflows`);
-    }
-    await demo.locator('[data-rebalance-form] button[type="reset"]').click();
-    await demo.locator('.demo-rules summary').first().click();
-    assert.equal(await demo.locator('.demo-rules').first().getAttribute('open'),'');
-  }
+  await verifyResearchShowcase({page,context,origin});
   // The page is usable when storage is blocked by the browser.
   const restricted=await browser.newContext();
   await restricted.addInitScript(()=>{
@@ -144,8 +108,8 @@ try {
   await plain.locator('[data-locale="zh"]').click();
   await plain.waitForURL(`${origin}/zh/about/`);
   await plain.goto(`${origin}/en/projects/`);
-  assert.equal(await plain.locator('[data-demo-controls]:disabled').count(),2);
-  assert.equal(await plain.locator('[data-metric="fee"]').innerText(),'40');
+  assert.equal(await plain.locator('[data-research-showcase] select:disabled').count(),2);
+  assert.equal(await plain.locator('[data-study-link]').count(),2);
   assert.equal(await plain.locator('noscript').last().isVisible(),true);
   await plain.goto(origin);
   await plain.waitForURL(`${origin}/en/`);
@@ -158,11 +122,12 @@ try {
       await page.goto(`${origin}/${locale}/`);
       await page.screenshot({path:path.join(process.env.SCREENSHOT_DIR,`${locale}-${width}.png`),fullPage:true});
       await page.goto(`${origin}/${locale}/projects/`);
-      await page.locator('[data-project-demos]').screenshot({path:path.join(process.env.SCREENSHOT_DIR,`demos-${locale}-${width}.png`)});
+      await page.waitForSelector('[data-study="factor"][data-state="ready"]');
+      await page.locator('[data-research-showcase]').screenshot({path:path.join(process.env.SCREENSHOT_DIR,`research-${locale}-${width}.png`)});
     }
   }
   assert.deepEqual(errors,[]);
-  console.log('PASS: 112 locale/viewport/theme combinations, 30 complete articles, language and theme persistence, query/hash preservation, legacy URLs, blocked storage, JavaScript-disabled navigation and interactive data/rebalance examples.');
+  console.log('PASS: 112 locale/viewport/theme combinations, 30 complete articles, language and theme persistence, query/hash preservation, legacy URLs, blocked storage, JavaScript-disabled navigation and source-backed research comparisons.');
 } finally {
   await browser?.close();
   await new Promise(resolve=>server.close(resolve));

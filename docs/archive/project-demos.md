@@ -1,3 +1,5 @@
+> Retired: the synthetic tool examples were removed in favor of the research showcase. See [the replacement design](../research-showcase.md).
+
 # Interactive project examples
 
 ## Intent and approach
