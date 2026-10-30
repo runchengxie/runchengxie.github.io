@@ -13,8 +13,6 @@ export default {
   "theme.toggle": "切换颜色模式",
   "theme.light": "切换到浅色模式",
   "theme.dark": "切换到深色模式",
-  "home.replay": "播放开场",
-  "home.motionReduced": "已按系统设置减少动态效果。",
   "home.headingFirst": "市场研究笔记，",
   "home.headingSecond": "工具与实践。",
   "home.intro": "你好，我是 Richard。我开发量化研究和交易工具，关注市场数据、因子与模型、组合构建和回测，也写投资案例与长期投资思考。",

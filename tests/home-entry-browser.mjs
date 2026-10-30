@@ -6,44 +6,39 @@ const record=()=>{
 export async function verifyHomeEntry({browser,origin}){
  const context=await browser.newContext({viewport:{width:1440,height:900}});
  await context.addInitScript(record);
- await context.addInitScript(()=>sessionStorage.setItem('personal-site-home-motion-v1','true'));
- const page=await context.newPage();await page.goto(`${origin}/en/`);await page.waitForTimeout(450);
- assert.equal(await page.evaluate(()=>window.entryStarts.length),1,'a previous intro version must not suppress this version');
- const replay=page.locator('[data-home-replay]');assert.equal(await replay.isVisible(),true);assert.equal(await replay.isEnabled(),true);
- await replay.click();await page.waitForFunction(()=>window.entryStarts.length===2);
- await page.waitForFunction(()=>!document.documentElement.hasAttribute('data-home-motion'));
- await page.reload();await page.waitForTimeout(450);
- assert.equal(await page.evaluate(()=>window.entryStarts.length),0,'watched reloads remain still');
- await page.locator('[data-locale="zh"]').click();await page.waitForTimeout(450);
- assert.equal(await page.evaluate(()=>window.entryStarts.length),0,'locale switch does not replay automatically');
- assert.equal(await page.locator('[data-home-replay]').innerText(),'播放开场');
- await page.locator('[data-home-replay]').click();await page.waitForFunction(()=>window.entryStarts.length===1);
- await page.waitForFunction(()=>!document.documentElement.hasAttribute('data-home-motion'));
- await page.locator('[data-home-replay]').evaluate(button=>{button.click();button.click();button.click();});
- await page.waitForFunction(()=>!document.documentElement.hasAttribute('data-home-motion'));
+ await context.addInitScript(()=>{
+  sessionStorage.setItem('personal-site-home-motion-v1','true');
+  sessionStorage.setItem('personal-site-home-motion-v2','true');
+ });
+ const page=await context.newPage();
+ const settled=async()=>{
+  await page.waitForFunction(()=>window.entryStarts.length>=1);
+  await page.waitForFunction(()=>!document.documentElement.hasAttribute('data-home-motion'));
+ };
+ await page.goto(`${origin}/en/`);await settled();
+ assert.equal(await page.locator('[data-home-replay],.home-entry-controls').count(),0);
+ await page.reload();await settled();
+ await page.locator('[data-locale="zh"]').click();await settled();
+ await page.goto(`${origin}/zh/about/`);await page.goBack();await settled();
+ // Exercise the persisted-document path even on browsers that disable bfcache in tests.
+ const before=await page.evaluate(()=>window.entryStarts.length);
+ await page.evaluate(()=>dispatchEvent(new PageTransitionEvent('pageshow',{persisted:true})));
+ await page.waitForFunction(count=>window.entryStarts.length===count+1,before);
  await page.emulateMedia({reducedMotion:'reduce'});
- await page.waitForFunction(()=>document.querySelector('[data-home-replay]').disabled);
- await page.emulateMedia({reducedMotion:'no-preference'});
- await page.waitForFunction(()=>!document.querySelector('[data-home-replay]').disabled);
+ await page.waitForFunction(()=>!document.documentElement.hasAttribute('data-home-motion'));
  await context.close();
  const slow=await browser.newContext();await slow.addInitScript(record);
  await slow.route('**/*.css',async route=>{await new Promise(resolve=>setTimeout(resolve,900));await route.continue();});
- const delayed=await slow.newPage();await delayed.goto(`${origin}/en/`);await delayed.waitForTimeout(450);
- assert.equal(await delayed.evaluate(()=>window.entryStarts.length),1,'slow CSS does not consume intro before it can be displayed');
- await slow.close();
+ const delayed=await slow.newPage();await delayed.goto(`${origin}/en/`);
+ await delayed.waitForFunction(()=>window.entryStarts.length===1);await slow.close();
  const blocked=await browser.newContext();await blocked.addInitScript(record);
  await blocked.addInitScript(()=>Object.defineProperty(window,'sessionStorage',{get(){throw new Error('blocked');}}));
  const restricted=await blocked.newPage();await restricted.goto(`${origin}/zh/`);
- assert.equal(await restricted.evaluate(()=>window.entryStarts.length),0);
- await restricted.locator('[data-home-replay]').click();await restricted.waitForFunction(()=>window.entryStarts.length===1);
- await blocked.close();
- const reduced=await browser.newContext({reducedMotion:'reduce'});const plain=await reduced.newPage();await plain.goto(`${origin}/zh/`);
- assert.equal(await plain.locator('[data-home-replay]').isDisabled(),true);
- assert.equal(await plain.locator('[data-home-entry-status]').isVisible(),true);
- assert.match(await plain.locator('[data-home-entry-status]').innerText(),/系统/);
- assert.equal(await plain.locator('h1').isVisible(),true);await reduced.close();
- const nojs=await browser.newContext({javaScriptEnabled:false});const staticPage=await nojs.newPage();
- await staticPage.goto(`${origin}/en/`);
- assert.equal(await staticPage.locator('[data-home-replay]').isVisible(),false);
- assert.equal(await staticPage.locator('h1').isVisible(),true);await nojs.close();
+ await restricted.waitForFunction(()=>window.entryStarts.length===1);await blocked.close();
+ for(const options of [{reducedMotion:'reduce'},{javaScriptEnabled:false}]){
+  const fallback=await browser.newContext(options);const plain=await fallback.newPage();await plain.goto(`${origin}/zh/`);
+  assert.equal(await plain.locator('[data-home-cover]').isVisible(),false);
+  assert.equal(await plain.locator('h1').isVisible(),true);
+  assert.equal(await plain.locator('[data-home-replay]').count(),0);await fallback.close();
+ }
 }

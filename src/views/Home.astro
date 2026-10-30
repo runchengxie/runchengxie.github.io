@@ -29,10 +29,6 @@ const featuredProjects = projects.filter((project) => project.featured);
         <a href={localizedPath(locale, "/about/")}>{t(locale, "home.about")}</a>
         <a href="https://github.com/runchengxie">GitHub <span aria-hidden="true">↗</span></a>
       </div>
-      <div class="home-entry-controls">
-        <button type="button" data-home-replay hidden aria-controls="home-intro" aria-describedby="home-entry-status">{t(locale, "home.replay")}</button>
-        <span id="home-entry-status" data-home-entry-status hidden>{t(locale, "home.motionReduced")}</span>
-      </div>
     </div>
     <aside class="work-note" aria-labelledby="work-note-heading">
       <div class="home-cover" data-home-cover aria-hidden="true" inert>
