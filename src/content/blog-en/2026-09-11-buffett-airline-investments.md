@@ -30,7 +30,7 @@ He had overlooked a crucial issue. Following deregulation, USAir's revenue would
 
 ## 2. Why the USAir Investment Ultimately Made Money
 
-USAir later returned to profitability, resumed preferred dividends, and paid some of the dividends in arrears. By 1996, Berkshire had received approximately $240.5 million in cumulative USAir dividends, a figure recorded in the [1996 annual report](https://www.berkshirehathaway.com/1996ar/consolid.html).
+USAir later returned to profitability, resumed preferred dividends, and paid some of the dividends in arrears. In the 1996 shareholder letter, Buffett reported approximately $240.5 million in cumulative USAir dividends, explicitly including $30 million received in 1997; the entire amount therefore cannot be assigned to year-end 1996. The originally linked [1996 consolidated financial statements](https://www.berkshirehathaway.com/1996ar/consolid.html) separately report dividends received during the year and the following year.
 
 Meanwhile, USAir's common share price rose sharply, restoring value to Berkshire's conversion rights. In 1998, Berkshire converted its preferred stock into common shares and sold them for approximately $574 million. The investment therefore ended at a profit.
 
@@ -68,14 +68,40 @@ At the 2020 shareholder meeting, Buffett said that the airline industry had chan
 
 Buffett said Berkshire had invested approximately $7 billion to $8 billion in total to acquire stakes of about 10% in each of the four major airlines.
 
-Berkshire did not disclose its complete purchase costs and every sale price, so an exact final loss cannot be calculated. Based on public holdings disclosures and share prices at the time, third-party estimates put the loss at approximately $1.9 billion to $2.8 billion, roughly 30% to 44% of the invested cost.
+Berkshire did not disclose its complete purchase costs and every sale price, so an exact final loss cannot be calculated. Based on public holdings disclosures and share prices at the time, third-party estimates put the loss at approximately $1.9 billion to $2.8 billion, roughly 30% to 44% of the invested cost. The calculation behind this estimate remains unverified; it should not be treated as an exact loss disclosed by Berkshire.
 
 ## 7. Yet Berkshire Bought Delta Again in 2026
 
-In 2026, Greg Abel succeeded Buffett as Berkshire's CEO. In the first quarter of that year, Berkshire disclosed a holding of approximately 39.8 million Delta shares, representing about 6.1% of the company and worth approximately $2.65 billion at quarter-end. The corresponding [SEC Schedule 13G disclosure](https://www.sec.gov/Archives/edgar/data/27904/000119312526227087/000119312526227087-index.htm) showed this position.
+In 2026, Greg Abel succeeded Buffett as Berkshire's CEO. In the first quarter of that year, Berkshire disclosed a holding of approximately 39.8 million Delta shares, representing about 6.1% of the company and worth approximately $2.65 billion at quarter-end. This value can be checked against the first-quarter 13F table below. The corresponding [SEC Schedule 13G disclosure](https://www.sec.gov/Archives/edgar/data/27904/000119312526227087/xslSCHEDULE_13G_X02/primary_doc.xml) showed this position.
 
-In the second quarter, Berkshire increased its holding to approximately 57.3 million shares, or about 8.7% of Delta. The increase appears in the [second-quarter SEC disclosure](https://www.sec.gov/Archives/edgar/data/27904/000119312526352910/000119312526352910-index.htm).
+In the second quarter, Berkshire increased its holding to approximately 57.3 million shares, or about 8.7% of Delta. The increase appears in the [second-quarter SEC disclosure](https://www.sec.gov/Archives/edgar/data/27904/000119312526352910/xslSCHEDULE_13G_X02/primary_doc.xml).
 
-Buffett has explicitly stated that he was not involved in this Delta investment. Greg Abel has not yet publicly provided a full explanation of the reasons for buying Delta either.
+Wall Street Journal reporter Krystal Hur wrote in a public introduction to her reporting that Buffett had told her directly he was not involved in the Delta investment. This is the reporter’s account of her interview; the 13G itself does not identify the investment decision-maker. Greg Abel has not yet publicly provided a full explanation of the reasons for buying Delta either.
 
-What can currently be confirmed is that Berkshire bought only Delta this time and did not repurchase the other three airlines. Whether Abel sees value in broader changes across the airline industry or in Delta's own competitiveness and valuation remains a question for further information.
+Of the four airlines, only Delta appears in Berkshire’s public 13F holdings tables for the first and second quarters of 2026; American, Southwest, and United are not listed. Whether Abel sees value in broader changes across the airline industry or in Delta's own competitiveness and valuation remains a question for further information.
+
+## References
+
+- [Berkshire Hathaway, 1989 Letter to Shareholders](https://www.berkshirehathaway.com/letters/1989.html) — Convertible preferred investment and security terms.
+- [Berkshire Hathaway, 1996 Letter to Shareholders](https://www.berkshirehathaway.com/letters/1996.html) — USAir operating risks and analytical mistake; the cumulative $240.5 million dividend figure explicitly includes $30 million received in 1997.
+- [Berkshire Hathaway, 1997 Letter to Shareholders](https://www.berkshirehathaway.com/letters/1997.html) — USAir’s recovery and the recollection of attempts to sell at half price.
+- [Berkshire Hathaway, 1996 Consolidated Financial Statements](https://www.berkshirehathaway.com/1996ar/consolid.html) — Redeemable preferred stock note: cost, impairment, resumption of dividends, and arrears.
+- [Berkshire Hathaway, 2016 Letter to Shareholders](https://berkshirehathaway.com/letters/2016ltr.pdf) — Major common-stock holdings table lists Delta, Southwest, and United.
+- [Berkshire Hathaway, 2019 Letter to Shareholders](https://www.berkshirehathaway.com/letters/2019ltr.pdf) — Holdings table (printed p. 10): the three airlines total $6.260 billion cost and $8.600 billion market value, a $2.340 billion difference.
+- [Berkshire Hathaway 1998 Annual Meeting Video: Airline Discussion (CNBC Warren Buffett Archive)](https://buffett.cnbc.com/video/2018/04/02/buffetts-position-on-airlines-it-is-not-a-business-that-intrigues-us.html) — Original meeting video and archive description record the 1998 exit and approximately $574 million sale proceeds.
+- [Berkshire Hathaway, 2026 Proxy Statement](https://www.berkshirehathaway.com/meet01/2026proxystatement.pdf) — Director biography confirms Abel became CEO on 1 January 2026; it does not establish responsibility for a particular investment.
+- [Buffett, Berkshire Hathaway and National Indemnity: Delta Air Lines Schedule 13G (2026)](https://www.sec.gov/Archives/edgar/data/27904/000119312526227087/xslSCHEDULE_13G_X02/primary_doc.xml) — 39,809,456 shares and 6.1% as of 31 March 2026. Beneficial ownership disclosure does not identify the investment decision-maker.
+- [Buffett, Berkshire Hathaway and National Indemnity: Delta Air Lines Schedule 13G/A (2026)](https://www.sec.gov/Archives/edgar/data/27904/000119312526352910/xslSCHEDULE_13G_X02/primary_doc.xml) — 57,320,000 shares and 8.7% as of 30 June 2026. Beneficial ownership disclosure does not identify the investment decision-maker.
+
+- [Berkshire Hathaway, First-Quarter 2026 Form 13F Information Table](https://www.sec.gov/Archives/edgar/data/1067983/000119312526226661/xslForm13F_X02/53405.xml) — The Delta row reports 39,809,456 shares and $2,646,532,635; the other three airlines are not listed.
+- [Berkshire Hathaway, Second-Quarter 2026 Form 13F Information Table](https://www.sec.gov/Archives/edgar/data/1067983/000119312526352200/xslForm13F_X02/56757.xml) — The Delta row reports 57,320,000 shares; the other three airlines are not listed.
+- [Berkshire Hathaway 2020 Annual Meeting Q&A Video (CNBC Warren Buffett Archive)](https://buffett.cnbc.com/video/2020/05/04/berkshire-hathaway-annual-meeting-qa---may-02-2020.html) — The indexed archive identifies discussion of the airline exit; the player page returned 403 during this check, so the video was not verified line by line.
+- [Krystal Hur and Alison Sider, Berkshire Hathaway Rekindles Its Tortured Love Affair With Airlines (The Wall Street Journal, 2026)](https://www.wsj.com/business/airlines/berkshire-hathaway-greg-abel-airlines-da88062b); [publisher and reporter’s public introduction](https://www.linkedin.com/posts/the-wall-street-journal_berkshire-hathaway-rekindles-its-tortured-activity-7462578213098205186-uVIU) — The accessible post contains Hur’s firsthand account of her interview, supporting the attribution that Buffett was not involved; the full article requires a subscription.
+
+<details>
+<summary>Previous source links</summary>
+
+- Previous article link (inaccessible during this check): [SEC 227087](https://www.sec.gov/Archives/edgar/data/27904/000119312526227087/000119312526227087-index.htm).
+- Previous article link (inaccessible during this check): [SEC 352910](https://www.sec.gov/Archives/edgar/data/27904/000119312526352910/000119312526352910-index.htm).
+
+</details>

@@ -30,7 +30,7 @@ Union Street Railway 的名字和出身都与电车有关。它的前身在 1872
 
 公司也知道股价便宜，并在报纸上刊登回购广告。巴菲特后来从马萨诸塞州公用事业监管资料中找到大股东名单，逐一联系并收购股票。
 
-他最后买入 576 股，约占 1953 年流通股的 3.1%。到 1955 年，由于公司持续回购，他的持股比例升至 4.1%。
+据文末 Gardner 的档案研究，他最后买入 576 股，约占 1953 年流通股的 3.1%；本次未取得对应的原始持仓记录。到 1955 年，由于公司持续回购，他的持股比例升至 4.1%。
 
 之后他还去拜访管理层。巴菲特回忆，他清晨四点起床，开车去新贝德福德见总裁 Mark Duff。临走前，对方告诉他，公司正在考虑进行一笔 `return of capital` 式的分配。按照马萨诸塞州公用事业法规，分配额需要按照股票面值的倍数确定，公司考虑采用两单位。
 
@@ -45,3 +45,12 @@ Union Street Railway 这个案例有三个值得记住的地方：
 1. 它是标准烟蒂股，买入逻辑主要是净资产和净现金折价。
 2. 低价买入并不会自动带来收益，往往还需要资本配置动作把价值交还给股东。这个案例里的关键触发因素就是资本返还。
 3. 当时只有 22、23 岁的巴菲特因此体会到了烟蒂股投资的回报。这次投资遇到了相对配合的管理层，他还没有真正经历这类投资最棘手的部分，例如与抗拒变化的管理层长期周旋，以及由此产生的执行成本和组织摩擦。
+
+## 参考文献
+
+- Moody's Investors Service，1954 年：[《Moody's Transportation Manual》，第 1492 页，“Union Street Railway”条目扫描件](<https://compoundingmachines.wordpress.com/wp-content/uploads/2009/12/union-street-railway2.jpg>)。这是第三方保存的原手册页面，列示 1953 年资产负债表、18,363 股流通股及每股亏损 4.27 美元。净现金约 48.13 美元/股、特殊存款与保险信托合计约 53.72 美元/股，可由表内数字计算；后者不等于可立即自由支配的现金。
+- Warren Buffett；Mark Hirschey 记录，2005 年：[《University of Kansas: Warren Buffett Q&A》](<https://sabercapitalmgt.com/wp-content/uploads/2017/01/Buffett-2005-University-of-Kansas-Sears-Discussion.pdf>)，第 1 页第一个问答。转载的现场笔记记载了约 30 美元股价对约 100 美元现金的回忆口径。
+- Alice Schroeder，2008 年：[《The Snowball: Warren Buffett and the Business of Life》](<https://www.penguinrandomhouse.com/books/162310/the-snowball-by-alice-schroeder/>)，Bantam。关于拜访 Mark Duff 和资本返还的叙事包含作者采访巴菲特的回忆；链接为出版社书目页，不是原始采访逐字稿。
+- Brett Gardner，2024 年：[《Buffett's Early Investments: A New Investigation into the Decades When Warren Buffett Earned His Best Returns》](<https://www.harriman-house.com/authors/brett-gardner/buffetts-early-investments/9781804090572>)，Harriman House，“Union Street Railway”章。提供公司沿革、持股与资本返还的二手档案研究；出版社页面不提供所引档案全文。
+
+核验范围：576 股、1953 年约 3.1% 与 1955 年约 4.1% 的持股数据，以及 1872、1890、1947 年的完整沿革，尚未在本次核验中逐项取得原始档案，不能仅凭以上扫描页视为全部确认。

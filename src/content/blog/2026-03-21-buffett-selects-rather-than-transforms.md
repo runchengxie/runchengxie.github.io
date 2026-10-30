@@ -29,7 +29,7 @@ categories: [投资, 巴菲特, 论文解读, 公司治理]
 
 论文的发现可以概括为：巴菲特最擅长事前筛选，投资后的公司改造较弱，治理维度尤其如此。
 
-在投资与融资原则这一组里，伯克希尔被投公司有 8/10 项特征符合巴菲特偏好。会计与披露方面为 4/7 项，高管薪酬方面为 2/6 项。董事会结构和外部监督方面与巴菲特公开强调的原则相距较远。
+按作者 [2011 年工作论文第 9 节](https://faculty.washington.edu/rbowen/papers/BRV_buffet_5-31-11.pdf)的汇总，在投资与融资原则这一组里，伯克希尔被投公司有 8/10 项特征符合巴菲特偏好。会计与披露方面为 4/7 项，高管薪酬方面为 2/6 项。董事会结构和外部监督方面与巴菲特公开强调的原则相距较远。
 
 更具体地说，被巴菲特买入的公司在事前往往已经具备这些特征：更高的 ROE 和 owner earnings、更持久的销售和盈利优势、更低杠杆、更低波动，以及股价离其估计内在价值更近。
 
@@ -38,6 +38,8 @@ categories: [投资, 巴菲特, 论文解读, 公司治理]
 这说明巴菲特的选股哲学有明显的优先级：经营质量最重要，会计纪律其次，显性的董事会治理因素相对靠后。
 
 ## 3. 这篇论文告诉了我们什么
+
+版本说明：下面两段的仿制组合及未来经营表现分析见作者的 [2011 年 5 月 31 日工作论文](https://faculty.washington.edu/rbowen/papers/BRV_buffet_5-31-11.pdf)，未见于所引 2014 年正式发表版。应将它们视为早期稿的结果，不能当作正式版已核实的结论。
 
 作者还构建了一个仿制伯克希尔组合，用相似性指标寻找统计上接近伯克希尔持仓的公司。这个组合能够跑赢市场基准，但在 Fama-French 四因子框架下的超额收益并不稳定，尤其在 1997 至 2006 年间并不显著。
 
@@ -53,4 +55,5 @@ categories: [投资, 巴菲特, 论文解读, 公司治理]
 
 ## 4. 参考资料
 
-Bowen, Rajgopal, Venkatachalam, *Is Warren Buffett's Commentary on Accounting, Governance, and Investing Practices Reflected in the Investment Decisions and Subsequent Influence of Berkshire Hathaway?* (The Accounting Review, 2014)
+1. Robert M. Bowen、Shivaram Rajgopal、Mohan Venkatachalam（2014），[Is Warren Buffett's Commentary on Accounting, Governance, and Investing Practices Reflected in the Investment Decisions and Subsequent Influence of Berkshire Hathaway?](https://business.columbia.edu/sites/default/files-efs/pubfiles/12916/bowen%20rajgopal%20venkatachalam%20TAR.pdf)，*The Accounting Review* 89(5): 1609–1644，[作者所在大学的出版记录](https://scholars.duke.edu/publication/1048603)。第 III 节对应 624 个公司财年、206 家公司的样本；第 IV–VI 节对应会计、治理和投资特征；第 VII 节比较筛选与投后影响。该正式版没有下述早期稿的仿制组合分析。
+2. Robert M. Bowen、Shivaram Rajgopal、Mohan Venkatachalam（2011），[同题工作论文，2011 年 5 月 31 日稿](https://faculty.washington.edu/rbowen/papers/BRV_buffet_5-31-11.pdf)，作者在华盛顿大学提供的版本。第 9 节对应 8/10、4/7、2/6 的特征汇总；第 8.2 节、表 8 Panel C 对应仿制组合的收益；第 8.3 节、表 9 对应未来 1–5 年经营表现。本文第 3 节前两段引用这一早期版本，不能当作 2014 年正式版的实证结果。

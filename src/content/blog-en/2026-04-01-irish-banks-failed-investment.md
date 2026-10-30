@@ -43,3 +43,9 @@ Berkshire spent $244 million buying shares in these two Irish banks in 2008, but
 What makes this mistake worth remembering is that he treated a sufficiently cheap price as a cushion against continuing deterioration in asset quality.
 
 But in banking, if the underlying assets keep deteriorating, a stock that looks cheap on paper may not truly be cheap, and a low price does not necessarily mean the risks have been fully worked through.
+
+## References
+
+- [Berkshire Hathaway, 2008 Letter to Shareholders](https://www.berkshirehathaway.com/letters/2008ltr.pdf) — “Investments”: $244 million cost, $27 million year-end value, 89% loss, and unforced errors; the banks are not named.
+- [BIS Financial Stability Institute, The Banking Crisis in Ireland (FSI Crisis Management Series No. 2, 2020)](https://www.bis.org/fsi/fsicms2.pdf) — Bank guarantee discussion and crisis timeline: €375 billion guarantee, December 2008 plan, and February 2009 recapitalisation.
+- [Patrick Honohan, Recapitalisation of Failed Banks—Some Lessons from the Irish Experience (2012)](https://www.bis.org/review/r120907j.pdf) — “Phase 1” explains the initial €2 billion proposal for each of AIB and BOI and the later €3.5 billion cash injections.

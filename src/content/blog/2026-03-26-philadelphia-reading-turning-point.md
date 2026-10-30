@@ -12,6 +12,8 @@ categories: [投资, 巴菲特, 案例研究, 烟蒂股]
 
 ## 2. 巴菲特为什么会买
 
+本节估值和后文董事会变动的细节主要来自文末 Gardner 的档案研究。本次未取得当年的完整财务和董事会原件，不能把伯克希尔 2001 年股东信视为这些细节的逐项证明。
+
 P&R 原本是家基本面很差的公司。无烟煤行业曾经很重要，但到 20 世纪中期已经进入不可逆衰退，主业几乎没有增长希望，传统经营逻辑也已经失效。
 
 这次投资的思路，巴菲特跳出了他以前只是捡便宜的舒适圈，看重的是不仅资产够便宜，而且公司的经营方向也可能在发生改变。他的买入逻辑大致有三层：
@@ -46,3 +48,10 @@ P&R 给了巴菲特一个完整样板，让他看到控制一家衰退企业后�
 阶段三：直接掌控资本配置。不再等待别人做出正确决策，自己推动资本配置变化。
 
 这次 P&R 投资中，巴菲特正好站在第二阶段和第三阶段之间。
+
+## 参考文献
+
+- Warren E. Buffett，2002 年：[《Berkshire Hathaway 2001 Chairman's Letter》](<https://www.berkshirehathaway.com/letters/2001pdf.pdf>)，“Acquisitions of 2001”部分，年报印刷页码第 5—6 页（此 PDF 第 4—5 页）。巴菲特亲述自己持有 P&R、公司的现金与税务亏损，以及 Union Underwear 和 Acme Boot 收购的价格、融资安排。
+- Brett Gardner，2024 年：[《Buffett's Early Investments: A New Investigation into the Decades When Warren Buffett Earned His Best Returns》](<https://www.harriman-house.com/authors/brett-gardner/buffetts-early-investments/9781804090572>)，Harriman House，“Philadelphia and Reading”章。提供 1954 年估值、控制权与转型过程的二手档案研究；链接为出版社书目页，未附原始年报与委托投票文件。
+
+核验范围：13.38 美元股价、9.16 美元净流动资产及约 8 美元煤渣堆估值，不见于上述 2001 年股东信；本次未逐项取得其原始报表或估值记录。“成为伯克希尔的样板”是本文对投资方法演变的解读，并非该信的直接结论。

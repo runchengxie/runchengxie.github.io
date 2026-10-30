@@ -43,3 +43,9 @@ categories: [投资, 巴菲特, 案例研究, 投资失败]
 这类失误值得记住的地方，在于他把足够便宜的价格当成了能够抵御资产质量持续恶化的安全垫。
 
 但在银行业里，一旦底层资产继续坏下去，账面便宜未必真便宜，价格低也不一定意味着风险已经出清。
+
+## 参考文献
+
+- [伯克希尔·哈撒韦《2008 年致股东信》](https://www.berkshirehathaway.com/letters/2008ltr.pdf) — “Investments”部分：2.44 亿美元成本、2,700 万美元年末价值、89% 损失及 unforced errors；未公布银行名称。
+- [国际清算银行金融稳定学院《爱尔兰银行业危机》（FSI Crisis Management Series No. 2，2020）](https://www.bis.org/fsi/fsicms2.pdf) — 银行担保及危机时间表：3,750 亿欧元担保、2008 年 12 月方案与 2009 年 2 月增资安排。
+- [Patrick Honohan《对倒闭银行的资本重组：爱尔兰经验的若干教训》（2012）](https://www.bis.org/review/r120907j.pdf) — “Phase 1”说明 AIB、BOI 各 20 亿欧元的初步方案及后来各 35 亿欧元的现金注资。
