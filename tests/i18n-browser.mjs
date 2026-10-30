@@ -1,3 +1,5 @@
+import {verifyChartMotion} from './chart-motion-browser.mjs';
+import {verifyContentMotion} from './content-motion-browser.mjs';
 import {verifyMotion} from './motion-browser.mjs';
 import { chromium } from '@playwright/test';
 import assert from 'node:assert/strict';
@@ -23,6 +25,8 @@ const origin = `http://127.0.0.1:${server.address().port}`;
 let browser;
 try {
   browser = await chromium.launch();
+  await verifyChartMotion({browser,origin});
+  await verifyContentMotion({browser,origin});
   await verifyMotion({browser,origin});
   const context = await browser.newContext({colorScheme:'light'});
   await installResearchFixtures(context);
@@ -129,7 +133,7 @@ try {
     }
   }
   assert.deepEqual(errors,[]);
-  console.log('PASS: 112 locale/viewport/theme combinations, 30 complete articles, language and theme persistence, query/hash preservation, legacy URLs, blocked storage, JavaScript-disabled navigation source-backed research comparisons, and one-shot reduced-motion-safe cover/scroll effects.');
+  console.log('PASS: 112 locale/viewport/theme combinations, 30 complete articles, language and theme persistence, query/hash preservation, legacy URLs, blocked storage, JavaScript-disabled navigation, source-backed research comparisons, and native cover/chart/blog/about motion.');
 } finally {
   await browser?.close();
   await new Promise(resolve=>server.close(resolve));
