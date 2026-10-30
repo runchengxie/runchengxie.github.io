@@ -66,6 +66,21 @@ export async function verifyPageEntry({browser,origin}){
  assert.equal(await track.evaluate(node=>getComputedStyle(node).animationName),'none');
  assert.equal(await page.locator('canvas,video,audio').count(),0);
  await context.close();
+ const layout=await browser.newContext({viewport:{width:1440,height:900}});
+ const composed=await layout.newPage();
+ for(const width of [320,768,1024,1088,1200,1440])for(const locale of ['en','zh']){
+  await composed.setViewportSize({width,height:900});await composed.goto(`${origin}/${locale}/about/`);
+  await composed.waitForFunction(()=>!document.querySelector('[data-entry-active]'));
+  const bounds=await composed.evaluate(()=>{
+   const chart=document.querySelector('[data-about-background]').getBoundingClientRect();
+   const copy=document.querySelector('.about-heading__copy').getBoundingClientRect();
+   const eyebrow=document.querySelector('.about-heading .eyebrow').getBoundingClientRect();
+   return {rightClearance:chart.left-copy.right,topClearance:eyebrow.top-chart.bottom,overflow:document.documentElement.scrollWidth>innerWidth};
+  });
+  assert(!bounds.overflow,`${locale}/${width} horizontal overflow`);
+  assert(width>=1088?bounds.rightClearance>=31:bounds.topClearance>=0,`${locale}/${width} chart overlaps text`);
+ }
+ await layout.close();
  for(const options of [{reducedMotion:'reduce'},{javaScriptEnabled:false}]){
   const fallback=await browser.newContext(options);const plain=await fallback.newPage();
   for(const path of ['zh/blog/','zh/about/']){
