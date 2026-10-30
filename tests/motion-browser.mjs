@@ -52,7 +52,7 @@ export async function verifyMotion({browser,origin}) {
  assert.equal(await restricted.locator('[data-home-cover]').isVisible(),false);
  await blocked.close();
  const focusContext=await browser.newContext({viewport:{width:1440,height:900}});
- await focusContext.addInitScript(()=>sessionStorage.setItem('personal-site-home-motion-v1','true'));
+ await focusContext.addInitScript(()=>sessionStorage.setItem('personal-site-home-motion-v2','true'));
  const focused=await focusContext.newPage();await focused.goto(`${origin}/en/`);
  await focused.locator('.home-latest a').first().focus();await focused.waitForTimeout(180);
  assert.equal(await focused.locator('.home-latest').evaluate(node=>node.getAnimations().length),0,'keyboard focus settles a reveal immediately');
