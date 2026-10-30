@@ -35,7 +35,8 @@ import BaseLayout from "../layouts/BaseLayout.astro";
     </section>
     <section aria-labelledby="elsewhere-heading">
       <h2 id="elsewhere-heading">{t(locale, "about.find")}</h2>
-      <p>{t(locale, "about.findBefore")} <a href="https://github.com/runchengxie">GitHub · runchengxie</a> {t(locale, "about.findAfter")} <a href={localizedPath(locale, "/rss.xml")}>RSS</a>.</p>
+      <p>{t(locale, "about.findBefore")} · <a href="https://github.com/runchengxie">GitHub · runchengxie</a></p>
+      <p>{t(locale, "about.findAfter")} · <a href={localizedPath(locale, "/rss.xml")}>RSS</a></p>
     </section>
   </div>
 </BaseLayout>

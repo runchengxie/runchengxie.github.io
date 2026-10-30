@@ -1,13 +1,15 @@
 ---
-title: "Paper Review: The Other Side of Buffett"
+title: "How Leverage and Quality Explain Buffett's Historical Returns"
 date: 2026-01-27
+reviewedAt: 2026-10-30
 categories: [Investing, Buffett, Paper Reviews, Leverage and Quality]
 ---
 
-AQR's paper *Buffett's Alpha* uses quantitative methods to dissect Buffett's investment ability, focusing on two questions:
+AQR's Buffett's Alpha connects Berkshire's historical returns with its holdings and financing. The researchers find that inexpensive leverage and a preference for high-quality businesses explain a substantial part of those returns.
 
-1. What kinds of assets does he buy?
-2. How does he finance them to amplify returns?
+## Source dates and applicability
+
+Buffett's Alpha was published in 2018, studies 1976–2017, and has a 2019 correction. Leverage and float costs here are historical estimates. As of October 2026, financing and factor exposures remain useful analytical concepts; the sample averages do not describe Berkshire's current balance sheet or establish returns available today.
 
 ## 1. Berkshire Uses Leverage
 

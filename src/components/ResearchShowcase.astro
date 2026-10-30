@@ -1,21 +1,25 @@
 ---
 import {t,type Locale,type MessageKey} from "../i18n";
 import english from "../i18n/en";
+import {formatDate} from "../lib/posts";
+import {interpretationReviewedAt} from "../lib/research-context";
 import {styleIds,metricIds,researchSources} from "../lib/research-showcase";
 interface Props {locale:Locale;}
 const {locale}=Astro.props;
 const messages=Object.fromEntries(Object.keys(english).filter(key=>key.startsWith("research.")).map(key=>[key,t(locale,key as MessageKey)]));
 const studies=[
-  {id:"market",title:"research.market.title",question:"research.market.question",method:"research.market.method",limits:"research.market.limits",url:"https://runchengxie.github.io/quant-market-research/research/style-factors-18y/"},
-  {id:"factor",title:"research.factor.title",question:"research.factor.question",method:"research.factor.method",limits:"research.factor.limits",url:"https://runchengxie.github.io/quant-factor-observatory/studies/pb-roe/"},
+  {id:"market",title:"research.market.title",method:"research.market.method",limits:"research.market.limits",url:"https://runchengxie.github.io/quant-market-research/research/style-factors-18y/"},
+  {id:"factor",title:"research.factor.title",method:"research.factor.method",limits:"research.factor.limits",url:"https://runchengxie.github.io/quant-factor-observatory/studies/pb-roe/"},
 ] as const;
 ---
 <section class="portfolio-section research-showcase" aria-labelledby="research-showcase" data-research-showcase data-research-locale={locale} data-messages={JSON.stringify(messages)}>
   <span id="demos-heading" aria-hidden="true"></span>
   <div class="section-heading"><h2 id="research-showcase">{t(locale,"research.section")}</h2></div>
   <p class="section-description">{t(locale,"research.intro")}</p>
+  <p class="research-context-date">{t(locale,"research.contextDate",{date:formatDate(new Date(`${interpretationReviewedAt}T00:00:00Z`),locale)})}</p>
   <p class="sr-only" aria-live="polite" data-research-announcement></p>
   <noscript><p class="research-scope">{t(locale,"research.noScript")}</p></noscript>
+  <div class="research-grid">
   {studies.map((study,index)=><article class="research-panel" data-study={study.id} data-state="idle" aria-busy="false" aria-labelledby={`${study.id}-research-title`}>
     <div class="research-panel-heading">
       <div><p class="eyebrow">0{index+1} · {t(locale,"research.history")}</p><h3 id={`${study.id}-research-title`}>{t(locale,study.title)}</h3></div>
@@ -25,7 +29,6 @@ const studies=[
         </select>
       </label>
     </div>
-    <p class="research-question">{t(locale,study.question)}</p>
     <p class="research-method">{t(locale,study.method)}</p>
     <div class="research-status" aria-live="polite"><p data-source-status hidden>{t(locale,"research.loading")}</p><button type="button" data-research-retry hidden>{t(locale,"research.retry")}</button></div>
     <div data-research-result hidden>
@@ -33,22 +36,28 @@ const studies=[
       <figure class="research-figure">
         <figcaption data-research-caption>{t(locale,study.id==="market"?"research.market.plot":"research.metric.annualReturn")}</figcaption>
         <p class="research-unit" data-research-unit></p>
-        <div class="research-chart" data-research-chart aria-hidden="true"></div>
+        <div class="research-chart" id={`${study.id}-chart`} data-research-chart aria-hidden="true"></div>
+        {study.id==="market"&&<><p class="research-window" data-research-window></p><button type="button" class="research-years" data-research-years aria-controls="market-chart" aria-expanded="false" hidden>{t(locale,"research.showAllYears")}</button></>}
         {study.id==="market"&&<p class="research-help">{t(locale,"research.market.interval")}</p>}
       </figure>
-      <details class="research-values" open={study.id === "factor"}>
+      <section class="research-reading" aria-labelledby={`${study.id}-reading`}>
+        <h4 id={`${study.id}-reading`}>{t(locale,"research.interpretation")}</h4>
+        <p data-research-reading></p><p data-research-meaning></p>
+      </section>
+      <details class="research-values">
         <summary>{t(locale,"research.values")}</summary>
         <div class="research-table-scroll"><table><caption class="sr-only">{t(locale,study.title)}</caption><thead><tr><th scope="col">{t(locale,study.id==="market"?"research.market.yearColumn":"research.comparison")}</th><th scope="col">{t(locale,"research.value")}</th>{study.id==="market"&&<><th scope="col">{t(locale,"research.market.periodColumn")}</th><th scope="col">{t(locale,"research.market.daysColumn")}</th></>}</tr></thead><tbody data-research-values></tbody></table></div>
       </details>
-      <p class="research-version" data-research-version></p>
     </div>
     <p class="research-scope">{t(locale,study.limits)}</p>
     <div class="research-links"><a href={study.id === "market" ? `${study.url}?lang=${locale === "zh" ? "zh-CN" : "en-US"}` : study.url} data-study-link>{t(locale,"research.fullStudy")} ↗</a><a href={researchSources[study.id]}>{t(locale,"research.sourceData")} ↗</a></div>
-    <details class="research-provenance"><summary>{t(locale,"research.sourceDetails")}</summary>
-      {study.id==="market"&&<p>{t(locale,"research.market.allControls")}</p>}
+    <details class="research-provenance"><summary>{t(locale,"research.methodDetails")}</summary>
+      <p>{t(locale,study.id==="market"?"research.market.allControls":"research.factor.allControls")}</p>
+      <p class="research-version" data-research-version></p>
       <dl data-research-provenance></dl>
     </details>
   </article>)}
+  </div>
 </section>
 <script>
   import {initializeResearchShowcase} from "../lib/research-showcase-browser";

@@ -1,12 +1,17 @@
 ---
-title: 巴菲特两次投资航空股：我以为这次不一样
+title: 巴菲特两次投资航空股的判断与结果
 date: 2026-09-11
+reviewedAt: 2026-10-30
 categories: [投资, 巴菲特, 案例研究, 投资失败]
 ---
 
 巴菲特先后两次投资美国航空公司。第一次发生在 1989 年，他买入全美航空（USAir，后来更名为 US Airways）的可转换优先股。第二次从 2016 年开始，他买入美国四大航空公司的普通股。
 
-## 0. 一句话讲完
+## 资料时间与适用范围
+
+本文区分 1989 至 1998 年的全美航空投资、2016 至 2020 年的四家航空股投资，以及文末所引截至 2026 年 6 月 30 日的达美持仓披露。年度股东信通常在次年发布，持仓截止日也不同于申报日。到 2026 年 10 月 30 日，本文重新核对了两份 13G 的期末日期与持股数字，未逐份重核 13F，也没有确认更近的持仓变化。2020 年精确退出亏损与 2026 年决策归属仍应按正文的资料限制理解。
+
+## 投资结果
 
 巴菲特第一次投资全美航空时，分析错了公司的经营风险，投资一度出现大幅账面亏损。后来全美航空恢复盈利，伯克希尔最终赚着退出。第二次投资航空股时，他判断行业结构已经改善，持仓到 2019 年也曾有过可观的账面盈利。2020 年疫情冲击航空业，伯克希尔随后亏损卖出全部持仓。
 
@@ -52,7 +57,7 @@ categories: [投资, 巴菲特, 案例研究, 投资失败]
 
 2019 年底，伯克希尔持有的达美航空、西南航空和美联航，总成本约为 62.6 亿美元，市值约为 86 亿美元，账面浮盈约为 23.4 亿美元。这些数字来自 [2019 年年报的持仓表](https://www.berkshirehathaway.com/letters/2019ltr.pdf)，由三家公司的成本和市值相加得到。
 
-从 2016 年到 2019 年，航空股投资一度验证了巴菲特对行业改善的判断。行业集中度提高，盈利能力改善，股票回购也提高了每股价值。
+2016 至 2019 年的经营改善和账面浮盈，与巴菲特当时的判断方向一致。阶段性盈利仍不足以单独证明长期买入逻辑。行业集中度提高，盈利能力改善，股票回购也提高了每股价值。
 
 问题出现在 2020 年。
 
@@ -76,32 +81,32 @@ categories: [投资, 巴菲特, 案例研究, 投资失败]
 
 第二季度，伯克希尔持股进一步增加到约 5730 万股，占达美航空约 8.7%。这次增持可以从 [第二季度 SEC 披露](https://www.sec.gov/Archives/edgar/data/27904/000119312526352910/xslSCHEDULE_13G_X02/primary_doc.xml) 中看到。
 
-《华尔街日报》记者 Krystal Hur 在公开介绍其报道时写道，巴菲特亲口告诉她，自己没有参与这笔达美航空投资。这是记者对采访的转述；13G 本身不能说明由谁作出投资决策。格雷格·阿贝尔目前也没有公开完整解释买入达美航空的原因。
+《华尔街日报》记者 Krystal Hur 在公开介绍其报道时写道，巴菲特亲口告诉她，自己没有参与这笔达美航空投资。这是记者对采访的转述。13G 本身不能说明由谁作出投资决策。本文所引资料没有提供格雷格·阿贝尔对买入原因的完整解释。
 
-2026 年第一、第二季度公开的 13F 持仓表中，四家航空公司只有达美航空出现；美国航空、西南航空和美联航均未列示。阿贝尔看重的是航空业的整体变化，还是达美航空自身的竞争力和估值，还需要等待更多信息。
+2026 年第一、第二季度公开的 13F 持仓表中，四家航空公司只有达美航空出现。美国航空、西南航空和美联航均未列示。阿贝尔看重的是航空业的整体变化，还是达美航空自身的竞争力和估值，还需要等待更多信息。
 
 ## 参考文献
 
-- [伯克希尔·哈撒韦《1989 年致股东信》](https://www.berkshirehathaway.com/letters/1989.html) — 可转换优先股投资与证券条款。
-- [伯克希尔·哈撒韦《1996 年致股东信》](https://www.berkshirehathaway.com/letters/1996.html) — USAir 经营风险与误判；累计 2.405 亿美元股息明确包括 1997 年收到的 3,000 万美元。
-- [伯克希尔·哈撒韦《1997 年致股东信》](https://www.berkshirehathaway.com/letters/1997.html) — USAir 复苏，以及曾尝试半价出售的回顾。
-- [伯克希尔·哈撒韦《1996 年合并财务报表》](https://www.berkshirehathaway.com/1996ar/consolid.html) — 可赎回优先股附注：成本、减值、恢复分红及欠付股息。
-- [伯克希尔·哈撒韦《2016 年致股东信》](https://berkshirehathaway.com/letters/2016ltr.pdf) — 主要普通股投资表列出达美、西南和美联航。
-- [伯克希尔·哈撒韦《2019 年致股东信》](https://www.berkshirehathaway.com/letters/2019ltr.pdf) — 投资表（印刷页 10）：三家成本合计 62.60 亿美元、市值合计 86.00 亿美元，差额 23.40 亿美元。
-- [伯克希尔 1998 年股东会录像：航空业讨论（CNBC Warren Buffett Archive）](https://buffett.cnbc.com/video/2018/04/02/buffetts-position-on-airlines-it-is-not-a-business-that-intrigues-us.html) — 原始会议录像及档案说明记录 1998 年退出及约 5.74 亿美元出售收入。
-- [伯克希尔·哈撒韦《2026 年股东大会委托书》](https://www.berkshirehathaway.com/meet01/2026proxystatement.pdf) — 董事简介确认 Abel 于 2026 年 1 月 1 日出任 CEO；不证明具体投资由谁决策。
-- [Buffett、伯克希尔及 National Indemnity：达美航空 Schedule 13G（2026）](https://www.sec.gov/Archives/edgar/data/27904/000119312526227087/xslSCHEDULE_13G_X02/primary_doc.xml) — 2026 年 3 月 31 日持股 39,809,456 股、6.1%。受益所有权披露不等于投资决策归属。
-- [Buffett、伯克希尔及 National Indemnity：达美航空 Schedule 13G/A（2026）](https://www.sec.gov/Archives/edgar/data/27904/000119312526352910/xslSCHEDULE_13G_X02/primary_doc.xml) — 2026 年 6 月 30 日持股 57,320,000 股、8.7%。受益所有权披露不等于投资决策归属。
+- [伯克希尔·哈撒韦《1989 年致股东信》](https://www.berkshirehathaway.com/letters/1989.html)。可转换优先股投资与证券条款。
+- [伯克希尔·哈撒韦《1996 年致股东信》](https://www.berkshirehathaway.com/letters/1996.html)。USAir 经营风险与误判。累计 2.405 亿美元股息明确包括 1997 年收到的 3,000 万美元。
+- [伯克希尔·哈撒韦《1997 年致股东信》](https://www.berkshirehathaway.com/letters/1997.html)。USAir 复苏，以及曾尝试半价出售的回顾。
+- [伯克希尔·哈撒韦《1996 年合并财务报表》](https://www.berkshirehathaway.com/1996ar/consolid.html)。可赎回优先股附注，成本、减值、恢复分红及欠付股息。
+- [伯克希尔·哈撒韦《2016 年致股东信》](https://berkshirehathaway.com/letters/2016ltr.pdf)。主要普通股投资表列出达美、西南和美联航。
+- [伯克希尔·哈撒韦《2019 年致股东信》](https://www.berkshirehathaway.com/letters/2019ltr.pdf)。投资表（印刷页 10），三家成本合计 62.60 亿美元、市值合计 86.00 亿美元，差额 23.40 亿美元。
+- [伯克希尔 1998 年股东会录像，航空业讨论（CNBC Warren Buffett Archive）](https://buffett.cnbc.com/video/2018/04/02/buffetts-position-on-airlines-it-is-not-a-business-that-intrigues-us.html)。原始会议录像及档案说明记录 1998 年退出及约 5.74 亿美元出售收入。
+- [伯克希尔·哈撒韦《2026 年股东大会委托书》](https://www.berkshirehathaway.com/meet01/2026proxystatement.pdf)。董事简介确认 Abel 于 2026 年 1 月 1 日出任 CEO。不证明具体投资由谁决策。
+- [Buffett、伯克希尔及 National Indemnity，达美航空 Schedule 13G（2026）](https://www.sec.gov/Archives/edgar/data/27904/000119312526227087/xslSCHEDULE_13G_X02/primary_doc.xml)。2026 年 3 月 31 日持股 39,809,456 股、6.1%。受益所有权披露不等于投资决策归属。
+- [Buffett、伯克希尔及 National Indemnity，达美航空 Schedule 13G/A（2026）](https://www.sec.gov/Archives/edgar/data/27904/000119312526352910/xslSCHEDULE_13G_X02/primary_doc.xml)。2026 年 6 月 30 日持股 57,320,000 股、8.7%。受益所有权披露不等于投资决策归属。
 
-- [伯克希尔·哈撒韦 2026 年第一季度 Form 13F 持仓表](https://www.sec.gov/Archives/edgar/data/1067983/000119312526226661/xslForm13F_X02/53405.xml) — Delta 行列示 39,809,456 股和 2,646,532,635 美元；其余三家航空公司未列示。
-- [伯克希尔·哈撒韦 2026 年第二季度 Form 13F 持仓表](https://www.sec.gov/Archives/edgar/data/1067983/000119312526352200/xslForm13F_X02/56757.xml) — Delta 行列示 57,320,000 股；其余三家航空公司未列示。
-- [伯克希尔 2020 年股东会问答录像（CNBC Warren Buffett Archive）](https://buffett.cnbc.com/video/2020/05/04/berkshire-hathaway-annual-meeting-qa---may-02-2020.html) — 档案检索结果列有清仓航空股的讨论；本次播放器页面返回 403，未逐句核验录像。
-- [Krystal Hur、Alison Sider：《伯克希尔重续与航空股的曲折恋情》（《华尔街日报》，2026）](https://www.wsj.com/business/airlines/berkshire-hathaway-greg-abel-airlines-da88062b)；[报社及记者公开介绍](https://www.linkedin.com/posts/the-wall-street-journal_berkshire-hathaway-rekindles-its-tortured-activity-7462578213098205186-uVIU) — 可访问的公开帖子包含 Hur 对本人采访的说明，支持巴菲特未参与的归属表述；报道全文受订阅限制。
+- [伯克希尔·哈撒韦 2026 年第一季度 Form 13F 持仓表](https://www.sec.gov/Archives/edgar/data/1067983/000119312526226661/xslForm13F_X02/53405.xml)。Delta 行列示 39,809,456 股和 2,646,532,635 美元。其余三家航空公司未列示。
+- [伯克希尔·哈撒韦 2026 年第二季度 Form 13F 持仓表](https://www.sec.gov/Archives/edgar/data/1067983/000119312526352200/xslForm13F_X02/56757.xml)。Delta 行列示 57,320,000 股。其余三家航空公司未列示。
+- [伯克希尔 2020 年股东会问答录像（CNBC Warren Buffett Archive）](https://buffett.cnbc.com/video/2020/05/04/berkshire-hathaway-annual-meeting-qa---may-02-2020.html)。档案检索结果列有清仓航空股的讨论。本次播放器页面返回 403，未逐句核验录像。
+- [Krystal Hur、Alison Sider，《伯克希尔重续与航空股的曲折恋情》（《华尔街日报》，2026）](https://www.wsj.com/business/airlines/berkshire-hathaway-greg-abel-airlines-da88062b)。[报社及记者公开介绍](https://www.linkedin.com/posts/the-wall-street-journal_berkshire-hathaway-rekindles-its-tortured-activity-7462578213098205186-uVIU)。可访问的公开帖子包含 Hur 对本人采访的说明，支持巴菲特未参与的归属表述。报道全文受订阅限制。
 
 <details>
 <summary>原文链接记录</summary>
 
-- 原文旧链接（本次无法访问）: [SEC 227087](https://www.sec.gov/Archives/edgar/data/27904/000119312526227087/000119312526227087-index.htm).
-- 原文旧链接（本次无法访问）: [SEC 352910](https://www.sec.gov/Archives/edgar/data/27904/000119312526352910/000119312526352910-index.htm).
+- 原文旧链接（本次无法访问），[SEC 227087](https://www.sec.gov/Archives/edgar/data/27904/000119312526227087/000119312526227087-index.htm).
+- 原文旧链接（本次无法访问），[SEC 352910](https://www.sec.gov/Archives/edgar/data/27904/000119312526352910/000119312526352910-index.htm).
 
 </details>

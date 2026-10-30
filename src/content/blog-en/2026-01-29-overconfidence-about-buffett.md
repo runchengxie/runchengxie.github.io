@@ -1,12 +1,17 @@
 ---
-title: "Paper Review: Why Markets React So Slowly to Buffett's Holdings"
+title: "Price Adjustment After Buffett's Holdings Disclosures"
 date: 2026-01-29
+reviewedAt: 2026-10-30
 categories: [Investing, Buffett, Paper Reviews, Market Behavior]
 ---
 
-When Buffett's purchase of a stock becomes public, does the market immediately drive its price higher?
+Hughes, Liu and Zhang study Berkshire's holdings disclosures from 1980 to 2006 and find that prices continue adjusting afterward. Their historical evidence makes copying returns and the incorporation of public information into prices testable questions.
 
-Hughes, Liu, and Zhang's 2010 paper *Overconfidence, Under-Reaction, and Warren Buffett's Investments* answers no. More surprisingly, some professional investors even trade in the opposite direction.
+## Source dates and applicability
+
+This review uses the working paper dated July 5, 2010 and holdings from 1980–2006. As of October 2026, its findings describe historical reactions to disclosures. They do not establish a current copying opportunity; this article does not test later data or changes in information dissemination and market participation.
+
+The paper also observes some professional investors trading in the opposite direction after Berkshire disclosed an increase in a holding. The authors consider overconfidence as one explanation, while the observed behavior does not describe every institution.
 
 ## 1. What the Paper Studies
 

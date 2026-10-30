@@ -1,3 +1,4 @@
+import {summarizeStyle,factorContrasts} from "./research-context";
 import {chartDomain,styleIds,metricIds,parseMarketEvidence,parseFactorEvidence,researchSources,type MarketEvidence,type FactorEvidence,type StyleId,type MetricId} from "./research-showcase";
 
 export function initializeResearchShowcase(root:HTMLElement):void {
@@ -5,6 +6,7 @@ export function initializeResearchShowcase(root:HTMLElement):void {
   const messages=JSON.parse(root.dataset.messages??"{}") as Record<string,string>;
   const text=(key:string,values:Record<string,string|number>={})=>(messages[key]??key).replace(/\{(\w+)\}/g,(token,name:string)=>String(values[name]??token));
   const numbers=new Intl.NumberFormat(locale,{maximumFractionDigits:2});
+  const signed=new Intl.NumberFormat(locale,{maximumFractionDigits:2,signDisplay:"exceptZero"});
   const percent=new Intl.NumberFormat(locale,{style:"percent",maximumFractionDigits:2});
   const dates=new Intl.DateTimeFormat(locale,{year:"numeric",month:"short",day:"numeric",timeZone:"Asia/Shanghai"});
   const date=(value:string)=>dates.format(new Date(value.includes("T")?value:`${value}T00:00:00Z`));
@@ -38,6 +40,7 @@ export function initializeResearchShowcase(root:HTMLElement):void {
     const result=query<HTMLElement>(panel,"[data-research-result]");
     const status=query<HTMLElement>(panel,"[data-source-status]");
     const retry=query<HTMLButtonElement>(panel,"[data-research-retry]");
+    let expandedYears=false;
     let market:MarketEvidence|undefined,factor:FactorEvidence|undefined;
     const parameter=kind==="market"?"researchStyle":"researchMetric";
     const choices:readonly string[]=kind==="market"?styleIds:metricIds;
@@ -48,13 +51,20 @@ export function initializeResearchShowcase(root:HTMLElement):void {
         const selected=market.factors.find(row=>row.id===select.value as StyleId)!;
         const rows=selected.annual;
         const format=(value:number)=>percent.format(value/100);
-        const marks=rows.map(row=>({label:`${row.year}${row.partial?" *":""}`,value:row.value,formatted:format(row.value)}));
-        plot(query(panel,"[data-research-chart]"),marks,chartDomain(rows.map(row=>row.value)),format);
+        const summary=summarizeStyle(rows);
+        const visible=expandedYears?rows:summary.recent;
+        const marks=visible.map(row=>({label:`${row.year}${row.partial?" *":""}`,value:row.value,formatted:format(row.value)}));
+        plot(query(panel,"[data-research-chart]"),marks,chartDomain(visible.map(row=>row.value)),format);
         query(panel,"[data-research-unit]").textContent=text("research.market.axis");
-        values(panel,rows.map(row=>({label:`${row.year}${row.partial?" *":""}`,value:format(row.value),range:`${date(row.periodStart)} – ${date(row.periodEnd)}`,days:numbers.format(row.days)})));
+        values(panel,rows.map(row=>({label:`${row.year}${row.partial?" *":""}`,value:format(row.value),range:text("research.dateRange",{start:date(row.periodStart),end:date(row.periodEnd)}),days:numbers.format(row.days)})));
         query(panel,"[data-research-period]").textContent=text("research.market.period",{start:date(rows[0]!.periodStart),end:date(rows[rows.length-1]!.periodEnd),years:numbers.format(rows.length)});
         query(panel,"[data-research-caption]").textContent=`${text(`research.style.${selected.id}`)} · ${text("research.market.plot")}`;
         query(panel,"[data-research-version]").textContent=text("research.market.version");
+        query(panel,"[data-research-reading]").textContent=text("research.style.reading",{total:summary.total,positive:summary.positive,negative:summary.negative,zero:summary.zero});
+        query(panel,"[data-research-meaning]").textContent=text("research.style.meaning");
+        query(panel,"[data-research-window]").textContent=text("research.visibleYears",{start:visible[0]!.year,end:visible[visible.length-1]!.year});
+        const years=query<HTMLButtonElement>(panel,"[data-research-years]");
+        years.hidden=rows.length<=6;years.setAttribute("aria-expanded",String(expandedYears));years.textContent=text(expandedYears?"research.showRecentYears":"research.showAllYears");
         provenance(panel,[["summarySha256",market.sourceHashes.summary],["yearlySha256",market.sourceHashes.yearly]]);
       } else if(kind==="factor"&&factor) {
         const metric=select.value as MetricId;
@@ -67,6 +77,10 @@ export function initializeResearchShowcase(root:HTMLElement):void {
         query(panel,"[data-research-period]").textContent=text("research.factor.period",{start:date(factor.start),end:date(factor.end)});
         query(panel,"[data-research-version]").textContent=text("research.factor.version",{updated:date(factor.updatedAt),checked:date(factor.checkedAt)});
         provenance(panel,[["publication_id","pb-roe"],["evidence_stage","retrospective_diagnostic"]]);
+        const contrasts=factorContrasts(factor,metric);
+        const delta=(value:number)=>text(metric==="informationRatio"?"research.deltaRatio":"research.deltaPp",{value:signed.format(metric==="informationRatio"?value:value*100)});
+        query(panel,"[data-research-reading]").textContent=text("research.factor.reading",{metric:text(`research.metric.${metric}`),staticDelta:delta(contrasts.staticDelta),adjustedDelta:delta(contrasts.adjustedDelta)});
+        query(panel,"[data-research-meaning]").textContent=text(`research.factor.meaning.${metric}`);
       }
       query(root,"[data-research-announcement]").textContent=text("research.updated",{selection:select.selectedOptions[0]?.textContent??""});
     }
@@ -86,6 +100,7 @@ export function initializeResearchShowcase(root:HTMLElement):void {
       const url=new URL(window.location.href);if(select.value===choices[0])url.searchParams.delete(parameter);else url.searchParams.set(parameter,select.value);
       window.history.replaceState(null,"",url);render();
     });
+    panel.querySelector<HTMLButtonElement>("[data-research-years]")?.addEventListener("click",()=>{expandedYears=!expandedYears;render();});
     retry.addEventListener("click",()=>{void load();});
     void load();
   }

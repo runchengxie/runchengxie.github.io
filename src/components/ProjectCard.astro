@@ -11,7 +11,7 @@ const text = projectText(project, locale);
   <p class="project-card__name">{project.name}</p>
   <p class="project-card__description">{text.description}</p>
   <div class="project-card__links">
-    {project.website && <a href={project.website}>{t(locale, "project.website")} <span aria-hidden="true">↗</span><span class="sr-only">: {text.title}</span></a>}
-    <a href={repositoryURL(project.name)}>{t(locale, "project.code")} <span aria-hidden="true">↗</span><span class="sr-only">: {project.name}</span></a>
+    {project.website && <a href={project.website}>{t(locale, "project.website")} <span aria-hidden="true">↗</span><span class="sr-only"> {locale === "zh" ? `（${text.title}）` : `(${text.title})`}</span></a>}
+    <a href={repositoryURL(project.name)}>{t(locale, "project.code")} <span aria-hidden="true">↗</span><span class="sr-only"> {locale === "zh" ? `（${project.name}）` : `(${project.name})`}</span></a>
   </div>
 </article>

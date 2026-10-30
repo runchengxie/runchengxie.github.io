@@ -5,6 +5,7 @@ import { z } from "astro/zod";
 const schema = z.object({
   title: z.string().min(1),
   date: z.coerce.date(),
+  reviewedAt: z.coerce.date().optional(),
   categories: z.array(z.string().min(1)).min(1),
 });
 

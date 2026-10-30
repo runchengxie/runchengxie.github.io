@@ -1,12 +1,17 @@
 ---
-title: "Buffett's Two Airline Investments: I Thought This Time Was Different"
+title: "Buffett's Two Airline Investments and Their Outcomes"
 date: 2026-09-11
+reviewedAt: 2026-10-30
 categories: [Investing, Buffett, Case Studies, Investment Failures]
 ---
 
 Buffett invested in U.S. airlines on two separate occasions. The first was in 1989, when he bought convertible preferred stock in USAir, later renamed US Airways. The second began in 2016, when he bought common shares in the four largest U.S. airlines.
 
-## 0. In One Sentence
+## Source dates and applicability
+
+This article separates USAir in 1989–1998, four airline holdings in 2016–2020, and the cited Delta disclosures through June 30, 2026. Annual letters generally follow their reporting years; holdings dates differ from filing dates. As of October 30, 2026, this review has rechecked the dates and share counts in both 13G filings, without freshly checking every 13F or establishing more recent changes. Exact 2020 exit losses and 2026 decision attribution retain the source limitations stated below.
+
+## Investment Outcome
 
 When Buffett first invested in USAir, he misjudged the company's operating risks, and the investment suffered a substantial unrealized loss. USAir later returned to profitability, and Berkshire ultimately exited at a profit. On his second venture into airline stocks, he judged that the industry's structure had improved, and the holdings had accumulated substantial unrealized gains by 2019. The pandemic hit the airline industry in 2020, and Berkshire subsequently sold its entire position at a loss.
 
@@ -52,7 +57,7 @@ Drawing on the lessons of his earlier USAir investment, he bought Delta, Southwe
 
 At the end of 2019, Berkshire's holdings in Delta, Southwest, and United had a combined cost of approximately $6.26 billion and a market value of approximately $8.6 billion, for an unrealized gain of about $2.34 billion. These figures come from the [holdings table in the 2019 annual report](https://www.berkshirehathaway.com/letters/2019ltr.pdf), adding together the costs and market values of the three companies.
 
-From 2016 to 2019, the airline investments appeared to validate Buffett's judgment that the industry had improved. Industry concentration increased, profitability improved, and share repurchases also raised per-share value.
+Operating improvements and unrealized gains in 2016–2019 were consistent with Buffett's judgment at the time. Interim gains alone do not establish a durable investment thesis. Industry concentration increased, profitability improved, and share repurchases also raised per-share value.
 
 The problem came in 2020.
 

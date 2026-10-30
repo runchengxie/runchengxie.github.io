@@ -17,3 +17,13 @@ test('Chinese and English versions cite the same external source destinations',(
   assert.deepEqual(urls(readFileSync(`src/content/blog/${file}`,'utf8')),urls(readFileSync(`src/content/blog-en/${file}`,'utf8')),file);
  }
 });
+
+test('articles distinguish original publication, text review and source applicability in both languages',()=>{
+ for(const file of files)for(const directory of ['blog','blog-en']){
+  const text=readFileSync(`src/content/${directory}/${file}`,'utf8');
+  const original=text.match(/^date: (\d{4}-\d{2}-\d{2})$/m)?.[1];
+  const reviewed=text.match(/^reviewedAt: (\d{4}-\d{2}-\d{2})$/m)?.[1];
+  assert(original && reviewed && reviewed>=original,`${directory}/${file}: invalid temporal metadata`);
+  assert.match(text,directory==='blog'?/## 资料时间与适用范围/:/## Source dates and applicability/);
+ }
+});

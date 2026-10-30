@@ -1,12 +1,17 @@
 ---
-title: "Buffett's Early Cigar-Butt Investments: Union Street Railway"
+title: "Asset Discounts and Capital Returns in Buffett's Union Street Railway Investment"
 date: 2026-03-25
+reviewedAt: 2026-10-30
 categories: [Investing, Buffett, Case Studies, Cigar-Butt Investing]
 ---
 
-Today, let's look at one of Buffett's early cigar-butt investments: Union Street Railway.
+Union Street Railway traded below its cash-like assets and later distributed $50 per share. Valuing the case requires distinguishing freely available cash from restricted deposits; realizing the discount also depended on an actual capital distribution.
 
-## 1. In One Sentence
+## Source dates and applicability
+
+The case mainly concerns the 1950s. The 1954 Moody's manual reports 1953 financial statements; the 2005 Q&A and 2008 biography are later recollections, and the 2024 book is secondary archival research. As of October 2026, the distinction between restricted assets and capital distributions remains useful. Some ownership and company-history details lack original records, and cash-like assets cannot all be assumed immediately distributable.
+
+## 1. The Investment and Its Assets
 
 The company's share price was far below the realizable value on its balance sheet, and it later returned some of that book value to shareholders through a return of capital.
 
