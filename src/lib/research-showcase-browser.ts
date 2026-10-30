@@ -1,17 +1,16 @@
-import {chartDomain,controlIds,metricIds,parseMarketEvidence,parseFactorEvidence,researchSources,type MarketEvidence,type FactorEvidence,type ControlId,type MetricId} from "./research-showcase";
+import {chartDomain,styleIds,metricIds,parseMarketEvidence,parseFactorEvidence,researchSources,type MarketEvidence,type FactorEvidence,type StyleId,type MetricId} from "./research-showcase";
 
 export function initializeResearchShowcase(root:HTMLElement):void {
   const locale=root.dataset.researchLocale==="zh"?"zh-CN":"en";
   const messages=JSON.parse(root.dataset.messages??"{}") as Record<string,string>;
   const text=(key:string,values:Record<string,string|number>={})=>(messages[key]??key).replace(/\{(\w+)\}/g,(token,name:string)=>String(values[name]??token));
   const numbers=new Intl.NumberFormat(locale,{maximumFractionDigits:2});
-  const signed=new Intl.NumberFormat(locale,{maximumFractionDigits:2,signDisplay:"exceptZero"});
   const percent=new Intl.NumberFormat(locale,{style:"percent",maximumFractionDigits:2});
   const dates=new Intl.DateTimeFormat(locale,{year:"numeric",month:"short",day:"numeric",timeZone:"Asia/Shanghai"});
   const date=(value:string)=>dates.format(new Date(value.includes("T")?value:`${value}T00:00:00Z`));
   const el=<K extends keyof HTMLElementTagNameMap>(tag:K,content?:string)=>{const node=document.createElement(tag);if(content!==undefined)node.textContent=content;return node;};
   const query=<T extends HTMLElement>(parent:Element,selector:string):T=>{const element=parent.querySelector<T>(selector);if(!element)throw new Error(`Missing research element: ${selector}`);return element;};
-  interface Mark {label:string;value:number;formatted:string;interval?:[number,number];}
+  interface Mark {label:string;value:number;formatted:string;}
   function plot(container:HTMLElement,rows:Mark[],domain:[number,number],format:(value:number)=>string) {
     container.replaceChildren();
     const position=(value:number)=>(value-domain[0])/(domain[1]-domain[0])*100;
@@ -20,19 +19,14 @@ export function initializeResearchShowcase(root:HTMLElement):void {
       const label=el("span",row.label);label.className="research-chart-label";
       const track=el("div");track.className="research-track";
       const zero=el("span");zero.className="research-zero";zero.style.left=`${position(0)}%`;track.append(zero);
-      if(row.interval) {
-        const range=el("span");range.className="research-range";range.style.left=`${position(row.interval[0])}%`;range.style.width=`${position(row.interval[1])-position(row.interval[0])}%`;
-        const point=el("span");point.className="research-point";point.style.left=`${position(row.value)}%`;track.append(range,point);
-      } else {
-        const bar=el("span");bar.className="research-bar";bar.style.left=`${Math.min(position(0),position(row.value))}%`;bar.style.width=`${Math.abs(position(row.value)-position(0))}%`;track.append(bar);
-      }
+      const bar=el("span");bar.className="research-bar";bar.style.left=`${Math.min(position(0),position(row.value))}%`;bar.style.width=`${Math.abs(position(row.value)-position(0))}%`;track.append(bar);
       const value=el("span",row.formatted);value.className="research-chart-value";line.append(label,track,value);container.append(line);
     }
     const axis=el("div");axis.className="research-axis";axis.append(el("span",format(domain[0])),el("span",format(domain[1])));container.append(axis);
   }
-  function values(panel:HTMLElement,rows:{label:string;value:string;range?:string}[]) {
+  function values(panel:HTMLElement,rows:{label:string;value:string;range?:string;days?:string}[]) {
     const body=query<HTMLTableSectionElement>(panel,"[data-research-values]");body.replaceChildren();
-    for(const row of rows){const tr=el("tr"),th=el("th",row.label);th.scope="row";tr.append(th,el("td",row.value));if(row.range!==undefined)tr.append(el("td",row.range));body.append(tr);}
+    for(const row of rows){const tr=el("tr"),th=el("th",row.label);th.scope="row";tr.append(th,el("td",row.value));if(row.range!==undefined)tr.append(el("td",row.range));if(row.days!==undefined)tr.append(el("td",row.days));body.append(tr);}
   }
   function provenance(panel:HTMLElement,rows:[string,string][]) {
     const body=query<HTMLDListElement>(panel,"[data-research-provenance]");body.replaceChildren();
@@ -45,27 +39,23 @@ export function initializeResearchShowcase(root:HTMLElement):void {
     const status=query<HTMLElement>(panel,"[data-source-status]");
     const retry=query<HTMLButtonElement>(panel,"[data-research-retry]");
     let market:MarketEvidence|undefined,factor:FactorEvidence|undefined;
-    const parameter=kind==="market"?"researchControl":"researchMetric";
-    const choices:readonly string[]=kind==="market"?controlIds:metricIds;
+    const parameter=kind==="market"?"researchStyle":"researchMetric";
+    const choices:readonly string[]=kind==="market"?styleIds:metricIds;
     const requested=new URL(window.location.href).searchParams.get(parameter);
     select.value=requested&&choices.includes(requested)?requested:choices[0]!;
     function render() {
       if(kind==="market"&&market) {
-        const row=market.controls.find(row=>row.id===select.value as ControlId)!;
-        const pp=(value:number)=>`${signed.format(value)} ${text("research.pp")}`;
-        const marks=[
-          {label:text("research.market.low"),value:row.low,formatted:percent.format(row.low/100)},
-          {label:text("research.market.high"),value:row.high,formatted:percent.format(row.high/100)},
-          {label:text("research.market.spread"),value:row.spread,formatted:pp(row.spread),interval:[row.ciLow,row.ciHigh] as [number,number]},
-        ];
-        // Keep one scale across control selections; interval endpoints are included.
-        const domain=chartDomain(market.controls.flatMap(row=>[row.low,row.high,row.spread,row.ciLow,row.ciHigh]));
-        plot(query(panel,"[data-research-chart]"),marks,domain,numbers.format);
+        const selected=market.factors.find(row=>row.id===select.value as StyleId)!;
+        const rows=selected.annual;
+        const format=(value:number)=>percent.format(value/100);
+        const marks=rows.map(row=>({label:`${row.year}${row.partial?" *":""}`,value:row.value,formatted:format(row.value)}));
+        plot(query(panel,"[data-research-chart]"),marks,chartDomain(rows.map(row=>row.value)),format);
         query(panel,"[data-research-unit]").textContent=text("research.market.axis");
-        values(panel,marks.map(mark=>({label:mark.label,value:mark.formatted,range:mark.interval?`${pp(mark.interval[0])} – ${pp(mark.interval[1])}`:"—"})));
-        query(panel,"[data-research-period]").textContent=text("research.market.period",{start:date(market.formationStart),end:date(market.formationEnd),returnStart:date(market.firstReturnEnd),returnEnd:date(market.lastReturnEnd),months:numbers.format(market.months)});
-        query(panel,"[data-research-version]").textContent=text("research.market.version",{evidence:date(market.evidenceDate),reviewed:date(market.reviewedAt)});
-        provenance(panel,[["manifestSha256",market.manifestSha256],["summarySha256",market.summarySha256],["monthlySha256",market.monthlySha256]]);
+        values(panel,rows.map(row=>({label:`${row.year}${row.partial?" *":""}`,value:format(row.value),range:`${date(row.periodStart)} – ${date(row.periodEnd)}`,days:numbers.format(row.days)})));
+        query(panel,"[data-research-period]").textContent=text("research.market.period",{start:date(rows[0]!.periodStart),end:date(rows[rows.length-1]!.periodEnd),years:numbers.format(rows.length)});
+        query(panel,"[data-research-caption]").textContent=`${text(`research.style.${selected.id}`)} · ${text("research.market.plot")}`;
+        query(panel,"[data-research-version]").textContent=text("research.market.version");
+        provenance(panel,[["summarySha256",market.sourceHashes.summary],["yearlySha256",market.sourceHashes.yearly]]);
       } else if(kind==="factor"&&factor) {
         const metric=select.value as MetricId;
         const format=metric==="informationRatio"?numbers.format:percent.format;

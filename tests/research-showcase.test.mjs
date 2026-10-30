@@ -3,14 +3,14 @@ import assert from 'node:assert/strict';
 import {existsSync} from 'node:fs';
 import {marketFixture,factorFixture} from './research-showcase-fixtures.mjs';
 const load=async()=>{assert.ok(existsSync('src/lib/research-showcase.ts'),'Research-source parser is not implemented');return import('../src/lib/research-showcase.ts');};
-test('projects reviewed low-turnover rows without changing units or exposing extra fields',async()=>{
- const {parseMarketEvidence}=await load();const input=marketFixture();input.private_detail='not for display';
- const data=parseMarketEvidence(input);assert.equal(data.months,86);assert.equal(data.controls[0].spread,1);assert.equal(data.controls[2].high,-.2);assert.equal('private_detail' in data,false);
+test('projects historical style years without changing percent units or filling absent years',async()=>{
+ const {parseMarketEvidence}=await load();const input=marketFixture();input.private_detail='excluded';
+ const data=parseMarketEvidence(input);assert.equal(data.factors.length,19);assert.equal(data.factors[0].annual[0].value,-20);assert.equal(data.factors[0].annual[0].partial,true);assert.deepEqual(data.factors[0].annual.map(row=>row.year),[2008,2010,2026]);assert.equal('private_detail' in data,false);
 });
-test('rejects market schema/unit drift, duplicate controls, invalid intervals and inconsistent spreads',async()=>{
+test('rejects style schema/unit/stage drift, duplicates and inconsistent yearly coverage',async()=>{
  const {parseMarketEvidence}=await load();
- for(const mutate of [x=>x.unit='percent',x=>x.rankingMode='old',x=>x.schemaVersion=2,x=>x.controls[0].spread=9,x=>x.controls[0].ciLow=2,x=>x.controls[0].high=NaN,x=>x.controls[1].id='raw',x=>x.months=0,x=>x.reviewedAt='2026-02-30',x=>x.manifestSha256='invalid',x=>x.firstReturnEnd='2018-01-01']){
-  const value=marketFixture();mutate(value);assert.throws(()=>parseMarketEvidence(value));
+ for(const mutate of [x=>x.unit='fraction',x=>x.evidenceStage='validated',x=>x.schemaVersion=2,x=>x.factors[0].annual[0].value=NaN,x=>x.factors[0].annual[0].value=-101,x=>x.factors[1].id='size',x=>x.factors[0].annual[1].year=2008,x=>x.factors[0].annual[0].periodStart='2008-02-30',x=>x.factors[0].annual[0].partial='true',x=>x.factors[0].annual[0].days=0,x=>x.sourceHashes.summary='invalid',x=>x.coverageEnd='2000-01-01',x=>x.factors[0].annual=[],x=>x.factors.pop()]){
+  const input=marketFixture();mutate(input);assert.throws(()=>parseMarketEvidence(input));
  }
 });
 test('reads PB/ROE percentages as fractions and leaves information ratio unitless',async()=>{
