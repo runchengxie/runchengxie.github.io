@@ -56,5 +56,5 @@ After Berkshire sold all its remaining shares during 2014, the investment ended 
 - [Tesco, Interim Results Presentation 2014/15 (23 October 2014)](https://www.tescoplc.com/media/1326/interim_2014-15_presentation.pdf) — “Commercial income investigation update” separates £118 million in the current period from £145 million in earlier years, totaling £263 million.
 - [Tesco, Trading Update (9 December 2014)](https://www.tescoplc.com/media/476072/trading-update-091214.pdf) — Confirms guidance that 2014/15 group trading profit would not exceed £1.4 billion.
 
-- [UK Financial Conduct Authority: Tesco Final Notice (2017)](https://www.fca.org.uk/publication/final-notices/tesco-2017.pdf) — Section 2.3 records the September and October 2014 overstatement announcements and subsequent revisions.
+- [UK Financial Conduct Authority: Tesco Final Notice (2017)](https://www.fca.org.uk/publication/final-notices/tesco-2017.pdf) — Section 4.4 records the September and October 2014 overstatement announcements and subsequent revisions.
 - [The Irish Times: Even Warren Buffett makes mistakes (October 2, 2014)](https://www.irishtimes.com/business/retail-and-services/even-warren-buffett-makes-mistakes-1.1949573) — Contemporary report of Buffett’s CNBC interview that day; the original broadcast was not reviewed for this pass.

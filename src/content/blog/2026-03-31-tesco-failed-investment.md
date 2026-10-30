@@ -56,5 +56,5 @@ categories: [投资, 巴菲特, 案例研究, 投资失败]
 - [Tesco《2014/15 半年度业绩演示材料》（2014 年 10 月 23 日）](https://www.tescoplc.com/media/1326/interim_2014-15_presentation.pdf) — “Commercial income investigation update”区分当期 1.18 亿英镑与以前年度累计 1.45 亿英镑，合计 2.63 亿英镑。
 - [Tesco《交易情况更新》（2014 年 12 月 9 日）](https://www.tescoplc.com/media/476072/trading-update-091214.pdf) — 确认 2014/15 年集团交易利润预期不超过 14 亿英镑。
 
-- [英国金融行为监管局（FCA）：Tesco Final Notice（2017）](https://www.fca.org.uk/publication/final-notices/tesco-2017.pdf) — 第 2.3 节记载 2014 年 9 月和 10 月公告的利润高估数字及后续修订。
+- [英国金融行为监管局（FCA）：Tesco Final Notice（2017）](https://www.fca.org.uk/publication/final-notices/tesco-2017.pdf) — 第 4.4 节记载 2014 年 9 月和 10 月公告的利润高估数字及后续修订。
 - [The Irish Times：Even Warren Buffett makes mistakes（2014 年 10 月 2 日）](https://www.irishtimes.com/business/retail-and-services/even-warren-buffett-makes-mistakes-1.1949573) — 同期报道转述巴菲特当天的 CNBC 采访；本次未核看原始节目。
