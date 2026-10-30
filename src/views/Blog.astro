@@ -10,7 +10,7 @@ const posts = await getLocalizedPosts(locale);
 ---
 
 <BaseLayout locale={locale} title={t(locale, "nav.blog")} description={t(locale, "blog.description")}>
-  <header class="page-heading">
+  <header class="page-heading" data-page-entry="blog">
     <p class="eyebrow">{t(locale, "blog.archive")}</p>
     <h1>{t(locale, "nav.blog")}</h1>
     <p>{countMessage(locale, "blog.count", posts.length)}</p>

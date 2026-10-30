@@ -13,7 +13,8 @@ export async function verifyContentMotion({browser,origin}) {
  const page=await context.newPage();await page.goto(`${origin}/en/blog/`);
  const rows=page.locator('[data-motion-archive] .post-list__item');
  assert.equal(await rows.count(),15,'complete archive is server rendered');
- assert.equal(await rows.first().evaluate(node=>node.getAnimations().length),0,'initial content stays still');
+ await page.waitForFunction(()=>!document.querySelector('[data-entry-active]'));
+ assert.equal(await rows.first().evaluate(node=>node.getAnimations().length),0,'entry settles before scroll reveals');
  await rows.nth(5).scrollIntoViewIfNeeded();
  await page.waitForFunction(()=>window.contentMotionEvents.some(event=>event.kind==='blog'));
  await page.waitForTimeout(280);
