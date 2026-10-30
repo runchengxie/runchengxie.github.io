@@ -7,10 +7,42 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 
 <BaseLayout locale={locale} title={t(locale, "about.title")} description={t(locale, "about.description")}>
   <header class="page-heading about-heading" data-page-entry="about">
-    <div class="about-background" data-about-background aria-hidden="true"></div>
-    <p class="eyebrow">{t(locale, "about.title")}</p>
-    <h1>{t(locale, "about.heading")}</h1>
-    <p>{t(locale, "about.description")}</p>
+    <div class="about-heading__copy">
+      <p class="eyebrow">{t(locale, "about.title")}</p>
+      <h1>{t(locale, "about.heading")}</h1>
+      <p>{t(locale, "about.description")}</p>
+    </div>
+    <div class="about-background" data-about-background aria-hidden="true">
+      <svg class="about-network" aria-hidden="true" focusable="false" viewBox="0 0 360 260" fill="none">
+        <g class="about-network__frame">
+          <path d="M14 34V14H34M326 14H346V34M14 226V246H34M326 246H346V226" />
+        </g>
+        <g class="about-network__edges">
+          <path d="M34 62H94V96H150M34 136H72V96M94 96H150V58H212M150 96V144H212M212 58H272V104H326M212 144H272V104" />
+          <path d="M132 195V164H178M224 195V224H278" />
+        </g>
+        <path class="about-network__feedback" d="M306 195H330V232H132V207M128 201L132 207L136 201" />
+        <path class="about-network__route" d="M54 195H306" />
+        <g class="about-network__nodes">
+          <circle cx="34" cy="62" r="4" />
+          <circle cx="34" cy="136" r="4" />
+          <rect x="90" y="92" width="8" height="8" />
+          <circle cx="150" cy="58" r="4" />
+          <rect x="146" y="140" width="8" height="8" />
+          <circle cx="212" cy="58" r="4" />
+          <circle cx="212" cy="144" r="4" />
+          <rect x="268" y="100" width="8" height="8" />
+          <circle cx="326" cy="104" r="4" />
+          <circle cx="132" cy="195" r="4" />
+          <circle cx="224" cy="195" r="4" />
+        </g>
+        <g class="about-network__accent">
+          <circle cx="54" cy="195" r="4" />
+          <rect x="300" y="189" width="12" height="12" />
+        </g>
+        <circle class="about-network__signal" cx="54" cy="195" r="3" />
+      </svg>
+    </div>
   </header>
   <div class="about-content reading-width">
     <section data-motion-kind="about" aria-labelledby="work-heading">

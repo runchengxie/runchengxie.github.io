@@ -48,7 +48,7 @@ export function initializeContentEntry() {
     const observer = new IntersectionObserver(entries => {
       inView = entries[0]?.isIntersecting ?? false; syncBackground();
     });
-    observer.observe(heading);
+    observer.observe(background);
   }
   preference.addEventListener('change', () => {
     if (preference.matches) stop(); syncBackground();
