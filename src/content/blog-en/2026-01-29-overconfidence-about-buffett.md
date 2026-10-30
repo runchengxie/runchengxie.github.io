@@ -36,4 +36,4 @@ Consequently, the information continues to be incorporated into prices gradually
 
 ## 4. References
 
-Hughes, Liu, Zhang, *Overconfidence, Under-Reaction, and Warren Buffett's Investments* (2010)
+1. John S. Hughes, Jing Liu, and Mingshan Zhang (2010), [Overconfidence, Under-Reaction, and Warren Buffett's Investments](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1635061), working paper dated July 5, 2010, SSRN 1635061; [DOI](https://doi.org/10.2139/ssrn.1635061). The abstract directly supports the 1980–2006 disclosure-following results, market underreaction, analyst downgrades, and institutional selling. Overconfidence is the authors' proposed explanation, not evidence that all professional investors behave this way. The cited source is a working paper, rather than a verified journal publication.

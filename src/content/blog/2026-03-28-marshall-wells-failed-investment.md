@@ -8,13 +8,13 @@ categories: [投资, 巴菲特, 案例研究, 投资失败]
 
 ## 0. 一句话概括
 
-Marshall-Wells 证明了格雷厄姆式低估值投资能保住下行风险，但这只是投资的第一步。
+Marshall-Wells 的买入逻辑以低估值为起点，但价格折扣本身不足以解释之后的回报。
 
 获得投资收益的第二步，往往需要额外的催化因素，例如竞争优势、资本配置、商业模式改善或控制权变化。
 
 ## 1. 巴菲特为什么会买
 
-这笔投资发生在巴菲特还在哥大读书期间。
+巴菲特在哥大读书期间参加过这家公司的股东大会。
 
 而且为了去参加 Marshall-Wells 的股东大会，他还专门问了老师 David Dodd 能不能逃一节课。Dodd 同意后，他才去的。
 
@@ -49,3 +49,11 @@ Marshall-Wells 当年的估值极低：
 5. Marshall-Wells 这种老式批发商结构太重，逐渐丧失优势。
 
 巴菲特当时也没有介入公司的经营管理。他还是学生，即使想介入也很难做到。因此，单纯期待被低估的股价快速回到公允价值并不现实。
+
+## 参考文献
+
+- Walter Schloss、Edwin Schloss，1989 年：[《Walter & Edwin Schloss — Part I》](<https://sabercapitalmgt.com/wp-content/uploads/2012/11/Walter-Schloss-OID-Interview.pdf>)，访谈刊于 *Outstanding Investor Digest*，1989 年 3 月 6 日；Saber Capital 保存的转载 PDF 第 17—18 页。Walter Schloss 亲述与仍在哥大学习的巴菲特在 Marshall-Wells 股东大会相识；此回忆不是公司当年的财务披露。
+- Alice Schroeder，2008 年：[《The Snowball: Warren Buffett and the Business of Life》](<https://www.penguinrandomhouse.com/books/162310/the-snowball-by-alice-schroeder/>)，Bantam。关于请假参会和管理层态度的叙事来自传记及其中的采访回忆；链接为出版社书目页，不提供相关采访原件。
+- Brett Gardner，2024 年：[《Buffett's Early Investments: A New Investigation into the Decades When Warren Buffett Earned His Best Returns》](<https://www.harriman-house.com/authors/brett-gardner/buffetts-early-investments/9781804090572>)，Harriman House，“Marshall-Wells”章。提供估值、行业竞争与退出结果的二手档案研究；链接为出版社书目页，并非当年的财务报表。
+
+核验范围：本次未取得公司当年完整年报和巴菲特的交易记录，因此未独立复核正文的低估值、长期经营表现与退出盈亏；股东大会回忆也不能单独证明其卖出动机。

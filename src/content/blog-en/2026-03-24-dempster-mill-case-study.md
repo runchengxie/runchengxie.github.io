@@ -21,7 +21,7 @@ Dempster originally made windmills, water pumps, and irrigation equipment. By th
 
 The key was valuation.
 
-According to its 1961 balance sheet, the company had book net assets of about $4.6 million, or $76.48 per share. Buffett applied steep discounts to these figures:
+According to its 1961 balance sheet, the company had book net assets of about $4.6 million, or approximately $76.5 per share. Buffett applied steep discounts to these figures:
 
 1. Receivables were valued at 85%.
 2. Inventory was valued at 60%.
@@ -53,6 +53,14 @@ Buffett later brought in Harry Bottle to take over management. Bottle took sever
 4. Disposed of old inventory.
 5. Used the released funds to repay debt and buy securities.
 
-Buffett bought at about $28 per share. By his exit in 1963, the share price had risen to $80, producing an excellent return.
+Buffett’s average purchase cost was about $28 per share. After the operating-asset sale and securities gains in 1963, realized value was approximately $80 per share; this was not a quoted market price.
 
 The turnaround consumed considerable effort and further prompted Buffett to consider whether he should continue with the cigar-butt approach to investing.
+
+## References
+
+- Warren E. Buffett (1962), *Letter to Partners*, January 24, 1962. [Ivey Business School compilation, PDF page 21](<https://www.ivey.uwo.ca/media/2975913/buffett-partnership-letters.pdf#page=21>), “Dempster Mill Manufacturing”: cost, valuation, and ownership.
+- Warren E. Buffett (1963), *1962 Letter to Partners*, January 18, 1963. [Same compilation, PDF pages 37–39](<https://www.ivey.uwo.ca/media/2975913/buffett-partnership-letters.pdf#page=37>): asset discounts and Harry Bottle's turnaround.
+- Warren E. Buffett (1964), *1963 Letter to Partners*, January 18, 1964. [“Dempster Mill Mfg.” appendix, PDF pages 59–62](<https://www.ivey.uwo.ca/media/2975913/buffett-partnership-letters.pdf#page=59>): operating changes and asset sale.
+
+Valuation note: the third source's approximately $80 per share is realized value from the asset sale and securities gains, rather than a quoted market price.

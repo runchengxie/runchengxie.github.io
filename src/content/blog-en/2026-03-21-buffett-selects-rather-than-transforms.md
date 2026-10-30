@@ -29,7 +29,7 @@ To reduce the influence of industry and year differences, many regressions inclu
 
 The findings can be summarized as follows: Buffett is strongest at selecting companies before investment, while subsequent corporate transformation is weaker, especially in governance.
 
-In the investment and financing group, Berkshire's portfolio companies match Buffett's preferences on 8/10 characteristics. The corresponding figures are 4/7 for accounting and disclosure and 2/6 for executive compensation. Board structure and external monitoring are further removed from the principles Buffett publicly emphasizes.
+In the summary in [section 9 of the authors' 2011 working paper](https://faculty.washington.edu/rbowen/papers/BRV_buffet_5-31-11.pdf), Berkshire's portfolio companies match Buffett's preferences on 8/10 investment and financing characteristics. The corresponding figures are 4/7 for accounting and disclosure and 2/6 for executive compensation. Board structure and external monitoring are further removed from the principles Buffett publicly emphasizes.
 
 More specifically, companies Buffett buys often already have these characteristics: higher ROE and owner earnings, more persistent advantages in sales and earnings, lower leverage, lower volatility, and share prices closer to their estimated intrinsic value.
 
@@ -38,6 +38,8 @@ In accounting disclosure, these companies are also more likely to reflect good a
 This suggests a clear hierarchy in Buffett's stock selection philosophy: operating quality matters most, followed by accounting discipline, with explicit board governance factors further down the list.
 
 ## 3. What This Paper Tells Us
+
+Version note: The mimicking-portfolio and future operating-performance analyses in the next two paragraphs appear in the authors' [May 31, 2011 working paper](https://faculty.washington.edu/rbowen/papers/BRV_buffet_5-31-11.pdf), but were not found in the cited 2014 published version. They should be read as earlier-draft findings, rather than verified results of the published paper.
 
 The authors also construct a portfolio that imitates Berkshire, using similarity measures to find companies statistically close to Berkshire's holdings. This portfolio outperforms the market benchmark, but its excess returns under the Fama-French four-factor framework are unstable and, in particular, are not significant from 1997 through 2006.
 
@@ -53,4 +55,5 @@ Third, most governance variables the authors can quantify are observable institu
 
 ## 4. References
 
-Bowen, Rajgopal, Venkatachalam, *Is Warren Buffett's Commentary on Accounting, Governance, and Investing Practices Reflected in the Investment Decisions and Subsequent Influence of Berkshire Hathaway?* (The Accounting Review, 2014)
+1. Robert M. Bowen, Shivaram Rajgopal, and Mohan Venkatachalam (2014), [Is Warren Buffett's Commentary on Accounting, Governance, and Investing Practices Reflected in the Investment Decisions and Subsequent Influence of Berkshire Hathaway?](https://business.columbia.edu/sites/default/files-efs/pubfiles/12916/bowen%20rajgopal%20venkatachalam%20TAR.pdf), *The Accounting Review* 89(5): 1609–1644; [university publication record](https://scholars.duke.edu/publication/1048603). Section III supports the 624 firm-years and 206 companies; sections IV–VI examine accounting, governance, and investment characteristics; section VII compares selection with subsequent influence. This published version does not contain the earlier draft's mimicking-portfolio analysis below.
+2. Robert M. Bowen, Shivaram Rajgopal, and Mohan Venkatachalam (2011), [working paper of the same title, May 31, 2011 draft](https://faculty.washington.edu/rbowen/papers/BRV_buffet_5-31-11.pdf), hosted by the author at the University of Washington. Section 9 supports the 8/10, 4/7, and 2/6 characteristic counts; section 8.2 and Table 8, Panel C support the mimicking-portfolio returns; section 8.3 and Table 9 support operating performance over the next 1–5 years. Section 3's first two substantive paragraphs draw on this earlier version, not empirical results in the 2014 published paper.

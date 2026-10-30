@@ -30,7 +30,7 @@ There is an interesting story here. Because the stock was obscure and illiquid, 
 
 The company also knew its stock was cheap and ran newspaper advertisements offering to buy back shares. Buffett later found a list of major shareholders in Massachusetts public utility regulatory records, contacted them individually, and bought their shares.
 
-He ultimately bought 576 shares, about 3.1% of the shares outstanding in 1953. By 1955, continued company buybacks had increased his ownership to 4.1%.
+Gardner’s archival research reports that he ultimately bought 576 shares, about 3.1% of the shares outstanding in 1953; the original portfolio record was not obtained for this source check. By 1955, continued company buybacks had increased his ownership to 4.1%.
 
 He also visited management. Buffett recalled getting up at four in the morning and driving to New Bedford to meet president Mark Duff. Before he left, Duff told him the company was considering a `return of capital` distribution. Under Massachusetts public utility regulations, the distribution had to be set as a multiple of the stock's par value, and the company was considering two units.
 
@@ -45,3 +45,12 @@ Three points in the Union Street Railway case are worth remembering:
 1. This was a classic cigar-butt investment, with the purchase thesis based primarily on discounts to net assets and net cash.
 2. Buying cheaply does not automatically produce a return. Capital allocation decisions are often needed to deliver value to shareholders. In this case, the key catalyst was a return of capital.
 3. Buffett, then only 22 or 23, experienced the rewards of cigar-butt investing through this investment. He encountered relatively cooperative management and had yet to experience the most difficult aspects of this approach, such as prolonged dealings with managers resistant to change, along with the resulting execution costs and organizational friction.
+
+## References
+
+- Moody's Investors Service (1954), [*Moody's Transportation Manual*, page 1492, “Union Street Railway,” scanned page](<https://compoundingmachines.wordpress.com/wp-content/uploads/2009/12/union-street-railway2.jpg>). This third-party reproduction lists the 1953 balance sheet, 18,363 outstanding shares, and a $4.27-per-share loss. Its figures yield approximately $48.13 net cash and $53.72 in special deposits plus insurance trust assets per share; the latter are not necessarily immediately unrestricted cash.
+- Warren Buffett, notes by Mark Hirschey (2005), [*University of Kansas: Warren Buffett Q&A*](<https://sabercapitalmgt.com/wp-content/uploads/2017/01/Buffett-2005-University-of-Kansas-Sears-Discussion.pdf>), page 1, first question. Reproduced participant notes record the recollection of a roughly $30 price against $100 in cash.
+- Alice Schroeder (2008), [*The Snowball: Warren Buffett and the Business of Life*](<https://www.penguinrandomhouse.com/books/162310/the-snowball-by-alice-schroeder/>), Bantam. Its account of Mark Duff and the capital return includes Buffett's interview recollections. The link is a publisher listing, not an original interview transcript.
+- Brett Gardner (2024), [*Buffett's Early Investments: A New Investigation into the Decades When Warren Buffett Earned His Best Returns*](<https://www.harriman-house.com/authors/brett-gardner/buffetts-early-investments/9781804090572>), Harriman House, “Union Street Railway” chapter. Secondary archival research on company history, ownership, and the distribution; the publisher page does not reproduce the underlying records.
+
+Verification limits: the 576-share holding, approximately 3.1% ownership in 1953 and 4.1% in 1955, and the full history for 1872, 1890, and 1947 were not individually checked against original archival records in this review. The scanned page alone does not confirm them all.

@@ -8,7 +8,7 @@ Today we look at Dexter Shoe, a case that helps explain how Buffett misjudged a 
 
 ## 0. In One Sentence
 
-Buffett acquired Dexter Shoe in 1993 believing it had a durable competitive advantage, only to see the business decline over the next few years. Because he paid with Berkshire shares, the investment effectively meant shareholders gave up 1.6% of Berkshire in exchange for a business that ultimately went bankrupt.
+Buffett acquired Dexter Shoe in 1993 believing it had a durable competitive advantage, only to see the business decline over the next few years. Because he paid with Berkshire shares, the investment effectively meant shareholders gave up 1.6% of Berkshire in exchange for a business that ultimately became worthless.
 
 ## 1. What the Company Looked Like at the Time
 
@@ -41,3 +41,12 @@ In 2014, Buffett calculated it again: the Berkshire shares he had handed over we
 At the end of 2016, he could not resist another look and said those 25,203 shares were now worth more than $6 billion.
 
 Dexter's continuing deterioration also had social consequences. In his 2015 shareholder letter, Buffett noted that the collapse of Dexter Shoe had cost about 1,600 employees their jobs in a small town in Maine.
+
+## References
+
+- [Berkshire Hathaway, 1993 Letter to Shareholders](https://www.berkshirehathaway.com/letters/1993.html) — “Dexter Shoe” and the Frank Rooney discussion: management, production, distribution, customer awards, and acquisition background.
+- [Berkshire Hathaway, 2000 Annual Report](https://www.berkshirehathaway.com/2000ar/2000ar.pdf) — Financial statement Note 1(g): Dexter’s $219 million goodwill impairment.
+- [Berkshire Hathaway, 2007 Letter to Shareholders](https://www.berkshirehathaway.com/letters/2007ltr.pdf) — Dexter discussion: $433 million, 25,203 Class A shares, 1.6% ownership, and $3.5 billion opportunity cost.
+- [Berkshire Hathaway, 2014 Letter to Shareholders](https://www.berkshirehathaway.com/letters/2014ltr.pdf) — Dexter discussion in the fiftieth-anniversary review: shares paid were worth about $5.7 billion.
+- [Berkshire Hathaway, 2015 Letter to Shareholders](https://www.berkshirehathaway.com/letters/2015ltr.pdf) — Dexter’s closure and approximately 1,600 lost jobs in Maine.
+- [Berkshire Hathaway, 2016 Letter to Shareholders](https://www.berkshirehathaway.com/letters/2016ltr.pdf) — The 25,203 shares were worth more than $6 billion at year-end 2016; this letter gives $434 million for the purchase, slightly different from the $433 million in the 2007 and 2014 letters.

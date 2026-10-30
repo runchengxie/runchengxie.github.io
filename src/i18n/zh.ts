@@ -178,5 +178,9 @@ export default {
   "demo.rebalance.error.value": "组合金额须大于 0，且不超过 1,000,000,000,000。",
   "demo.rebalance.error.fee": "费率须为 0 至 1,000 基点。",
   "demo.rebalance.project": "组合框架文档",
-  "demo.noScript": "启用 JavaScript 后可编辑示例。下方仍可查看默认输入、结果和规则。"
+  "demo.noScript": "启用 JavaScript 后可编辑示例。下方仍可查看默认输入、结果和规则。",
+  "note.references": "参考文献",
+  "note.source2024": "沃伦·巴菲特：《2024 年致股东信》，伯克希尔·哈撒韦，2025 年。参见 Where Your Money Is、美国经济背景和 Property-Casualty Insurance，分别对应持股方式、2720 亿美元组合与浮存金增长。",
+  "note.source2025": "伯克希尔·哈撒韦：《2025 年年报》，2026 年。参见 Insurance—Investment Income，核对年末浮存金及 2023—2025 年的浮存金成本。",
+  "note.sourceScope": "股东信和年报对应文中数字及巴菲特对美国背景的表述。称呼的文化比较与延伸解释属于本文评论。"
 } as const;

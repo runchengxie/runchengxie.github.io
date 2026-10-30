@@ -178,5 +178,9 @@ export default {
   "demo.rebalance.error.value": "Portfolio value must be greater than zero and at most 1,000,000,000,000.",
   "demo.rebalance.error.fee": "Fee rate must be between 0 and 1,000 basis points.",
   "demo.rebalance.project": "Portfolio framework documentation",
-  "demo.noScript": "Enable JavaScript to edit these examples. The default inputs, results and rules are available below."
+  "demo.noScript": "Enable JavaScript to edit these examples. The default inputs, results and rules are available below.",
+  "note.references": "References",
+  "note.source2024": "Warren E. Buffett. 2024 Letter to Shareholders. Berkshire Hathaway, 2025. See “Where Your Money Is,” the discussion of America, and “Property-Casualty Insurance” for ownership forms, the $272 billion portfolio, and float growth.",
+  "note.source2025": "Berkshire Hathaway Inc. 2025 Annual Report, 2026. See “Insurance—Investment Income” for year-end float and the cost of float in 2023–2025.",
+  "note.sourceScope": "The letters support the reported figures and Buffett’s statement about America. The comparison of cultural labels and the broader interpretation are the author’s commentary."
 } as const;

@@ -36,4 +36,4 @@ Hughes、Liu、Zhang（2010）的论文《Overconfidence, Under-Reaction, and Wa
 
 ## 4. 参考资料
 
-Hughes, Liu, Zhang, *Overconfidence, Under-Reaction, and Warren Buffett's Investments* (2010)
+1. John S. Hughes、Jing Liu、Mingshan Zhang（2010），[Overconfidence, Under-Reaction, and Warren Buffett's Investments](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1635061)，工作论文，写于 2010 年 7 月 5 日，SSRN 1635061，[DOI](https://doi.org/10.2139/ssrn.1635061)。论文摘要明确对应 1980–2006 年跟投披露持仓的结果、市场反应不足，以及分析师降级和机构卖出的现象。过度自信是作者提出的解释，不能据此认定所有专业投资者都有同样行为；此处引用的是工作论文，不是已核实的期刊发表版本。

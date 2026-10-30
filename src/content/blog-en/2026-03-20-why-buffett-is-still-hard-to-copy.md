@@ -34,14 +34,15 @@ Why can good, cheap companies exist in a nearly efficient market? Because the ma
 
 After analyzing more than half a century of US stock data and the historical performance of thousands of actively managed funds, the researchers find that their model still cannot fully explain Buffett's excess returns.
 
-Specifically, from February 1968 through December 2020, Berkshire's monthly excess return averaged 1.41%, exceeding the return explained by their q-factor model by 0.59%.
+Specifically, [section 4.2 and Table 11](https://global-q.org/uploads/1/2/2/6/122679606/ms2024.pdf) report that from February 1968 through December 2020, Berkshire's monthly excess return averaged 1.41%, with a q-factor-adjusted monthly alpha of 0.59%.
 
-Another surprising result concerns expected growth, which the researchers had assumed Buffett would value and included in the q-factor model. In the Berkshire sample, its loading has the opposite sign.
+Another surprising result concerns expected growth, which the researchers had assumed Buffett would value and included in the q-factor model. In the Berkshire sample, its loading has the opposite sign. However, this q5 expected-growth loading of -0.23 (t = -1.30) is statistically insignificant.
 
-The researchers argue that their model's inability to fully fit Buffett's performance reflects the complex economic meaning embedded in many financial statement items. Quantitative models struggle to match the depth of Buffett-style judgment. For example, research and development, advertising and brand effects, employee training, management quality, long-term capital allocation ability, and organizational capabilities all affect future profitability, yet standardized factors struggle to capture them fully.
+The paper discusses limitations of accounting measurement, including how R&D, advertising and employee training affect profitability and investment measures. Extending that discussion, this article suggests that management quality, long-term capital allocation and organizational capabilities may also contribute to the gap between the model and Buffett’s decisions; these explanations are not directly tested by the paper.
 
 The researchers' replication effort achieved partial success. The q / q5 models capture the quantifiable parts of Buffett's investment logic with statistical significance. But investment managers such as Buffett still exercise some judgment that standard factor models struggle to absorb and imitate.
 
 ## 4. References
 
-Hou, Mo, Xue, Zhang, *The Economics of Security Analysis* (Management Science, 2024), and its predecessor, *The Economics of Value Investing* (NBER, 2017)
+1. Kewei Hou, Haitao Mo, Chen Xue, and Lu Zhang (2024), [The Economics of Security Analysis](https://doi.org/10.1287/mnsc.2022.4640), *Management Science* 70(1): 164–186; [author-hosted published PDF](https://global-q.org/uploads/1/2/2/6/122679606/ms2024.pdf). Section 4.2 and Table 11 support the February 1968–December 2020 sample, 1.41% average monthly excess return, and 0.59% q-factor alpha. The q5 expected-growth loading is -0.23 (t = -1.30), statistically insignificant. Section 5 discusses accounting measurement limits, including expensed R&D, advertising, and training. The management-quality and organizational-capability examples are this article's interpretation, rather than variables directly tested in Table 11.
+2. Kewei Hou, Haitao Mo, Chen Xue, and Lu Zhang (2017), [The Economics of Value Investing](https://www.nber.org/papers/w23563), NBER Working Paper 23563, June 2017. Supports the theoretical background connecting investment CAPM and value investing with efficient markets. This earlier working paper cannot support empirical results ending in 2020.

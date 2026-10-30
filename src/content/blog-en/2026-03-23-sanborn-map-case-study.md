@@ -14,7 +14,7 @@ Today, let's look at one of his early investments.
 
 Sanborn Map was originally a good business with a strong monopoly position. Later, its main customers, insurance companies, switched to using individual building risk cards for underwriting; revenue from its map business fell sharply, and it gradually became a declining industry.
 
-Buffett discovered that the securities portfolio on its books was worth more than the market capitalization of the entire company, while its core business still had some earning power. He therefore took control and pushed to unlock that hidden value.
+Buffett discovered that the securities portfolio on its books was worth more than the market capitalization of the entire company, while its core business still had some earning power. He therefore increased his stake and sought support from other shareholders to unlock that value.
 
 ## 2. Why Buffett Bought It
 
@@ -33,12 +33,12 @@ The first layer: the core business had deteriorated, but it was not beyond repai
 
 1. Demand for traditional insurance maps had declined, but still existed.
 2. Its maps and surveying capabilities could also serve many customers outside insurance.
-3. By 1959, the core business could still contribute operating profit on the order of $100,000.
+3. In 1958–1959, the map business remained profitable after tax, but annual after-tax profits had fallen below $100,000.
 4. The company as a whole remained profitable and also earned investment income.
 
 The second layer: the real value was on the balance sheet.
 
-Sanborn's total market capitalization at the time was about $4.73 million, but the basket of stocks and bonds it held had a market value of more than $7 million.
+Sanborn's total market capitalization at the time was about $4.73 million, but the basket of stocks and bonds it held had a market value of about $7 million.
 
 ## 4. Buffett Personally Drove Changes to Unlock Value
 
@@ -46,10 +46,17 @@ Cigar-butt investments often require active investor involvement; waiting for th
 
 Over two to three years, Buffett carried out the following steps:
 
-1. Continued buying shares until he gained control.
+1. Continued buying shares and sought support from other shareholders.
 2. Pushed to separate the operating business from the investment assets.
 3. Enabled shareholders to realize the portfolio's value through a securities exchange.
 4. Optimized the tax structure to reduce the drag from capital gains taxes.
 5. Left capital in the map business to give it a chance to improve operations.
 
 This process was already very close to what would later be called activist investing: taking an active role in realizing a company's value.
+
+## References
+
+- Warren E. Buffett (1961), *1960 Letter to Partners*, January 30, 1961. [Ivey Business School's partnership-letter compilation, PDF pages 10–13](<https://www.ivey.uwo.ca/media/2975913/buffett-partnership-letters.pdf#page=10>), “Sanborn Map” section. Covers the map business, securities portfolio, exchange, and taxes.
+- Warren Buffett, notes by Mark Hirschey (2005), [*University of Kansas: Warren Buffett Q&A*](<https://sabercapitalmgt.com/wp-content/uploads/2017/01/Buffett-2005-University-of-Kansas-Sears-Discussion.pdf>), page 1, first question. Reproduced participant notes discuss potential 50% returns on small sums, rather than a performance commitment.
+
+Accounting note: the business-profit figures use the letter’s after-tax measure. The approximately $7 million valuation concerns the securities portfolio, not operating profits.

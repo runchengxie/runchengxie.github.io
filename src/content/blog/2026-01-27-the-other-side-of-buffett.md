@@ -13,7 +13,7 @@ AQR 的论文《Buffett's Alpha》用量化方法拆解巴菲特的投资能力�
 
 AQR 用资产/权益（total assets to equity）口径估算，认为利用了保险浮存金的伯克希尔，长期平均杠杆实质上达到了 1.7:1。
 
-其中，保险浮存金的估算平均年成本约为 1.72%，比同期 T-bill（短期国债）利率低约 3 个百分点。研究者还估算，float 平均约占伯克希尔负债的 35%。
+其中，[论文表 III](https://doi.org/10.2469/faj.v74.n4.3)估算的保险浮存金平均年成本约为 1.72%，比同期 T-bill（短期国债）利率低约 3 个百分点。研究者还估算，float 平均约占伯克希尔负债的 35%。
 
 ## 2. 杠杆 + 低波动
 
@@ -40,4 +40,5 @@ AQR 在结尾指出，巴菲特的收益曲线也经历过艰难阶段。关键�
 
 ## 4. 参考资料
 
-Frazzini, Kabiller, Pedersen, *Buffett's Alpha*
+1. Andrea Frazzini、David Kabiller、Lasse Heje Pedersen（2018），[Buffett's Alpha](https://www.aqr.com/Insights/Research/Journal-Article/Buffetts-Alpha)，*Financial Analysts Journal* 74(4): 35–55，[期刊正式版](https://doi.org/10.2469/faj.v74.n4.3)。杠杆与融资部分、表 III 对应 1.7:1、浮存金成本 1.72%、低于国库券约 3 个百分点及负债中浮存金约占 35%；投资风格部分、表 IV 对应 BAB、QMJ 及公开股票组合年化 alpha 约 0.3%。结论讨论长期坚持和被迫平仓风险。
+2. *Financial Analysts Journal*（2019），[Correction](https://doi.org/10.1080/0015198X.2019.1569444)，75(1): 2–3。修正原文表 I 的 Panel B 信息比率分布；不是本文所引表 III、IV 的修正。

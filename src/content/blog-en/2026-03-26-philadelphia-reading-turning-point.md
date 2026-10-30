@@ -12,6 +12,8 @@ Learning from his teacher's investment, the young Buffett studied systematically
 
 ## 2. Why Buffett Bought It
 
+The valuation details here and the board chronology below come primarily from Gardner’s archival study listed in the references. Contemporary financial and board records were not obtained for this check; Berkshire’s 2001 letter does not independently confirm every detail.
+
 P&R originally had very poor fundamentals. Anthracite coal had once been an important industry, but by the middle of the twentieth century it had entered an irreversible decline. There was almost no prospect of growth in the core business, and the traditional operating model no longer worked.
 
 With this investment, Buffett moved beyond his earlier comfort zone of simply buying bargains. He saw not only cheap assets but also the possibility that the company's direction was changing. His purchase thesis had roughly three layers:
@@ -46,3 +48,10 @@ Stage two: buy cheaply and wait for a catalyst. Begin paying attention to boards
 Stage three: take direct control of capital allocation. Stop waiting for others to make the right decisions and drive changes in capital allocation yourself.
 
 During the P&R investment, Buffett stood right between the second and third stages.
+
+## References
+
+- Warren E. Buffett (2002), [*Berkshire Hathaway 2001 Chairman's Letter*](<https://www.berkshirehathaway.com/letters/2001pdf.pdf>), “Acquisitions of 2001,” printed annual-report pages 5–6 (PDF pages 4–5). Buffett recalls owning P&R and describes its cash, tax losses, and the prices and financing of the Union Underwear and Acme Boot acquisitions.
+- Brett Gardner (2024), [*Buffett's Early Investments: A New Investigation into the Decades When Warren Buffett Earned His Best Returns*](<https://www.harriman-house.com/authors/brett-gardner/buffetts-early-investments/9781804090572>), Harriman House, “Philadelphia and Reading” chapter. Secondary archival research on valuation, control, and transformation. The publisher listing does not include the original annual reports or proxies.
+
+Verification limits: the $13.38 share price, $9.16 net current asset value, and approximately $8 culm-bank valuation do not appear in the 2001 letter; their original statements or valuation records were not individually obtained in this review. The connection to Berkshire's later model is the article's interpretation, rather than that letter's explicit conclusion.

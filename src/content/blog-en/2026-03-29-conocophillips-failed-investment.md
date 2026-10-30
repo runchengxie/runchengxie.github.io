@@ -28,10 +28,16 @@ For many investors, this combination readily suggested a traditional value stock
 
 The problem was that oil prices were the central variable in this judgment, and they fell sharply in the second half of 2008.
 
-The U.S. crude oil first purchase price reached 127.47 in the first half of 2008, then fell to 36.80 in December. Buffett later acknowledged that he had bought when oil and gas prices were near their peak, and that he had not anticipated the collapse in the second half of the year.
+The U.S. crude oil first purchase price reached $127.47 per barrel in June 2008, then fell to $36.80 in December. Buffett later acknowledged that he had bought when oil and gas prices were near their peak, and that he had not anticipated the collapse in the second half of the year.
 
 ConocoPhillips' refining operations did not sufficiently offset the fluctuations in its upstream business either. Net income from refining and marketing fell 61% year over year in 2008. In that extreme year, the assumption that an integrated energy company's upstream and downstream businesses could offset each other's risks did not hold.
 
-ConocoPhillips also became more conservative in assessing the economically recoverable value of its assets. Its downward revision to Alaskan reserves was mainly due to prices at the end of 2008 being lower than at the end of 2007. The company's year-end proved reserves also fell from 8.72 billion to 8.08 billion barrels of oil equivalent.
+ConocoPhillips also became more conservative in assessing the economically recoverable value of its assets. Its downward revision to Alaskan reserves was mainly due to prices at the end of 2008 being lower than at the end of 2007. The company's year-end proved reserves also fell from 8.72 billion to 8.08 billion barrels of oil equivalent. These figures use the annual report’s E&P scope, excluding the LUKOIL investment segment and Syncrude oil sands mining reserves.
 
 Buffett was subsequently arranging fixed-income investments involving Mars–Wrigley, Goldman Sachs, and General Electric, totaling $14.5 billion. To free up cash for these investments while maintaining a certain level of cash reserves at Berkshire, he simply sold part of the ConocoPhillips stake.
+
+## References
+
+- [Berkshire Hathaway, 2008 Letter to Shareholders](https://www.berkshirehathaway.com/letters/2008ltr.pdf) — “Investments”: purchase timing, multibillion-dollar loss, and fixed-income investments in Wrigley, Goldman Sachs, and GE.
+- [ConocoPhillips, 2008 Annual Report](https://static.conocophillips.com/files/resources/smid-394-ir-companyreports-ar-archive-2008-print.pdf) — “Selected Quarterly Financial Data” (printed p. 55): quarterly income; “R&M” (p. 36): 61% decline; E&P (p. 34): 8.08/8.72 billion reserve scope; reserve commentary (p. 98): Alaska price revisions.
+- [U.S. Energy Information Administration, U.S. Crude Oil First Purchase Price, monthly data (2008)](https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?f=m&n=pet&s=f000000__3) — Dollars per barrel: June 2008 was 127.47 and December was 36.80.

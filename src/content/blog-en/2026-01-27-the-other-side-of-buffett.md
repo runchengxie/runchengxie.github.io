@@ -13,7 +13,7 @@ AQR's paper *Buffett's Alpha* uses quantitative methods to dissect Buffett's inv
 
 Using total assets to equity as its measure, AQR estimates that Berkshire, which uses insurance float, has effectively operated with average long-term leverage of 1.7:1.
 
-The estimated average annual cost of that insurance float is approximately 1.72%, about 3 percentage points below the contemporaneous T-bill rate. The researchers also estimate that float accounts for roughly 35% of Berkshire's liabilities on average.
+[Table III of the paper](https://doi.org/10.2469/faj.v74.n4.3) estimates the average annual cost of that insurance float at approximately 1.72%, about 3 percentage points below the contemporaneous T-bill rate. The researchers also estimate that float accounts for roughly 35% of Berkshire's liabilities on average.
 
 ## 2. Leverage Plus Low Volatility
 
@@ -40,4 +40,5 @@ AQR concludes by noting that Buffett's return history also includes difficult st
 
 ## 4. References
 
-Frazzini, Kabiller, Pedersen, *Buffett's Alpha*
+1. Andrea Frazzini, David Kabiller, and Lasse Heje Pedersen (2018), [Buffett's Alpha](https://www.aqr.com/Insights/Research/Journal-Article/Buffetts-Alpha), *Financial Analysts Journal* 74(4): 35–55; [published journal version](https://doi.org/10.2469/faj.v74.n4.3). The leverage and financing discussion and Table III support 1.7:1 leverage, a 1.72% float cost, the roughly 3-percentage-point T-bill spread, and float's roughly 35% liability share. The investment-style discussion and Table IV support BAB, QMJ, and the public portfolio's approximately 0.3% annual alpha. The conclusion discusses persistence and forced-liquidation risk.
+2. *Financial Analysts Journal* (2019), [Correction](https://doi.org/10.1080/0015198X.2019.1569444), 75(1): 2–3. Corrects the information-ratio distribution in Table I, Panel B, rather than the Table III and IV results cited here.
