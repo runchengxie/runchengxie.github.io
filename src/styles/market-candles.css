@@ -1,0 +1,105 @@
+:root {
+  --market-rising: #547868;
+  --market-falling: #a57860;
+}
+
+:root[data-theme="dark"] {
+  --market-rising: #83aa97;
+  --market-falling: #c49376;
+}
+
+.market-background {
+  overflow: hidden;
+  color: var(--market-falling);
+  pointer-events: none;
+}
+
+.market-background::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(to right, var(--border) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--border) 1px, transparent 1px);
+  background-size: 25% 100%, 100% 50%;
+  opacity: 0.38;
+}
+
+.market-candles {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.market-candles__trace {
+  stroke: var(--accent);
+  stroke-width: 0.9;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  vector-effect: non-scaling-stroke;
+  opacity: 0.26;
+}
+
+.market-candle {
+  color: var(--market-falling);
+}
+
+.market-candle path,
+.market-candle rect {
+  vector-effect: non-scaling-stroke;
+  stroke: currentColor;
+  stroke-width: 1.15;
+}
+
+.market-candle path {
+  stroke-linecap: round;
+}
+
+.market-candle rect {
+  fill: var(--background);
+}
+
+.market-candle--filled {
+  color: var(--market-rising);
+}
+
+.market-candle--filled rect {
+  fill: currentColor;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .market-background[data-running] .market-candles__track {
+    animation: market-candle-drift 64s linear infinite;
+    animation-play-state: paused;
+  }
+
+  .market-background[data-running] .market-candles__wave {
+    animation: market-candle-wave var(--wave-duration, 8s) ease-in-out var(--wave-delay, 0ms) infinite alternate;
+    animation-play-state: paused;
+  }
+
+  .market-background[data-running="true"] .market-candles__track,
+  .market-background[data-running="true"] .market-candles__wave {
+    animation-play-state: running;
+  }
+
+  .market-candles__wave--1 { --wave-shift: -6px; --wave-duration: 7.6s; --wave-delay: -2.1s; }
+  .market-candles__wave--2 { --wave-shift: 8px; --wave-duration: 9.2s; --wave-delay: -5.4s; }
+  .market-candles__wave--3 { --wave-shift: -8px; --wave-duration: 8.4s; --wave-delay: -3.7s; }
+  .market-candles__wave--4 { --wave-shift: 6px; --wave-duration: 10s; --wave-delay: -6.2s; }
+}
+
+@keyframes market-candle-drift {
+  from { transform: translateX(0); }
+  to { transform: translateX(720px); }
+}
+
+@keyframes market-candle-wave {
+  from { transform: translateY(calc(var(--wave-shift, 6px) * -0.5)); }
+  to { transform: translateY(var(--wave-shift, 6px)); }
+}
+
+@media print {
+  .market-background { display: none; }
+}

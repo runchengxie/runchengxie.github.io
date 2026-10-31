@@ -1,8 +1,41 @@
-/* A static editorial frame with a single, silent entry pass. */
-.personal-intro { position: relative; }
+.personal-intro { position: relative; isolation: isolate; overflow: clip; }
+.personal-intro__copy { position: relative; z-index: 1; }
 .intro-title-line { display: block; }
-.intro-frame { position: absolute; inset: 0; width: 100%; height: 100%; overflow: hidden; pointer-events: none; color: var(--border); }
+.intro-frame { position: absolute; z-index: 2; inset: 0; width: 100%; height: 100%; overflow: hidden; pointer-events: none; color: var(--border); }
 .intro-frame path { stroke: currentColor; stroke-width: 1; vector-effect: non-scaling-stroke; }
+.home-market {
+  position: absolute;
+  z-index: 0;
+  top: 50%;
+  right: -2rem;
+  width: min(68%, 50rem);
+  height: clamp(13rem, 25vw, 20rem);
+  margin: 0;
+  opacity: .56;
+  transform: translateY(-50%);
+  mask-image: linear-gradient(90deg, transparent, #000 30%, #000 88%, transparent);
+}
+@media (min-width: 57rem) {
+  .personal-intro { min-height: min(46rem, calc(100svh - 4.5rem)); }
+}
+@media (min-width: 40.01rem) and (max-width: 56rem) {
+  .home-market { top: auto; bottom: 3rem; width: 72%; height: 15rem; transform: none; }
+}
+@media (max-width: 40rem) {
+  .home-market {
+    position: relative;
+    inset: auto;
+    width: 100%;
+    height: 8.5rem;
+    margin: -.5rem 0;
+    transform: none;
+    mask-image: linear-gradient(90deg, transparent, #000 14%, #000 90%, transparent);
+  }
+}
+@media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
+  .research-entrance { transition: transform 180ms ease, border-color 180ms ease; }
+  .research-entrance:hover { border-color: var(--accent); transform: translateY(-3px); }
+}
 @media (prefers-reduced-motion: no-preference) {
   html[data-home-motion="play"] #intro-heading { animation: none; }
   html[data-home-motion="play"] .intro-title-line { animation: home-heading-in 160ms cubic-bezier(.22,.7,.25,1) both; }

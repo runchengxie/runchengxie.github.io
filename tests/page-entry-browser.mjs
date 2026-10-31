@@ -44,13 +44,22 @@ export async function verifyPageEntry({browser,origin}){
   const timing=animation.effect.getTiming();
   animation.pause();animation.currentTime=0;
   const first=node.querySelector('use').getBoundingClientRect();
+  animation.currentTime=Number(timing.duration)/2;
+  const movesRight=node.querySelector('use').getBoundingClientRect().x>first.x;
   animation.currentTime=Number(timing.duration)-1;
   const second=node.querySelectorAll('use')[1].getBoundingClientRect();
   animation.play();
-  return {duration:timing.duration,continuous:timing.iterations===Infinity,error:Math.abs(first.x-second.x),keys:animation.effect.getKeyframes().flatMap(frame=>Object.keys(frame)).filter(key=>!['offset','computedOffset','easing','composite'].includes(key))};
+  return {duration:timing.duration,continuous:timing.iterations===Infinity,movesRight,error:Math.abs(first.x-second.x),keys:animation.effect.getKeyframes().flatMap(frame=>Object.keys(frame)).filter(key=>!['offset','computedOffset','easing','composite'].includes(key))};
  });
- assert.equal(loop.duration,64000);assert(loop.continuous);assert(loop.error<.1,'duplicate sequence meets the next cycle');
+ assert.equal(loop.duration,64000);assert(loop.continuous);assert(loop.movesRight);assert(loop.error<.1,'duplicate sequence meets the next cycle');
  assert(loop.keys.every(key=>key==='transform'),'loop only moves the track');
+ const waves=background.locator('defs .market-candles__wave');
+ assert.equal(await waves.count(),4);
+ const waveMotion=await waves.evaluateAll(nodes=>nodes.map(node=>{
+  const animation=node.getAnimations()[0];
+  return {playState:animation?.playState,duration:animation?.effect?.getTiming().duration,continuous:animation?.effect?.getTiming().iterations===Infinity,keys:animation?.effect?.getKeyframes().flatMap(frame=>Object.keys(frame)).filter(key=>!['offset','computedOffset','easing','composite'].includes(key))};
+ }));
+ assert(waveMotion.every(wave=>wave.playState==='running'&&wave.duration>=7000&&wave.continuous&&wave.keys.every(key=>key==='transform')),'slow transform-only wave groups');
 
  await page.evaluate(()=>scrollTo(0,document.body.scrollHeight));
  await page.waitForFunction(()=>document.querySelector('[data-about-background]').dataset.running==='false');

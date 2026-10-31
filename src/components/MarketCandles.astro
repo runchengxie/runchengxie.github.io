@@ -1,0 +1,54 @@
+---
+import "../styles/market-candles.css";
+
+interface Props {
+  id: "home" | "about";
+}
+
+const { id } = Astro.props;
+const candles = [
+  { x: 18, high: 63, low: 104, y: 76, height: 13, filled: true },
+  { x: 54, high: 55, low: 97, y: 68, height: 20, filled: false },
+  { x: 90, high: 49, low: 83, y: 65, height: 4, filled: false },
+  { x: 126, high: 25, low: 74, y: 36, height: 28, filled: false },
+  { x: 162, high: 20, low: 63, y: 36, height: 16, filled: true },
+  { x: 198, high: 33, low: 78, y: 53, height: 1, filled: true },
+  { x: 234, high: 46, low: 93, y: 55, height: 27, filled: true },
+  { x: 270, high: 68, low: 121, y: 80, height: 15, filled: true },
+  { x: 306, high: 76, low: 104, y: 85, height: 11, filled: false },
+  { x: 342, high: 65, low: 100, y: 83, height: 1, filled: false },
+  { x: 378, high: 48, low: 90, y: 56, height: 26, filled: false },
+  { x: 414, high: 19, low: 66, y: 32, height: 25, filled: false },
+  { x: 450, high: 12, low: 47, y: 31, height: 8, filled: true },
+  { x: 486, high: 34, low: 77, y: 40, height: 25, filled: true },
+  { x: 522, high: 48, low: 80, y: 61, height: 3, filled: false },
+  { x: 558, high: 54, low: 116, y: 62, height: 39, filled: true },
+  { x: 594, high: 83, low: 128, y: 92, height: 9, filled: false },
+  { x: 630, high: 58, low: 104, y: 68, height: 23, filled: false },
+  { x: 666, high: 51, low: 85, y: 68, height: 3, filled: true },
+  { x: 702, high: 62, low: 91, y: 72, height: 4, filled: true },
+];
+const waves = Array.from({ length: 4 }, (_, index) => candles.slice(index * 5, index * 5 + 5));
+---
+
+<svg class:list={["market-candles", id === "about" && "about-candles"]} aria-hidden="true" focusable="false" viewBox="0 0 720 160" preserveAspectRatio="none" fill="none">
+  <defs>
+    <g id={`${id}-candle-sequence`}>
+      <path class="market-candles__trace" d="M0 94L18 82.5L54 78L90 67L126 50L162 44L198 53.5L234 68.5L270 87.5L306 90.5L342 83.5L378 69L414 44.5L450 35L486 52.5L522 62.5L558 81.5L594 96.5L630 79.5L666 69.5L702 74L720 72" />
+      {waves.map((wave, waveIndex) => (
+        <g class={`market-candles__wave market-candles__wave--${waveIndex + 1}`}>
+          {wave.map((candle) => (
+            <g class:list={["market-candle", candle.filled && "market-candle--filled", id === "about" && "about-candle", id === "about" && candle.filled && "about-candle--filled"]}>
+              <path d={`M${candle.x} ${candle.high}V${candle.low}`} />
+              <rect x={candle.x - 5} y={candle.y} width="10" height={candle.height} />
+            </g>
+          ))}
+        </g>
+      ))}
+    </g>
+  </defs>
+  <g class:list={["market-candles__track", id === "about" && "about-candles__track"]}>
+    <use href={`#${id}-candle-sequence`} />
+    <use href={`#${id}-candle-sequence`} x="-720" />
+  </g>
+</svg>
