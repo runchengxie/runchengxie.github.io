@@ -3,6 +3,7 @@ import { t, localizedPath, type Locale } from "../i18n";
 interface Props { locale: Locale; }
 const { locale } = Astro.props;
 import BaseLayout from "../layouts/BaseLayout.astro";
+import MarketCandles from "../components/MarketCandles.astro";
 ---
 
 <BaseLayout locale={locale} title={t(locale, "about.title")} description={t(locale, "about.description")}>
@@ -12,37 +13,8 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       <h1>{t(locale, "about.heading")}</h1>
       <p>{t(locale, "about.description")}</p>
     </div>
-    <div class="about-background" data-about-background aria-hidden="true">
-      <svg class="about-candles" aria-hidden="true" focusable="false" viewBox="0 0 480 144" preserveAspectRatio="none" fill="none">
-        <defs>
-          <g id="about-candle-sequence">
-            <g class="about-candle about-candle--filled"><path d="M18 63V104" /><rect x="13" y="76" width="10" height="13" /></g>
-            <g class="about-candle"><path d="M54 55V97" /><rect x="49" y="68" width="10" height="20" /></g>
-            <g class="about-candle"><path d="M90 49V83" /><rect x="85" y="65" width="10" height="4" /></g>
-            <g class="about-candle"><path d="M126 25V74" /><rect x="121" y="36" width="10" height="28" /></g>
-            <g class="about-candle about-candle--filled"><path d="M162 20V63" /><rect x="157" y="36" width="10" height="16" /></g>
-            <g class="about-candle about-candle--filled"><path d="M198 33V78" /><rect x="193" y="53" width="10" height="1" /></g>
-            <g class="about-candle about-candle--filled"><path d="M234 46V93" /><rect x="229" y="55" width="10" height="27" /></g>
-            <g class="about-candle about-candle--filled"><path d="M270 68V121" /><rect x="265" y="80" width="10" height="15" /></g>
-            <g class="about-candle"><path d="M306 76V104" /><rect x="301" y="85" width="10" height="11" /></g>
-            <g class="about-candle"><path d="M342 65V100" /><rect x="337" y="83" width="10" height="1" /></g>
-            <g class="about-candle"><path d="M378 48V90" /><rect x="373" y="56" width="10" height="26" /></g>
-            <g class="about-candle"><path d="M414 19V66" /><rect x="409" y="32" width="10" height="25" /></g>
-            <g class="about-candle about-candle--filled"><path d="M450 12V47" /><rect x="445" y="31" width="10" height="8" /></g>
-            <g class="about-candle about-candle--filled"><path d="M486 34V77" /><rect x="481" y="40" width="10" height="25" /></g>
-            <g class="about-candle"><path d="M522 48V80" /><rect x="517" y="61" width="10" height="3" /></g>
-            <g class="about-candle about-candle--filled"><path d="M558 54V116" /><rect x="553" y="62" width="10" height="39" /></g>
-            <g class="about-candle"><path d="M594 83V128" /><rect x="589" y="92" width="10" height="9" /></g>
-            <g class="about-candle"><path d="M630 58V104" /><rect x="625" y="68" width="10" height="23" /></g>
-            <g class="about-candle about-candle--filled"><path d="M666 51V85" /><rect x="661" y="68" width="10" height="3" /></g>
-            <g class="about-candle about-candle--filled"><path d="M702 62V91" /><rect x="697" y="72" width="10" height="4" /></g>
-          </g>
-        </defs>
-        <g class="about-candles__track">
-          <use href="#about-candle-sequence" />
-          <use href="#about-candle-sequence" x="720" />
-        </g>
-      </svg>
+    <div class="about-background market-background" data-market-background data-about-background aria-hidden="true" inert>
+      <MarketCandles id="about" />
     </div>
   </header>
   <div class="about-content reading-width">

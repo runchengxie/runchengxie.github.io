@@ -5,6 +5,7 @@ interface Props { locale: Locale; }
 const { locale } = Astro.props;
 import PostList from "../components/PostList.astro";
 import ProjectCard from "../components/ProjectCard.astro";
+import MarketCandles from "../components/MarketCandles.astro";
 import { projects, researchEntrances, projectText } from "../data/projects";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { getLocalizedPosts } from "../lib/posts";
@@ -20,7 +21,7 @@ const featuredProjects = projects.filter((project) => project.featured);
     <svg class="intro-frame" aria-hidden="true" viewBox="0 0 1120 720" preserveAspectRatio="none" fill="none">
       <path pathLength="1" d="M0 10H1120M0 710H1120" />
     </svg>
-    <div>
+    <div class="personal-intro__copy">
       <p class="eyebrow">Richard / runchengxie</p>
       <h1 id="intro-heading"><span class="intro-title-line">{t(locale, "home.headingFirst")}</span><span class="intro-title-line">{t(locale, "home.headingSecond")}</span></h1>
       <p class="personal-intro__description">{t(locale, "home.intro")}</p>
@@ -29,6 +30,9 @@ const featuredProjects = projects.filter((project) => project.featured);
         <a href={localizedPath(locale, "/about/")}>{t(locale, "home.about")}</a>
         <a href="https://github.com/runchengxie">GitHub <span aria-hidden="true">↗</span></a>
       </div>
+    </div>
+    <div class="home-market market-background" data-market-background data-home-market aria-hidden="true" inert>
+      <MarketCandles id="home" />
     </div>
     <aside class="work-note" aria-labelledby="work-note-heading">
       <div class="home-cover" data-home-cover aria-hidden="true" inert>

@@ -13,8 +13,16 @@ export async function verifyMotion({browser,origin}) {
  assert.equal(await page.locator('[data-home-cover] .cover-tile').count(),6);
  assert.equal(await page.locator('.intro-title-line').count(),2);
  assert.equal(await page.locator('.intro-frame[aria-hidden="true"]').count(),1);
- assert.equal(await page.locator('audio,video').count(),0);
+ assert.equal(await page.locator('audio,video,canvas').count(),0);
  assert.equal(await page.locator('.work-note svg,.focus-map,.cover-mark').count(),0,'focus note keeps a simple text heading');
+ const market=page.locator('[data-home-market]');
+ assert.equal(await market.getAttribute('aria-hidden'),'true');
+ assert.equal(await market.locator('defs .market-candle').count(),20);
+ assert.equal(await market.locator('defs .market-candles__wave').count(),4);
+ assert.equal(await market.evaluate(node=>getComputedStyle(node).pointerEvents),'none');
+ await page.waitForFunction(()=>document.querySelector('[data-home-market]').dataset.running==='true');
+ assert.equal(await market.locator('.market-candles__track').evaluate(node=>getComputedStyle(node).animationName),'market-candle-drift');
+ assert(await market.locator('.market-candles__wave').evaluateAll(nodes=>nodes.every(node=>node.getAnimations().length===1&&getComputedStyle(node).animationPlayState==='running')));
  await page.waitForFunction(()=>!document.documentElement.hasAttribute('data-home-motion'));
  const events=await page.evaluate(()=>window.motionEvents);
  const titles=events.filter(event=>event.name==='home-heading-in');assert.equal(titles.length,2);

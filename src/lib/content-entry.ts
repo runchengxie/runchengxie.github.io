@@ -1,13 +1,11 @@
-/** Brief entry decoration; a small CSS background pauses outside the viewport. */
+/** Brief entry decoration; content remains visible before this runs. */
 export function initializeContentEntry() {
   const heading = document.querySelector<HTMLElement>('[data-page-entry]');
   if (!heading || !heading.getAnimations) return;
   const preference = matchMedia('(prefers-reduced-motion: reduce)');
-  const background = heading.querySelector<HTMLElement>('[data-about-background]');
   const active = new Set<HTMLElement>();
   let timer: ReturnType<typeof setTimeout> | undefined;
   let pending = false;
-  let inView = false;
   const visible = (node: HTMLElement) => {
     const bounds = node.getBoundingClientRect();
     return bounds.bottom > 0 && bounds.top < innerHeight;
@@ -18,9 +16,6 @@ export function initializeContentEntry() {
     active.delete(node);
   };
   const stop = () => { clearTimeout(timer); active.forEach(settle); };
-  const syncBackground = () => {
-    if (background) background.dataset.running = String(inView && !document.hidden && !preference.matches);
-  };
   const play = () => {
     stop();
     pending = document.hidden;
@@ -44,27 +39,19 @@ export function initializeContentEntry() {
   document.addEventListener('focusin', event => {
     for (const node of active) if (node.contains(event.target as Node)) settle(node);
   });
-  if (background && 'IntersectionObserver' in window) {
-    const observer = new IntersectionObserver(entries => {
-      inView = entries[0]?.isIntersecting ?? false; syncBackground();
-    });
-    observer.observe(background);
-  }
   preference.addEventListener('change', () => {
-    if (preference.matches) stop(); syncBackground();
+    if (preference.matches) stop();
   });
   document.addEventListener('visibilitychange', () => {
     if (document.hidden) stop(); else if (pending) play();
-    syncBackground();
   });
   addEventListener('pagehide', () => {
     pending = false; stop();
-    if (background) background.dataset.running = 'false';
   });
   addEventListener('pageshow', event => {
-    if (event.persisted) { play(); syncBackground(); }
+    if (event.persisted) play();
   });
-  const start = () => { play(); syncBackground(); };
+  const start = play;
   if (document.readyState === 'complete') start();
   else addEventListener('load', start, { once: true });
 }

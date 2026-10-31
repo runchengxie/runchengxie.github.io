@@ -28,7 +28,8 @@
 .page-heading.about-heading {
   position: relative;
   max-width: none;
-  padding-bottom: clamp(3rem, 6vw, 4.5rem);
+  padding-top: clamp(5rem, 10vw, 8rem);
+  padding-bottom: clamp(4rem, 7vw, 6rem);
   isolation: isolate;
 }
 .about-heading__copy { position: relative; z-index: 1; max-width: 42rem; min-width: 0; }
@@ -36,36 +37,23 @@
 .page-heading.about-heading .eyebrow::before { content: ""; width: 1.75rem; height: 1px; background: var(--accent); }
 .about-background {
   position: absolute;
-  top: clamp(4rem, 10vw, 7rem);
+  top: clamp(5rem, 10vw, 8rem);
   right: 0;
   width: calc(100% - 44rem);
-  height: clamp(5rem, 12vw, 8rem);
+  height: clamp(8rem, 14vw, 11rem);
   margin: 0;
-  overflow: hidden;
-  color: var(--muted);
-  opacity: .24;
-  mask-image: linear-gradient(90deg, transparent, #000 35%, #000 85%, transparent);
-  pointer-events: none;
-}
-.about-candles { display: block; width: 100%; height: 100%; }
-.about-candle path, .about-candle rect { vector-effect: non-scaling-stroke; stroke: currentColor; stroke-width: 1.1; }
-.about-candle path { stroke-linecap: round; }
-.about-candle rect { fill: var(--background); }
-.about-candle--filled { color: var(--accent); }
-.about-candle--filled rect { fill: currentColor; }
-@media (prefers-reduced-motion: no-preference) {
-  .about-background[data-running] .about-candles__track { animation: about-candle-drift 64s linear infinite; animation-play-state: paused; }
-  .about-background[data-running="true"] .about-candles__track { animation-play-state: running; }
-}
-@keyframes about-candle-drift {
-  from { transform: translateX(0); }
-  to { transform: translateX(-720px); }
+  opacity: .5;
+  mask-image: linear-gradient(90deg, transparent, #000 24%, #000 88%, transparent);
 }
 @media (max-width: 67.99rem) {
-  .about-background { top: 1rem; width: min(100%, 38rem); height: 3.5rem; }
+  .page-heading.about-heading { padding-top: 9rem; }
+  .about-background { top: 1.5rem; width: min(100%, 38rem); height: 5rem; }
+}
+@media (max-width: 40rem) {
+  .page-heading.about-heading { padding-top: 8rem; padding-bottom: 3.5rem; }
+  .about-background { top: 1.25rem; width: 100%; height: 4.5rem; }
 }
 @media (prefers-reduced-motion: reduce), print { [data-entry-active] { animation: none; } }
 @media print {
-  .about-background { display: none; }
   .about-content.reading-width section { break-inside: avoid; }
 }
