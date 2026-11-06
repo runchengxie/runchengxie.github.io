@@ -23,7 +23,7 @@ pnpm run test:browser
 
 浏览器脚本会在空闲的本地回环端口启动服务器，使用合成 fixture 检查双语导航、主题、动效、文章和研究面板。构建与浏览器测试不依赖在线研究服务。外部来源是否可用、内容是否准确，需要单独核查。详见[语言维护](i18n.zh-CN.md)和[研究展示契约](research-showcase.md)（英文）。
 
-项目没有单独配置 lint 命令、覆盖率阈值或依赖安全门禁。`pnpm audit` 可单独查询依赖漏洞，不属于 `script/check` 或 Pages workflow。构建成功不能证明依赖安全。
+项目没有单独配置 lint 命令或覆盖率阈值。最低 Node 版本的 CI job 会运行 `pnpm audit --audit-level=high`，阻止 high 和 critical 级别的漏洞通过；较低级别的告警仍会显示在输出中。本地可用 `pnpm audit` 查看完整报告。仅构建成功不能证明依赖安全。
 
 ## 内容与路由
 
@@ -53,6 +53,6 @@ categories: [投资, 案例研究]
 
 ## CI 与部署
 
-`.github/workflows/pages.yml` 使用 Astro action 安装依赖、执行配置的构建并上传产物，然后运行 Chromium 检查。PR 只构建和测试，不部署。向 `main` 推送和手动运行 workflow 时，后续的 Pages job 可以执行部署。
+`.github/workflows/pages.yml` 保留 Astro action 的构建、产物上传及后续 Chromium 检查，并增加独立 job，使用精确的 Node 22.18.0、严格的引擎校验和冻结锁文件执行完整构建、浏览器检查和依赖审计。两个 job 都通过后才能部署，只有 Astro action 的构建会上传部署产物。PR 只构建和测试，不部署。向 `main` 推送和手动运行 workflow 时，后续的 Pages job 可以执行部署。
 
 `dist/`、`.astro/` 和 `node_modules/` 是已忽略的生成目录。不要提交构建产物、凭据、原始研究数据或浏览器诊断文件。源码或文档 PR 本身不能证明线上部署已通过验证。
