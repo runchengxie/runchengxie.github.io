@@ -1,2 +1,10 @@
 allowBuilds:
   esbuild: true
+
+# Preserve the documented Node 22.18 minimum. unifont 0.7.5 adds undici 8
+# (Node >=22.19); 0.7.4 exports the same API. This site uses system fonts,
+# so the newer provider transport and font-stretch parsing are unused.
+# Remove when the Node minimum is deliberately migrated or Astro supplies
+# a compatible dependency; recheck before enabling Astro font providers.
+overrides:
+  "astro@7.3.8>unifont": 0.7.4
