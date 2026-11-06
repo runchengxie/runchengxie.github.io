@@ -33,9 +33,36 @@ jobs:
           pnpm exec playwright install --with-deps chromium
           pnpm run test:browser
 
+  minimum-node:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    env:
+      npm_config_engine_strict: 'true'
+      ASTRO_TELEMETRY_DISABLED: '1'
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+      - name: Set up minimum supported Node
+        uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: '22.18.0'
+      - name: Install pinned package manager
+        run: npm install --global pnpm@11.17.0
+      - name: Install locked dependencies with strict engines
+        run: pnpm install --frozen-lockfile
+      - name: Check, build and validate the site on minimum Node
+        run: script/check
+      - name: Check localized navigation in Chromium
+        run: |
+          pnpm exec playwright install --with-deps chromium
+          pnpm run test:browser
+      - name: Audit locked dependencies
+        run: pnpm audit --audit-level=high
+
   deploy:
     if: github.event_name != 'pull_request'
-    needs: build
+    needs: [build, minimum-node]
     runs-on: ubuntu-latest
     environment:
       name: github-pages

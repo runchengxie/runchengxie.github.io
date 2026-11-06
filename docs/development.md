@@ -23,7 +23,7 @@ pnpm run test:browser
 
 The browser script starts its own server on a free loopback port. It checks localized navigation, themes, motion, article pages and research panels with synthetic fixtures. Build and browser tests do not require live research services. External source availability and content need separate verification. See [language maintenance](i18n.md) and the [research showcase contract](research-showcase.md).
 
-No separate lint command, coverage threshold or dependency-security gate is configured. `pnpm audit` is an optional dependency advisory check, separate from `script/check` and the Pages workflow. A successful build does not establish dependency security.
+No separate lint command or coverage threshold is configured. The minimum-Node CI job runs `pnpm audit --audit-level=high`, which blocks high and critical advisories; lower-severity findings remain visible in its output. Run `pnpm audit` locally for the complete advisory report. A successful build alone does not establish dependency security.
 
 ## Content and routes
 
@@ -53,6 +53,6 @@ Article body.
 
 ## CI and deployment
 
-`.github/workflows/pages.yml` uses the Astro action to install dependencies, run the configured build and upload its artifact. It then runs Chromium checks. Pull requests build and test without deploying. Pushes to `main` and manual workflow runs can deploy through the dependent Pages job.
+`.github/workflows/pages.yml` keeps the Astro action build and artifact upload, followed by Chromium checks. A separate job uses exactly Node 22.18.0, strict engine validation and the frozen lockfile to run the full build, browser checks and dependency audit. Both jobs must pass before Pages can deploy; only the Astro action build uploads the deployment artifact. Pull requests build and test without deploying. Pushes to `main` and manual workflow runs can deploy through the dependent Pages job.
 
 `dist/`, `.astro/` and `node_modules/` are ignored generated directories. Do not commit build output, credentials, raw research data or browser diagnostics. A source or documentation PR does not itself verify the live deployment.
