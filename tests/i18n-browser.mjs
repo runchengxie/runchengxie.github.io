@@ -3,6 +3,7 @@ import {verifyHomeEntry} from './home-entry-browser.mjs';
 import {verifyChartMotion} from './chart-motion-browser.mjs';
 import {verifyContentMotion} from './content-motion-browser.mjs';
 import {verifyMotion} from './motion-browser.mjs';
+import {verifyHomeWave} from './home-wave-browser.mjs';
 import { chromium } from '@playwright/test';
 import assert from 'node:assert/strict';
 import { createServer } from 'node:http';
@@ -32,6 +33,7 @@ try {
   await verifyChartMotion({browser,origin});
   await verifyContentMotion({browser,origin});
   await verifyMotion({browser,origin});
+  await verifyHomeWave({browser,origin});
   const context = await browser.newContext({colorScheme:'light'});
   await installResearchFixtures(context);
   const page = await context.newPage();

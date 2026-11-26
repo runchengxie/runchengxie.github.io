@@ -27,6 +27,10 @@ pnpm run test:browser
 
 ## 内容与路由
 
+### 首页波浪
+
+首页用 Canvas 2D 绘制装饰性波浪，不读取行情数据，也不加载纹理或额外运行时依赖。`WaveBackground.astro`、`home-wave.ts` 和 `home-wave.css` 负责绘制和控制。配色跟随全站主题，用户主动暂停的选择保存在 `home-wave-paused`。更新上限为 30 FPS，设备像素比上限为 1.5；窄容器使用更小的网格。页面隐藏、背景离屏、用户暂停或启用减少动态效果时，不调度动画帧。减少动态效果模式保留静态波浪并隐藏控制按钮。Canvas 或 JavaScript 不可用时，正文仍可正常使用；缺少 IntersectionObserver 时保留静态波浪。`home-wave-browser.mjs` 作为 `test:browser` 的一部分检查画面像素和生命周期行为，这些检查不代表实际设备功耗测量。
+
 - `/en/`、`/zh/`：个人介绍、公开成果、精选项目和最新文章
 - `/{locale}/projects/`：市场风格与 PB/ROE 研究面板，后附项目链接
 - `/{locale}/about/`：关注方向、工作方式和 GitHub 入口
