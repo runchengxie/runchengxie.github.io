@@ -5,7 +5,7 @@ interface Props { locale: Locale; }
 const { locale } = Astro.props;
 import PostList from "../components/PostList.astro";
 import ProjectCard from "../components/ProjectCard.astro";
-import MarketCandles from "../components/MarketCandles.astro";
+import WaveBackground from "../components/WaveBackground.astro";
 import { projects, researchEntrances, projectText } from "../data/projects";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { getLocalizedPosts } from "../lib/posts";
@@ -31,9 +31,7 @@ const featuredProjects = projects.filter((project) => project.featured);
         <a href="https://github.com/runchengxie">GitHub <span aria-hidden="true">↗</span></a>
       </div>
     </div>
-    <div class="home-market market-background" data-market-background data-home-market aria-hidden="true" inert>
-      <MarketCandles id="home" />
-    </div>
+    <WaveBackground locale={locale} />
     <aside class="work-note" aria-labelledby="work-note-heading">
       <div class="home-cover" data-home-cover aria-hidden="true" inert>
         {Array.from({length:6},()=> <span class="cover-tile"><i></i></span>)}

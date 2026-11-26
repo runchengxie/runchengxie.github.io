@@ -1,0 +1,10 @@
+.home-wave { position: absolute; inset: 0; z-index: 0; pointer-events: none; opacity: .8; mask-image: linear-gradient(90deg, transparent, #000 40%, #000); }
+.home-wave canvas { display: block; width: 100%; height: 100%; }
+.wave-toggle { position: absolute; bottom: 1.25rem; right: .25rem; z-index: 3; padding: .45rem .8rem; border: 1px solid var(--border); border-radius: 2rem; background: var(--background); color: var(--muted); font: inherit; font-size: .7rem; cursor: pointer; }
+.wave-toggle:hover { color: var(--text); border-color: var(--accent); }
+.wave-toggle[hidden] { display: none; }
+@media (max-width: 40rem) {
+  .home-wave { mask-image: linear-gradient(180deg, transparent 12%, #000 50%, transparent 95%); opacity: .65; }
+}
+@media (prefers-reduced-motion: reduce), print { .wave-toggle { display: none; } }
+@media print { .home-wave { display: none; } }

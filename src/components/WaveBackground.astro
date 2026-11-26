@@ -1,0 +1,18 @@
+---
+import { t, type Locale } from '../i18n';
+import '../styles/home-wave.css';
+interface Props { locale: Locale; }
+const { locale } = Astro.props;
+---
+<div class="home-wave" data-home-wave aria-hidden="true" inert>
+  <canvas></canvas>
+</div>
+<button class="wave-toggle" type="button" data-wave-toggle hidden
+  aria-pressed="false" data-pause-label={t(locale, 'home.pauseWave')}
+  data-resume-label={t(locale, 'home.resumeWave')}>
+  {t(locale, 'home.pauseWave')}
+</button>
+<script>
+  import { initializeHomeWave } from '../lib/home-wave';
+  initializeHomeWave();
+</script>

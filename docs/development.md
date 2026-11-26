@@ -27,6 +27,10 @@ No separate lint command or coverage threshold is configured. The minimum-Node C
 
 ## Content and routes
 
+### Homepage wave
+
+The homepage uses a decorative Canvas 2D wave without market data, textures or extra runtime dependencies. `WaveBackground.astro`, `home-wave.ts` and `home-wave.css` own the renderer and control. It follows the shared theme and stores explicit pause in `home-wave-paused`. Updates are capped at 30 FPS and DPR at 1.5; narrow containers use a smaller mesh. Hidden, offscreen, paused and reduced-motion pages do not schedule frames. Reduced motion keeps a static wave and hides the control. Missing Canvas or JavaScript leaves content usable; missing IntersectionObserver keeps the wave static. `home-wave-browser.mjs` checks pixels and lifecycle behavior as part of `test:browser`. These checks do not measure device power consumption.
+
 - `/en/` and `/zh/`: introduction, public outputs, selected projects and recent writing
 - `/{locale}/projects/`: market-style and PB/ROE research panels followed by project links
 - `/{locale}/about/`: interests, working approach and GitHub links

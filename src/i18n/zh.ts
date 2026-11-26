@@ -18,6 +18,8 @@ export default {
   "home.intro": "你好，我是 Richard。我开发量化研究和交易工具，关注市场数据、因子与模型、组合构建和回测，也写投资案例与长期投资思考。",
   "home.explore": "探索项目",
   "home.about": "关于我",
+  "home.pauseWave": "暂停背景动画",
+  "home.resumeWave": "继续背景动画",
   "home.focus": "当前关注",
   "home.focusData": "市场数据验证与清洗",
   "home.focusResearch": "研究方法与结果记录",
