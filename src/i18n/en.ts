@@ -28,7 +28,7 @@ export default {
   "home.focusResearch": "Research methods and result records",
   "home.focusInvesting": "Tracing investment decisions to evidence",
   "home.focusNote": "Documenting the connections between data, methods and results.",
-  "home.public": "Start with the published work",
+  "home.public": "Featured projects",
   "home.allProjects": "All projects",
   "home.featured": "Tools behind the research",
   "home.projectMap": "How the projects connect",
