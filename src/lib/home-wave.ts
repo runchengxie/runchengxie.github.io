@@ -14,10 +14,12 @@ export function initializeHomeWave(): void {
   try { paused = localStorage.getItem(storageKey) === 'true'; } catch { /* Optional preference. */ }
   let width = 0, height = 0, columns = 0, rows = 0;
   let coordinates = new Float32Array(0);
-  let time = 0, last = 0, frame = 0;
+  let time = 0, last = 0, lastDraw = 0, frame = 0;
   let visible = false, active = true;
   let pointerX = 0, pointerY = 0, targetX = 0, targetY = 0;
   let ink = getComputedStyle(root).getPropertyValue('--wave-ink').trim();
+
+  let crest = getComputedStyle(root).getPropertyValue('--wave-crest').trim();
 
   function draw(): void {
     if (!width || !height) return;
@@ -29,27 +31,18 @@ export function initializeHomeWave(): void {
         const wave = Math.sin(u * 7.5 + v * 3 - time * .65) * .43
           + Math.cos(u * 4 - v * 5 + time * .38) * .24;
         const offset = (j * columns + i) * 2;
-        coordinates[offset] = width * .67 + ((u - .5) * width * 2.05 + pointerX * 30) / depth;
-        coordinates[offset + 1] = height * .39 + (v * height * .97 + wave * height * .19 + pointerY * 18) / depth;
+        coordinates[offset] = width * .72 + ((u - .5) * width * 2.05 + pointerX * 30) / depth;
+        coordinates[offset + 1] = height * .49 + (v * height * .97 + wave * height * .19 + pointerY * 18) / depth;
       }
     }
-    ctx.lineWidth = .65;
-    for (let j = 0; j < rows; j++) {
+    // Sparse contours support a quiet particle field without a full wire grid.
+    ctx.lineWidth = .5;
+    ctx.strokeStyle = `rgba(${ink},.09)`;
+    for (let j = 0; j < rows; j += 4) {
       ctx.beginPath();
       for (let i = 0; i < columns; i++) {
         const k = (j * columns + i) * 2;
         if (i) ctx.lineTo(coordinates[k]!, coordinates[k + 1]!);
-        else ctx.moveTo(coordinates[k]!, coordinates[k + 1]!);
-      }
-      ctx.strokeStyle = `rgba(${ink},${.10 + j / rows * .18})`;
-      ctx.stroke();
-    }
-    ctx.strokeStyle = `rgba(${ink},.12)`;
-    for (let i = 0; i < columns; i += 2) {
-      ctx.beginPath();
-      for (let j = 0; j < rows; j++) {
-        const k = (j * columns + i) * 2;
-        if (j) ctx.lineTo(coordinates[k]!, coordinates[k + 1]!);
         else ctx.moveTo(coordinates[k]!, coordinates[k + 1]!);
       }
       ctx.stroke();
@@ -58,9 +51,9 @@ export function initializeHomeWave(): void {
       const depth = 1 + j / (rows - 1) * 2.9;
       const pulse = Math.pow(Math.max(0, Math.sin(i * .71 + j * 1.27 - time * .85)), 16);
       const k = (j * columns + i) * 2;
-      ctx.fillStyle = `rgba(${ink},${.12 + pulse * .24})`;
+      ctx.fillStyle = `rgba(${pulse > .5 ? crest : ink},${.28 + pulse * .48})`;
       ctx.beginPath();
-      ctx.arc(coordinates[k]!, coordinates[k + 1]!, (.6 + pulse * .45) / Math.sqrt(depth), 0, Math.PI * 2);
+      ctx.arc(coordinates[k]!, coordinates[k + 1]!, (1.05 + pulse * 1.1) / Math.sqrt(depth), 0, Math.PI * 2);
       ctx.fill();
     }
   }
@@ -70,11 +63,13 @@ export function initializeHomeWave(): void {
   }
   function tick(now: number): void {
     frame = 0;
-    if (!running()) return;
-    if (!last || now - last >= 1000 / 30) {
-      const delta = last ? Math.min((now - last) / 1000, .08) : 0;
+    if (!running()) { sync(); return; }
+    const interval = 1000 / 30;
+    if (!last || now - last >= interval) {
+      const delta = lastDraw ? Math.min((now - lastDraw) / 1000, .08) : 0;
+      lastDraw = now;
       time += delta;
-      last = now;
+      last = now - (last ? (now - last) % interval : 0);
       pointerX += (targetX - pointerX) * .07;
       pointerY += (targetY - pointerY) * .07;
       draw();
@@ -84,7 +79,7 @@ export function initializeHomeWave(): void {
   function sync(): void {
     cancelAnimationFrame(frame);
     frame = 0;
-    last = 0;
+    last = lastDraw = 0;
     toggle!.hidden = preference.matches;
     toggle!.textContent = (paused ? toggle!.dataset.resumeLabel : toggle!.dataset.pauseLabel) ?? '';
     toggle!.setAttribute('aria-pressed', String(paused));
@@ -100,8 +95,8 @@ export function initializeHomeWave(): void {
     canvas!.width = Math.round(width * ratio);
     canvas!.height = Math.round(height * ratio);
     ctx.setTransform(ratio, 0, 0, ratio, 0, 0);
-    columns = width < 650 ? 24 : 42;
-    rows = width < 650 ? 16 : 24;
+    columns = width < 650 ? 32 : 58;
+    rows = width < 650 ? 18 : 26;
     coordinates = new Float32Array(columns * rows * 2);
     draw();
   }
@@ -120,7 +115,7 @@ export function initializeHomeWave(): void {
   section?.addEventListener('pointerleave', () => { targetX = targetY = 0; });
   if ('ResizeObserver' in window) new ResizeObserver(resize).observe(layer);
   else addEventListener('resize', resize);
-  new MutationObserver(() => { ink = getComputedStyle(root).getPropertyValue('--wave-ink').trim(); draw(); })
+  new MutationObserver(() => { ink = getComputedStyle(root).getPropertyValue('--wave-ink').trim(); crest = getComputedStyle(root).getPropertyValue('--wave-crest').trim(); draw(); })
     .observe(root, {attributes: true, attributeFilter: ['data-theme']});
   if ('IntersectionObserver' in window) {
     new IntersectionObserver(entries => { visible = entries[0]?.isIntersecting ?? false; sync(); }).observe(layer);
