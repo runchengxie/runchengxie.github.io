@@ -17,7 +17,7 @@ export function initializeHomeWave(): void {
   let time = 0, last = 0, frame = 0;
   let visible = false, active = true;
   let pointerX = 0, pointerY = 0, targetX = 0, targetY = 0;
-  let dark = root.dataset.theme === 'dark';
+  let ink = getComputedStyle(root).getPropertyValue('--wave-ink').trim();
 
   function draw(): void {
     if (!width || !height) return;
@@ -33,7 +33,6 @@ export function initializeHomeWave(): void {
         coordinates[offset + 1] = height * .39 + (v * height * .97 + wave * height * .19 + pointerY * 18) / depth;
       }
     }
-    const ink = dark ? '99,220,213' : '19,108,119';
     ctx.lineWidth = .65;
     for (let j = 0; j < rows; j++) {
       ctx.beginPath();
@@ -59,9 +58,9 @@ export function initializeHomeWave(): void {
       const depth = 1 + j / (rows - 1) * 2.9;
       const pulse = Math.pow(Math.max(0, Math.sin(i * .71 + j * 1.27 - time * .85)), 16);
       const k = (j * columns + i) * 2;
-      ctx.fillStyle = `rgba(${ink},${.16 + pulse * .72})`;
+      ctx.fillStyle = `rgba(${ink},${.12 + pulse * .24})`;
       ctx.beginPath();
-      ctx.arc(coordinates[k]!, coordinates[k + 1]!, (.65 + pulse * 1.1) / Math.sqrt(depth), 0, Math.PI * 2);
+      ctx.arc(coordinates[k]!, coordinates[k + 1]!, (.6 + pulse * .45) / Math.sqrt(depth), 0, Math.PI * 2);
       ctx.fill();
     }
   }
@@ -101,8 +100,8 @@ export function initializeHomeWave(): void {
     canvas!.width = Math.round(width * ratio);
     canvas!.height = Math.round(height * ratio);
     ctx.setTransform(ratio, 0, 0, ratio, 0, 0);
-    columns = width < 650 ? 34 : 58;
-    rows = width < 650 ? 20 : 30;
+    columns = width < 650 ? 24 : 42;
+    rows = width < 650 ? 16 : 24;
     coordinates = new Float32Array(columns * rows * 2);
     draw();
   }
@@ -121,7 +120,7 @@ export function initializeHomeWave(): void {
   section?.addEventListener('pointerleave', () => { targetX = targetY = 0; });
   if ('ResizeObserver' in window) new ResizeObserver(resize).observe(layer);
   else addEventListener('resize', resize);
-  new MutationObserver(() => { dark = root.dataset.theme === 'dark'; draw(); })
+  new MutationObserver(() => { ink = getComputedStyle(root).getPropertyValue('--wave-ink').trim(); draw(); })
     .observe(root, {attributes: true, attributeFilter: ['data-theme']});
   if ('IntersectionObserver' in window) {
     new IntersectionObserver(entries => { visible = entries[0]?.isIntersecting ?? false; sync(); }).observe(layer);

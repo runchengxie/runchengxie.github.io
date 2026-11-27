@@ -1,14 +1,14 @@
 ---
 import { t, type Locale } from "../i18n";
 import { projectText, repositoryURL, type Project } from "../data/projects";
-interface Props { project: Project; locale: Locale; }
-const { project, locale } = Astro.props;
+interface Props { project: Project; locale: Locale; compact?: boolean; }
+const { project, locale, compact = false } = Astro.props;
 const text = projectText(project, locale);
 ---
-<article class="project-card">
-  <p class="project-card__group">{text.group}</p>
+<article class:list={["project-card", {"project-card--compact": compact}]}>
+  {!compact && <p class="project-card__group">{text.group}</p>}
   <h3>{text.title}</h3>
-  <p class="project-card__name">{project.name}</p>
+  {!compact && <p class="project-card__name">{project.name}</p>}
   <p class="project-card__description">{text.description}</p>
   <div class="project-card__links">
     {project.website && <a href={project.website}>{t(locale, "project.website")} <span aria-hidden="true">↗</span><span class="sr-only"> {locale === "zh" ? `（${text.title}）` : `(${text.title})`}</span></a>}

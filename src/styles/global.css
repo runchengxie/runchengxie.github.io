@@ -6,6 +6,7 @@
   --muted: #6e7069;
   --faint: #9b9d96;
   --accent: #76513b;
+  --wave-ink: 118, 99, 81;
   --accent-soft: #e9ddd4;
   --border: #d9d7d0;
   --selection: #ddc8b9;
@@ -25,6 +26,7 @@
   --muted: #aaa9a2;
   --faint: #7d7f78;
   --accent: #d1a07f;
+  --wave-ink: 182, 143, 113;
   --accent-soft: #392d26;
   --border: #343630;
   --selection: #654b3b;
@@ -622,12 +624,6 @@ main {
 .intro-links a { font-size: 0.9rem; }
 .button-link { padding: 0.8rem 1.3rem; background: var(--text); color: var(--background); border: 1px solid var(--text); border-radius: 0.35rem; text-decoration: none; }
 .button-link:hover { background: var(--accent); border-color: var(--accent); color: var(--background); }
-.work-note { padding: 2rem; border: 1px solid var(--border); border-left: 2px solid var(--accent); border-radius: .4rem; background: var(--surface); box-shadow: 0 1.5rem 4rem rgb(32 33 30 / .04); }
-:root[data-theme="dark"] .work-note { box-shadow: 0 1.5rem 4rem rgb(0 0 0 / .12); }
-.work-note ol { padding: 0; margin: 0; list-style: none; }
-.work-note li { display: flex; gap: 1rem; padding-block: 0.8rem; font-size: 0.95rem; }
-.work-note li span { color: var(--accent); font-size: 0.75rem; font-variant-numeric: tabular-nums; }
-.work-note > p:last-child { margin: 1.35rem 0 0; color: var(--muted); font-size: 0.85rem; }
 .portfolio-section { padding-bottom: clamp(4.5rem, 9vw, 7rem); }
 .section-description { max-width: 45rem; margin: 0 0 2.25rem; color: var(--muted); font-size: 0.95rem; }
 .project-grid, .research-entrances { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.4rem; }
@@ -662,7 +658,6 @@ main {
 [id^="group-"] { scroll-margin-top: 2rem; }
 @media (max-width: 56rem) {
   .personal-intro { grid-template-columns: 1fr; gap: 3rem; }
-  .work-note { max-width: 38rem; }
   .project-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 @media (max-width: 40rem) {
@@ -673,7 +668,6 @@ main {
   .personal-intro { padding-block: 3.5rem 4.5rem; gap: 3rem; }
   .personal-intro h1 { font-size: clamp(2.15rem, 8.8vw, 3rem); line-height: 1.26; }
   .personal-intro__description { margin: 1.5rem 0 2rem; font-size: 1rem; }
-  .work-note { padding: 1.6rem; }
   .portfolio-section { padding-bottom: 4.5rem; }
   .project-card, .research-entrance { padding: 1.5rem; }
   .about-content section + section { margin-top: 3.5rem; }
@@ -745,35 +739,17 @@ main {
 @media (min-width: 1100px) { .research-grid { grid-template-columns: repeat(2,minmax(0,1fr)); } }
 @media (max-width: 400px) { .research-panel { padding: 1rem; } }
 
-/* Quiet motion: native, one-shot, and local to the home cover / below-fold sections. */
-.work-note { position: relative; isolation: isolate; }
-.cover-mark { display: block; width: 7.5rem; height: 2rem; margin-bottom: 1rem; color: var(--accent); }
-.cover-mark path { stroke: currentColor; stroke-width: 1; }
-.home-cover { display: none; position: absolute; inset: 0; z-index: 1; overflow: hidden; grid-template-columns: repeat(3,minmax(0,1fr)); grid-template-rows: repeat(2,minmax(0,1fr)); border-radius: inherit; pointer-events: none; }
-.cover-tile { overflow: hidden; }
-.cover-tile i { display: block; width: 100%; height: 100%; background: var(--surface); }
-.cover-tile:nth-child(2n) i { background: var(--accent-soft); }
+/* Short entrances settle before visitors begin reading. */
 @media (prefers-reduced-motion: no-preference) {
-  html[data-home-motion="play"] .home-cover { display: grid; }
-  html[data-home-motion="play"] .cover-tile i { animation: cover-tile-out 160ms cubic-bezier(.22,.8,.22,1) both; }
-  html[data-home-motion="play"] .cover-tile:nth-child(2) i,
-  html[data-home-motion="play"] .cover-tile:nth-child(4) i { animation-delay: 6ms; }
-  html[data-home-motion="play"] .cover-tile:nth-child(3) i,
-  html[data-home-motion="play"] .cover-tile:nth-child(5) i { animation-delay: 12ms; }
-  html[data-home-motion="play"] .cover-tile:nth-child(6) i { animation-delay: 18ms; }
-  html[data-home-motion="play"] .personal-intro h1 { animation: home-heading-in 120ms cubic-bezier(.2,.7,.2,1) both; }
-  html[data-home-motion="play"] .cover-mark path { stroke-dasharray: 1; animation: cover-line-in 180ms ease-out both; }
   [data-reveal="play"] { animation: section-reveal 120ms cubic-bezier(.2,.7,.2,1) both; }
 }
-@keyframes cover-tile-out { from { transform: translateY(0); } to { transform: translateY(-102%); } }
 @keyframes home-heading-in { from { transform: translateY(4px); opacity: .75; } to { transform: translateY(0); opacity: 1; } }
-@keyframes cover-line-in { from { stroke-dashoffset: 1; } to { stroke-dashoffset: 0; } }
 @keyframes section-reveal { from { transform: translateY(8px); opacity: .55; } to { transform: translateY(0); opacity: 1; } }
 @media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
   .intro-links .button-link { transition: transform 100ms ease-out, background-color 100ms ease-out; }
   .intro-links .button-link:hover { transform: translateY(-1px); }
 }
-@media print { .home-cover { display: none !important; } [data-reveal="play"] { animation: none; } }
+@media print { [data-reveal="play"] { animation: none; } }
 
 /* Small interaction cues share one rhythm; touch screens keep stable cards. */
 @media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {

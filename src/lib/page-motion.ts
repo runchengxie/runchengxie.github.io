@@ -3,7 +3,7 @@ export function initializeMotion():void {
   const preference=window.matchMedia('(prefers-reduced-motion: reduce)');
   const navigation=performance.getEntriesByType('navigation')[0] as PerformanceNavigationTiming | undefined;
   if(preference.matches || location.hash || navigation?.type==='back_forward' || !('IntersectionObserver' in window))return;
-  const targets=[...document.querySelectorAll<HTMLElement>('main > .portfolio-section, main > .home-latest, .about-content > section, [data-motion-archive] .post-list__item')].filter(target=>target.getBoundingClientRect().top>window.innerHeight);
+  const targets=[...document.querySelectorAll<HTMLElement>('main > .portfolio-section, main > .home-latest, .home-editorial > .portfolio-section, .home-editorial > .home-latest, .about-content > section, [data-motion-archive] .post-list__item')].filter(target=>target.getBoundingClientRect().top>window.innerHeight);
   targets.forEach(target=>{
     if(target.matches('.post-list__item'))target.dataset.motionKind='blog';
   });
