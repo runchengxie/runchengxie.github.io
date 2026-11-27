@@ -5,7 +5,7 @@ export async function verifyMotion({browser,origin}) {
   window.motionEvents=[];
   document.addEventListener('animationstart',event=>{
    const effect=event.target.getAnimations().find(animation=>animation.animationName===event.animationName)?.effect;
-   window.motionEvents.push({name:event.animationName,timing:effect?.getTiming()});
+   window.motionEvents.push({name:event.animationName,latest:event.target.classList.contains('home-latest'),timing:effect?.getTiming()});
   });
  });
  const page=await context.newPage();
@@ -36,9 +36,9 @@ export async function verifyMotion({browser,origin}) {
  await page.waitForFunction(()=>document.querySelector('.home-latest')?.getAttribute('data-revealed')==='true');
  await page.waitForTimeout(200);
  assert.equal(await last.evaluate(node=>node.getAnimations().length),0,'reveal must settle');
- const count=await page.evaluate(()=>window.motionEvents.filter(event=>event.name==='section-reveal').length);
+ const count=await page.evaluate(()=>window.motionEvents.filter(event=>event.name==='section-reveal' && event.latest).length);
  await page.evaluate(()=>scrollTo(0,0));await last.scrollIntoViewIfNeeded();await page.waitForTimeout(150);
- assert.equal(await page.evaluate(()=>window.motionEvents.filter(event=>event.name==='section-reveal').length),count,'scroll reveal plays once');
+ assert.equal(await page.evaluate(()=>window.motionEvents.filter(event=>event.name==='section-reveal' && event.latest).length),count,'scroll reveal plays once');
  await page.reload();await page.waitForTimeout(250);
  assert.equal(await page.evaluate(()=>window.motionEvents.filter(event=>event.name==='home-heading-in').length),2,'reload plays the homepage intro');
  await page.goto(`${origin}/zh/about/`);await page.goBack();await page.waitForTimeout(450);

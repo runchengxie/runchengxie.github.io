@@ -17,6 +17,8 @@ export function initializeHomeWave(): void {
   let time = 0, last = 0, lastDraw = 0, frame = 0;
   let visible = false, active = true;
   let pointerX = 0, pointerY = 0, targetX = 0, targetY = 0;
+  let hover = 0, targetHover = 0;
+  let cursorX = 0, cursorY = 0;
   let ink = getComputedStyle(root).getPropertyValue('--wave-ink').trim();
 
   let crest = getComputedStyle(root).getPropertyValue('--wave-crest').trim();
@@ -52,6 +54,18 @@ export function initializeHomeWave(): void {
       const pulse = Math.pow(Math.max(0, Math.sin(i * .71 + j * 1.27 - time * .85)), 16);
       const k = (j * columns + i) * 2;
       ctx.fillStyle = `rgba(${pulse > .5 ? crest : ink},${.28 + pulse * .48})`;
+      const x = coordinates[k]!, y = coordinates[k + 1]!;
+      const radius = Math.min(width * .16, 180);
+      const distance = ((x - cursorX) ** 2 + (y - cursorY) ** 2) / (radius * radius);
+      const influence = Math.max(0, 1 - distance);
+      const lift = hover * influence * influence * (14 + 24 * pulse) / Math.sqrt(depth);
+      if (lift > .6) {
+        // Flat copper columns retain the light surface without lighting or extra geometry.
+        const barWidth = 2.8 / Math.sqrt(depth);
+        ctx.fillRect(x - barWidth / 2, y - lift, barWidth, lift);
+        ctx.fillStyle = `rgba(${crest},${.4 + influence * .4})`;
+        ctx.fillRect(x - barWidth / 2, y - lift, barWidth, 1.2);
+      }
       ctx.beginPath();
       ctx.arc(coordinates[k]!, coordinates[k + 1]!, (1.05 + pulse * 1.1) / Math.sqrt(depth), 0, Math.PI * 2);
       ctx.fill();
@@ -72,6 +86,7 @@ export function initializeHomeWave(): void {
       last = now - (last ? (now - last) % interval : 0);
       pointerX += (targetX - pointerX) * .07;
       pointerY += (targetY - pointerY) * .07;
+      hover += (targetHover - hover) * .1;
       draw();
     }
     frame = requestAnimationFrame(tick);
@@ -109,10 +124,13 @@ export function initializeHomeWave(): void {
   section?.addEventListener('pointermove', (event: PointerEvent) => {
     if (!running() || event.pointerType === 'touch') return;
     const bounds = layer.getBoundingClientRect();
+    cursorX = event.clientX - bounds.left;
+    cursorY = event.clientY - bounds.top;
+    targetHover = 1;
     targetX = (event.clientX - bounds.left) / Math.max(width, 1) - .5;
     targetY = (event.clientY - bounds.top) / Math.max(height, 1) - .5;
   });
-  section?.addEventListener('pointerleave', () => { targetX = targetY = 0; });
+  section?.addEventListener('pointerleave', () => { targetX = targetY = targetHover = 0; });
   if ('ResizeObserver' in window) new ResizeObserver(resize).observe(layer);
   else addEventListener('resize', resize);
   new MutationObserver(() => { ink = getComputedStyle(root).getPropertyValue('--wave-ink').trim(); crest = getComputedStyle(root).getPropertyValue('--wave-crest').trim(); draw(); })

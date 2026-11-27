@@ -2,10 +2,19 @@ import assert from 'node:assert/strict';
 
 export async function verifyHomeWave({browser, origin}) {
  const context = await browser.newContext({viewport:{width:1440,height:900}, reducedMotion:'no-preference'});
+ await context.addInitScript(() => {
+  const prototype = CanvasRenderingContext2D.prototype;
+  const clear = prototype.clearRect, fill = prototype.fillRect;
+  prototype.clearRect = function(...args) { this.canvas.dataset.columns = '0'; return clear.apply(this,args); };
+  prototype.fillRect = function(...args) { this.canvas.dataset.columns = String(Number(this.canvas.dataset.columns || 0) + 1); return fill.apply(this,args); };
+ });
  const page = await context.newPage();
  const errors = [];
  page.on('pageerror', error => errors.push(error.message));
  await page.goto(`${origin}/en/`);
+ const cover = await page.locator('#home-intro').boundingBox();
+ assert(Math.abs(cover.x)<1 && Math.abs(cover.width-1440)<1,'cover fills the viewport width');
+ assert(Math.abs(cover.y+cover.height-900)<2,'cover and header fill the first screen');
  const canvas = page.locator('[data-home-wave] canvas');
  await canvas.waitFor();
  const pixels = () => canvas.evaluate(node => node.toDataURL());
@@ -20,6 +29,10 @@ export async function verifyHomeWave({browser, origin}) {
  const hidden = await pixels();await page.waitForTimeout(100);assert.equal(await pixels(),hidden);
  await page.evaluate(() => {delete document.hidden;document.dispatchEvent(new Event('visibilitychange'));});
  await page.waitForFunction(() => document.querySelector('[data-home-wave]').dataset.running === 'true');
+ await page.mouse.move(1050,640);
+ await page.waitForFunction(() => Number(document.querySelector('[data-home-wave] canvas').dataset.columns)>0);
+ await page.mouse.move(10,10);
+ await page.waitForFunction(() => document.querySelector('[data-home-wave] canvas').dataset.columns==='0');
  const moving = await pixels(); await page.waitForTimeout(150); assert.notEqual(await pixels(),moving);
  await page.locator('[data-wave-toggle]').click();
  assert.equal(await page.locator('[data-wave-toggle]').getAttribute('aria-pressed'),'true');

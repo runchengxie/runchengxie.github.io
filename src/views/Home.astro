@@ -13,7 +13,7 @@ import { getLocalizedPosts } from "../lib/posts";
 const latestPosts = (await getLocalizedPosts(locale)).slice(0, 3);
 const featuredProjects = projects.filter((project) => project.featured);
 ---
-<BaseLayout locale={locale}>
+<BaseLayout locale={locale} fullBleed>
   <Fragment slot="head">
   <style is:inline set:html={homeCinema} />
 
