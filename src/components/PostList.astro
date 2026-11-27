@@ -10,12 +10,13 @@ import {
 interface Props {
   posts: BlogPost[];
   locale: Locale;
+  compact?: boolean;
 }
 
-const { posts, locale } = Astro.props;
+const { posts, locale, compact = false } = Astro.props;
 ---
 
-<ol class="post-list">
+<ol class:list={["post-list", {"post-list--compact": compact}]}>
   {
     posts.map((post) => (
       <li class="post-list__item">
@@ -26,12 +27,12 @@ const { posts, locale } = Astro.props;
           <h2>
             <a href={getPostHref(post, locale)}>{post.data.title}</a>
           </h2>
-          <p>{getExcerpt(post.body ?? "", locale === "en" ? 200 : 116, locale)}</p>
-          <ul class="tag-list" aria-label={t(locale, "blog.categories")}>
+          <p>{getExcerpt(post.body ?? "", compact ? (locale === "en" ? 110 : 48) : (locale === "en" ? 200 : 116), locale)}</p>
+          {!compact && <ul class="tag-list" aria-label={t(locale, "blog.categories")}>
             {post.data.categories.map((category) => (
               <li>{category}</li>
             ))}
-          </ul>
+          </ul>}
         </div>
       </li>
     ))

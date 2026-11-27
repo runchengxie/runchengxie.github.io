@@ -1,4 +1,5 @@
 ---
+import "../styles/home-editorial.css";
 import homeCinema from "../styles/home-cinema.css?inline";
 import { t, localizedPath, type Locale } from "../i18n";
 interface Props { locale: Locale; }
@@ -17,6 +18,7 @@ const featuredProjects = projects.filter((project) => project.featured);
   <style is:inline set:html={homeCinema} />
 
   </Fragment>
+  <div class="home-editorial">
   <section id="home-intro" class="personal-intro" aria-labelledby="intro-heading">
     <svg class="intro-frame" aria-hidden="true" viewBox="0 0 1120 720" preserveAspectRatio="none" fill="none">
       <path pathLength="1" d="M0 10H1120M0 710H1120" />
@@ -26,30 +28,16 @@ const featuredProjects = projects.filter((project) => project.featured);
       <h1 id="intro-heading"><span class="intro-title-line">{t(locale, "home.headingFirst")}</span><span class="intro-title-line">{t(locale, "home.headingSecond")}</span></h1>
       <p class="personal-intro__description">{t(locale, "home.intro")}</p>
       <div class="intro-links">
-        <a class="button-link" href={localizedPath(locale, "/projects/")}>{t(locale, "home.explore")} <span aria-hidden="true">→</span></a>
-        <a href={localizedPath(locale, "/about/")}>{t(locale, "home.about")}</a>
-        <a href="https://github.com/runchengxie">GitHub <span aria-hidden="true">↗</span></a>
+        <a class="button-link" href="#research-heading">{t(locale, "home.explore")} <span aria-hidden="true">→</span></a>
       </div>
     </div>
     <WaveBackground locale={locale} />
-    <aside class="work-note" aria-labelledby="work-note-heading">
-      <div class="home-cover" data-home-cover aria-hidden="true" inert>
-        {Array.from({length:6},()=> <span class="cover-tile"><i></i></span>)}
-      </div>
-      <p class="eyebrow" id="work-note-heading">{t(locale, "home.focus")}</p>
-      <ol>
-        <li><span>01</span>{t(locale, "home.focusData")}</li>
-        <li><span>02</span>{t(locale, "home.focusResearch")}</li>
-        <li><span>03</span>{t(locale, "home.focusInvesting")}</li>
-      </ol>
-      <p>{t(locale, "home.focusNote")}</p>
-    </aside>
+    <p class="home-focus"><span>{t(locale, "home.focus")}</span>{t(locale, "home.focusSummary")}</p>
   </section>
   <section class="portfolio-section" aria-labelledby="research-heading">
     <div class="section-heading"><h2 id="research-heading">{t(locale, "home.public")}</h2><a href={localizedPath(locale, "/projects/")}>{t(locale, "home.allProjects")} →</a></div>
     <div class="research-entrances">
-      {researchEntrances.map((project, index) => <a href={project.website} class="research-entrance">
-        <span class="research-entrance__number">0{index + 1}</span>
+      {researchEntrances.map((project) => <a href={project.website} class="research-entrance">
         <h3>{projectText(project, locale).title} <span aria-hidden="true">↗</span></h3>
         <p>{projectText(project, locale).description}</p>
       </a>)}
@@ -58,13 +46,14 @@ const featuredProjects = projects.filter((project) => project.featured);
   <section class="portfolio-section" aria-labelledby="projects-heading">
     <div class="section-heading"><h2 id="projects-heading">{t(locale, "home.featured")}</h2><a href={localizedPath(locale, "/projects/")}>{t(locale, "home.projectMap")} →</a></div>
     <p class="section-description">{t(locale, "home.projectIntro")}</p>
-    <div class="project-grid">{featuredProjects.filter((p) => !researchEntrances.includes(p)).map((project) => <ProjectCard locale={locale} project={project} />)}</div>
+    <div class="project-grid">{featuredProjects.filter((p) => !researchEntrances.includes(p)).map((project) => <ProjectCard locale={locale} project={project} compact />)}</div>
   </section>
   <section class="home-latest" aria-labelledby="latest-heading">
     <div class="section-heading"><h2 id="latest-heading">{t(locale, "home.writing")}</h2><a href={localizedPath(locale, "/blog/")}>{t(locale, "home.allPosts")} →</a></div>
     <p class="section-description">{t(locale, "home.writingIntro")}</p>
-    <PostList locale={locale} posts={latestPosts} />
+    <PostList locale={locale} posts={latestPosts} compact />
   </section>
+</div>
 </BaseLayout>
 
 <script>
