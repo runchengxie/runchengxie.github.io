@@ -28,7 +28,7 @@ export default {
   "home.focusResearch": "研究方法与结果记录",
   "home.focusInvesting": "投资判断与依据溯源",
   "home.focusNote": "记录数据、方法与结果之间的关系。",
-  "home.public": "从公开成果开始",
+  "home.public": "精选项目",
   "home.allProjects": "全部项目",
   "home.featured": "研究背后的工具",
   "home.projectMap": "查看项目关系",
