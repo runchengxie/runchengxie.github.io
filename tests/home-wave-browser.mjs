@@ -6,7 +6,7 @@ export async function verifyHomeWave({browser, origin}) {
   const prototype = CanvasRenderingContext2D.prototype;
   const clear = prototype.clearRect, fill = prototype.fillRect;
   prototype.clearRect = function(...args) { this.canvas.dataset.columns = '0'; return clear.apply(this,args); };
-  prototype.fillRect = function(...args) { this.canvas.dataset.columns = String(Number(this.canvas.dataset.columns || 0) + 1); return fill.apply(this,args); };
+  prototype.fillRect = function(...args) { if(args[2] > 1.1) { this.canvas.dataset.columns = String(Number(this.canvas.dataset.columns || 0) + 1); this.canvas.dataset.bodyColour = this.fillStyle; } return fill.apply(this,args); };
  });
  const page = await context.newPage();
  const errors = [];
@@ -31,6 +31,12 @@ export async function verifyHomeWave({browser, origin}) {
  await page.waitForFunction(() => document.querySelector('[data-home-wave]').dataset.running === 'true');
  await page.mouse.move(1050,640);
  await page.waitForFunction(() => Number(document.querySelector('[data-home-wave] canvas').dataset.columns)>0);
+ await page.evaluate(()=>dispatchEvent(new PageTransitionEvent('pagehide',{persisted:true})));
+ const firstColour = (await canvas.getAttribute('data-body-colour')).split(',').slice(0,3).join(',');
+ await page.evaluate(()=>{localStorage.setItem('smallcaps-chart-colours','red-up');dispatchEvent(new StorageEvent('storage',{key:'smallcaps-chart-colours'}));});
+ assert.notEqual((await canvas.getAttribute('data-body-colour')).split(',').slice(0,3).join(','),firstColour,'shared preference swaps colour channels on a frozen frame');
+ await page.evaluate(()=>dispatchEvent(new PageTransitionEvent('pageshow',{persisted:true})));
+ await page.evaluate(()=>{localStorage.removeItem('smallcaps-chart-colours');dispatchEvent(new StorageEvent('storage',{key:'smallcaps-chart-colours'}));});
  await page.mouse.move(10,10);
  await page.waitForFunction(() => document.querySelector('[data-home-wave] canvas').dataset.columns==='0');
  const moving = await pixels(); await page.waitForTimeout(150); assert.notEqual(await pixels(),moving);

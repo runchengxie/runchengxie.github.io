@@ -13,6 +13,7 @@ export function initializeHomeWave(): void {
   let paused = false;
   try { paused = localStorage.getItem(storageKey) === 'true'; } catch { /* Optional preference. */ }
   let width = 0, height = 0, columns = 0, rows = 0;
+  let waveHeights = new Float32Array(0);
   let coordinates = new Float32Array(0);
   let time = 0, last = 0, lastDraw = 0, frame = 0;
   let visible = false, active = true;
@@ -23,6 +24,17 @@ export function initializeHomeWave(): void {
 
   let crest = getComputedStyle(root).getPropertyValue('--wave-crest').trim();
 
+  function candleColours(): [string, string] {
+    let saved: string | null = null;
+    try { saved = localStorage.getItem('smallcaps-chart-colours'); } catch { /* Optional shared preference. */ }
+    const redUp = saved === 'red-up' || (saved !== 'green-up' && root.lang.startsWith('zh'));
+    const dark = root.dataset.theme === 'dark';
+    const red = dark ? '188, 139, 122' : '157, 110, 94';
+    const green = dark ? '151, 169, 139' : '115, 136, 107';
+    return redUp ? [red, green] : [green, red];
+  }
+  let [up, down] = candleColours();
+
   function draw(): void {
     if (!width || !height) return;
     ctx.clearRect(0, 0, width, height);
@@ -32,6 +44,7 @@ export function initializeHomeWave(): void {
         const u = i / (columns - 1);
         const wave = Math.sin(u * 7.5 + v * 3 - time * .65) * .43
           + Math.cos(u * 4 - v * 5 + time * .38) * .24;
+        waveHeights[j * columns + i] = wave;
         const offset = (j * columns + i) * 2;
         coordinates[offset] = width * .72 + ((u - .5) * width * 2.05 + pointerX * 30) / depth;
         coordinates[offset + 1] = height * .49 + (v * height * .97 + wave * height * .19 + pointerY * 18) / depth;
@@ -58,17 +71,19 @@ export function initializeHomeWave(): void {
       const radius = Math.min(width * .16, 180);
       const distance = ((x - cursorX) ** 2 + (y - cursorY) ** 2) / (radius * radius);
       const influence = Math.max(0, 1 - distance);
-      const lift = hover * influence * influence * (14 + 24 * pulse) / Math.sqrt(depth);
-      if (lift > .6) {
-        // Flat copper columns retain the light surface without lighting or extra geometry.
-        const barWidth = 2.8 / Math.sqrt(depth);
-        ctx.fillRect(x - barWidth / 2, y - lift, barWidth, lift);
-        ctx.fillStyle = `rgba(${crest},${.4 + influence * .4})`;
-        ctx.fillRect(x - barWidth / 2, y - lift, barWidth, 1.2);
+      const strength = (i + j * 3) % 5 === 0 ? hover * influence * influence : 0;
+      const length = (3 + pulse * 2 + strength * 20) / Math.sqrt(depth);
+      const wickWidth = .8 / Math.sqrt(depth);
+      const positive = waveHeights[j * columns + i]! >= 0;
+      ctx.fillRect(x - wickWidth / 2, y - length / 2, wickWidth, length);
+      if (strength > .03) {
+        // Synthetic bodies and wicks suggest a chart without encoding market prices.
+        ctx.fillStyle = `rgba(${positive ? up : down},${strength * .65})`;
+        const bodyWidth = 2.4 / Math.sqrt(depth);
+        const bodyLength = length * .48;
+        const offset = (positive ? -.06 : .06) * length;
+        ctx.fillRect(x - bodyWidth / 2, y - bodyLength / 2 + offset, bodyWidth, bodyLength);
       }
-      ctx.beginPath();
-      ctx.arc(coordinates[k]!, coordinates[k + 1]!, (1.05 + pulse * 1.1) / Math.sqrt(depth), 0, Math.PI * 2);
-      ctx.fill();
     }
   }
 
@@ -113,6 +128,7 @@ export function initializeHomeWave(): void {
     columns = width < 650 ? 32 : 58;
     rows = width < 650 ? 18 : 26;
     coordinates = new Float32Array(columns * rows * 2);
+    waveHeights = new Float32Array(columns * rows);
     draw();
   }
   toggle.addEventListener('click', () => {
@@ -133,8 +149,9 @@ export function initializeHomeWave(): void {
   section?.addEventListener('pointerleave', () => { targetX = targetY = targetHover = 0; });
   if ('ResizeObserver' in window) new ResizeObserver(resize).observe(layer);
   else addEventListener('resize', resize);
-  new MutationObserver(() => { ink = getComputedStyle(root).getPropertyValue('--wave-ink').trim(); crest = getComputedStyle(root).getPropertyValue('--wave-crest').trim(); draw(); })
-    .observe(root, {attributes: true, attributeFilter: ['data-theme']});
+  new MutationObserver(() => { [up, down] = candleColours(); ink = getComputedStyle(root).getPropertyValue('--wave-ink').trim(); crest = getComputedStyle(root).getPropertyValue('--wave-crest').trim(); draw(); })
+    .observe(root, {attributes: true, attributeFilter: ['data-theme', 'lang']});
+  addEventListener('storage', event => { if (event.key === 'smallcaps-chart-colours' || event.key === null) { [up, down] = candleColours(); draw(); } });
   if ('IntersectionObserver' in window) {
     new IntersectionObserver(entries => { visible = entries[0]?.isIntersecting ?? false; sync(); }).observe(layer);
   }
