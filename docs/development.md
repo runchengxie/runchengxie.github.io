@@ -68,3 +68,5 @@ Article body.
 `configs/astro.config.ts` holds Astro settings. Package scripts pass `--config` explicitly, including the script invoked by CI. Use these scripts rather than bare Astro commands. `configs/tsconfig.json` holds the TypeScript options and project-relative includes/excludes. The root `tsconfig.json` is a small discovery entry that extends it, preserving editor and Astro project detection.
 
 The browser runner is `tests/i18n-browser.mjs`; this project does not use a Playwright configuration file. `package.json` and `pnpm-lock.yaml` remain at the project root so package tools and CI can discover them.
+
+The published-work area uses explicit `researchEntrance` flags, including A Study in Small Caps. Quant Platform remains a featured supporting tool. The cover uses stronger warm contours and longer strokes with the same particle count, 30 FPS and DPR limits. It adds no WebGL dependency.

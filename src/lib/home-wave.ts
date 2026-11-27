@@ -47,13 +47,13 @@ export function initializeHomeWave(): void {
         waveHeights[j * columns + i] = wave;
         const offset = (j * columns + i) * 2;
         coordinates[offset] = width * .72 + ((u - .5) * width * 2.05 + pointerX * 30) / depth;
-        coordinates[offset + 1] = height * .49 + (v * height * .97 + wave * height * .19 + pointerY * 18) / depth;
+        coordinates[offset + 1] = height * .38 + (v * height * 1.22 + wave * height * .30 + pointerY * 18) / depth;
       }
     }
-    // Sparse contours support a quiet particle field without a full wire grid.
-    ctx.lineWidth = .5;
-    ctx.strokeStyle = `rgba(${ink},.09)`;
-    for (let j = 0; j < rows; j += 4) {
+    // Layered contours make the surface legible without adding particles or draw loops.
+    ctx.lineWidth = .8;
+    ctx.strokeStyle = `rgba(${ink},.22)`;
+    for (let j = 0; j < rows; j += 3) {
       ctx.beginPath();
       for (let i = 0; i < columns; i++) {
         const k = (j * columns + i) * 2;
@@ -66,14 +66,14 @@ export function initializeHomeWave(): void {
       const depth = 1 + j / (rows - 1) * 2.9;
       const pulse = Math.pow(Math.max(0, Math.sin(i * .71 + j * 1.27 - time * .85)), 16);
       const k = (j * columns + i) * 2;
-      ctx.fillStyle = `rgba(${pulse > .5 ? crest : ink},${.28 + pulse * .48})`;
+      ctx.fillStyle = `rgba(${pulse > .5 ? crest : ink},${.46 + pulse * .40})`;
       const x = coordinates[k]!, y = coordinates[k + 1]!;
       const radius = Math.min(width * .16, 180);
       const distance = ((x - cursorX) ** 2 + (y - cursorY) ** 2) / (radius * radius);
       const influence = Math.max(0, 1 - distance);
       const strength = (i + j * 3) % 5 === 0 ? hover * influence * influence : 0;
-      const length = (3 + pulse * 2 + strength * 20) / Math.sqrt(depth);
-      const wickWidth = .8 / Math.sqrt(depth);
+      const length = (4.5 + pulse * 3 + strength * 20) / Math.sqrt(depth);
+      const wickWidth = 1.05 / Math.sqrt(depth);
       const positive = waveHeights[j * columns + i]! >= 0;
       ctx.fillRect(x - wickWidth / 2, y - length / 2, wickWidth, length);
       if (strength > .03) {

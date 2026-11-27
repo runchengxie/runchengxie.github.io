@@ -1,4 +1,6 @@
 export default {
+  "project.a-study-in-small-caps.title": "小微盘研究",
+  "project.a-study-in-small-caps.description": "持续研究不同市场的小股票。通过互动图表查看历史调查，对照论文理解结论，并保留每项结果的样本与局限。",
   "site.description": "Richard 的个人网站，记录量化研究、市场数据、开源工具与投资思考。",
   "nav.home": "主页",
   "nav.projects": "项目",

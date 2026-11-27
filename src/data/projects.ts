@@ -9,11 +9,13 @@ export interface Project {
   group: ProjectGroup;
   website?: string;
   featured?: boolean;
+  researchEntrance?: boolean;
 }
 export const projects: Project[] = [
-  {"name": "quant-market-research", "titleKey": "project.quant-market-research.title", "descriptionKey": "project.quant-market-research.description", "group": "reports", "featured": true, "website": "https://runchengxie.github.io/quant-market-research/"},
-  {"name": "quant-factor-observatory", "titleKey": "project.quant-factor-observatory.title", "descriptionKey": "project.quant-factor-observatory.description", "group": "models", "featured": true, "website": "https://runchengxie.github.io/quant-factor-observatory/"},
-  {"name": "quant-intel-pages", "titleKey": "project.quant-intel-pages.title", "descriptionKey": "project.quant-intel-pages.description", "group": "reports", "featured": true, "website": "https://runchengxie.github.io/quant-intel-pages/"},
+  {name: "a-study-in-small-caps", titleKey: "project.a-study-in-small-caps.title", descriptionKey: "project.a-study-in-small-caps.description", group: "reports", featured: true, researchEntrance: true, website: "https://runchengxie.github.io/a-study-in-small-caps/"},
+  {"name": "quant-market-research", "titleKey": "project.quant-market-research.title", "descriptionKey": "project.quant-market-research.description", "group": "reports", "featured": true, researchEntrance: true, "website": "https://runchengxie.github.io/quant-market-research/"},
+  {"name": "quant-factor-observatory", "titleKey": "project.quant-factor-observatory.title", "descriptionKey": "project.quant-factor-observatory.description", "group": "models", "featured": true, researchEntrance: true, "website": "https://runchengxie.github.io/quant-factor-observatory/"},
+  {"name": "quant-intel-pages", "titleKey": "project.quant-intel-pages.title", "descriptionKey": "project.quant-intel-pages.description", "group": "reports", "featured": true, researchEntrance: true, "website": "https://runchengxie.github.io/quant-intel-pages/"},
   {"name": "quant-market-data-platform", "titleKey": "project.quant-market-data-platform.title", "descriptionKey": "project.quant-market-data-platform.description", "group": "data", "featured": true, "website": "https://runchengxie.github.io/quant-market-data-platform/"},
   {"name": "quant-platform", "titleKey": "project.quant-platform.title", "descriptionKey": "project.quant-platform.description", "group": "data", "featured": true, "website": "https://runchengxie.github.io/quant-platform/"},
   {"name": "quant-backtest-runtime", "titleKey": "project.quant-backtest-runtime.title", "descriptionKey": "project.quant-backtest-runtime.description", "group": "data"},
@@ -25,7 +27,7 @@ export const projects: Project[] = [
   {"name": "a-share-zoo-garden", "titleKey": "project.a-share-zoo-garden.title", "descriptionKey": "project.a-share-zoo-garden.description", "group": "trading"},
   {"name": "ai-stock-picker", "titleKey": "project.ai-stock-picker.title", "descriptionKey": "project.ai-stock-picker.description", "group": "trading"},
  ];
-export const researchEntrances = projects.slice(0, 3);
+export const researchEntrances = projects.filter((project) => project.researchEntrance);
 export const repositoryURL = (name: string) => `https://github.com/runchengxie/${name}`;
 export const projectText = (project: Project, locale: Locale) => ({
   title: t(locale, project.titleKey), description: t(locale, project.descriptionKey), group: t(locale, `group.${project.group}`),

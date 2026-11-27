@@ -68,3 +68,5 @@ categories: [投资, 案例研究]
 `configs/astro.config.ts` 保存 Astro 设置。package 脚本明确传入 `--config`，CI 也调用这些脚本。请使用脚本启动，不直接执行 Astro 命令。`configs/tsconfig.json` 保存 TypeScript 选项和相对于配置文件的包含、排除路径。根目录的 `tsconfig.json` 仅引用它，让编辑器和 Astro 正常识别项目。
 
 浏览器测试入口是 `tests/i18n-browser.mjs`，本项目不使用独立的 Playwright 配置。`package.json` 和 `pnpm-lock.yaml` 留在根目录，方便包管理器和 CI 识别项目。
+
+首页通过 `researchEntrance` 明确选择研究作品，已加入小微盘研究。Quant Platform 继续作为精选基础工具展示。封面增强暖色波浪轮廓并加长短线，粒子数量、30 FPS 和 DPR 上限保持原设定，没有新增 WebGL 依赖。
