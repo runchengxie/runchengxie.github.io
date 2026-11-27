@@ -27,7 +27,7 @@ await new Promise(resolve => server.listen(0, '127.0.0.1', resolve));
 const origin = `http://127.0.0.1:${server.address().port}`;
 let browser;
 try {
-  browser = await chromium.launch();
+  browser = await chromium.launch({executablePath:process.env.PLAYWRIGHT_EXECUTABLE_PATH,args:['--disable-gpu','--disable-dev-shm-usage']});
   await verifyPageEntry({browser,origin});
   await verifyHomeEntry({browser,origin});
   await verifyChartMotion({browser,origin});
