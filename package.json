@@ -8,10 +8,10 @@
   },
   "type": "module",
   "scripts": {
-    "dev": "ASTRO_TELEMETRY_DISABLED=1 astro dev",
-    "build": "ASTRO_TELEMETRY_DISABLED=1 astro check && ASTRO_TELEMETRY_DISABLED=1 astro build && node scripts/create-legacy-redirects.mjs && node scripts/check-built-site.mjs && node --test tests/*.test.mjs",
-    "check": "ASTRO_TELEMETRY_DISABLED=1 astro check",
-    "preview": "ASTRO_TELEMETRY_DISABLED=1 astro preview",
+    "dev": "ASTRO_TELEMETRY_DISABLED=1 astro dev --config configs/astro.config.ts",
+    "build": "ASTRO_TELEMETRY_DISABLED=1 astro check --config configs/astro.config.ts && ASTRO_TELEMETRY_DISABLED=1 astro build --config configs/astro.config.ts && node scripts/create-legacy-redirects.mjs && node scripts/check-built-site.mjs && node --test tests/*.test.mjs",
+    "check": "ASTRO_TELEMETRY_DISABLED=1 astro check --config configs/astro.config.ts",
+    "preview": "ASTRO_TELEMETRY_DISABLED=1 astro preview --config configs/astro.config.ts",
     "test": "pnpm run build",
     "test:browser": "node tests/i18n-browser.mjs"
   },

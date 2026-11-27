@@ -62,3 +62,9 @@ Article body.
 `.github/workflows/pages.yml` keeps the Astro action build and artifact upload, followed by Chromium checks. A separate job uses exactly Node 22.18.0, strict engine validation and the frozen lockfile to run the full build, browser checks and dependency audit. Both jobs must pass before Pages can deploy; only the Astro action build uploads the deployment artifact. Pull requests build and test without deploying. Pushes to `main` and manual workflow runs can deploy through the dependent Pages job.
 
 `dist/`, `.astro/` and `node_modules/` are ignored generated directories. Do not commit build output, credentials, raw research data or browser diagnostics. A source or documentation PR does not itself verify the live deployment.
+
+## Configuration files
+
+`configs/astro.config.ts` holds Astro settings. Package scripts pass `--config` explicitly, including the script invoked by CI. Use these scripts rather than bare Astro commands. `configs/tsconfig.json` holds the TypeScript options and project-relative includes/excludes. The root `tsconfig.json` is a small discovery entry that extends it, preserving editor and Astro project detection.
+
+The browser runner is `tests/i18n-browser.mjs`; this project does not use a Playwright configuration file. `package.json` and `pnpm-lock.yaml` remain at the project root so package tools and CI can discover them.

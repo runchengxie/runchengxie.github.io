@@ -1,27 +1,24 @@
-# runchengxie.github.io
+# Richard 的个人网站
 
-[English](README.md)
+[English](README.md) · [打开网站](https://runchengxie.github.io/zh/)
 
-Richard 的个人网站，使用 Astro、TypeScript 和 Markdown 构建，发布到 [GitHub Pages](https://runchengxie.github.io)。
+这里收录我的投资文章，以及为市场研究开发的工具。你可以浏览项目、阅读文章，也可以沿着链接查看对应研究。
 
-站点展示精选项目、公开市场与因子研究、市场报告，以及十五篇有完整中英文版本的投资文章。默认使用英文，可在页首切换语言，浏览器存储可用时会保存选择。站点还提供深色模式、按语言区分的 RSS/Atom 订阅源和旧文章地址跳转。
+初次访问可以从首页了解概况，去项目页找研究工具，或者到文章页阅读长文。网站提供中英文，并支持浅色和深色主题。
 
-## 本地启动
+## 在自己的电脑上打开
 
-需要 Node.js 22.18.0 或更新版本，以及项目固定的 `pnpm@11.17.0`。在仓库根目录执行：
+安装 Node.js 22.18.0 或更新版本，以及 pnpm 11.17.0。然后在项目文件夹里执行以下命令。
 
 ```sh
 pnpm install --frozen-lockfile
 pnpm dev
 ```
 
-开发服务器默认为 `http://localhost:4321`。运行 `script/check` 可执行类型检查、生产构建、站内链接检查和单元及构建测试。
+打开终端显示的本地地址，通常是 `http://localhost:4321`。按 `Ctrl+C` 停止服务。
 
-## 维护文档
+## 想修改内容
 
-- [开发与发布](docs/development.zh-CN.md)：安装、命令、文章维护和 CI
-- [语言维护](docs/i18n.zh-CN.md)：路由、词条、回退规则和浏览器检查
-- [研究展示](docs/research-showcase.md)（英文）：公开来源契约与解释边界
-- [文章引用](docs/article-references.md)（英文）：引用规范与双语来源记录
+[开发指南](docs/development.zh-CN.md)介绍安装、配置、检查命令，以及怎样添加文章。修改中英文文案时，可以参照[语言维护说明](docs/i18n.zh-CN.md)。
 
-项目标识与网址维护在 `src/data/projects.ts`，本地化文案维护在 `src/i18n/`。项目页读取独立研究站点已发布的汇总数据，研究结果及其证据边界由来源项目维护。
+研究面板展示独立研究项目已经发布的结果，页面会保留样本限制和来源链接。[研究展示说明](docs/research-showcase.md)（英文）解释这些结果如何加载。

@@ -1,27 +1,24 @@
-# runchengxie.github.io
+# Richard's website
 
-[简体中文](README.zh-CN.md)
+[简体中文](README.zh-CN.md) · [Open the website](https://runchengxie.github.io/en/)
 
-Richard's personal website, built with Astro, TypeScript and Markdown and published to [GitHub Pages](https://runchengxie.github.io).
+This is my home for investment writing and the tools I build for market research. You can browse projects, read articles, and follow links to the underlying research.
 
-Browse selected projects, public market and factor research, market reports, and fifteen investment articles with complete English and Chinese versions. English is the default; the header language switch saves the selection when browser storage is available. The site also provides dark mode, localized RSS/Atom feeds and redirects for earlier article URLs.
+Start with the homepage for a quick overview, the projects page for research tools, or the writing page for longer articles. The site is available in English and Chinese, with light and dark themes.
 
-## Start locally
+## Run it on your computer
 
-Use Node.js 22.18.0 or newer and the pinned `pnpm@11.17.0` package manager. From the repository root:
+Install Node.js 22.18.0 or newer and pnpm 11.17.0. Then run these commands in the repository folder:
 
 ```sh
 pnpm install --frozen-lockfile
 pnpm dev
 ```
 
-The development server defaults to `http://localhost:4321`. Run `script/check` for type checks, the production build, internal links and unit/build tests.
+Open the local address shown in the terminal, usually `http://localhost:4321`. Press `Ctrl+C` to stop the server.
 
-## Maintenance
+## Make a change
 
-- [Development and publication](docs/development.md): setup, commands, article maintenance and CI
-- [Language maintenance](docs/i18n.md): routes, catalogs, fallback behavior and browser checks
-- [Research showcase](docs/research-showcase.md): published-source contracts and interpretation limits
-- [Article references](docs/article-references.md): citations and paired source records
+The [development guide](docs/development.md) explains setup, configuration, checks and how to add an article. See [language maintenance](docs/i18n.md) when changing English or Chinese text.
 
-Project identities and URLs live in `src/data/projects.ts`; localized copy lives in `src/i18n/`. The projects page loads published aggregate research from independent sites. Those providers own the research results and their evidence boundaries.
+Research panels display results published by separate research projects. Their sample limits and source links remain visible on the site. The [research showcase guide](docs/research-showcase.md) explains how those results are loaded.
