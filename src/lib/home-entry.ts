@@ -4,6 +4,13 @@ export function initializeHomeEntry() {
   const frame = section?.querySelector<SVGPathElement>('.intro-frame path');
   if (!section || !frame || !section.getAnimations) return;
   const root = document.documentElement;
+  const header = document.querySelector<HTMLElement>('.site-header');
+  if (header) {
+    const sizeCover = () => root.style.setProperty('--home-header-height', `${header.getBoundingClientRect().height}px`);
+    sizeCover();
+    if ('ResizeObserver' in window) new ResizeObserver(sizeCover).observe(header);
+    else addEventListener('resize', sizeCover);
+  }
   const preference = matchMedia('(prefers-reduced-motion: reduce)');
   let timer: ReturnType<typeof setTimeout> | undefined;
   let pending = false;

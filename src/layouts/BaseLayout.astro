@@ -7,6 +7,7 @@ import "../styles/global.css";
 
 interface Props {
   locale?: Locale;
+  fullBleed?: boolean;
   title?: string;
   description?: string;
   image?: string;
@@ -18,6 +19,7 @@ interface Props {
 const {
   locale = localeFromPath(Astro.url.pathname),
   title,
+  fullBleed = false,
   description = t(locale, "site.description"),
   image = "/images/site-cover.png",
   type = "website",
@@ -134,7 +136,7 @@ function isCurrent(href: string): boolean {
         });
       });
     </script>
-    <main class="shell" id="content">
+    <main class:list={[fullBleed ? "full-bleed" : "shell"]} id="content">
       <slot />
     </main>
 
