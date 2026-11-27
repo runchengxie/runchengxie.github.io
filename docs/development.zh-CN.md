@@ -62,3 +62,9 @@ categories: [投资, 案例研究]
 `.github/workflows/pages.yml` 保留 Astro action 的构建、产物上传及后续 Chromium 检查，并增加独立 job，使用精确的 Node 22.18.0、严格的引擎校验和冻结锁文件执行完整构建、浏览器检查和依赖审计。两个 job 都通过后才能部署，只有 Astro action 的构建会上传部署产物。PR 只构建和测试，不部署。向 `main` 推送和手动运行 workflow 时，后续的 Pages job 可以执行部署。
 
 `dist/`、`.astro/` 和 `node_modules/` 是已忽略的生成目录。不要提交构建产物、凭据、原始研究数据或浏览器诊断文件。源码或文档 PR 本身不能证明线上部署已通过验证。
+
+## 配置文件
+
+`configs/astro.config.ts` 保存 Astro 设置。package 脚本明确传入 `--config`，CI 也调用这些脚本。请使用脚本启动，不直接执行 Astro 命令。`configs/tsconfig.json` 保存 TypeScript 选项和相对于配置文件的包含、排除路径。根目录的 `tsconfig.json` 仅引用它，让编辑器和 Astro 正常识别项目。
+
+浏览器测试入口是 `tests/i18n-browser.mjs`，本项目不使用独立的 Playwright 配置。`package.json` 和 `pnpm-lock.yaml` 留在根目录，方便包管理器和 CI 识别项目。
