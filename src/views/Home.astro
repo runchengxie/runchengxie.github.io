@@ -19,22 +19,22 @@ const featuredProjects = projects.filter((project) => project.featured);
 
   </Fragment>
   <div class="home-editorial">
-  <section id="home-intro" class="personal-intro" aria-labelledby="intro-heading">
+  <section id="home-intro" class="personal-intro ef-pwave" aria-labelledby="intro-heading">
     <svg class="intro-frame" aria-hidden="true" viewBox="0 0 1120 720" preserveAspectRatio="none" fill="none">
       <path pathLength="1" d="M0 10H1120M0 710H1120" />
     </svg>
-    <div class="personal-intro__copy">
-      <p class="eyebrow">Richard / runchengxie</p>
-      <h1 id="intro-heading"><span class="intro-title-line">{t(locale, "home.headingFirst")}</span><span class="intro-title-line">{t(locale, "home.headingSecond")}</span></h1>
-      <p class="personal-intro__description">{t(locale, "home.intro")}</p>
-      <div class="intro-links">
-        <a class="button-link" href="#research-heading">{t(locale, "home.explore")} <span aria-hidden="true">→</span></a>
+    <div class="ef-pwave__stage">
+      <div class="ef-pwave__sec personal-intro__copy">
+        <p class="eyebrow">Richard / runchengxie</p>
+        <h1 id="intro-heading" class="ef-pwave__title"><span class="intro-title-line ef-pwave__t1">{t(locale, "home.headingFirst")}</span><span class="intro-title-line ef-pwave__t2 ef-pwave__line--accent">{t(locale, "home.headingSecond")}</span></h1>
+        <p class="personal-intro__description ef-pwave__cap">{t(locale, "home.intro")}</p>
       </div>
+      <div class="ef-pwave__sec ef-pwave__sec--next" aria-hidden="true"><p class="ef-pwave__next">{t(locale, "home.public")}</p></div>
     </div>
     <WaveBackground locale={locale} />
-    <p class="home-focus"><span>{t(locale, "home.focus")}</span>{t(locale, "home.focusSummary")}</p>
   </section>
   <section class="portfolio-section" aria-labelledby="research-heading">
+    <p class="home-focus"><span>{t(locale, "home.focus")}</span>{t(locale, "home.focusSummary")}</p>
     <div class="section-heading"><h2 id="research-heading">{t(locale, "home.public")}</h2><a href={localizedPath(locale, "/projects/")}>{t(locale, "home.allProjects")} →</a></div>
     <div class="research-entrances">
       {researchEntrances.map((project) => <a href={project.website} class="research-entrance">

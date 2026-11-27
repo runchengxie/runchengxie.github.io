@@ -19,7 +19,7 @@ export async function verifyMotion({browser,origin}) {
  const market=page.locator('[data-home-wave]');
  assert.equal(await market.getAttribute('aria-hidden'),'true');
  assert.equal(await market.evaluate(node=>getComputedStyle(node).pointerEvents),'none');
- await page.waitForFunction(()=>document.querySelector('[data-home-wave]').dataset.running==='true');
+ await page.waitForFunction(()=>!document.querySelector('[data-wave-toggle]').hidden);
  await page.waitForFunction(()=>!document.documentElement.hasAttribute('data-home-motion'));
  const events=await page.evaluate(()=>window.motionEvents);
  const titles=events.filter(event=>event.name==='home-heading-in');assert.equal(titles.length,2);

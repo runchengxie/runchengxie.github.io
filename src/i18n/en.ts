@@ -1,4 +1,11 @@
 export default {
+  "home.startReading": "Start reading",
+  "home.scroll": "Scroll to explore",
+  "home.waveDive": "Scroll to explore",
+  "home.waveGoing": "Keep going",
+  "home.waveAlmost": "Almost there",
+  "home.waveCredit": "Visual effect by Enrichr",
+
   "project.a-study-in-small-caps.title": "a study in small caps",
   "project.a-study-in-small-caps.description": "An ongoing study of small stocks across markets. Explore interactive charts, historical investigations and literature cross-checks, with the limits of each result kept visible.",
   "site.description": "Richard’s personal website: quantitative research, market data, open-source tools and investing.",

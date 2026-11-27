@@ -1,0 +1,4 @@
+Enrichr Library — Particle wave hero
+https://enrichr.dev/elements/particle-wave-hero.json
+
+Free to use in personal and client projects during the preview. Final licence terms will be published here before any paid tier starts; ask before reselling the code as a collection.

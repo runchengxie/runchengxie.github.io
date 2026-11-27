@@ -1,0 +1,11 @@
+{
+  "source": "https://enrichr.dev/elements/particle-wave-hero.json",
+  "codepen": "https://codepen.io/Enrichr-Dev/pen/ogZJMJp",
+  "retrieved": "2026-11-27",
+  "license": "Free to use in personal and client projects during the preview. Final licence terms will be published here before any paid tier starts; ask before reselling the code as a collection.",
+  "sha256": {
+    "original.html": "9cc67f9e5899f6d6a14dd0748833f0930de560964d727d506ec8f9c38cabb8ac",
+    "original.js": "ad2b7520c97540f68d66a04835c6f49f6520c210ef4116e6bda9adc6234ffc34",
+    "original.css": "a9da8d204cd23c920005e56335b3cba305fe9808fb97f984674d07bf70c59e78"
+  }
+}

@@ -1,18 +1,20 @@
 ---
 import { t, type Locale } from '../i18n';
+import '../vendor/enrichr/particle-wave.css';
 import '../styles/home-wave.css';
 interface Props { locale: Locale; }
 const { locale } = Astro.props;
 ---
-<div class="home-wave" data-home-wave aria-hidden="true" inert>
-  <canvas></canvas>
+<canvas class="ef-pwave__c" data-home-wave aria-hidden="true"></canvas>
+<div class="ef-pwave__hud">
+  <span class="ef-pwave__tl" aria-hidden="true">{t(locale,'home.waveDive')}</span>
+  <a class="ef-pwave__bl cover-enter" href="#research-heading">{t(locale,'home.startReading')} ↓</a>
+  <button class="ef-pwave__br wave-toggle" type="button" data-wave-toggle hidden aria-pressed="false"
+    data-pause-label={t(locale,'home.pauseWave')} data-resume-label={t(locale,'home.resumeWave')}
+    data-labels={JSON.stringify((['home.waveDive','home.waveGoing','home.waveAlmost','home.public'] as const).map(key=>t(locale,key)))}>
+    {t(locale,'home.pauseWave')}
+  </button>
+  <span class="ef-pwave__bar" aria-hidden="true"><i class="ef-pwave__fill"></i></span>
+  <span class="ef-pwave__hint" aria-hidden="true">▼ {t(locale,'home.scroll')} ▼</span>
 </div>
-<button class="wave-toggle" type="button" data-wave-toggle hidden
-  aria-pressed="false" data-pause-label={t(locale, 'home.pauseWave')}
-  data-resume-label={t(locale, 'home.resumeWave')}>
-  {t(locale, 'home.pauseWave')}
-</button>
-<script>
-  import { initializeHomeWave } from '../lib/home-wave';
-  initializeHomeWave();
-</script>
+<script>import {initializeHomeWave} from '../lib/home-wave';initializeHomeWave();</script>

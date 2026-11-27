@@ -1,0 +1,26 @@
+/* Enrichr Library · https://enrichr.dev */
+.ef-pwave { --ef-pw-ink: #fbf8f1; --ef-pw-dim: rgba(251, 248, 241, 0.62); --ef-pw-acc: #e6ff55; position: relative; isolation: isolate; width: 100%; min-height: 28rem; overflow: hidden; border-radius: 1rem; background: radial-gradient(120% 70% at 50% 72%, rgba(26, 122, 76, 0.35), rgba(26, 122, 76, 0) 60%), var(--ef-pw-bg, #0c1e18); color: var(--ef-pw-ink); container-type: inline-size; font-family: 'Parkinsans', 'Space Grotesk', sans-serif; -webkit-font-smoothing: antialiased; touch-action: pan-y; }
+.ef-pwave .ef-pwave__c { position: absolute; inset: 0; z-index: 0; width: 100%; height: 100%; display: block; }
+.ef-pwave .ef-pwave__stage { position: absolute; inset: 0; z-index: 1; pointer-events: none; perspective: 900px; }
+.ef-pwave .ef-pwave__sec { position: absolute; top: 50%; left: 50%; width: 100%; max-width: 87.5rem; transform: translate(-50%, -50%); text-align: center; will-change: transform, opacity, filter; }
+.ef-pwave .ef-pwave__sec--next { opacity: 0; }
+.ef-pwave .ef-pwave__title { margin: 0; padding: 0; font-family: 'Parkinsans', 'Space Grotesk', sans-serif; font-weight: 500; font-size: clamp(2.6rem, 11cqw, 10.6rem); line-height: 0.94; letter-spacing: -0.035em; color: var(--ef-pw-ink); opacity: 1; text-transform: none; }
+.ef-pwave .ef-pwave__line { display: block; }
+.ef-pwave .ef-pwave__line--accent { margin-left: 18cqw; color: var(--ef-pw-acc); }
+.ef-pwave .ef-pwave__cap { margin: 2.125rem auto 0; padding: 0 1rem; max-width: 32.5rem; font-family: 'Parkinsans', 'Space Grotesk', sans-serif; font-size: 0.625rem; font-weight: 400; line-height: 2; letter-spacing: 0.22em; text-transform: uppercase; color: var(--ef-pw-dim); opacity: 1; }
+.ef-pwave .ef-pwave__next { margin: 0; font-family: 'Parkinsans', 'Space Grotesk', sans-serif; font-weight: 500; font-size: clamp(2.2rem, 7cqw, 6.9rem); line-height: 0.94; letter-spacing: -0.035em; color: var(--ef-pw-ink); opacity: 1; }
+.ef-pwave .ef-pwave__hud { position: absolute; inset: 0; z-index: 2; pointer-events: none; font-size: 0.625rem; line-height: 1.2; letter-spacing: 0.18em; text-transform: uppercase; color: var(--ef-pw-dim); }
+.ef-pwave .ef-pwave__tl { position: absolute; top: 1.375rem; left: 1.625rem; transition: opacity 0.5s; }
+.ef-pwave .ef-pwave__tc { position: absolute; top: 1.15rem; left: 50%; transform: translateX(-50%); display: inline-flex; align-items: center; gap: 0.35rem; font-size: 0.875rem; font-weight: 700; letter-spacing: 0.02em; text-transform: none; color: var(--ef-pw-ink); }
+.ef-pwave .ef-pwave__mark { width: 1.35em; height: 1.35em; color: var(--ef-pw-acc); flex: none; }
+.ef-pwave .ef-pwave__tr { position: absolute; top: 1.375rem; right: 1.625rem; }
+.ef-pwave .ef-pwave__bl { position: absolute; bottom: 1.375rem; left: 1.625rem; }
+.ef-pwave .ef-pwave__br { position: absolute; bottom: 1.375rem; right: 1.625rem; }
+.ef-pwave .ef-pwave__bar { position: absolute; left: 0; bottom: 0; width: 100%; height: 2px; background: rgba(255, 255, 255, 0.06); }
+.ef-pwave .ef-pwave__fill { display: block; height: 100%; width: 0%; background: var(--ef-pw-acc); transition: width 0.1s linear; }
+.ef-pwave .ef-pwave__hint { position: absolute; bottom: 3.5rem; left: 50%; transform: translateX(-50%); white-space: nowrap; font-size: 0.5625rem; letter-spacing: 0.3em; color: var(--ef-pw-dim); animation: ef-pwave-pulse 2.4s ease-in-out infinite; transition: opacity 0.6s; }
+.ef-pwave .ef-pwave__hint.is-gone { animation: none; opacity: 0; }
+@keyframes ef-pwave-pulse { 0%, 100% { opacity: 0.35; } 50% { opacity: 1; } }
+@container (max-width: 34rem) { .ef-pwave .ef-pwave__tr, .ef-pwave .ef-pwave__bl { display: none; } }
+@container (max-width: 26rem) { .ef-pwave .ef-pwave__tl { display: none; } }
+@media (prefers-reduced-motion: reduce) { .ef-pwave .ef-pwave__hint { display: none; } .ef-pwave .ef-pwave__fill { transition: none; } }
