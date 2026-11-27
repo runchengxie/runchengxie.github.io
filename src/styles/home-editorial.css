@@ -8,7 +8,7 @@
 .home-editorial .home-wave { opacity: 1; mask-image: linear-gradient(90deg, transparent 12%, rgba(0,0,0,.18) 40%, #000 70%); }
 .home-editorial .portfolio-section { padding-block: 3rem; }
 .home-editorial .section-heading { margin-bottom: 1.75rem; }
-.home-editorial .research-entrances { gap: 2rem; }
+.home-editorial .research-entrances { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem 2rem; }
 .home-editorial .research-entrance { padding: 1.5rem 0; border: 0; border-top: 1px solid var(--border); border-radius: 0; background: none; }
 .home-editorial .research-entrance h3 { margin-top: 0; font-size: 1.25rem; }
 .home-editorial .research-entrance:hover { transform: none; border-color: var(--accent); }
@@ -35,7 +35,7 @@
  .home-editorial .home-wave { opacity: .35; mask-image: linear-gradient(90deg, transparent 25%, #000); }
  .home-editorial .wave-toggle { bottom: .6rem; right: 0; }
  .home-editorial .portfolio-section { padding-block: 2rem; }
- .home-editorial .research-entrances { gap: .5rem; }
+ .home-editorial .research-entrances { grid-template-columns: 1fr; gap: .5rem; }
  .home-editorial .project-card--compact { grid-template-columns: 1fr; gap: .65rem; }
  .home-editorial .project-card__links { grid-column: auto; }
  .home-editorial .home-latest { padding-top: 2rem; }

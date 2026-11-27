@@ -9,6 +9,7 @@ const linkPattern = /(?:href|src)\s*=\s*(?:"([^"]*)"|'([^']*)')/gi;
 const skippedProtocols = /^(?:data|javascript|mailto|tel):/i;
 // Independently deployed GitHub Pages sites, not routes built by this repository.
 const projectSitePaths = [
+  "/a-study-in-small-caps/",
   "/quant-market-research/", "/quant-factor-observatory/", "/quant-intel-pages/",
   "/quant-market-data-platform/", "/quant-platform/", "/global-market-research/",
 ];
