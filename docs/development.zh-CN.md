@@ -70,3 +70,5 @@ categories: [投资, 案例研究]
 浏览器测试入口是 `tests/i18n-browser.mjs`，本项目不使用独立的 Playwright 配置。`package.json` 和 `pnpm-lock.yaml` 留在根目录，方便包管理器和 CI 识别项目。
 
 首页通过 `researchEntrance` 明确选择研究作品，已加入小微盘研究。Quant Platform 继续作为精选基础工具展示。封面增强暖色波浪轮廓并加长短线，粒子数量、30 FPS 和 DPR 上限保持原设定，没有新增 WebGL 依赖。
+
+项目目录分别说明 Engine 的执行与核算、Platform 的研究与组合风险工具、Runtime 的任务运行，以及 Orchestrator 的流程协调。双语构建测试检查两种语言的仓库链接是否一致。
