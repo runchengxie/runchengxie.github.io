@@ -48,3 +48,14 @@ test('root defaults to English and old Chinese paths remain available', () => {
   assert.match(html(''), /\/en\//);
   for(const path of ['about','projects','blog','notes/investment-perspective']) assert.ok(html(path).includes(`/zh/${path}/`));
 });
+
+test('project locales retain identical repository identities and execution owner links', () => {
+  const repositoryLinks = locale => [...html(`${locale}/projects`).matchAll(
+    /href="(https:\/\/github\.com\/runchengxie\/[^"?#]+)"/g,
+  )].map(match => match[1]);
+  const english = repositoryLinks('en');
+  assert.deepEqual(repositoryLinks('zh'), english);
+  for (const owner of ['quant-backtest-engine', 'quant-backtest-runtime', 'quant-task-orchestrator']) {
+    assert.ok(english.includes(`https://github.com/runchengxie/${owner}`), owner);
+  }
+});

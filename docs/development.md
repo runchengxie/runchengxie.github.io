@@ -70,3 +70,5 @@ Article body.
 The browser runner is `tests/i18n-browser.mjs`; this project does not use a Playwright configuration file. `package.json` and `pnpm-lock.yaml` remain at the project root so package tools and CI can discover them.
 
 The published-work area uses explicit `researchEntrance` flags, including A Study in Small Caps. Quant Platform remains a featured supporting tool. The cover uses stronger warm contours and longer strokes with the same particle count, 30 FPS and DPR limits. It adds no WebGL dependency.
+
+The project catalog distinguishes Engine execution/accounting, Platform research/portfolio/risk tools, Runtime jobs and Orchestrator workflow coordination. The bilingual build test checks identical repository links across locales.

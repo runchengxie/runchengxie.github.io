@@ -7,7 +7,9 @@ test('switches locale prefixes without changing article identity', () => {
   assert.equal(localizedPath('zh','/en/blog/buffett-airline-investments/'), '/zh/blog/buffett-airline-investments/');
   assert.equal(localizedPath('en','/zh/projects/'), '/en/projects/');
   assert.equal(localizedPath('en'), '/en/');
-  assert.equal(localeFromPath('/english/'), 'en');
+  for (const path of ['/', '/english/', '/fr/projects/', '/zh-CN/projects/']) {
+    assert.equal(localeFromPath(path), 'en', path);
+  }
   assert.equal(localeFromPath('/zh/blog/'), 'zh');
 });
 test('falls back to English for a missing Chinese message', () => {
